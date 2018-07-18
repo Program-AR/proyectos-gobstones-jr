@@ -1,21 +1,21 @@
 program { 
     RepartirCaramelos()
-    RecolectarPapeles()
+    RecolectarEnvoltorios()
 }
 
 procedure RepartirCaramelos() {
     repeat (19) {
         IrAlPróximoEstudiante()
-        DarCaramelo() 
+        DarUnCaramelo() 
     }
     IrAlEscritorio()
     ComerCaramelos()
 }
 
-procedure RecolectarPapeles() {    
+procedure RecolectarEnvoltorios() {    
     repeat (19) {
         IrAlPróximoEstudiante()
-        RecolectarPapel() 
+        TomarElEnvoltorio() 
     }
     IrAlEscritorio()
 }

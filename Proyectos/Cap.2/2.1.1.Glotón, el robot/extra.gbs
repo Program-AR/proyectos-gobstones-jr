@@ -5,13 +5,13 @@ procedure IrAlPróximoEstudiante()
    AuxPonerMaestro()
  }
 
-procedure DarCaramelo() 
+procedure DarUnCaramelo() 
     { if (nroBolitas(Negro) == 2) { Poner(Verde) } else { BOOM("No hay estudiante para darle un caramelo") } }
 
-procedure RecolectarPapel() 
+procedure TomarElEnvoltorio() 
     { if (hayBolitas(Rojo)) { Sacar(Rojo) } else { BOOM("No hay papel de caramelo en este lugar") } }
 
-procedure ComerCaramelos() {
+procedure ComerLosCaramelos() {
     while (auxHaySiguienteCelda()) {
         AuxPasarASiguienteCelda()
         AuxCambiarVerdePorAzulYRoja() 
