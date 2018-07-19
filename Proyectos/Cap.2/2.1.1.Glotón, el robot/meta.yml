@@ -15,7 +15,7 @@ blocks:
       <block type="BOOM"></block>
       <block type="Asignacion"></block>
     </category>
-    <category name="Datos/Valores">
+    <category name="Valores">
       <block type="math_number"></block>
       <block type="ColorSelector"></block>
       <block type="DireccionSelector"></block>
@@ -85,6 +85,6 @@ execution_speed:
     can_change_speed: true
 library:
   visible: false
-name: Simulando repartir caramelos
+name: Glotón, el robot
 source:
   visible: true
