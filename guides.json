@@ -1,22 +1,17 @@
 [
   {
     "name": "Primeros pasos",
-    "repo": "gobstones/proyectos-jr",
+    "repo": "program-ar/proyectos-gobstones-jr",
     "exercises": [
       {
         "id": "2.1.1",
-        "name": "Simulando repartir caramelos",
-        "path": "Proyectos/Cap.2/2.1.1.Simulando repartir caramelos"
+        "name": "Glotón, el robot",
+        "path": "Proyectos/Cap.2/2.1.1.Glotón, el robot"
       },
       {
         "id": "2.1.2",
-        "name": "Bolitas, caramelos o tomates - parte 1",
-        "path": "Proyectos/Cap.2/2.1.2.Bolitas, caramelos o tomates - parte 1"
-      },
-      {
-        "id": "2.1.2",
-        "name": "Bolitas, caramelos o tomates - parte 2",
-        "path": "Proyectos/Cap.2/2.1.2.Bolitas, caramelos o tomates - parte 2"
+        "name": "Glotón, el granjero y las bolitas",
+        "path": "Proyectos/Cap.2/2.1.2.Glotón, el granjero y las bolitas"
       },
       {
         "id": "2.2.1",
