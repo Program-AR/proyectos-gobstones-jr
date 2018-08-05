@@ -1,5 +1,6 @@
+name: 'El docente, el granjero y las bolitas'
 attire:
-  active: Sembrando tomates
+  active: Sembrando tomates 2
   user_permissions:
     can_toggle_visibility: true
   visible: true
@@ -69,20 +70,23 @@ blocks:
       <block type="IrAlOrigen"></block>
     </category>
   disabled:
-    - Poner
+    - 
   visible:
-    - Poner
+    - 
 board:
   active: 1
   initial_board_source: selected
-  user_permissions:
-    can_change_source: false
-    can_edit_board: false
   visible_edition: true
+  collapse_toolbox: false
+  user_permissions:
+    can_view_attire_section: true
+    can_edit_board: false
+    can_change_initial_board: false
+    can_change_initial_board_source: false
+    can_view_size_section: false
 execution_speed:
   active: medium
   user_permissions:
     can_change_speed: true
 library:
   visible: false
-name: 'Glotón, el granjero y las bolitas'
