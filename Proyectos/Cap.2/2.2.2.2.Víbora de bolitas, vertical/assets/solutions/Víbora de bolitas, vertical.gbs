@@ -1,0 +1,8 @@
+﻿program {
+  Poner(Verde)
+  Mover(Norte)
+  Poner(Verde)
+  Mover(Norte)
+  Poner(Verde)
+  Mover(Norte)
+}
