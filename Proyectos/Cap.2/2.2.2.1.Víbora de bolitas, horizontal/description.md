@@ -10,4 +10,4 @@ Vas a necesitar un comando primitivo diferente de `Poner` y expresiones literale
 
 [Enunciado en PDF][PDF]
 
-[PDF]: https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/Cap.2/2.2.2.1.V%C3%ADbora%20de%20bolitas%2C%20horizontal/description.pdf "Enunciado de 'Víbora de bolitas, horizonal' en PDF"
+[PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.2/2.2.2.1.V%C3%ADbora%20de%20bolitas%2C%20horizontal/description.pdf "Enunciado de 'Víbora de bolitas, horizonal' en PDF"
