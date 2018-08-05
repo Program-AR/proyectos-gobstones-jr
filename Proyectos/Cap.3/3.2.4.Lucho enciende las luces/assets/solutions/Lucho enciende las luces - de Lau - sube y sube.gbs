@@ -1,0 +1,31 @@
+program {
+IrALaBaseDeLaDiagonalSuperior()
+SubirEncendiendoDiagonal()
+IrALaBaseDeLaDiagonalInferior()
+SubirEncendiendoDiagonal()
+}
+
+procedure IrALaBaseDeLaDiagonalSuperior() {
+MoverALuchoAl(Norte)
+}
+
+procedure IrALaBaseDeLaDiagonalInferior() {
+MoverALuchoAl(Sur)
+MoverALuchoAl(Sur)
+MoverALuchoAl(Sur)
+MoverALuchoAl(Sur)
+MoverALuchoAl(Oeste)
+}
+
+procedure SubirEncendiendoDiagonal() {
+EncenderLuz()
+MoverALuchoAl(Norte)
+MoverALuchoAl(Este)
+EncenderLuz()
+MoverALuchoAl(Norte)
+MoverALuchoAl(Este)
+EncenderLuz()
+MoverALuchoAl(Norte)
+MoverALuchoAl(Este)
+EncenderLuz()
+}

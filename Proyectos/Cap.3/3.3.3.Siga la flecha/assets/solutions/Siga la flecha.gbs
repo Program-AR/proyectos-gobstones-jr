@@ -1,0 +1,15 @@
+program { DibujarFlecha() }
+
+procedure DibujarFlecha() {
+  repeat (7) { Poner(Verde) Mover(Este) }
+  DibujarPuntaDeFlecha()
+  IrAlBorde(Sur) Mover(Norte) IrAlBorde(Oeste) 
+}
+
+procedure DibujarPuntaDeFlecha() { 
+  repeat (4) { Poner(Verde) }
+  Mover(Norte) Mover(Oeste)
+  repeat (2) { Poner(Verde) }
+  Mover(Sur)   Mover(Sur)
+  repeat (3) { Poner(Verde) }
+}

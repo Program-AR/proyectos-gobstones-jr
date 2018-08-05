@@ -1,0 +1,37 @@
+﻿//
+// Describe el procedimiento...
+//
+procedure DibujarCuadradoRojo() {
+  Poner(Rojo)
+  Mover(Este)
+  Poner(Rojo)
+  Mover(Este)
+  Poner(Rojo)
+  Mover(Norte)
+  Poner(Rojo)
+  Mover(Norte)
+  Poner(Rojo)
+  Mover(Oeste)
+  Poner(Rojo)
+  Mover(Oeste)
+  Poner(Rojo)
+  Mover(Sur)
+  Poner(Rojo)
+  Mover(Sur)
+}
+
+//
+// Describe el procedimiento...
+//
+procedure PosicionarPara2doCuadrado() {
+  IrAlBorde(Este)
+  Mover(Oeste)
+  Mover(Oeste)
+}
+
+
+program {
+  DibujarCuadradoRojo()
+  PosicionarPara2doCuadrado()
+  DibujarCuadradoRojo()
+}

@@ -1,0 +1,5 @@
+program { Poner1500Rojas() }
+
+procedure Poner1500Rojas() {
+  repeat (1500) { Poner(Rojo) }
+}
