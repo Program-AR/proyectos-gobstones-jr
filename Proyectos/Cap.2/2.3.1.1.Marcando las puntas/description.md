@@ -37,4 +37,4 @@ Investigá el entorno para descubrir algo que te permita conseguir este objetivo
 
 [Enunciado en PDF][PDF]
 
-[PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.2/2.3.1.1.Marcando%20las%20puntas/description.pdf "Enunciado de 'Marcando las puntas' en PDF"
+[PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.2/2.3.1.1.Marcando%20las%20puntas/assets/resources/description.pdf "Enunciado de 'Marcando las puntas' en PDF"

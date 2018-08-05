@@ -25,5 +25,5 @@ uno de los que se muestran u otros diferentes.
 
 [Enunciado en PDF][PDF]
 
-[PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.2/2.4.1.Snake%20b%C3%A1sico/description.pdf "Enunciado de 'Snake básico' en PDF"
+[PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.2/2.4.1.Snake%20b%C3%A1sico/assets/resources/description.pdf "Enunciado de 'Snake básico' en PDF"
 

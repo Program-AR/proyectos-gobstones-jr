@@ -14,4 +14,4 @@ Vas a precisar nuevos comandos primitivos. ¡A explorar!
 
 [Enunciado en PDF][PDF]
 
-[PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.2/2.2.3.1.Vaciar%20la%20celda/description.pdf "Enunciado de 'Vaciar la celda' en PDF"
+[PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.2/2.2.3.1.Vaciar%20la%20celda/assets/resources/description.pdf "Enunciado de 'Vaciar la celda' en PDF"

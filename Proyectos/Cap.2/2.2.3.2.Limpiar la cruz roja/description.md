@@ -24,5 +24,5 @@ Es complicado resolver este problema usando solamente los comandos `Mover` y `Sa
 
 [Enunciado en PDF][PDF]
 
-[PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.2/2.2.3.2.Limpiar%20la%20cruz%20roja/description.pdf "Enunciado de 'Limpiar la cruz roja' en PDF"
+[PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.2/2.2.3.2.Limpiar%20la%20cruz%20roja/assets/resources/description.pdf "Enunciado de 'Limpiar la cruz roja' en PDF"
 

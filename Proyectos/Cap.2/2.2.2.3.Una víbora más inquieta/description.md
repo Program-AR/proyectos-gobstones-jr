@@ -18,5 +18,5 @@ Pero esta vez la víbora es más inquieta, y debe ser como la que se muestra en 
 
 [Enunciado en PDF][PDF]
 
-[PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.2/2.2.2.3.Una%20v%C3%ADbora%20m%C3%A1s%20inquieta/description.pdf "Enunciado de 'Víbora de bolitas, vertical' en PDF"
+[PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.2/2.2.2.3.Una%20v%C3%ADbora%20m%C3%A1s%20inquieta/assets/resources/description.pdf "Enunciado de 'Víbora de bolitas, vertical' en PDF"
 

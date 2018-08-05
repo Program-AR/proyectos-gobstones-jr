@@ -19,5 +19,5 @@ El programa tiene que quedarte parecido al del proyecto anterior...
 
 [Enunciado en PDF][PDF]
 
-[PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.2/2.3.1.2.Lugar%20para%20los%20corners/description.pdf "Enunciado de 'Lugar para los corners' en PDF"
+[PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.2/2.3.1.2.Lugar%20para%20los%20corners/assets/resources/description.pdf "Enunciado de 'Lugar para los corners' en PDF"
 

@@ -24,4 +24,4 @@ Explorá el entorno para descubrir cómo agregar comandos primitivos a un progra
 
 [Enunciado en PDF][PDF]
 
-[PDF]: https://raw.githubusercontent.com/program-ar/proyectos-gobstones-jr/master/Proyectos/Cap.2/2.2.1.Bolitas%20de%20colores/description.pdf "Enunciado de 'Bolitas de colores' en PDF"
+[PDF]: https://raw.githubusercontent.com/program-ar/proyectos-gobstones-jr/master/Proyectos/Cap.2/2.2.1.Bolitas%20de%20colores/assets/resources/description.pdf "Enunciado de 'Bolitas de colores' en PDF"
