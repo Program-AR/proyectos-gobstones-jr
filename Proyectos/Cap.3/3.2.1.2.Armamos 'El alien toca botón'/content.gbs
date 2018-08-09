@@ -1,0 +1,15 @@
+program {
+  MoverAlAlienAlEste()
+  MoverAlAlienAlEste()
+  MoverAlAlienAlEste()
+  TocarBotón()
+}
+
+procedure MoverAlAlienAlEste() {
+  ...
+}
+
+procedure TocarBotón() {
+  ...
+}
+
