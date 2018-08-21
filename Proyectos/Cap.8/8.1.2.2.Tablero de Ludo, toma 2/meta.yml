@@ -3,7 +3,7 @@ attire:
   active: Cuadrados
   user_permissions:
     can_toggle_visibility: true
-  visible: false
+  visible: true
 blocks:
   disabled:
     - Sacar
@@ -61,13 +61,20 @@ blocks:
 board:
   active: 1
   initial_board_source: selected
-  user_permissions:
-    can_change_source: false
-    can_edit_board: false
   visible_edition: true
+  collapse_toolbox: false
+  user_permissions:
+    can_view_attire_section: true
+    can_edit_board: false
+    can_change_initial_board: false
+    can_change_initial_board_source: false
+    can_view_size_section: false
 execution_speed:
   active: instantaneous
   user_permissions:
     can_change_speed: true
+source:
+  visible: true
+  percentage: 0.80 
 library:
   visible: false
