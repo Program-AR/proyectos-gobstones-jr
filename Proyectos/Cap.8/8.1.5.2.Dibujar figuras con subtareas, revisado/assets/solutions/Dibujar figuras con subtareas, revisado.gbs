@@ -1,0 +1,24 @@
+﻿program {
+  PosicionarseEnLaEsquina__ParaUnCuadradoDeTamaño_(Sur, Oeste, 4)
+  DibujarCuadrado(Rojo, 4)
+  PosicionarseEnLaEsquina__ParaUnCuadradoDeTamaño_(Sur, Este, 3)
+  DibujarCuadrado(Negro, 3)
+  PosicionarseEnLaEsquina__ParaUnCuadradoDeTamaño_(Norte, Este, 6)
+  DibujarCuadrado(Azul, 6)
+  PosicionarseEnLaEsquina__ParaUnCuadradoDeTamaño_(Norte, Oeste, 5)
+  DibujarCuadrado(Verde, 5)
+}
+
+procedure DibujarCuadrado(colorDelCuadrado, longitudDelLado) {
+  DibujarLínea(Norte, colorDelCuadrado, longitudDelLado - 1)
+  DibujarLínea(Este, colorDelCuadrado, longitudDelLado - 1)
+  DibujarLínea(Sur, colorDelCuadrado, longitudDelLado - 1)
+  DibujarLínea(Oeste, colorDelCuadrado, longitudDelLado - 1)
+}
+
+procedure DibujarLínea(direcciónADibujar, colorDeLaLínea, longitudDeLaLínea) {
+  repeat(longitudDeLaLínea) {
+    Poner(colorDeLaLínea)
+    Mover(direcciónADibujar)
+  }
+}

@@ -1,0 +1,36 @@
+﻿program {
+  PosicionarseEnLaEsquina__ParaUnCuadradoDeTamaño_(Sur, Oeste, 4)
+  DibujarCuadrado(Rojo, 4)
+  
+  PosicionarseEnLaEsquina__ParaUnCuadradoDeTamaño_(Sur, Este, 3)
+  DibujarCuadrado(Negro, 3)
+  
+  PosicionarseEnLaEsquina__ParaUnCuadradoDeTamaño_(Norte, Este, 6)
+  DibujarCuadrado(Azul, 6)
+  
+  PosicionarseEnLaEsquina__ParaUnCuadradoDeTamaño_(Norte, Oeste, 5)
+  DibujarCuadrado(Verde, 5)
+}
+
+procedure DibujarCuadrado(colorDelCuadrado, longitudDelLado) {
+  DibujarLíneaAlNorte(colorDelCuadrado, longitudDelLado - 1)
+  DibujarLíneaAlEste(colorDelCuadrado, longitudDelLado - 1)
+  DibujarLíneaAlSur(colorDelCuadrado, longitudDelLado - 1)
+  DibujarLíneaAlOeste(colorDelCuadrado, longitudDelLado - 1)
+}
+
+procedure DibujarLíneaAlNorte(colorDeLaLíneaAlNorte, longitudDeLaLíneaAlNorte) {
+  repeat(longitudDeLaLíneaAlNorte) { Poner(colorDeLaLíneaAlNorte)  Mover(Norte) }
+}
+
+procedure DibujarLíneaAlEste(colorDeLaLíneaAlEste, longitudDeLaLíneaAlEste) {
+  repeat(longitudDeLaLíneaAlEste)  { Poner(colorDeLaLíneaAlEste)   Mover(Este)  }
+}
+
+procedure DibujarLíneaAlSur(colorDeLaLíneaAlSur, longitudDeLaLíneaAlSur) {
+  repeat(longitudDeLaLíneaAlSur)   { Poner(colorDeLaLíneaAlSur)    Mover(Sur)   }
+}
+
+procedure DibujarLíneaAlOeste(colorDeLaLíneaAlOeste, longitudDeLaLíneaAlOeste) {
+  repeat(longitudDeLaLíneaAlOeste) { Poner(colorDeLaLíneaAlOeste)  Mover(Oeste) }
+}

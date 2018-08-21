@@ -1,0 +1,10 @@
+﻿program {
+  EncenderLaFilaDeLuces()
+}
+
+procedure EncenderLaFilaDeLuces() {
+  while (not estáEnLaMeta()) {
+    EncenderLuz()
+    MoverALuchoAlEste()
+  }
+}
