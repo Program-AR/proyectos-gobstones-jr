@@ -1,3 +1,4 @@
+name: Varias cosas de una sola vez
 attire:
   active: null
   user_permissions:
@@ -70,4 +71,3 @@ execution_speed:
     can_change_speed: true
 library:
   visible: false
-name: Varias cosas de una sola vez

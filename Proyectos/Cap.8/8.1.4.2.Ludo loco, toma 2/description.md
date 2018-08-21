@@ -14,4 +14,4 @@ Podés dibujar cuadrados de cualquier color y cualquier tamaño con un único pr
         
 [Enunciado en PDF][PDF]
 
-[PDF]: https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/Cap.8/8.1.4.2.Ludo%20loco,%20toma%202/Recursos/description.pdf "Enunciado de 'Ludo loco, toma 2' en PDF"
+[PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.8/8.1.4.2.Ludo%20loco,%20toma%202/assets/resources/description.pdf "Enunciado de 'Ludo loco, toma 2' en PDF"

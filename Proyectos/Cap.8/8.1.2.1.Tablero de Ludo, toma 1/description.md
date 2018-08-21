@@ -10,4 +10,4 @@ Para que no te olvides de dividir en subtareas y representar las mismas con proc
         
 [Enunciado en PDF][PDF]
 
-[PDF]: https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/Cap.8/8.1.2.1.Tablero%20de%20ludo,%20toma%201/Recursos/description.pdf "Enunciado de 'Tablero de ludo, toma 1' en PDF"
+[PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.8/8.1.2.1.Tablero%20de%20ludo,%20toma%201/assets/resources/description.pdf "Enunciado de 'Tablero de ludo, toma 1' en PDF"

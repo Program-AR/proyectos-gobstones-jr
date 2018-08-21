@@ -10,4 +10,4 @@ Observá que tenés que definir cuatro procedimientos, uno por cada tamaño, per
         
 [Enunciado en PDF][PDF]
 
-[PDF]: https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/Cap.8/8.1.4.1.Ludo%20loco,%20toma%201/Recursos/description.pdf "Enunciado de 'Ludo loco, toma 1' en PDF"
+[PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.8/8.1.4.1.Ludo%20loco,%20toma%201/assets/resources/description.pdf "Enunciado de 'Ludo loco, toma 1' en PDF"

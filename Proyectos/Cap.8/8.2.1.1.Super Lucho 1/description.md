@@ -10,5 +10,5 @@ Si no se te ocurre cómo hacer, pensá que Lucho debe **repetir** la tarea de en
 
 [Enunciado en PDF][PDF]
 
-[PDF]: https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/Cap.8/8.2.1.1.Super%20Lucho%201/Recursos/description.pdf "Enunciado de 'Super Lucho 1' en PDF"
+[PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.8/8.2.1.1.Super%20Lucho%201/assets/resources/description.pdf "Enunciado de 'Super Lucho 1' en PDF"
 

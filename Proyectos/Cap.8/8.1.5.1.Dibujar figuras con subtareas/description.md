@@ -13,4 +13,4 @@ Como antes, acordate que pasar argumentos es una forma de indicarle a un comando
         
 [Enunciado en PDF][PDF]
 
-[PDF]: https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/Cap.8/8.1.5.1.Dibujar%20figuras%20con%20subtareas/Recursos/description.pdf "Enunciado de 'Dibujar figuras con subtareas' en PDF"
+[PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.8/8.1.5.1.Dibujar%20figuras%20con%20subtareas/assets/resources/description.pdf "Enunciado de 'Dibujar figuras con subtareas' en PDF"

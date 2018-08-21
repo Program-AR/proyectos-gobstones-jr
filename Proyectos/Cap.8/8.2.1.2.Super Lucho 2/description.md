@@ -14,5 +14,5 @@ Parece que vas a tener que combinar la herramienta que encontraste para _“Supe
 
 [Enunciado en PDF][PDF]
 
-[PDF]: https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/Cap.8/8.2.1.2.Super%20Lucho%202/Recursos/description.pdf "Enunciado de 'Super Lucho 2' en PDF"
+[PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.8/8.2.1.2.Super%20Lucho%202/assets/resources/description.pdf "Enunciado de 'Super Lucho 2' en PDF"
 

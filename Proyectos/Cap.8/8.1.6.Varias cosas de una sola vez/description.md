@@ -17,5 +17,5 @@ Después que completaste esta tarea, tenemos dos desafíos:
  
 [Enunciado en PDF][PDF]
 
-[PDF]: https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/Cap.8/8.1.6.Varias%20cosas%20de%20una%20sola%20vez/Recursos/description.pdf "Enunciado de 'Varias cosas de una sola vez' en PDF"
+[PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.8/8.1.6.Varias%20cosas%20de%20una%20sola%20vez/assets/resources/description.pdf "Enunciado de 'Varias cosas de una sola vez' en PDF"
 

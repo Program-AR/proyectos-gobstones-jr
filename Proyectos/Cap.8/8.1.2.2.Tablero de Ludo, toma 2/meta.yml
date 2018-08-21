@@ -1,3 +1,4 @@
+name: 'Tablero de Ludo, toma 2'
 attire:
   active: Cuadrados
   user_permissions:
@@ -70,4 +71,3 @@ execution_speed:
     can_change_speed: true
 library:
   visible: false
-name: 'Tablero de Ludo, toma 2'

@@ -12,4 +12,4 @@ Es mejor poder hacer un único procedimiento que haga los cuatro cuadrados, ante
         
 [Enunciado en PDF][PDF]
 
-[PDF]: https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/Cap.8/8.1.2.2.Tablero%20de%20ludo,%20toma%202/Recursos/description.pdf "Enunciado de 'Tablero de ludo, toma 2' en PDF"
+[PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.8/8.1.2.2.Tablero%20de%20ludo,%20toma%202/assets/resources/description.pdf "Enunciado de 'Tablero de ludo, toma 2' en PDF"
