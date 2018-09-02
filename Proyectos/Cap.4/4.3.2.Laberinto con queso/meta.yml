@@ -27,16 +27,13 @@ blocks:
     - Mis funciones
     - OperadorNumerico
     - OperadorDeComparacion
-    - not
     - OperadorDeNegacion
     - OperadorLogico
     - siguiente
     - previo
     - opuesto
     - procedures_defnoreturnnoparams
-    - Definicion de procedimientos simples
-    - procedures_defreturn
-    - Definicion de funciones simples
+    - procedures_defreturnsimple
 board:
   active: 1
   initial_board_source: random

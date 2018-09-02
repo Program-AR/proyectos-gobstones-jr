@@ -3,14 +3,11 @@
 }
 
 procedure CombatirGikachuVsGarmander() {
-  if (...) {
-    Empatan()
-  }
-  else {
-    if (...) 
+  if     (...) 
+         { Empatan() }
+  elseif (...) 
          { ... }
-    else { ...   }
-  }
+  else   { ...   }
 }
 
 procedure SacarGikachu() {

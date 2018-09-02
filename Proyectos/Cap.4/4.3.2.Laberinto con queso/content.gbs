@@ -1,5 +1,5 @@
 ﻿program {
-  SalirDelLaberintoComiendoElQueso()
+  
 }
 
 procedure SalirDelLaberintoComiendoElQueso() {
@@ -14,23 +14,19 @@ procedure ComerElQuesoSiHay() {
 }
 
 procedure AvanzarUnPasoSiguiendoLaFlecha() {
-  if (laFlechaApuntaAlNorte()) 
-    {
-      SacarLaFlecha()
-      MoverAlRatónAl_(Norte)
-    }
-  else { if (laFlechaApuntaAlEste()) 
-    {
-      ...
-    }
-  else { if (...) 
-    {
-        ...
-    }
-  else { if (...) 
-    {
-        ...
-    }
+  if (laFlechaApuntaAlNorte())     {
+                                     SacarLaFlecha()
+                                     MoverAlRatónAl_(Norte)
+                                   }
+  elseif (laFlechaApuntaAlEste())  {
+                                     ...
+                                   }
+  elseif (...)                     {
+                                     ...
+                                   }
+  elseif (...)                     {
+                                     ...
+                                   }
   else { BOOM("No hay flecha en esta celda") }
   }}}
 }
@@ -38,8 +34,10 @@ procedure AvanzarUnPasoSiguiendoLaFlecha() {
 procedure ComerElQueso() {
   if (not(hayQueso())) 
        { BOOM("No hay queso para comer") }
-  else { Sacar(Verde) }
+  else { SacarElQueso() }
 }
+
+procedure SacarElQueso() { Sacar(Verde) }
 
 function hayQueso() { return (...) }
 

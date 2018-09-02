@@ -3,7 +3,7 @@
 }
 
 function hayFlor() {
-  return (nroBolitas(Rojo) == 2 && nroBolitas(Verde) == 1)
+  return (hayBolitas(Rojo) && hayBolitas(Verde))
 }
 
 procedure MantenerElCantero() {
@@ -19,11 +19,12 @@ procedure MantenerSecciónDelCantero() {
 }
 
 procedure PlantarFlor() {
-  if (hayFlor()) {
-    BOOM("Ya hay una flor, ¡y no puedo plantar encima!")
-  }
-  else {
+  if (hayFlor()) { BOOM("Ya hay una flor, ¡y no puedo plantar encima!") }
+  else           { PonerFlor() }
+}
+
+procedure PonerFlor() {
     Poner(Verde)
-    repeat (2) { Poner(Rojo) }
-  }
+    Poner(Rojo)
+    Poner(Rojo)
 }

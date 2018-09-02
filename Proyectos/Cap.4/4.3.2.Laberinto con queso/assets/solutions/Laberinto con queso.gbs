@@ -14,35 +14,32 @@ procedure ComerElQuesoSiHay() {
 }
 
 procedure AvanzarUnPasoSiguiendoLaFlecha() {
-  if (laFlechaApuntaAlNorte()) 
-    {
-      SacarLaFlecha()
-      MoverAlRatónAl_(Norte)
-    }
-  else { if (laFlechaApuntaAlEste()) 
-    {
-      SacarLaFlecha()
-      MoverAlRatónAl_(Este)
-    }
-  else { if (laFlechaApuntaAlSur()) 
-    {
-        SacarLaFlecha()
-        MoverAlRatónAl_(Sur)
-    }
-  else { if (laFlechaApuntaAlOeste()) 
-    {
-        SacarLaFlecha()
-        MoverAlRatónAl_(Oeste)
-    }
+  if (laFlechaApuntaAlNorte())     {
+                                     SacarLaFlecha()
+                                     MoverAlRatónAl_(Norte)
+                                   }
+  elseif (laFlechaApuntaAlEste())  {
+                                     SacarLaFlecha()
+                                     MoverAlRatónAl_(Este)
+                                   }
+  elseif (laFlechaApuntaAlSur())   {
+                                       SacarLaFlecha()
+                                       MoverAlRatónAl_(Sur)
+                                   }
+  elseif (laFlechaApuntaAlOeste()) {
+                                       SacarLaFlecha()
+                                       MoverAlRatónAl_(Oeste)
+                                   }
   else { BOOM("No hay flecha en esta celda") }
-  }}}
 }
 
 procedure ComerElQueso() {
   if (not(hayQueso())) 
        { BOOM("No hay queso para comer") }
-  else { Sacar(Verde) }
+  else { SacarElQueso() }
 }
+
+procedure SacarElQueso() { Sacar (Verde) }
 
 function hayQueso() { return (nroBolitas(Verde) == 1) }
 

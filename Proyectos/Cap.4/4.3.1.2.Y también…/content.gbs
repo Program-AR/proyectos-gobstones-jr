@@ -1,5 +1,5 @@
 ﻿program {
-  MantenerElCantero()
+  
 }
 
 function hayFlor() {
@@ -19,10 +19,6 @@ procedure MantenerSecciónDelCantero() {
 }
 
 procedure PlantarFlor() {
-  if (hayFlor()) {
-    BOOM("Ya hay una flor, ¡y no puedo plantar encima!")
-  }
-  else {
-    ...
-  }
+  if (hayFlor()) { BOOM("Ya hay una flor, ¡y no puedo plantar encima!") }
+  else           { ... }
 }

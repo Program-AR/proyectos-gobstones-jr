@@ -51,12 +51,12 @@ procedure MoverALuchoAlOeste() {
 }
 
 procedure EncenderLuz() {
-  if        (not(hayLuz()))    { BOOM("No hay luz para prender") }
-  else { if (hayLuzPrendida()) { BOOM("La luz ya está prendida") }
+  if      (not(hayLuz()))    { BOOM("No hay luz para prender") }
+  else if (hayLuzPrendida()) { BOOM("La luz ya está prendida") }
   else 
-    { Poner(Azul) }}
+    { Poner(Azul) }
 }
 
 function hayLuzApagada()  { return (nroBolitas(Azul) == 1) }
 function hayLuzPrendida() { return (nroBolitas(Azul) == 2) }
-function hayLuz() { return (hayLuzApagada() || hayLuzPrendida()) }
+function hayLuz()         { return (hayLuzApagada() || hayLuzPrendida()) }

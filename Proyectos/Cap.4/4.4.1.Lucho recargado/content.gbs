@@ -1,5 +1,5 @@
 ﻿program {
-  ...
+  
 }
 
 procedure EncenderLasFilasDeLuces() {
@@ -36,12 +36,12 @@ procedure MoverALuchoAlOeste() {
 }
 
 procedure EncenderLuz() {
-  if        (not(hayLuz()))    { BOOM("No hay luz para prender") }
-  else { if (hayLuzPrendida()) { BOOM("La luz ya está prendida") }
+  if     (not(hayLuz()))    { BOOM("No hay luz para prender") }
+  elseif (hayLuzPrendida()) { BOOM("La luz ya está prendida") }
   else 
-    { ... }}
+    { ... }
 }
 
 function hayLuzApagada()  { return (...) }
 function hayLuzPrendida() { return (...) }
-function hayLuz() { return (...) }
+function hayLuz()         { return (...) }
