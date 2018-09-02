@@ -6,19 +6,19 @@ attire:
   visible: true
 blocks:
   defaultToolbox: |
-      <category name="BIBLIOTECA">
+      <category name="BIBLIOTECA" custom="SEPARATOR">
       </category>
-        <category name="Procedimientos primitivos">
+        <category name="Procedimientos" custom="PRIMITIVE_PROCEDURES">
         </category>
-        <category name="Funciones primitivas">
+        <category name="Funciones" custom="PRIMITIVE_FUNCTIONS>
         </category>
-      <category name="MIS OPERACIONES">
+      <category name="MIS OPERACIONES" custom="SEPARATOR">
       </category>
         <category name="Procedimientos" custom="PROCEDURE_CALLS">
         </category>
         <category name="Funciones" custom="FUNCTION_CALLS">
         </category>
-      <category name="COMANDOS">
+      <category name="COMANDOS" custom="SEPARATOR">
       </category>
         <category name="Básicos">
           <block type="Poner"></block>
@@ -39,7 +39,7 @@ blocks:
         <category name="Asignación">
           <block type="Asignacion"></block>
         </category>
-      <category name="EXPRESIONES">
+      <category name="EXPRESIONES" custom="SEPARATOR">
       </category>
         <category name="Valores">
           <block type="ColorSelector"></block>
@@ -57,11 +57,9 @@ blocks:
           <block type="OperadorDeComparacion"></block>
           <block type="OperadorLogico"></block>
           <block type="not"></block>
-          <block type="siguiente"></block>
-          <block type="previo"></block>
-          <block type="opuesto"></block>
+          <block type="OperadoresDeEnumeracion"></block>
         </category>
-      <category name="DEFINICIONES">
+      <category name="DEFINICIONES" custom="SEPARATOR">
       </category>
         <category name="Procedimientos">
           <block type="procedures_defnoreturnnoparams"></block>
@@ -77,7 +75,7 @@ blocks:
           <block type="InteractiveNumberBinding"></block>
           <block type="InteractiveKeyBinding"></block>
         </category>
-      <category name="AUXILIARES DEL DOCENTE">
+      <category name="AUXILIARES DEL DOCENTE" custom="SEPARATOR">
       </category>
         <category name="Programas">
           <block type="Program"></block>
