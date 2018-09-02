@@ -1,4 +1,4 @@
-name: Fútbol de robots
+name: Fútbol de robots, borrador
 rules:
   - { image: Fondo.png               , when: { black: 0, blue: 0, green: 0, red: 0 } }
   - { image: RobotSoloParado.png     , when: { black: 0, blue: 1, green: 0, red: 0 } }
