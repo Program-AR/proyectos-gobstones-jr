@@ -1,3 +1,4 @@
+name: La flecha enloqueció
 attire:
   active: Escapar de la jaula
   user_permissions:
@@ -45,4 +46,3 @@ execution_speed:
     can_change_speed: true
 library:
   visible: false
-name: La flecha enloqueció

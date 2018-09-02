@@ -1,3 +1,4 @@
+name: El mimo que suma
 attire:
   active: null
   user_permissions:
@@ -38,4 +39,3 @@ execution_speed:
     can_change_speed: true
 library:
   visible: false
-name: El mimo que suma

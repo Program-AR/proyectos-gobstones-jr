@@ -1,3 +1,4 @@
+name: Siempre el mejor
 attire:
   active: null
   user_permissions:
@@ -53,4 +54,3 @@ execution_speed:
     can_change_speed: true
 library:
   visible: false
-name: Siempre el mejor

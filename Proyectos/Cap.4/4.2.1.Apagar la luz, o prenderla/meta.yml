@@ -1,3 +1,4 @@
+name: 'Apagar la luz, o prenderla'
 attire:
   active: 'Apagar la luz, o prenderla'
   user_permissions:
@@ -50,4 +51,3 @@ execution_speed:
     can_change_speed: true
 library:
   visible: false
-name: 'Apagar la luz, o prenderla'

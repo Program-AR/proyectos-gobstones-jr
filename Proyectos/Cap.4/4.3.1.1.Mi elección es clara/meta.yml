@@ -1,3 +1,4 @@
+name: 'La luz está prendida vs. hay bolitas: mi elección es clara'
 attire:
   active: null
   user_permissions:
@@ -60,4 +61,3 @@ execution_speed:
     can_change_speed: true
 library:
   visible: false
-name: 'La luz está prendida vs. hay bolitas: mi elección es clara'

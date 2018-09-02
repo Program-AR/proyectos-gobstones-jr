@@ -1,3 +1,4 @@
+name: Escapar de la jaula
 attire:
   active: Escapar de la jaula
   user_permissions:
@@ -44,4 +45,3 @@ execution_speed:
     can_change_speed: true
 library:
   visible: false
-name: Escapar de la jaula

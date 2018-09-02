@@ -1,3 +1,4 @@
+name: Lucho recargado
 attire:
   active: Lucho recargado
   user_permissions:
@@ -49,4 +50,3 @@ execution_speed:
     can_change_speed: true
 library:
   visible: false
-name: Lucho recargado
