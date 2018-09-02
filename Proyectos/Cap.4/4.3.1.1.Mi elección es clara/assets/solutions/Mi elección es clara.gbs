@@ -1,0 +1,31 @@
+﻿program {
+  MantenerSecciónDelCantero()
+  Mover(Norte)
+  SimularInterruptorDeLuz()
+}
+
+function laLuzEstáPrendida() {
+  return (hayBolitas(Azul))
+}
+
+function hayFlor() {
+  return (hayBolitas(Rojo))
+}
+
+procedure SimularInterruptorDeLuz() {
+  if (laLuzEstáPrendida()) 
+       { ApagarLaLuz()  }
+  else { PrenderLaLuz() }
+}
+
+procedure MantenerSecciónDelCantero() {
+  if (hayFlor()) 
+       { FertilizarFlor() }
+  else { PlantarFlor()    }
+}
+
+procedure PrenderLaLuz() { Poner(Azul)  Sacar(Negro) }
+procedure ApagarLaLuz()  { Poner(Negro) Sacar(Azul)  }
+
+procedure PlantarFlor()    { Poner(Rojo) }
+procedure FertilizarFlor() { Poner(Verde) }

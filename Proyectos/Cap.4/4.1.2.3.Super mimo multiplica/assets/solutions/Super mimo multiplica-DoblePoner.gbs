@@ -1,0 +1,10 @@
+﻿program {
+  ImitarDobleAzul()
+}
+
+procedure ImitarDobleAzul() {
+  repeat(nroBolitas(Azul)) {
+    Poner(Rojo)
+    Poner(Rojo)
+  }
+}

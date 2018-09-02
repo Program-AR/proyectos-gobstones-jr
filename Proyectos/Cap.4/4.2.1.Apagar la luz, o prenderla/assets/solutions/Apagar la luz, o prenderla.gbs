@@ -1,0 +1,20 @@
+﻿program {
+  SimularInterruptorDeLuz()
+}
+
+procedure SimularInterruptorDeLuz() {
+  if (hayBolitas(Azul))
+       { ApagarLaLuz() }
+  else { PrenderLaLuz() }
+}
+
+procedure ApagarLaLuz() {
+  Sacar(Azul)
+  Poner(Negro)
+}
+
+procedure PrenderLaLuz() {
+  Sacar(Negro)
+  Poner(Azul)
+}
+
