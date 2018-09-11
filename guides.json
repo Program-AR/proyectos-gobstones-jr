@@ -38,50 +38,53 @@
   }
 , { "name": "Herramientas básicas",    "repo": "program-ar/proyectos-gobstones-jr",
     "exercises": [
-      { "id": "3.1.1.1",        "name": "Programo el cuadrado",
-        "path": "Proyectos/Cap.3/3.1.1.1.Programo el cuadrado"
+      { "id": "301",        "name": "Un cuadrado",
+        "path": "Proyectos/Cap.3/301.Un cuadrado"
       },
-      { "id": "3.1.1.2",        "name": "Programo el cuadrado, programo el cuadrado",
-        "path": "Proyectos/Cap.3/3.1.1.2.Programo el cuadrado, programo el cuadrado"
+      { "id": "302",        "name": "Dos cuadrados",
+        "path": "Proyectos/Cap.3/302.Dos cuadrados"
       },
-      { "id": "3.1.3",          "name": "Dos cuadrados, pero más fáciles",
-        "path": "Proyectos/Cap.3/3.1.3.Dos cuadrados, pero más fáciles"
+      { "id": "302b",          "name": "Dos cuadrados, pero más fáciles",
+        "path": "Proyectos/Cap.3/302.Dos cuadrados, pero más fáciles"
       },
-      { "id": "3.2.1",          "name": "El alien toca botón",
-        "path": "Proyectos/Cap.3/3.2.1.El alien toca botón"
+      { "id": "303",          "name": "El alien toca el botón",
+        "path": "Proyectos/Cap.3/303.El alien toca el botón"
       },
-      { "id": "3.2.2.1",        "name": "Preparando el fútbol de robots",
-        "path": "Proyectos/Cap.3/3.2.2.1.Preparando el fútbol de robots"
+      { "id": "303b",          "name": "Armamos 'El alien toca el botón'",
+        "path": "Proyectos/Cap.3/303b.Armamos 'El alien toca el botón'"
       },
-      { "id": "3.2.2.2",        "name": "Preparando el fútbol de robots, sin procedimientos",
-        "path": "Proyectos/Cap.3/3.2.2.2.Preparando el fútbol de robots, sin procedimientos"
+      { "id": "304",        "name": "Beto, el robot goleador",
+        "path": "Proyectos/Cap.3/304.Beto, el robot goleador"
       },
-      { "id": "3.2.3",          "name": "La gran aventura del mar encantado",
-        "path": "Proyectos/Cap.3/3.2.3.La gran aventura del mar encantado"
+      { "id": "305",        "name": "Fútbol de robots, sin procedimientos",
+        "path": "Proyectos/Cap.3/305.Fútbol de robots, sin procedimientos"
       },
-      { "id": "3.2.4",          "name": "Lucho enciende las luces",
-        "path": "Proyectos/Cap.3/3.2.4.Lucho enciende las luces"
+      { "id": "306",          "name": "La gran aventura del mar encantado",
+        "path": "Proyectos/Cap.3/306.La gran aventura del mar encantado"
       },
-      { "id": "3.3.1.1",        "name": "Poner muchas bolitas se vuelve incómodo",
-        "path": "Proyectos/Cap.3/3.3.1.1.Poner muchas bolitas se vuelve incómodo"
+      { "id": "307",          "name": "Lucho enciende las luces",
+        "path": "Proyectos/Cap.3/307.Lucho enciende las luces"
       },
-      { "id": "3.3.1.2",        "name": "La computadora repite por nosotros",
-        "path": "Proyectos/Cap.3/3.3.1.2.La computadora repite por nosotros"
+      { "id": "308o",        "name": "Poner muchas bolitas se vuelve incómodo",
+        "path": "Proyectos/Cap.3/308.Poner muchas bolitas se vuelve incómodo"
       },
-      { "id": "3.3.2",          "name": "El final del pasillo",
-        "path": "Proyectos/Cap.3/3.3.2.El final del pasillo"
+      { "id": "308",        "name": "Muchas bolitas rojas",
+        "path": "Proyectos/Cap.3/308.Muchas bolitas rojas"
       },
-      { "id": "3.3.3",          "name": "Siga la flecha",
-        "path": "Proyectos/Cap.3/3.3.3.Siga la flecha"
+      { "id": "309",          "name": "El final del pasillo",
+        "path": "Proyectos/Cap.3/309.El final del pasillo"
       },
-      { "id": "3.3.4",          "name": "Candela, me quemo",
-        "path": "Proyectos/Cap.3/3.3.4.Candela, me quemo"
+      { "id": "310",          "name": "Siga la flecha",
+        "path": "Proyectos/Cap.3/310.Siga la flecha"
       },
-      { "id": "3.3.5",          "name": "Entrenamiento para fútbol de robots",
-        "path": "Proyectos/Cap.3/3.3.5.Entrenamiento para fútbol de robots"
+      { "id": "311",          "name": "Candela, me quemo",
+        "path": "Proyectos/Cap.3/311.Candela, me quemo"
       },
-      { "id": "3.4.1",          "name": "Reparando la nave",
-        "path": "Proyectos/Cap.3/3.4.1.Reparando la nave"
+      { "id": "312",          "name": "El entrenamiento del robot goleador",
+        "path": "Proyectos/Cap.3/312.El entrenamiento del robot goleador"
+      },
+      { "id": "313",          "name": "El mecánico de naves espaciales",
+        "path": "Proyectos/Cap.3/313.El mecánico de naves espaciales"
       }
     ]
   }
