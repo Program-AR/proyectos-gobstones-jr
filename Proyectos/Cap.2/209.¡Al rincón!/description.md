@@ -36,4 +36,5 @@ Investigá el entorno para descubrir algo que te permita conseguir este objetivo
 > programa lo que falló. 
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.2/209.%C2%A1Al%20rinc%C3%B3n!/assets/resources/description.pdf "Enunciado de '¡Al rincón!' en PDF"

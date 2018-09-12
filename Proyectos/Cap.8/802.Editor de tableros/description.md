@@ -22,4 +22,5 @@ Cuando termines, probalo armando algunos tableros interactivamente. Buscá cómo
 Como desafíos adicionales, podés tratar de ver cómo hacer para que el programa no falle al moverse con las flechas o sacar, cómo hacer para ir al borde con una sola tecla y cómo hacer para poner o sacar 10 bolitas al mismo tiempo. Para moverse al borde o poner muchas juntas podés usar la tecla ‘CTRL’ como modificador. 
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.8/802.Editor%20de%20tableros/assets/resources/description.pdf "Enunciado de 'Editor de tableros' en PDF"

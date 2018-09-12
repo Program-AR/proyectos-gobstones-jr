@@ -25,4 +25,5 @@ Al leer el programa final, ¿se entiende la estrategia de solución que pensaste
 > Además, tené cuidado con las condiciones de borde.
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.3/313.El%20mec%C3%A1nico%20de%20naves%20espaciales/assets/resources/description.pdf "Enunciado de 'El mecánico de naves espaciales' en PDF"

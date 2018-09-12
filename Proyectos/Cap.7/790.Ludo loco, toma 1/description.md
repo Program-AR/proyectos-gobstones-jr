@@ -9,4 +9,5 @@ Completá el programa para que dibuje cuatro cuadrados, uno en cada esquina, cad
 Observá que tenés que definir cuatro procedimientos, uno por cada tamaño, pero que cada uno de ellos ya tiene como parámetro el color del cuadrado a dibujar, tal como se aprendió en la actividad _“Tablero de ludo, toma 2”_. ¿No te parece molesto tener que definir 4 procedimientos diferentes para poder tener diferentes tamaños? ¿Habrá una forma mejor? Para tener la respuesta, mirá la actividad siguiente, _“Ludo loco, toma 2”_. 
         
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.7/790.Ludo%20loco,%20toma%201/assets/resources/description.pdf "Enunciado de 'Ludo loco, toma 1' en PDF"

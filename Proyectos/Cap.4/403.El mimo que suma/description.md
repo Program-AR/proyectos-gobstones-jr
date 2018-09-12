@@ -17,4 +17,5 @@ Recordá que el mismo programa tiene que servir para transformar cualquiera de l
 > Los mimos son actores que utilizan la mímica como único medio teatral (no hablan), y cuando realizan actuaciones en la calle se especializan en imitar a otras personas.
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.4/403.El%20mimo%20que%20suma/assets/resources/description.pdf "Enunciado de 'El mimo que suma' en PDF"

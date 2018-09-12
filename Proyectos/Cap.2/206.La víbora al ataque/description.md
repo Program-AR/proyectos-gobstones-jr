@@ -17,5 +17,6 @@ Pero esta vez la víbora es más inquieta, y debe ser como la que se muestra en 
 ></center>
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.2/206.La%20v%C3%ADbora%20al%20ataque/assets/resources/description.pdf "Enunciado de 'La víbora al ataque' en PDF"
 

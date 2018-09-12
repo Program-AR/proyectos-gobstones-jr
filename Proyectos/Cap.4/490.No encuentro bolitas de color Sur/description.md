@@ -7,4 +7,5 @@
 </center>
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.4/490.No%20encuentro%20bolitas%20de%20color%20Sur/assets/resources/description.pdf "Enunciado de 'No encuentro bolitas de color Sur' en PDF"

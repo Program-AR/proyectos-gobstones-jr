@@ -20,4 +20,5 @@ Vas a tener que repasar cómo usar el operador de igualdad.
 Un detalle interesante para mirar es cómo está hecho el procedimiento para avanzar un paso según la flecha: usa alternativas, pero lo hace de forma que cada pregunta solo se hace si las anteriores respondieron que no, y por eso cada nueva alternativa aparece en la rama-del-si-no de la anterior. Esto es una forma de elegir entre múltiples alternativas para asegurar que se mueva una sola vez por cada llamado al procedimiento.
            
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.4/414.Laberinto%20con%20queso/assets/resources/description.pdf "Enunciado de 'Laberinto con queso' en PDF"

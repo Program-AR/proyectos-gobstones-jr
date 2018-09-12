@@ -7,4 +7,5 @@ El entrenador de Beto sigue con interés en que el robot entrene para poder juga
 No te olvides de la estrategia de solución y la división en subtareas; ya te damos algunas cosas hechas para darte una mano con eso. Y cuando repitas el trabajo para cada fila, no te olvides del caso de borde de la fila superior, que se tiene que trabajar por separado.
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.7/708.M%C3%A1s%20entrenamiento%20para%20Beto/assets/resources/description.pdf "Enunciado de 'Más entrenamiento para Beto' en PDF"

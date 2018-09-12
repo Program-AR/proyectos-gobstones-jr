@@ -40,4 +40,5 @@ Otras subtareas posibles sirven para recorrer la víbora desde la cabeza hasta l
 Y no te olvides de hacer funciones para preguntar si en una celda hay manzana, está la cabeza o la cola de la víbora, o si hay alguna parte de la víbora.
          
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.8/805.Snake/assets/resources/description.pdf "Enunciado de 'Snake' en PDF"

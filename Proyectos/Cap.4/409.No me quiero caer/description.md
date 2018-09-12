@@ -15,5 +15,6 @@ Construí un programa para dibujar una víbora de bolitas de longitud 10. La ví
 Como ayuda, el proyecto trae ya hechos algunos procedimientos; vos solamente tenés que completar el que dibuja un segmento de la víbora y avanza a la siguiente posición. ¡Pero cuidado! La siguiente posición no está siempre para el mismo lado. ¿Cómo hacer para saber si hay lugar o no para moverse hacia el Este? Recordá que podés mirar la caja de herramientas.
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.4/409.No%20me%20quiero%20caer/assets/resources/description.pdf "Enunciado de 'No me quiero caer' en PDF"
 

@@ -10,4 +10,5 @@ representar los elementos ni las operaciones del problema.
 </center>
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.3/305.F%C3%BAtbol%20de%20robots,%20sin%20procedimientos/assets/resources/description.pdf "Enunciado de 'Fútbol de robots, sin procedimientos' en PDF"

@@ -32,4 +32,5 @@ Luego tendrías que construir un procedimiento para hacer la jugada del Pacman; 
   C) Un desafío final, pero que no es necesario para poder jugar, es hacer una función que cuente el número de pastillas que quedan, y controlar así, después de comer cada pastilla, si el Pacman ganó, cuando no quedan más pastillas. La cuenta de pastillas se haría de forma muy parecida a como hiciste en la segunda parte de la actividad _“Contar las baldosas”_ del Cap.8 con una función con procesamiento usando un acumulador. 
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.8/806.Pacman/assets/resources/description.pdf "Enunciado de 'Pacman' en PDF"

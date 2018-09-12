@@ -24,5 +24,6 @@ uno de los que se muestran u otros diferentes.
 </center>
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.2/210.La%20v%C3%ADbora%20que%20come%20manzanas%20deliciosas/assets/resources/description.pdf "Enunciado de 'La víbora que come manzanas deliciosas' en PDF"
 

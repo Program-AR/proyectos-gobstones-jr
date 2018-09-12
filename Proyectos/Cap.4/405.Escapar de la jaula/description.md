@@ -13,4 +13,5 @@ Un ratón está atrapado en una jaula y necesita ayuda para encontrar la salida.
 </center>
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.4/405.Escapar%20de%20la%20jaula/assets/resources/description.pdf "Enunciado de 'Escapar de la jaula' en PDF"

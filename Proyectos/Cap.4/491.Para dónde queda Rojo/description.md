@@ -9,4 +9,5 @@ Antes de este ejercicio deberías hace el 4.1.1.1. *“No encuentro bolitas de c
 </center>
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.4/491.Para%20d%C3%B3nde%20queda%20Rojo/assets/resources/description.pdf "Enunciado de 'Para dónde queda Rojo' en PDF"

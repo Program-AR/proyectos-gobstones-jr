@@ -16,4 +16,5 @@ Te mostramos algunos tableros iniciales, y sus correspondientes tableros finales
 </center>
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.4/406.La%20flecha%20enloqueci%C3%B3/assets/resources/description.pdf "Enunciado de 'La flecha enloqueció' en PDF"

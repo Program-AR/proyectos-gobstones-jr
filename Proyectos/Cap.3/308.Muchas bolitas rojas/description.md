@@ -13,4 +13,5 @@ bloques cada uno.
 
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.3/308.Muchas%20bolitas%20rojas/assets/resources/description.pdf "Enunciado de 'Muchas bolitas rojas' en PDF"

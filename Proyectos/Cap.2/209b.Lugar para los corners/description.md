@@ -18,5 +18,6 @@ El programa tiene que quedarte parecido al del proyecto anterior...
 > que **_el mismo programa_** da siempre el resultado que esperás.
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.2/209b.Lugar%20para%20los%20corners/assets/resources/description.pdf "Enunciado de 'Lugar para los corners' en PDF"
 

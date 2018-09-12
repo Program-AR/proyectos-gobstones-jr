@@ -16,4 +16,5 @@ Tené en cuenta que en esta actividad Beto no puede moverse a donde hay una pare
 Acordate de usar una repetición para las tareas que se repiten mucho.
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.3/309.El%20final%20del%20pasillo/assets/resources/description.pdf "Enunciado de 'El final del pasillo' en PDF"

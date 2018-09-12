@@ -13,5 +13,6 @@ Parece que vas a tener que combinar la herramienta que encontraste para _“Supe
 >Cuando tengas que combinar varias herramientas de programación, siempre acordate que lo mejor es dividir primero en subtareas, y que cada procedimiento que representa a una subtarea utilice solamente **_una_** de las herramientas.
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.7/706.Super%20Lucho%202/assets/resources/description.pdf "Enunciado de 'Super Lucho 2' en PDF"
 

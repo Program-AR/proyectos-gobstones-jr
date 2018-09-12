@@ -14,4 +14,5 @@ Te mostramos un tablero inicial posible, y su correspondiente tablero final.
 </center>
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.7/794.Limpiemos%20im%C3%A1genes/assets/resources/description.pdf "Enunciado de 'Limpiemos imágenes' en PDF"

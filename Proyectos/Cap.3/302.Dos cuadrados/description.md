@@ -32,4 +32,5 @@ B) Luego de guardar el programa en tu computadora, tratá de hacer un cambio.
 Acordate, al terminar, de volver a guardar tu solución con un nombre diferente al de antes.
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.3/302.Dos%20cuadrados/assets/resources/description.pdf "Enunciado de 'Dos cuadrados' en PDF"

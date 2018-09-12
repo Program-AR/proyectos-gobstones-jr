@@ -14,4 +14,5 @@ La idea es hacer un recorrido moviéndose hacia el borde, y acumulando la cantid
 > Las funciones que realizan acciones antes de devolver el valor se denominan **funciones con procesamiento**. Pero como el propósito de una función es devolver un valor, ese procesamiento no es real, sino imaginario: el que usa la función no lo ve, ni se entera de que existió, salvo que la función explote.
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.7/712.A%20qu%C3%A9%20distancia%20est%C3%A1%20el%20borde/assets/resources/description.pdf "Enunciado de 'A qué distancia está el borde' en PDF"

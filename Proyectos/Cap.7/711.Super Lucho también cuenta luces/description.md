@@ -13,4 +13,5 @@ Una vez más, vas a precisar una variable. Pero ahora no alcanza con usarla una 
 > Cuando una variable se usa de la forma en que lo hicimos en este programa, incrementándose de a poco durante un recorrido, se le da el nombre de **acumulador** o **contador**, porque se usa para ir acumulando las cantidades que se van contando.
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.7/711.Super%20Lucho%20tambi%C3%A9n%20cuenta%20luces/assets/resources/description.pdf "Enunciado de 'Super Lucho también cuenta luces' en PDF"

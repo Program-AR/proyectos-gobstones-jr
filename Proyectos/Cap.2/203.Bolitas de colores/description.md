@@ -23,4 +23,5 @@ Explorá el entorno para descubrir cómo agregar comandos primitivos a un progra
 > El comando primitivo `Poner` tiene un _agujero_. En ese agujero hay que poner un color. Al valor que ponés en el agujero se lo llama **argumento**. Por ejemplo, `Rojo` es el argumento en `Poner(Rojo)`.
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.2/203.Bolitas%20de%20colores/assets/resources/description.pdf "Enunciado de 'Bolitas de colores' en PDF"

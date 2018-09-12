@@ -13,4 +13,5 @@ Acordate que pasar argumentos es una forma de indicarle a un comando con qué da
 Podés dibujar cuadrados de cualquier color y cualquier tamaño con un único procedimiento para dibujar cuadrados. Probá otras combinaciones de tamaños y colores; tené en cuenta que para eso también vas a tener que modificar los procedimientos de posicionamiento: fijate que tendrías que cambiar los argumentos que se utilizan en cada uno de ellos. ¿Cuántos procedimientos harían falta si el color no estuviese parametrizado pero la longitud sí?
         
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.7/703.Ludo%20loco,%20toma%202/assets/resources/description.pdf "Enunciado de 'Ludo loco, toma 2' en PDF"

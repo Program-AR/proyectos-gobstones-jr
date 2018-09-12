@@ -11,5 +11,6 @@ Mirá las partes que ya vienen hechas, incluído el procedimiento primitivo `Sac
 Parece que vas a precisar algunas alternativas condicionales… Para saber el nivel de un Gobstomon podés usar la expresión primitiva `nroBolitas`. ¿Pero cómo podés hacer para hacer la condición que diga si los dos niveles _son iguales_? ¿Y para saber cuál de los dos niveles _es mayor_? Buscá en el entorno de Gobstones. 
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.4/410.Que%20gane%20el%20mejor/assets/resources/description.pdf "Enunciado de 'Que gane el mejor' en PDF"
 

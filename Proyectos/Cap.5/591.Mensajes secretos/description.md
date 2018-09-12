@@ -28,4 +28,5 @@ Te damos hechos los procedimientos `AjustarExceso` y `AjustarFaltantes` para lle
 Después que hagas el programa, elegí un mensaje, cifralo, y anotáselo a un compañero para que lo descifre. Y que él haga lo mismo. También podés no decirle con qué número del César cifraste el mensaje, y que él tenga que descubrirlo, probando varios números. 
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.5/591.Mensajes%20secretos/assets/resources/description.pdf "Enunciado de 'Mensajes secretos' en PDF"

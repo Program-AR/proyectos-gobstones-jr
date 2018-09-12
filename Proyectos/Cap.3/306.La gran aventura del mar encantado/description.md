@@ -38,4 +38,5 @@ Si los procedimientos se eligen y nombran bien, cualquier persona que lea el pro
 fue la intención de quien lo programó, cuál es el problema y cómo se soluciona.
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.3/306.La%20gran%20aventura%20del%20mar%20encantado/assets/resources/description.pdf "Enunciado de 'La gran aventura del mar encantado' en PDF"

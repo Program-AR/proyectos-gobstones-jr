@@ -28,4 +28,5 @@ Un último detalle es que para el recorrido tenés que hacer un procedimiento co
 Este ejemplo puede parecerte complicado, pero eso es porque utiliza todas las herramientas que vimos hasta ahora. Sin embargo, si prestás atención, cada una de las herramientas se usa para lo mismo que habíamos hecho en otras actividades. ¡Y estas ideas te van a servir para construir un juego de Pacman en el próximo capítulo!
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.7/796.El%20radar/assets/resources/description.pdf "Enunciado de 'El radar' en PDF"

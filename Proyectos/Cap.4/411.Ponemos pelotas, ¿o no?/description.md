@@ -22,5 +22,6 @@ Al tratar de definir `AgregarPelotaSiHaceFalta`, ¿qué es lo que hay que hacer?
 > Fijate que el procedimiento `CompletarLaFilaDePelotas` está hecho con una repetición, y considera al caso de borde, es decir, el último caso que consideramos por separado por ser levemente diferente, tal cual hiciste vos en la actividad _“Candela, ¡me quemo!”_. Es importante que te acuerdes de estos detalles cuando hagas todo el programa por tu cuenta.
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.4/411.Ponemos%20pelotas,%20%C2%BFo%20no?/assets/resources/description.pdf "Enunciado de 'Ponemos pelotas, ¿o no?' en PDF"
 

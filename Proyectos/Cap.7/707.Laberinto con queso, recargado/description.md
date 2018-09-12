@@ -8,4 +8,5 @@ Completá el programa de la actividad para que el ratón pueda salir de cualquie
 </center>
            
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.7/707.Laberinto%20con%20queso,%20recargado/assets/resources/description.pdf "Enunciado de 'Laberinto con queso, recargado' en PDF"

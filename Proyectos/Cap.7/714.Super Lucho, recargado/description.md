@@ -9,4 +9,5 @@ Construí un programa para que, una vez más, Lucho encienda todas las luces, pe
 ¡No te olvides de usar todas las herramientas que aprendimos! Y te contamos un secreto de los programadores profesionales: siempre miran los programas que ya hicieron para sacar ideas. Es más: si alguna parte del código sirve, ¡la reutilizan!
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.7/714.Super%20Lucho,%20recargado/assets/resources/description.pdf "Enunciado de 'Super Lucho, recargado' en PDF"

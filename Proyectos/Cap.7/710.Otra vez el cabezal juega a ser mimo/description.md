@@ -11,4 +11,5 @@ Vas a precisar alguna forma de recordar cuántas bolitas azules hay en la celda 
 Lo que necesitás es algo que funcione como el papel en el juego del mensaje. Cuando lo encuentres, acordate de que elegir nombres adecuados para las cosas es importante. ¿Qué te parece `cantidadDeAzulesAImitar` para el nombre con el que recordar el dato importante?  
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.7/710.Otra%20vez%20el%20cabezal%20juega%20a%20ser%20mimo/assets/resources/description.pdf "Enunciado de 'Otra vez el cabezal juega a ser mimo' en PDF"

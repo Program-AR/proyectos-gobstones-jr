@@ -24,4 +24,5 @@ Tenés que construir un procedimiento por cada carácter, que ponga la cantidad 
 > Los archivos que no contienen datos adicionales, sino solamente la secuencia de caracteres codificados, se conocen como **archivos de texto plano**. 
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.5/504.Representando%20caracteres/assets/resources/description.pdf "Enunciado de 'Representando caracteres' en PDF"

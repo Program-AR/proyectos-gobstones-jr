@@ -19,4 +19,5 @@ Experimentá con diferentes combinaciones de bolitas rojas, azules y verdes, sie
 
           
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.5/501.Pintando%20la%20camiseta%20de%20colores/assets/resources/description.pdf "Enunciado de 'Pintando la camiseta de colores' en PDF"

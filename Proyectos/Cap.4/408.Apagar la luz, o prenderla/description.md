@@ -25,5 +25,6 @@ Nuevamente tenemos más de un tablero inicial diferente, y el mismo programa deb
 >¡No te olvides de definir procedimientos para las subtareas!
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.4/408.Apagar%20la%20luz,%20o%20prenderla/assets/resources/description.pdf "Enunciado de 'Apagar la luz, o prenderla' en PDF"
 

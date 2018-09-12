@@ -16,5 +16,6 @@ Después que completaste esta tarea, tenemos dos desafíos:
 2. ¿Cómo harías para sacar todas las bolitas, de todos los colores?
  
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.7/792.Varias%20cosas%20de%20una%20sola%20vez/assets/resources/description.pdf "Enunciado de 'Varias cosas de una sola vez' en PDF"
 

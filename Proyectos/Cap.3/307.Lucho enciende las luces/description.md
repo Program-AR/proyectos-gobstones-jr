@@ -25,4 +25,5 @@ Y no te olvides de guardar el programa antes de modificarlo.
 > ¡Hay MUCHAS soluciones!
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.3/307.Lucho%20enciende%20las%20luces/assets/resources/description.pdf "Enunciado de 'Lucho enciende las luces' en PDF"

@@ -15,5 +15,6 @@ Para poder construir los procedimientos y funciones necesarios, tenés que saber
 > Un **recorrido** tiene varias subtareas: una para preparar el recorrido, una para procesar cada elemento, una para pasar al siguiente elemento y una pregunta sobre si quedan elementos para procesar. En un **recorrido de búsqueda**, no hace falta procesar, y la pregunta cambia para ver si encontró lo que buscaba...
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.7/709.%C2%BFD%C3%B3nde%20puse%20las%20llaves?/assets/resources/description.pdf "Enunciado de '¿Dónde puse las llaves?' en PDF"
 

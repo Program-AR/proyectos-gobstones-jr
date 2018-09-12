@@ -13,4 +13,5 @@ Vas a precisar nuevos comandos primitivos. ¡A explorar!
 > Pero es un poco más cómodo decir que es el programa el que hace, por lo que vamos a empezar a decirlo así.
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.2/207.La%20celda%20vac%C3%ADa/assets/resources/description.pdf "Enunciado de 'La celda vacía' en PDF"

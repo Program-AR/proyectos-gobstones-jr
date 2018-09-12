@@ -12,4 +12,5 @@ Tenés que construir un programa que, otra vez, escriba tu nombre y apellido. Pe
 
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.5/592.Texto%20en%20colores/assets/resources/description.pdf "Enunciado de 'Texto en colores' en PDF"

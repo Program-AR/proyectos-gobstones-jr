@@ -11,4 +11,5 @@ Te mostramos un posible tablero inicial y su correspondiente tablero final, con 
 </center>
           
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.5/503.Compresi%C3%B3n%20de%20im%C3%A1genes/assets/resources/description.pdf "Enunciado de 'Compresión de imágenes' en PDF"

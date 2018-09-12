@@ -37,4 +37,5 @@ Inicialmente el arquero está en el medio del arco y la pelota una posición hac
 Finalmente, te aconsejamos que, para hacer las cosas más fáciles, al terminar cada procedimiento, el cabezal siempre vuelva a estar en el centro, en la posición donde está la pelota al empezar y así todas las subtareas pueden suponer esto cuando empiezan
           
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.8/804.Definici%C3%B3n%20por%20penal/assets/resources/description.pdf "Enunciado de 'Definición por penal' en PDF"

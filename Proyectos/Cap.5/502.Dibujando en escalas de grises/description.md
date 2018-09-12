@@ -23,4 +23,5 @@ En el tablero inicial hay una imagen en colores, hecha con la codificación RGB 
 
            
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.5/502.Dibujando%20en%20escalas%20de%20grises/assets/resources/description.pdf "Enunciado de 'Dibujando en escalas de grises' en PDF"

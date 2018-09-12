@@ -18,4 +18,5 @@ Vas a necesitar saber cómo es la representación de los elementos y las particu
 Cuando construyas los procedimientos para expresar la estrategia, no te olvides de tener en cuenta las condiciones de borde en las repeticiones, y de encender una luz solamente cuando corresponde. Si te sentís confundido por la cantidad de procedimientos y funciones, ordenalos en tres grupos: los que representan elementos, los que representan operaciones y los que expresan la estrategia de solución.
            
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.4/415.Lucho%20recargado/assets/resources/description.pdf "Enunciado de 'Lucho recargado' en PDF"

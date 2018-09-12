@@ -20,4 +20,5 @@ Finalmente, ¡no te olvides de que al terminar de dibujar tenés que hacer que e
 posición inicial! Y eso se puede hacer moviéndolo muchas veces, o también yendo directamente al borde… 
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.3/310.Siga%20la%20flecha/assets/resources/description.pdf "Enunciado de 'Siga la flecha' en PDF"

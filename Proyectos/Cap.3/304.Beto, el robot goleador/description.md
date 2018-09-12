@@ -42,4 +42,5 @@ programa cumpla su cometido.
 > Ahora vos podés elegir activar o desactivar la vestimenta.
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.3/304.Beto,%20el%20robot%20goleador/assets/resources/description.pdf "Enunciado de 'Beto, el robot goleador' en PDF"

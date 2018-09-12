@@ -16,4 +16,5 @@ El tablero final debería quedarte como sigue:
 ¡Acordate de definir un procedimiento para cada subtarea!
            
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.5/590.N%C3%BAmeros%20binarios%20con%20procedimientos/assets/resources/description.pdf "Enunciado de 'Números binarios con procedimientos' en PDF"

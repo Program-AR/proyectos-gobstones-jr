@@ -11,4 +11,5 @@ El consejo es que utilices un recorrido por celdas, como el de _“Limpiemos im�
 Este recorrido puede ser el procesamiento de una función cantidadDeBaldosas, que se encargue de retornar ese número, que luego usás para poner las bolitas negras necesarias.
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.7/795.Contar%20las%20baldosas/assets/resources/description.pdf "Enunciado de 'Contar las baldosas' en PDF"

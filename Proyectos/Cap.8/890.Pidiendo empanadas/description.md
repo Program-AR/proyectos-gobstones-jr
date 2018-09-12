@@ -16,4 +16,5 @@ Usamos la siguiente representación:
  * El tipo de empanada actualmente seleccionado, sobre el cual se harán las operaciones de incremento y decremento, se representa con una bolita roja.
         
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.8/890.Pidiendo%20empanadas/assets/resources/description.pdf "Enunciado de 'Pidiendo empanadas' en PDF"

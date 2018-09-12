@@ -16,5 +16,6 @@ Para completar la actividad probá hacer más dibujos utilizando el procedimient
  
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.7/704.Dibujar%20figuras%20con%20subtareas,%20revisado/assets/resources/description.pdf "Enunciado de 'Dibujar figuras con subtareas, revisado' en PDF"
 

@@ -10,4 +10,5 @@ En el proyecto se provee también un procedimiento primitivo `AvanzarCarreta` qu
 ¡Acordate de empezar pensando una estrategia de solución, y viendo qué subtareas son necesarias para expresarla! Al finalizar, el docente va a proponer un análisis de las soluciones propuestas, así que pensá bien las partes de tu programa, y cómo se arman para proveer la solución final.
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.7/793.Hansel%20y%20Gretel%20van%20a%20a%20la%20casa%20de%20la%20Bruja/assets/resources/description.pdf "Enunciado de 'Hansel y Gretel van a a la casa de la Bruja' en PDF"

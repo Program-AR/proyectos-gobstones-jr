@@ -9,4 +9,5 @@ Construí un programa que cuente las baldosas rajadas que hay en el patio. Una b
 ¡No te olvides de definir procedimientos y funciones para que tus programas sean legibles!
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.7/713.Contar%20las%20baldosas%20rajadas/assets/resources/description.pdf "Enunciado de 'Contar las baldosas rajadas' en PDF"

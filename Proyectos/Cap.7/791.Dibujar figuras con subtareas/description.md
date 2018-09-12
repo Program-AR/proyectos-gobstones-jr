@@ -12,4 +12,5 @@ La diferencia es que esta vez el procedimiento para dibujar cuadrados ya viene h
 Como antes, acordate que pasar argumentos es una forma de indicarle a un comando con qué dato queremos que trabaje, y tené en cuenta que la cantidad y orden de los argumentos debe coincidir con la cantidad y orden de los parámetros. 
         
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.7/791.Dibujar%20figuras%20con%20subtareas/assets/resources/description.pdf "Enunciado de 'Dibujar figuras con subtareas' en PDF"

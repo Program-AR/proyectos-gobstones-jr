@@ -17,4 +17,5 @@ Acordate siempre de dividir en subtareas y usar parámetros si es necesario. ¿Q
 >Muchos de los procedimientos que vas a precisar para hacer los que te sugerimos ya los hiciste en actividades anteriores; por ejemplo, los de limpiar celda, avanzar cursor y el de poner caracteres son similares a los de la actividad _“Representando caracteres”_ del Cap.5 (¡pero ahora algunos con parámetros!) y también uno para mover si se puede. Te aconsejamos que los busques y los uses como modelo, ¡así no los tenés que pensar todos de nuevo!
           
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.8/803.Editor%20de%20textos%20simple/assets/resources/description.pdf "Enunciado de 'Editor de textos simple' en PDF"

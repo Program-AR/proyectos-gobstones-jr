@@ -9,5 +9,6 @@ Vas a tener que ayudar a Lucho otra vez, como siempre, a prender todas las luces
 Si no se te ocurre cómo hacer, pensá que Lucho debe **repetir** la tarea de encender una luz **hasta que** llegue a la meta. Vas a tener que buscar una herramienta nueva...
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.7/705.Super%20Lucho%201/assets/resources/description.pdf "Enunciado de 'Super Lucho 1' en PDF"
 

@@ -24,4 +24,5 @@ Construí un programa para dibujar un cuadrado rojo de 3 bolitas de lado como mu
 > Te sugerimos que le cambies el nombre, así no se mezclan tu solución con el proyecto original.
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.3/301.Un%20cuadrado/assets/resources/description.pdf "Enunciado de 'Un cuadrado' en PDF"

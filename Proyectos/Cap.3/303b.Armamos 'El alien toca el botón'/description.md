@@ -38,4 +38,5 @@ de la actividad anterior. ¡No te olvides de activar la vestimenta!
 > solamente quién lo escribe.
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.3/303b.Armamos%20'El%20alien%20toca%20el%20bot%C3%B3n'/assets/resources/description.pdf "Enunciado de 'Armamos 'El alien toca el botón'' en PDF"

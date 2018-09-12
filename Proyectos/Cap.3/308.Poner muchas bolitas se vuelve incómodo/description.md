@@ -18,4 +18,5 @@ Seguí las tareas propuestas.
 </center>
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.3/308.Poner%20muchas%20bolitas%20se%20vuelve%20inc%C3%B3modo/assets/resources/description.pdf "Enunciado de 'Poner muchas bolitas se vuelve incómodo' en PDF"

@@ -19,4 +19,5 @@ La diferencia es que en lugar de armar una víbora de bolitas horizontal, tenés
 </center>
 
 [Enunciado en PDF][PDF]
+
 [PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.2/205.La%20v%C3%ADbora,%20a%20punto%20de%20atacar/assets/resources/description.pdf "Enunciado de 'La víbora, a punto de atacar' en PDF"
