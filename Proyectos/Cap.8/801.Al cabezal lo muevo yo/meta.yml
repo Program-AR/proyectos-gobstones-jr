@@ -66,19 +66,19 @@ blocks:
     - DefinicionDeFuncionSimpleParametrizada
     - DefinicionDeFuncionParametrizada
   defaultToolbox: |
-    <category name="BIBLIOTECA" gbs_custom="SEPARATOR">
+    <category name="Biblioteca" gbs_custom="SEPARATOR">
     </category>
       <category name="Procedimientos primitivos">
       </category>
       <category name="Funciones primitivas">
       </category>
-    <category name="MIS OPERACIONES" gbs_custom="SEPARATOR">
+    <category name="Mis operaciones" gbs_custom="SEPARATOR">
     </category>
       <category name="Procedimientos" gbs_custom="PROCEDURE_CALLS">
       </category>
       <category name="Funciones" gbs_custom="FUNCTION_CALLS">
       </category>
-    <category name="COMANDOS" gbs_custom="SEPARATOR">
+    <category name="Comandos" gbs_custom="SEPARATOR">
     </category>
       <category name="Básicos">
         <block type="Poner"></block>
@@ -99,7 +99,7 @@ blocks:
       <category name="Asignación">
         <block type="Asignacion"></block>
       </category>
-    <category name="EXPRESIONES" gbs_custom="SEPARATOR">
+    <category name="Expresiones" gbs_custom="SEPARATOR">
     </category>
       <category name="Valores">
         <block type="ColorSelector"></block>
@@ -121,7 +121,7 @@ blocks:
         <block type="previo"></block>
         <block type="opuesto"></block>
       </category>
-    <category name="DEFINICIONES" gbs_custom="SEPARATOR">
+    <category name="Definiciones" gbs_custom="SEPARATOR">
     </category>
       <category name="Procedimientos">
         <block type="procedures_defnoreturnnoparams"></block>
@@ -137,13 +137,13 @@ blocks:
         <block type="InteractiveNumberBinding"></block>
         <block type="InteractiveKeyBinding"></block>
       </category>
-    <category name="AUXILIARES DEL DOCENTE" gbs_custom="SEPARATOR">
+    <category name="Auxiliares del docente" gbs_custom="SEPARATOR">
     </category>
       <category name="Programas">
         <block type="Program"></block>
         <block type="InteractiveProgram"></block>
       </category>
-    <category name="Bloques Completar">
+    <category name="Bloques 'Completar'">
       <block type="ComandoCompletar"></block>
       <block type="ExpresionCompletar"></block>
       <block type="AsociacionDeTeclaCompletar"></block>
