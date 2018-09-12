@@ -1,4 +1,4 @@
-#Proyecto 3.1.1.1. Programo el cuadrado
+#Proyecto 'Un cuadrado'
 
 Con los comandos que aprendimos se pueden hacer _“dibujos”_. 
 Construí un programa para dibujar un cuadrado rojo de 3 bolitas de lado como muestra la figura.
@@ -24,5 +24,4 @@ Construí un programa para dibujar un cuadrado rojo de 3 bolitas de lado como mu
 > Te sugerimos que le cambies el nombre, así no se mezclan tu solución con el proyecto original.
 
 [Enunciado en PDF][PDF]
-
-[PDF]: https://raw.githubusercontent.com/program-ar/proyectos-gobstones-jr/master/Proyectos/Cap.3/3.1.1.1.Programo%20el%20cuadrado/assets/resources/description.pdf "Enunciado de 'Programo el cuadrado' en PDF"
+[PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.3/301.Un%20cuadrado/assets/resources/description.pdf "Enunciado de 'Un cuadrado' en PDF"

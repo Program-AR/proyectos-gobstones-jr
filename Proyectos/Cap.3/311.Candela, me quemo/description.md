@@ -1,4 +1,4 @@
-#Proyecto 3.3.4. Candela, me quemo
+#Proyecto 'Candela, me quemo'
 
 ¡Se prende fuego el tablero! 
 Valiéndote del procedimiento primitivo 
@@ -16,5 +16,4 @@ escribí un procedimiento que apague el incendio del tablero que se ve a continu
 Fijate que hay siete focos de incendio, pero no hay que moverse tantas veces…
 
 [Enunciado en PDF][PDF]
-
-[PDF]: https://raw.githubusercontent.com/program-ar/proyectos-gobstones-jr/master/Proyectos/Cap.3/3.3.4.Candela%2C%20me%20quemo/assets/resources/description.pdf "Enunciado de 'Candela, me quemo' en PDF"
+[PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.3/311.Candela,%20me%20quemo/assets/resources/description.pdf "Enunciado de 'Candela, me quemo' en PDF"

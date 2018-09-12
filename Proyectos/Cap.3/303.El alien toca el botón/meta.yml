@@ -118,4 +118,4 @@ execution_speed:
     can_change_speed: true
 library:
   visible: false
-name: El alien toca botón
+name: El alien toca el botón

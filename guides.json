@@ -1,186 +1,280 @@
 [
-  { "name": "Programas y comandos básicos",    "repo": "program-ar/proyectos-gobstones-jr",
+  {
+    "name": "Programas y comandos básicos",
+    "repo": "program-ar/proyectos-gobstones-jr",
     "exercises": [
-      { "id": "2.1.1",        "name": "Glotón, el robot",
-        "path": "Proyectos/Cap.2/2.1.1.Glotón, el robot"
+      {
+        "id": "201",
+        "name": "Glotón, el robot",
+        "path": "Proyectos/Cap.2/201.Glotón, el robot"
       },
-      { "id": "2.1.2",        "name": "Glotón, el granjero y las bolitas",
-        "path": "Proyectos/Cap.2/2.1.2.Glotón, el granjero y las bolitas"
+      {
+        "id": "202",
+        "name": "Glotón, el granjero y las bolitas",
+        "path": "Proyectos/Cap.2/202.Glotón, el granjero y las bolitas"
       },
-      { "id": "2.2.1",        "name": "Bolitas de colores",
-        "path": "Proyectos/Cap.2/2.2.1.Bolitas de colores"
+      {
+        "id": "203",
+        "name": "Bolitas de colores",
+        "path": "Proyectos/Cap.2/203.Bolitas de colores"
       },
-      { "id": "2.2.2.1",      "name": "Víbora de bolitas, horizontal",
-        "path": "Proyectos/Cap.2/2.2.2.1.Víbora de bolitas, horizontal"
+      {
+        "id": "204",
+        "name": "La víbora esperando una presa",
+        "path": "Proyectos/Cap.2/204.La víbora esperando una presa"
       },
-      { "id": "2.2.2.2",      "name": "Víbora de bolitas, vertical",
-        "path": "Proyectos/Cap.2/2.2.2.2.Víbora de bolitas, vertical"
+      {
+        "id": "205",
+        "name": "La víbora, a punto de atacar",
+        "path": "Proyectos/Cap.2/205.La víbora, a punto de atacar"
       },
-      { "id": "2.2.2.3",      "name": "Una víbora más inquieta",
-        "path": "Proyectos/Cap.2/2.2.2.3.Una víbora más inquieta"
+      {
+        "id": "206",
+        "name": "La víbora al ataque",
+        "path": "Proyectos/Cap.2/206.La víbora al ataque"
       },
-      { "id": "2.2.3.1",      "name": "Vaciar la celda",
-        "path": "Proyectos/Cap.2/2.2.3.1.Vaciar la celda"
+      {
+        "id": "207",
+        "name": "La celda vacía",
+        "path": "Proyectos/Cap.2/207.La celda vacía"
       },
-      { "id": "2.2.3.2",      "name": "Limpiar la cruz roja",
-        "path": "Proyectos/Cap.2/2.2.3.2.Limpiar la cruz roja"
+      {
+        "id": "208",
+        "name": "La cruz roja",
+        "path": "Proyectos/Cap.2/208.La cruz roja"
       },
-      { "id": "2.3.1.1",      "name": "Marcando las puntas",
-        "path": "Proyectos/Cap.2/2.3.1.1.Marcando las puntas"
+      {
+        "id": "209",
+        "name": "¡Al rincón!",
+        "path": "Proyectos/Cap.2/209.¡Al rincón!"
       },
-      { "id": "2.3.1.2",      "name": "Lugar para los corners",
-        "path": "Proyectos/Cap.2/2.3.1.2.Lugar para los corners"
+      {
+        "id": "209b",
+        "name": "Lugar para los corners",
+        "path": "Proyectos/Cap.2/209b.Lugar para los corners"
       },
-      { "id": "2.4.1",        "name": "Snake básico",
-        "path": "Proyectos/Cap.2/2.4.1.Snake básico"
+      {
+        "id": "210",
+        "name": "La víbora que come manzanas deliciosas",
+        "path": "Proyectos/Cap.2/210.La víbora que come manzanas deliciosas"
       }
     ]
-  }
-, { "name": "Procedimientos y repeticiones simples",    "repo": "program-ar/proyectos-gobstones-jr",
+  },
+  {
+    "name": "Procedimientos y repeticiones simples",
+    "repo": "program-ar/proyectos-gobstones-jr",
     "exercises": [
-      { "id": "301",        "name": "Un cuadrado",
+      {
+        "id": "301",
+        "name": "Un cuadrado",
         "path": "Proyectos/Cap.3/301.Un cuadrado"
       },
-      { "id": "302",        "name": "Dos cuadrados",
+      {
+        "id": "302",
+        "name": "Dos cuadrados",
         "path": "Proyectos/Cap.3/302.Dos cuadrados"
       },
-      { "id": "302b",          "name": "Dos cuadrados, pero más fáciles",
+      {
+        "id": "302b",
+        "name": "Dos cuadrados, pero más fáciles",
         "path": "Proyectos/Cap.3/302.Dos cuadrados, pero más fáciles"
       },
-      { "id": "303",          "name": "El alien toca el botón",
+      {
+        "id": "303",
+        "name": "El alien toca el botón",
         "path": "Proyectos/Cap.3/303.El alien toca el botón"
       },
-      { "id": "303b",          "name": "Armamos 'El alien toca el botón'",
+      {
+        "id": "303b",
+        "name": "Armamos 'El alien toca el botón'",
         "path": "Proyectos/Cap.3/303b.Armamos 'El alien toca el botón'"
       },
-      { "id": "304",        "name": "Beto, el robot goleador",
+      {
+        "id": "304",
+        "name": "Beto, el robot goleador",
         "path": "Proyectos/Cap.3/304.Beto, el robot goleador"
       },
-      { "id": "305",        "name": "Fútbol de robots, sin procedimientos",
+      {
+        "id": "305",
+        "name": "Fútbol de robots, sin procedimientos",
         "path": "Proyectos/Cap.3/305.Fútbol de robots, sin procedimientos"
       },
-      { "id": "306",          "name": "La gran aventura del mar encantado",
+      {
+        "id": "306",
+        "name": "La gran aventura del mar encantado",
         "path": "Proyectos/Cap.3/306.La gran aventura del mar encantado"
       },
-      { "id": "307",          "name": "Lucho enciende las luces",
+      {
+        "id": "307",
+        "name": "Lucho enciende las luces",
         "path": "Proyectos/Cap.3/307.Lucho enciende las luces"
       },
-      { "id": "308o",        "name": "Poner muchas bolitas se vuelve incómodo",
+      {
+        "id": "308o",
+        "name": "Poner muchas bolitas se vuelve incómodo",
         "path": "Proyectos/Cap.3/308.Poner muchas bolitas se vuelve incómodo"
       },
-      { "id": "308",        "name": "Muchas bolitas rojas",
+      {
+        "id": "308",
+        "name": "Muchas bolitas rojas",
         "path": "Proyectos/Cap.3/308.Muchas bolitas rojas"
       },
-      { "id": "309",          "name": "El final del pasillo",
+      {
+        "id": "309",
+        "name": "El final del pasillo",
         "path": "Proyectos/Cap.3/309.El final del pasillo"
       },
-      { "id": "310",          "name": "Siga la flecha",
+      {
+        "id": "310",
+        "name": "Siga la flecha",
         "path": "Proyectos/Cap.3/310.Siga la flecha"
       },
-      { "id": "311",          "name": "Candela, me quemo",
+      {
+        "id": "311",
+        "name": "Candela, me quemo",
         "path": "Proyectos/Cap.3/311.Candela, me quemo"
       },
-      { "id": "312",          "name": "El entrenamiento del robot goleador",
+      {
+        "id": "312",
+        "name": "El entrenamiento del robot goleador",
         "path": "Proyectos/Cap.3/312.El entrenamiento del robot goleador"
       },
-      { "id": "313",          "name": "El mecánico de naves espaciales",
+      {
+        "id": "313",
+        "name": "El mecánico de naves espaciales",
         "path": "Proyectos/Cap.3/313.El mecánico de naves espaciales"
       }
     ]
-  }
-, { "name": "Datos, alternativas condicionales y funciones",    "repo": "program-ar/proyectos-gobstones-jr",
+  },
+  {
+    "name": "Datos, alternativas condicionales y funciones",
+    "repo": "program-ar/proyectos-gobstones-jr",
     "exercises": [
-      { "id": "4.1.1.1",        "name": "No encuentro bolitas de color Sur",
-        "path": "Proyectos/Cap.4/4.1.1.1.No encuentro bolitas de color Sur"
+      {
+        "id": "490",
+        "name": "No encuentro bolitas de color Sur",
+        "path": "Proyectos/Cap.4/490.No encuentro bolitas de color Sur"
       },
-      { "id": "4.1.1.2",        "name": "Para dónde queda Rojo",
-        "path": "Proyectos/Cap.4/4.1.1.2.Para dónde queda Rojo"
+      {
+        "id": "491",
+        "name": "Para dónde queda Rojo",
+        "path": "Proyectos/Cap.4/491.Para dónde queda Rojo"
       },
-      { "id": "4.1.1.3",        "name": "Y por qué hace BOOM",
-        "path": "Proyectos/Cap.4/4.1.1.3.Y por qué hace BOOM"
+      {
+        "id": "401",
+        "name": "Por qué falla",
+        "path": "Proyectos/Cap.4/401.Por qué falla"
       },
-      { "id": "4.1.2.1",        "name": "El cabezal juega a ser mimo",
-        "path": "Proyectos/Cap.4/4.1.2.1.El cabezal juega a ser mimo"
+      {
+        "id": "402",
+        "name": "El cabezal juega a ser mimo",
+        "path": "Proyectos/Cap.4/402.El cabezal juega a ser mimo"
       },
-      { "id": "4.1.2.2",        "name": "El mimo que suma",
-        "path": "Proyectos/Cap.4/4.1.2.2.El mimo que suma"
+      {
+        "id": "403",
+        "name": "El mimo que suma",
+        "path": "Proyectos/Cap.4/403.El mimo que suma"
       },
-      { "id": "4.1.2.3",        "name": "Super mimo multiplica",
-        "path": "Proyectos/Cap.4/4.1.2.3.Super mimo multiplica"
+      {
+        "id": "404",
+        "name": "Super mimo multiplica",
+        "path": "Proyectos/Cap.4/404.Super mimo multiplica"
       },
-      { "id": "4.1.3.1",        "name": "Escapar de la jaula",
-        "path": "Proyectos/Cap.4/4.1.3.1.Escapar de la jaula"
+      {
+        "id": "405",
+        "name": "Escapar de la jaula",
+        "path": "Proyectos/Cap.4/405.Escapar de la jaula"
       },
-      { "id": "4.1.3.2",        "name": "La flecha enloqueció",
-        "path": "Proyectos/Cap.4/4.1.3.2.La flecha enloqueció"
+      {
+        "id": "406",
+        "name": "La flecha enloqueció",
+        "path": "Proyectos/Cap.4/406.La flecha enloqueció"
       },
-      { "id": "4.1.4",          "name": "Laberinto",
-        "path": "Proyectos/Cap.4/4.1.4.Laberinto"
+      {
+        "id": "407",
+        "name": "Laberinto",
+        "path": "Proyectos/Cap.4/407.Laberinto"
       },
-      { "id": "4.2.1",          "name": "Apagar la luz, o prenderla",
-        "path": "Proyectos/Cap.4/4.2.1.Apagar la luz, o prenderla"
+      {
+        "id": "408",
+        "name": "Apagar la luz, o prenderla",
+        "path": "Proyectos/Cap.4/408.Apagar la luz, o prenderla"
       },
-      { "id": "4.2.2",          "name": "No me quiero caer",
-        "path": "Proyectos/Cap.4/4.2.2.No me quiero caer"
+      {
+        "id": "409",
+        "name": "No me quiero caer",
+        "path": "Proyectos/Cap.4/409.No me quiero caer"
       },
-      { "id": "4.2.3",          "name": "Siempre el mejor",
-        "path": "Proyectos/Cap.4/4.2.3.Siempre el mejor"
+      {
+        "id": "410",
+        "name": "Que gane el mejor",
+        "path": "Proyectos/Cap.4/410.Que gane el mejor"
       },
-      { "id": "4.2.4",          "name": "No, no y no",
-        "path": "Proyectos/Cap.4/4.2.4.No, no y no"
+      {
+        "id": "411",
+        "name": "Ponemos pelotas, ¿o no?",
+        "path": "Proyectos/Cap.4/411.Ponemos pelotas, ¿o no?"
       },
-      { "id": "4.3.1.1",        "name": "Mi elección es clara",
-        "path": "Proyectos/Cap.4/4.3.1.1.Mi elección es clara"
+      {
+        "id": "412",
+        "name": "La luz está prendida vs. hay bolitas: mi elección es clara",
+        "path": "Proyectos/Cap.4/412.La luz está prendida vs. hay bolitas: mi elección es clara"
       },
-      { "id": "4.3.1.2",        "name": "Y también…",
-        "path": "Proyectos/Cap.4/4.3.1.2.Y también…"
+      {
+        "id": "413",
+        "name": "Y también…",
+        "path": "Proyectos/Cap.4/413.Y también…"
       },
-      { "id": "4.3.2",          "name": "Laberinto con queso",
-        "path": "Proyectos/Cap.4/4.3.2.Laberinto con queso"
+      {
+        "id": "414",
+        "name": "Laberinto con queso",
+        "path": "Proyectos/Cap.4/414.Laberinto con queso"
       },
-      { "id": "4.4.1",          "name": "Lucho recargado",
-        "path": "Proyectos/Cap.4/4.4.1.Lucho recargado"
+      {
+        "id": "415",
+        "name": "Lucho recargado",
+        "path": "Proyectos/Cap.4/415.Lucho recargado"
       }
     ]
-  }
-, {
+  },
+  {
     "name": "Representación de la información",
     "repo": "gobstones/proyectos-jr",
     "exercises": [
       {
-        "id": "5.2.3",
+        "id": "590",
         "name": "Números binarios con procedimientos",
-        "path": "Proyectos/Cap.5/5.2.3.Números binarios con procedimientos"
+        "path": "Proyectos/Cap.5/590.Números binarios con procedimientos"
       },
       {
-        "id": "5.3.1",
+        "id": "501",
         "name": "Pintando la camiseta de colores",
-        "path": "Proyectos/Cap.5/5.3.1.Pintando la camiseta de colores"
+        "path": "Proyectos/Cap.5/501.Pintando la camiseta de colores"
       },
       {
-        "id": "5.3.2",
+        "id": "502",
         "name": "Dibujando en escalas de grises",
-        "path": "Proyectos/Cap.5/5.3.2.Dibujando en escalas de grises"
+        "path": "Proyectos/Cap.5/502.Dibujando en escalas de grises"
       },
       {
-        "id": "5.3.3",
+        "id": "503",
         "name": "Compresión de imágenes",
-        "path": "Proyectos/Cap.5/5.3.3.Compresión de imágenes"
+        "path": "Proyectos/Cap.5/503.Compresión de imágenes"
       },
       {
-        "id": "5.4.1",
+        "id": "504",
         "name": "Representando caracteres",
-        "path": "Proyectos/Cap.5/5.4.1.Representando caracteres"
+        "path": "Proyectos/Cap.5/504.Representando caracteres"
       },
       {
-        "id": "5.4.2",
+        "id": "591",
         "name": "Mensajes secretos",
-        "path": "Proyectos/Cap.5/5.4.2.Mensajes secretos"
+        "path": "Proyectos/Cap.5/591.Mensajes secretos"
       },
       {
-        "id": "5.5.1",
+        "id": "592",
         "name": "Texto en colores",
-        "path": "Proyectos/Cap.5/5.5.1.Texto en colores"
+        "path": "Proyectos/Cap.5/592.Texto en colores"
       }
     ]
   },
@@ -189,109 +283,109 @@
     "repo": "gobstones/proyectos-jr",
     "exercises": [
       {
-        "id": "8.1.2.1",
+        "id": "701",
         "name": "Tablero de Ludo, toma 1",
-        "path": "Proyectos/Cap.7/8.1.2.1.Tablero de Ludo, toma 1"
+        "path": "Proyectos/Cap.7/701.Tablero de Ludo, toma 1"
       },
       {
-        "id": "8.1.2.2",
+        "id": "702",
         "name": "Tablero de Ludo, toma 2",
-        "path": "Proyectos/Cap.7/8.1.2.2.Tablero de Ludo, toma 2"
+        "path": "Proyectos/Cap.7/702.Tablero de Ludo, toma 2"
       },
       {
-        "id": "8.1.4.1",
+        "id": "790",
         "name": "Ludo loco, toma 1",
-        "path": "Proyectos/Cap.7/8.1.4.1.Ludo loco, toma 1"
+        "path": "Proyectos/Cap.7/790.Ludo loco, toma 1"
       },
       {
-        "id": "8.1.4.2",
+        "id": "703",
         "name": "Ludo loco, toma 2",
-        "path": "Proyectos/Cap.7/8.1.4.2.Ludo loco, toma 2"
+        "path": "Proyectos/Cap.7/703.Ludo loco, toma 2"
       },
       {
-        "id": "8.1.5.1",
+        "id": "791",
         "name": "Dibujar figuras con subtareas",
-        "path": "Proyectos/Cap.7/8.1.5.1.Dibujar figuras con subtareas"
+        "path": "Proyectos/Cap.7/791.Dibujar figuras con subtareas"
       },
       {
-        "id": "8.1.5.2",
+        "id": "704",
         "name": "Dibujar figuras con subtareas, revisado",
-        "path": "Proyectos/Cap.7/8.1.5.2.Dibujar figuras con subtareas, revisado"
+        "path": "Proyectos/Cap.7/704.Dibujar figuras con subtareas, revisado"
       },
       {
-        "id": "8.1.6",
+        "id": "792",
         "name": "Varias cosas de una sola vez",
-        "path": "Proyectos/Cap.7/8.1.6.Varias cosas de una sola vez"
+        "path": "Proyectos/Cap.7/792.Varias cosas de una sola vez"
       },
       {
-        "id": "8.2.1.1",
+        "id": "705",
         "name": "Super Lucho 1",
-        "path": "Proyectos/Cap.7/8.2.1.1.Super Lucho 1"
+        "path": "Proyectos/Cap.7/705.Super Lucho 1"
       },
       {
-        "id": "8.2.1.2",
+        "id": "706",
         "name": "Super Lucho 2",
-        "path": "Proyectos/Cap.7/8.2.1.2.Super Lucho 2"
+        "path": "Proyectos/Cap.7/706.Super Lucho 2"
       },
       {
-        "id": "8.2.2",
+        "id": "707",
         "name": "Laberinto con queso, recargado",
-        "path": "Proyectos/Cap.7/8.2.2.Laberinto con queso, recargado"
+        "path": "Proyectos/Cap.7/707.Laberinto con queso, recargado"
       },
       {
-        "id": "8.2.3",
+        "id": "708",
         "name": "Más entrenamiento para Beto",
-        "path": "Proyectos/Cap.7/8.2.3.Más entrenamiento para Beto"
+        "path": "Proyectos/Cap.7/708.Más entrenamiento para Beto"
       },
       {
-        "id": "8.2.4",
+        "id": "793",
         "name": "Hansel y Gretel van a a la casa de la Bruja",
-        "path": "Proyectos/Cap.7/8.2.4.Hansel y Gretel van a a la casa de la Bruja"
+        "path": "Proyectos/Cap.7/793.Hansel y Gretel van a a la casa de la Bruja"
       },
       {
-        "id": "8.2.5",
+        "id": "794",
         "name": "Limpiemos imágenes",
-        "path": "Proyectos/Cap.7/8.2.5.Limpiemos imágenes"
+        "path": "Proyectos/Cap.7/794.Limpiemos imágenes"
       },
       {
-        "id": "8.2.6",
-        "name": "Dónde puse las llaves",
-        "path": "Proyectos/Cap.7/8.2.6.Dónde puse las llaves"
+        "id": "709",
+        "name": "¿Dónde puse las llaves?",
+        "path": "Proyectos/Cap.7/709.¿Dónde puse las llaves?"
       },
       {
-        "id": "8.3.1",
+        "id": "710",
         "name": "Otra vez el cabezal juega a ser mimo",
-        "path": "Proyectos/Cap.7/8.3.1.Otra vez el cabezal juega a ser mimo"
+        "path": "Proyectos/Cap.7/710.Otra vez el cabezal juega a ser mimo"
       },
       {
-        "id": "8.3.2",
+        "id": "711",
         "name": "Super Lucho también cuenta luces",
-        "path": "Proyectos/Cap.7/8.3.2.Super Lucho también cuenta luces"
+        "path": "Proyectos/Cap.7/711.Super Lucho también cuenta luces"
       },
       {
-        "id": "8.3.3",
+        "id": "712",
         "name": "A qué distancia está el borde",
-        "path": "Proyectos/Cap.7/8.3.3.A qué distancia está el borde"
+        "path": "Proyectos/Cap.7/712.A qué distancia está el borde"
       },
       {
-        "id": "8.3.4.1",
+        "id": "795",
         "name": "Contar las baldosas",
-        "path": "Proyectos/Cap.7/8.3.4.1.Contar las baldosas"
+        "path": "Proyectos/Cap.7/795.Contar las baldosas"
       },
       {
-        "id": "8.3.4.2",
+        "id": "713",
         "name": "Contar las baldosas rajadas",
-        "path": "Proyectos/Cap.7/8.3.4.2.Contar las baldosas rajadas"
+        "path": "Proyectos/Cap.7/713.Contar las baldosas rajadas"
       },
       {
-        "id": "8.3.5",
+        "id": "796",
         "name": "El radar",
-        "path": "Proyectos/Cap.7/8.3.5.El radar"
+        "path": "Proyectos/Cap.7/796.El radar"
       },
       {
-        "id": "8.4.1",
+        "id": "714",
         "name": "Super Lucho, recargado",
-        "path": "Proyectos/Cap.7/8.4.1.Super Lucho, recargado"
+        "path": "Proyectos/Cap.7/714.Super Lucho, recargado"
       }
     ]
   },
@@ -300,39 +394,39 @@
     "repo": "gobstones/proyectos-jr",
     "exercises": [
       {
-        "id": "9.1.1.1",
+        "id": "801",
         "name": "Al cabezal lo muevo yo",
-        "path": "Proyectos/Cap.8/9.1.1.1.Al cabezal lo muevo yo"
+        "path": "Proyectos/Cap.8/801.Al cabezal lo muevo yo"
       },
       {
-        "id": "9.1.1.2",
+        "id": "802",
         "name": "Editor de tableros",
-        "path": "Proyectos/Cap.8/9.1.1.2.Editor de tableros"
+        "path": "Proyectos/Cap.8/802.Editor de tableros"
       },
       {
-        "id": "9.1.2",
+        "id": "890",
         "name": "Pidiendo empanadas",
-        "path": "Proyectos/Cap.8/9.1.2.Pidiendo empanadas"
+        "path": "Proyectos/Cap.8/890.Pidiendo empanadas"
       },
       {
-        "id": "9.1.3",
+        "id": "803",
         "name": "Editor de textos simple",
-        "path": "Proyectos/Cap.8/9.1.3.Editor de textos simple"
+        "path": "Proyectos/Cap.8/803.Editor de textos simple"
       },
       {
-        "id": "9.2.1",
+        "id": "804",
         "name": "Definición por penal",
-        "path": "Proyectos/Cap.8/9.2.1.Definición por penal"
+        "path": "Proyectos/Cap.8/804.Definición por penal"
       },
       {
-        "id": "9.2.2",
+        "id": "805",
         "name": "Snake",
-        "path": "Proyectos/Cap.8/9.2.2.Snake"
+        "path": "Proyectos/Cap.8/805.Snake"
       },
       {
-        "id": "9.2.3",
+        "id": "806",
         "name": "Pacman",
-        "path": "Proyectos/Cap.8/9.2.3.Pacman"
+        "path": "Proyectos/Cap.8/806.Pacman"
       }
     ]
   }

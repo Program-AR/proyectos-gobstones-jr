@@ -109,4 +109,4 @@ execution_speed:
     can_change_speed: true
 library:
   visible: false
-name: 'Programo el cuadrado, programo el cuadrado'
+name: Dos cuadrados

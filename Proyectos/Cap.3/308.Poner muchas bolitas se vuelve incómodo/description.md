@@ -1,4 +1,4 @@
-#Proyecto 3.3.1.1. Poner muchas bolitas se vuelve incómodo
+#Proyecto 'Poner muchas bolitas se vuelve incómodo'
 
 La idea de esta actividad es poner muchas bolitas. 
 Al principio vas a ver que, según cuántas bolitas haya que poner, eso puede ser incómodo. 
@@ -18,5 +18,4 @@ Seguí las tareas propuestas.
 </center>
 
 [Enunciado en PDF][PDF]
-
-[PDF]: https://raw.githubusercontent.com/program-ar/proyectos-gobstones-jr/master/Proyectos/Cap.3/3.3.1.1.Poner%20muchas%20bolitas%20se%20vuelve%20inc%C3%B3modo/assets/resources/description.pdf "Enunciado de 'Poner muchas bolitas se vuelve incómodo' en PDF"
+[PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.3/308.Poner%20muchas%20bolitas%20se%20vuelve%20inc%C3%B3modo/assets/resources/description.pdf "Enunciado de 'Poner muchas bolitas se vuelve incómodo' en PDF"

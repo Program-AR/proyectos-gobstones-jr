@@ -1,4 +1,4 @@
-#Proyecto 3.3.3. Siga la flecha
+#Proyecto 'Siga la flecha'
 
 Completá los procedimientos y el programa para dibujar una flecha como la de la figura: 
 consiste en una línea de 7 bolitas verdes hacia el Este que culmina en una punta, 
@@ -20,5 +20,4 @@ Finalmente, ¡no te olvides de que al terminar de dibujar tenés que hacer que e
 posición inicial! Y eso se puede hacer moviéndolo muchas veces, o también yendo directamente al borde… 
 
 [Enunciado en PDF][PDF]
-
-[PDF]: https://raw.githubusercontent.com/program-ar/proyectos-gobstones-jr/master/Proyectos/Cap.3/3.3.3.Siga%20la%20flecha/assets/resources/description.pdf "Enunciado de 'Siga la flecha' en PDF"
+[PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.3/310.Siga%20la%20flecha/assets/resources/description.pdf "Enunciado de 'Siga la flecha' en PDF"

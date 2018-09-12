@@ -1,4 +1,4 @@
-#Proyecto 3.3.1.2. La computadora repite por nosotros
+#Proyecto 'Muchas bolitas rojas'
 
 Tratá de hacer un procedimiento que sirva para poner 1500 bolitas rojas. 
 ¿Habrá alguna herramienta en el entorno que nos haga el trabajo más fácil? 
@@ -13,5 +13,4 @@ bloques cada uno.
 
 
 [Enunciado en PDF][PDF]
-
-[PDF]: https://raw.githubusercontent.com/program-ar/proyectos-gobstones-jr/master/Proyectos/Cap.3/3.3.1.2.La%20computadora%20repite%20por%20nosotros/assets/resources/description.pdf "Enunciado de 'La computadora repite por nosotros' en PDF"
+[PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.3/308.Muchas%20bolitas%20rojas/assets/resources/description.pdf "Enunciado de 'Muchas bolitas rojas' en PDF"

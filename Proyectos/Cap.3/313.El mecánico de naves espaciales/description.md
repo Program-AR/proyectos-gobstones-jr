@@ -1,4 +1,4 @@
-#Proyecto 3.4.1. Reparando la nave
+#Proyecto 'El mecánico de naves espaciales'
 
 Utilizando los procedimientos primitivos provistos, escribí un programa que permita que 
 el marciano repare su nave y pueda volver a su planeta. 
@@ -25,5 +25,4 @@ Al leer el programa final, ¿se entiende la estrategia de solución que pensaste
 > Además, tené cuidado con las condiciones de borde.
 
 [Enunciado en PDF][PDF]
-
-[PDF]: https://raw.githubusercontent.com/program-ar/proyectos-gobstones-jr/master/Proyectos/Cap.3/3.4.1.Reparando%20la%20nave/assets/resources/description.pdf "Enunciado de 'Reparando la nave' en PDF"
+[PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.3/313.El%20mec%C3%A1nico%20de%20naves%20espaciales/assets/resources/description.pdf "Enunciado de 'El mecánico de naves espaciales' en PDF"

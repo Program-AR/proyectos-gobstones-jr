@@ -41,5 +41,4 @@ B) Después de guardar tu solución en la computadora, cambiá el programa para 
 > y solamente hacerle pequeñas modificaciones para ajustarlo al nuevo problema
 
 [Enunciado en PDF][PDF]
-
-[PDF]: https://raw.githubusercontent.com/program-ar/proyectos-gobstones-jr/master/Proyectos/Cap.3/3.1.3.Dos%20cuadrados,%20pero%20m%C3%A1s%20f%C3%A1ciles/assets/resources/description.pdf "Enunciado de 'Dos cuadrados, pero más fáciles' en PDF"
+[PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.3/302.Dos%20cuadrados,%20pero%20m%C3%A1s%20f%C3%A1ciles/assets/resources/description.pdf "Enunciado de 'Dos cuadrados, pero más fáciles' en PDF"

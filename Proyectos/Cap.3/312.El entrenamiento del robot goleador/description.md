@@ -1,4 +1,4 @@
-#Proyecto 3.3.5. Entrenamiento para fútbol de robots
+#Proyecto 'El entrenamiento del robot goleador'
 
 En una actividad anterior enseñamos al Beto a patear la pelota. 
 Pero como el técnico no entiende que los autómatas siempre hacen las cosas igual, 
@@ -25,5 +25,4 @@ También vas a necesitar los procedimientos primitivos `MoverAlBetoAl`, `MoverLa
 > pero que no lo podés ver ni cambiar. ¡Al final del curso vas a poder hacerlos por tu cuenta!
 
 [Enunciado en PDF][PDF]
-
-[PDF]: https://raw.githubusercontent.com/program-ar/proyectos-gobstones-jr/master/Proyectos/Cap.3/3.3.5.Entrenamiento%20para%f%C3%BAtbol%20robots/assets/resources/description.pdf "Enunciado de 'Entrenamiento para fútbol de robots' en PDF"
+[PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.3/312.El%20entrenamiento%20del%20robot%20goleador/assets/resources/description.pdf "Enunciado de 'El entrenamiento del robot goleador' en PDF"

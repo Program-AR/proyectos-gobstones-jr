@@ -19,5 +19,4 @@ del alien y el botón. Investigá un poco el entorno para encontrarlos.
 > pero no forman parte del lenguaje. De hecho, ¡alguien los programó usando Gobstones!
 
 [Enunciado en PDF][PDF]
-
-[PDF]: https://raw.githubusercontent.com/program-ar/proyectos-gobstones-jr/master/Proyectos/Cap.3/3.2.1.El%20alien%20toca%20bot%C3%B3n/assets/resources/description.pdf "Enunciado de 'El alien toca botón' en PDF"
+[PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.3/303.El%20alien%20toca%20el%20bot%C3%B3n/assets/resources/description.pdf "Enunciado de 'El alien toca el botón' en PDF"

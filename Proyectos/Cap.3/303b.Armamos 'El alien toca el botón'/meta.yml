@@ -1,4 +1,4 @@
-name: Armamos 'El alien toca botón'
+name: Armamos 'El alien toca el botón'
 attire:
   active: El alien toca botón
   user_permissions:
@@ -88,14 +88,22 @@ blocks:
       <block type="ExpresionCompletar"></block>
       <block type="AsociacionDeTeclaCompletar"></block>
     </category>
-  disabled: [ "IrAlBorde"
-            , "Procedimientos primitivos"
-            ]
-  visible: [ "COMANDOS"    , "Poner", "Mover", "Sacar", "IrAlBorde"
-                           , "Procedimientos primitivos", "Mis procedimientos"
-           , "EXPRESIONES" , "Color", "Direccion"
-           , "DEFINICIONES", "procedures_defnoreturnnoparams"
-           ]
+  disabled:
+    - IrAlBorde
+    - Procedimientos primitivos
+  visible:
+    - COMANDOS
+    - Poner
+    - Mover
+    - Sacar
+    - IrAlBorde
+    - Procedimientos primitivos
+    - Mis procedimientos
+    - EXPRESIONES
+    - Color
+    - Direccion
+    - DEFINICIONES
+    - procedures_defnoreturnnoparams
 board:
   active: 1
   initial_board_source: selected

@@ -42,5 +42,4 @@ programa cumpla su cometido.
 > Ahora vos podés elegir activar o desactivar la vestimenta.
 
 [Enunciado en PDF][PDF]
-
-[PDF]: https://raw.githubusercontent.com/program-ar/proyectos-gobstones-jr/master/Proyectos/Cap.3/3.2.2.1.Preparando%20el%20f%C3%BAtbol%20de%20robots/assets/resources/description.pdf "Enunciado de 'Preparando el fútbol de robots' en PDF"
+[PDF]: https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/Proyectos/Cap.3/304.Beto,%20el%20robot%20goleador/assets/resources/description.pdf "Enunciado de 'Beto, el robot goleador' en PDF"
