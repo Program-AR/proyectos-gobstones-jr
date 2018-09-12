@@ -1,3 +1,4 @@
+/*@ATTRIBUTE@block_name@Mover al alien al Este@*/
 procedure MoverAlAlienAlEste() {
   if (not hayBolitas(Verde)) { BOOM("No estoy sobre el alien") }
   Sacar(Verde) 
