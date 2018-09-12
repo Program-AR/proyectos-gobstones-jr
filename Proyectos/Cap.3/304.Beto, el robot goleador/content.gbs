@@ -1,5 +1,5 @@
 program{
-    
+    ...
 }
 
 procedure MeterElGol() {
@@ -8,7 +8,7 @@ procedure MeterElGol() {
   AvanzarYPatear()
 }
 
-procedure AvanzarYPatear(){ }
+procedure AvanzarYPatear(){ ... }
 
 procedure PatearLaPelota() {
   MoverElPieDelBeto()
@@ -22,14 +22,14 @@ procedure PatearLaPelota() {
   Mover(Oeste)
 }
 
-procedure MoverAlBetoAlEste(){ }
+procedure MoverAlBetoAlEste(){ ... }
 
 procedure MoverElPieDelBeto(){ Poner(Azul) Sacar(Azul) }
 
 procedure PonerLaPelota(){ Poner(Negro) }
 
-procedure SacarLaPelota(){ }
+procedure SacarLaPelota(){ ... }
 
-procedure PonerAlBeto(){ }
+procedure PonerAlBeto(){ ... }
 
 procedure SacarAlBeto(){ Sacar(Azul) }
