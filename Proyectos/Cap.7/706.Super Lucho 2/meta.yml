@@ -67,9 +67,9 @@ blocks:
   defaultToolbox: |
     <category name="Biblioteca" gbs_custom="SEPARATOR">
     </category>
-      <category name="Procedimientos primitivos">
+      <category name="Procedimientos" gbs_custom="PRIMITIVE_PROCEDURES">
       </category>
-      <category name="Funciones primitivas">
+      <category name="Funciones" gbs_custom="PRIMITIVE_FUNCTIONS">
       </category>
     <category name="Mis operaciones" gbs_custom="SEPARATOR">
     </category>
