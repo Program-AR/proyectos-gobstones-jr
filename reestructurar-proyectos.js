@@ -49,6 +49,28 @@ function updateDescription(infoExercise) {
     }
 }
 
+function hideDescription(infoExercise) {
+    let description;
+    try {
+        fs.renameSync(infoExercise.new.path + "/description.md", infoExercise.new.path + "/description-hidden.md");
+        console.log(`  Renaming description.md -> description-hidden.md`)
+    }
+    catch (e) {
+        console.log(`  description.md could not be hidden`)
+    }
+}
+
+function unhideDescription(infoExercise) {
+    let description;
+    try {
+        fs.renameSync(infoExercise.new.path + "/description-hidden.md", infoExercise.new.path + "/description.md");
+        console.log(`  Renaming description-hidden.md -> description.md`)
+    }
+    catch (e) {
+        console.log(`  description-hidden.md could not be unhidden`)
+    }
+}
+
 function checkStructure(infoExercise) {
     console.log(`  Checking file structure:`)
 
@@ -135,6 +157,7 @@ infoAll.forEach(infoCap => {
         renameDirectory(infoExercise);
         updateMeta(infoExercise);
         updateDescription(infoExercise);
+        hideDescription(infoExercise);
         checkStructure(infoExercise);
     });
 })

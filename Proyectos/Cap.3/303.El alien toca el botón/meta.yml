@@ -95,19 +95,19 @@ blocks:
     - Color
     - Direccion
   visible:
-    - -- Biblioteca --
+    - '-- Biblioteca --'
     - Procedimientos primitivos
-    - -- Mis operaciones --
+    - '-- Mis operaciones --'
     - Mis procedimientos
-    - -- Comandos --
+    - '-- Comandos --'
     - Poner
     - Mover
     - Sacar
     - IrAlBorde
-    - -- Expresiones --
+    - '-- Expresiones --'
     - Color
     - Direccion
-    - -- Definiciones --
+    - '-- Definiciones --'
     - procedures_defnoreturnnoparams
     - Definicion de procedimientos simples
 board:
