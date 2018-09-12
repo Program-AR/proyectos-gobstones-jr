@@ -1,4 +1,4 @@
-#Proyecto 'Otra vez el cabezal juega a ser mimo'
+# Proyecto 'Otra vez el cabezal juega a ser mimo'
 
 ¿Te acordás de la actividad _“El cabezal puede contar”_ del capítulo 4? Ahí el cabezal tenía que imitar la cantidad de bolitas azules usando bolitas rojas y tuviste que descubrir la expresión primitiva `nroBolitas` para hacerlo. En esta actividad hay que hacer algo parecido: imitar las bolitas azules de la celda actual con bolitas rojas; ¡_pero_ la gran diferencia es que la imitación tiene que hacerse _en la celda de al lado_! Tenés que construir un programa que imite la cantidad de bolitas azules de la celda actual, poniendo la misma cantidad de bolitas rojas en la celda de al lado, al Este. Como siempre, el programa tiene que funcionar en varios tableros diferentes. Te mostramos algunos tableros iniciales y sus correspondientes tableros finales.
 

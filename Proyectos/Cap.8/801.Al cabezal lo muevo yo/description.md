@@ -1,4 +1,4 @@
-#Proyecto 'Al cabezal lo muevo yo'
+# Proyecto 'Al cabezal lo muevo yo'
 
 ¿Qué diferencias observás con respecto a los programas que venías haciendo?  ¿Podés explicar qué es lo que cambió en la ejecución? Si no te das cuenta, presioná alguna de las teclas de flechas durante la ejecución del programa…
 El programa que vas a encontrar luce como el de la figura:

@@ -1,4 +1,4 @@
-#Proyecto 'Ponemos pelotas, ¿o no?'
+# Proyecto 'Ponemos pelotas, ¿o no?'
 
 Mirá el código que ya viene hecho; tenés que completarlo para ayudar al entrenador de fútbol a terminar de armar la línea de pelotas para que Beto pueda entrenar. La idea es que el entrenador recorre la línea de pelotas y en cada lugar, pone una pelota solamente si _no_ hay una; si ya hay una pelota, no hace nada. Vas a tener que definir el procedimiento que falta y completar el programa principal. Como ayuda, te damos el procedimiento primitivo `AgregarPelota`, la función primitiva `hayPelota` y uno de los procedimientos que resuelven el problema ya definido.
 Te mostramos algunos tableros iniciales posibles:

@@ -1,4 +1,4 @@
-#Proyecto 'Candela, me quemo'
+# Proyecto 'Candela, me quemo'
 
 ¡Se prende fuego el tablero! 
 Valiéndote del procedimiento primitivo 

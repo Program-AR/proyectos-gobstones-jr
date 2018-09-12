@@ -1,4 +1,4 @@
-#Proyecto 'Bolitas de colores'
+# Proyecto 'Bolitas de colores'
 
 ¡Ahora es tu turno de usar Gobstones! Construí un programa que haga que la máquina al ejecutarlo ponga 4 bolitas, una de cada color, en la celda actual del tablero. O sea, el programa debe indicar que, comenzando con el tablero inicial de la izquierda, la máquina produzca el tablero final de la derecha.
 

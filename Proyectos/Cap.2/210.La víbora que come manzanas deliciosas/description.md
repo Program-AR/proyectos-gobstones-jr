@@ -1,4 +1,4 @@
-#Proyecto 'La víbora que come manzanas deliciosas'
+# Proyecto 'La víbora que come manzanas deliciosas'
 
 Como verás, el tablero inicial muestra algunas bolitas rojas (siempre en la misma posición) 
 que representan manzanas. El objetivo de la actividad es que dibujes una serie de bolitas verdes, 

@@ -1,4 +1,4 @@
-#Proyecto 'Texto en colores'
+# Proyecto 'Texto en colores'
 
 Tenés que construir un programa que, otra vez, escriba tu nombre y apellido. Pero esta vez el nombre tiene que estar en color rojo, y el apellido tiene que estar en azul. Para eso, precisás extender la representación de la actividad _“Representando caracteres”_, para que ahora codifique también el color, lo cual podés hacer agregando un color representado con la codificación RGB de 125 colores en cada letra. 
 

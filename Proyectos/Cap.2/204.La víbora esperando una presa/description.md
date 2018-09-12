@@ -1,4 +1,4 @@
-#Proyecto 'La víbora esperando una presa'
+# Proyecto 'La víbora esperando una presa'
 Construí un programa para obtener una víbora de bolitas como la siguiente:
 
 <center>

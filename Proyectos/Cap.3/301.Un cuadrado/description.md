@@ -1,4 +1,4 @@
-#Proyecto 'Un cuadrado'
+# Proyecto 'Un cuadrado'
 
 Con los comandos que aprendimos se pueden hacer _“dibujos”_. 
 Construí un programa para dibujar un cuadrado rojo de 3 bolitas de lado como muestra la figura.

@@ -1,4 +1,4 @@
-#Proyecto 'La celda vacía'
+# Proyecto 'La celda vacía'
 
 Tenés que construir un programa que haga que la celda quede vacía. 
 Vas a precisar nuevos comandos primitivos. ¡A explorar! 

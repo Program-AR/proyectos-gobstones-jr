@@ -1,4 +1,4 @@
-#Proyecto 'Laberinto'
+# Proyecto 'Laberinto'
 
 ¿Te acordás del ratón que escapó de la jaula? Resulta que a la salida lo estaban esperando para ponerlo en un laberinto y ver si podía escaparse de él. Por suerte, en el laberinto también hay flechas que marcan el camino y sabe que tiene que dar 20 pasos para salir. Construí y probá el procedimiento `SalirDelLaberinto` que le indique al ratón lo que debe hacer para salir. Te mostramos algunos laberintos, y cómo tiene que quedar al terminar:
            

@@ -1,4 +1,4 @@
-#Proyecto 'El entrenamiento del robot goleador'
+# Proyecto 'El entrenamiento del robot goleador'
 
 En una actividad anterior enseñamos al Beto a patear la pelota. 
 Pero como el técnico no entiende que los autómatas siempre hacen las cosas igual, 

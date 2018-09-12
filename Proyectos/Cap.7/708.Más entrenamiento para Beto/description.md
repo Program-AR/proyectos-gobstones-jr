@@ -1,4 +1,4 @@
-#Proyecto 'Más entrenamiento para Beto'
+# Proyecto 'Más entrenamiento para Beto'
 
 El entrenador de Beto sigue con interés en que el robot entrene para poder jugar en el partido, a pesar de que nosotros sabemos que no es necesario. Entonces, otra vez más tenemos que ayudar a Beto a entrenar, completando el programa que viene en este proyecto. En esta ocasión tenemos siempre 5 pelotas, pero no sabemos a qué distancia está cada una, por lo que Beto va a tener que **repetir** moverse de a un lugar **hasta que** llegue a la pelota. Te mostramos algunos tableros iniciales:
 <center>

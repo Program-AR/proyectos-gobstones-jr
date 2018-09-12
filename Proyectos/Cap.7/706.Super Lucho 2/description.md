@@ -1,4 +1,4 @@
-#Proyecto 'Super Lucho 2'
+# Proyecto 'Super Lucho 2'
 
 Y ahí va Lucho de nuevo a prender todas las luces. Igual que en _“Super Lucho 1”_, no sabemos cuánto mide la fila, pero ahora hay posiciones que no tienen luz. Algunos de los tableros iniciales son:
 

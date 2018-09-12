@@ -1,4 +1,4 @@
-#Proyecto 'Super Lucho también cuenta luces'
+# Proyecto 'Super Lucho también cuenta luces'
 
 Una vez más tenemos que ayudar a Lucho a prender las luces. Al igual que en la actividad _Super Lucho”_, hay una fila de luces que termina en una meta, pero no sabemos cuántas hay. El programa que tenés que construir en este proyecto tiene que hacer que Lucho prenda todas las luces y, al llegar a la meta, anotar, usando bolitas rojas, cuántas luces prendió. Te mostramos un tablero inicial y su correspondiente tablero final, con y sin vestimenta.
 

@@ -1,4 +1,4 @@
-#Proyecto 'Glotón, el robot'
+# Proyecto 'Glotón, el robot'
 
 La idea de este proyecto es simplemente ver una simulación usando Gobstones. 
 Para eso, tenés que ejecutar el programa que viene construido.

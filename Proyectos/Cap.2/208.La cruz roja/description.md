@@ -1,4 +1,4 @@
-#Proyecto 'La cruz roja'
+# Proyecto 'La cruz roja'
 
 Un dibujo de la cruz roja hecho con bolitas se manchó con ceniza; el propósito del programa 
 que hay que hacer es limpiar la imagen de ceniza, sacando las bolitas negras. 

@@ -1,4 +1,4 @@
-#Proyecto 'Lucho recargado'
+# Proyecto 'Lucho recargado'
 
 El robot Lucho otra vez tiene que prender las luces, y por supuesto, vos tenés que completar el programa para que lo haga. Hay 6 filas de luces, y cada fila tiene 9 lugares, y no hay luces en todas las celdas, así que Lucho tiene que ir con cuidado, preguntando si hay o no una luz antes de prenderla. Completá el programa para ayudar a Lucho con su tarea. Como siempre, te mostramos algunos tableros iniciales y sus correspondientes tableros finales:
 

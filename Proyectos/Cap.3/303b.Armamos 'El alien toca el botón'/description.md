@@ -1,4 +1,4 @@
-# Proyecto 3.2.1.2. Armamos 'El alien toca botón'
+# Proyecto 'Armamos 'El alien toca el botón''
 
 Esta actividad es muy parecida a la anterior, en cuanto a que hay un alien que tiene que tocar un botón.
 Pero, a diferencia de la actividad anterior, ahora te toca a vos armar los procedimientos para mover al alien

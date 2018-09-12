@@ -1,4 +1,4 @@
-#Proyecto 'Poner muchas bolitas se vuelve incómodo'
+# Proyecto 'Poner muchas bolitas se vuelve incómodo'
 
 La idea de esta actividad es poner muchas bolitas. 
 Al principio vas a ver que, según cuántas bolitas haya que poner, eso puede ser incómodo. 

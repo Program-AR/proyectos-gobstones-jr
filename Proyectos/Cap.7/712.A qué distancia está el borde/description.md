@@ -1,4 +1,4 @@
-#Proyecto 'A qué distancia está el borde'
+# Proyecto 'A qué distancia está el borde'
 
 El propósito del programa en esta actividad es sencillo: hay que informar en la celda actual cuál es la distancia hasta cada uno de los 4 bordes: bolitas azules para el Norte, negras para el Este, verdes para el Sur y rojas para el Oeste. El desafío es hacerlo sin que el cabezal salga de la celda inicial. Te mostramos algunos tableros finales.
 

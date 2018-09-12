@@ -1,4 +1,4 @@
-#Proyecto 'Muchas bolitas rojas'
+# Proyecto 'Muchas bolitas rojas'
 
 Tratá de hacer un procedimiento que sirva para poner 1500 bolitas rojas. 
 ¿Habrá alguna herramienta en el entorno que nos haga el trabajo más fácil? 

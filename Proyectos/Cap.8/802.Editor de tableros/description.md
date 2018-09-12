@@ -1,4 +1,4 @@
-#Proyecto 'Editor de tableros'
+# Proyecto 'Editor de tableros'
 
 Completá el programa para que se puedan editar tableros de Gobstones. El programa debe permitir:
 * mover el cabezal usando las flechas direccionales (ya provisto),

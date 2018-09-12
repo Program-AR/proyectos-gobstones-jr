@@ -1,4 +1,4 @@
-#Proyecto 'Super Lucho 1'
+# Proyecto 'Super Lucho 1'
 
 Vas a tener que ayudar a Lucho otra vez, como siempre, a prender todas las luces. Fijate que hay luces apagadas en todas las posiciones de la fila donde está Lucho. El problema es que no sabemos cuántas luces hay; lo que sí sabemos que la fila termina en una meta, como la de las carreras de autos. Algunos de los tableros iniciales son:
 

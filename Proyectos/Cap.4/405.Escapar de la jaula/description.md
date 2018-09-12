@@ -1,4 +1,4 @@
-#Proyecto 'Escapar de la jaula'
+# Proyecto 'Escapar de la jaula'
 
 Un ratón está atrapado en una jaula y necesita ayuda para encontrar la salida. Tenés que construir un procedimiento `AyudarAlRatonASalir` que ayude al ratón a lograrlo. Hay un procedimiento primitivo para mover al ratón, pero la dirección que tenés que darle como argumento depende de cada jaula: fijate que en el piso están marcadas flechas que le indican al ratón la dirección que debe tomar. Vas a tener que explorar el entorno para descubrir alguna forma de usar en el programa la dirección a la que apunta la flecha. Cuando la encuentres, probá usar eso como argumento del procedimiento que mueve al ratón. Te mostramos algunos tableros iniciales, y sus correspondientes tableros finales.
  

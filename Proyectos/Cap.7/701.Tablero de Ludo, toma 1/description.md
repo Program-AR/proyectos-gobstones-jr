@@ -1,4 +1,4 @@
-#Proyecto 'Tablero de Ludo, toma 1'
+# Proyecto 'Tablero de Ludo, toma 1'
 
 Completá el programa para que dibuje cuatro cuadrados, uno en cada esquina, y cada uno de diferente color. El tablero final debería ser (con y sin vestimenta):
 

@@ -1,4 +1,4 @@
-#Proyecto 'Apagar la luz, o prenderla'
+# Proyecto 'Apagar la luz, o prenderla'
 
 En este proyecto tenés que construir y probar un procedimiento `SimularInterruptorDeLuz` que funcione como un interruptor de luz; o sea, prender la luz si está apagada y apagarla si está prendida. Para representar una luz apagada vamos a usar una bolita negra, y para representar una luz prendida vamos a usar una bolita azul. 
 Entonces, los tableros iniciales y sus correspondientes tableros finales pueden ser los siguientes:

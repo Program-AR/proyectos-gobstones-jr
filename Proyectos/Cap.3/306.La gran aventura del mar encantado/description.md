@@ -1,4 +1,4 @@
-# Proyecto 3.2.3. La gran aventura del mar encantado
+# Proyecto 'La gran aventura del mar encantado'
 
 *“La mañana empezó mal para la Princesa: el Caballero Negro había secuestrado al Príncipe 
 y ella aún no había arreglado las cosas con el Mago. 

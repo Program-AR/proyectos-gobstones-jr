@@ -1,4 +1,4 @@
-#Proyecto 'Siga la flecha'
+# Proyecto 'Siga la flecha'
 
 Completá los procedimientos y el programa para dibujar una flecha como la de la figura: 
 consiste en una línea de 7 bolitas verdes hacia el Este que culmina en una punta, 

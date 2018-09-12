@@ -1,4 +1,4 @@
-#Proyecto '¡Al rincón!'
+# Proyecto '¡Al rincón!'
 
 Construí un programa que ponga 4 bolitas verdes una en cada esquina del tablero; 
 es como si pusieses algo en cada rincón de una habitación. 

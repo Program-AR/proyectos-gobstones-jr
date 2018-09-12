@@ -1,4 +1,4 @@
-#Proyecto 'La víbora, a punto de atacar'
+# Proyecto 'La víbora, a punto de atacar'
 
 Tenés que hacer algo muy parecido a lo que hiciste en el proyecto anterior: dibujar una víbora de bolitas. 
 La diferencia es que en lugar de armar una víbora de bolitas horizontal, tenés que armar una vertical: 

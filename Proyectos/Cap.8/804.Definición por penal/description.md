@@ -1,4 +1,4 @@
-#Proyecto 'Definición por penal'
+# Proyecto 'Definición por penal'
 
 Ahora tenés que programar el juego de los penales, en donde un jugador elige la dirección hacia donde va a patear el penal y otro jugador elige la dirección hacia donde va a tirarse el arquero. Los jugadores disponen de 3 opciones utilizando las siguientes teclas:
 

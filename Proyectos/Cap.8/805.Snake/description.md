@@ -1,4 +1,4 @@
-#Proyecto 'Snake'
+# Proyecto 'Snake'
 
 En esta actividad vas a programar una versión simplificada del juego Snake, que en castellano sería “La víbora”. El juego es un programa interactivo donde el jugador elige en qué dirección mover la víbora con las teclas direccionales. Cuando la víbora se mueve, todo su cuerpo la sigue excepto si encuentra una manzana en su camino, en cuyo caso se la come y se estira un segmento. Si la víbora intenta moverse fuera del tablero o sobre su propio cuerpo, el programa debe terminar con un BOOM. Si pasado cierto tiempo, el jugador no ha presionado una tecla, la víbora debe seguir moviéndose en la dirección de su último movimiento. 
 

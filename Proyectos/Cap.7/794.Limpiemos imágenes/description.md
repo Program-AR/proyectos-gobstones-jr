@@ -1,4 +1,4 @@
-#Proyecto 'Limpiemos imágenes'
+# Proyecto 'Limpiemos imágenes'
 
 ¿Te acordás la codificación de imágenes RGB que aprendimos en el capítulo 5? Usábamos bolitas rojas, azules y verdes para codificar una imagen. Resulta que una de estas imágenes “se manchó con ceniza”, lo cual quiere decir que algunas celdas tienen bolitas negras que hacen que la imagen no se vea bien. Completá el programa para que cumpla el propósito de eliminar las bolitas negras de todas las celdas, para que la imagen vuelva a ser una imagen RGB correctamente codificada.
 

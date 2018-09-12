@@ -1,4 +1,4 @@
-# Proyecto 3.2.2.1. Preparando el fútbol de robots
+# Proyecto 'Beto, el robot goleador'
 
 En esta actividad vas a completar un programa para que el robot Beto juegue al fútbol, 
 llevando una pelota hacia el arco y haciendo un gol. 

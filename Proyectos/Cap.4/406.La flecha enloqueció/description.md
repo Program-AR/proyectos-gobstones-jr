@@ -1,4 +1,4 @@
-#Proyecto 'La flecha enloqueció'
+# Proyecto 'La flecha enloqueció'
 
 Otra vez el ratón está atrapado en una jaula y necesita ayuda para encontrar la salida. 
 Y otra vez tenés que construir un procedimiento `AyudarAlRatonASalir` que ayude al ratón a lograrlo. 

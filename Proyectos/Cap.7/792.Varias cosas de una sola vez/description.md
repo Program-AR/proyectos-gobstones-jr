@@ -1,4 +1,4 @@
-#Proyecto 'Varias cosas de una sola vez'
+# Proyecto 'Varias cosas de una sola vez'
 
 En esta actividad tenés que definir tres procedimientos parametrizados:
 * `PonerMuchasBolitas(cantidadAPoner,colorAPoner)`,

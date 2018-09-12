@@ -1,4 +1,4 @@
-#Proyecto 'El cabezal juega a ser mimo'
+# Proyecto 'El cabezal juega a ser mimo'
 
 En esta actividad tenés que construir un programa que ponga bolitas rojas. El tema es que la cantidad de bolitas rojas que hay que colocar no la conocés de antemano: el programa tiene que poner bolitas rojas para imitar la cantidad de bolitas azules. 
 A su vez, el programa tiene que funcionar en varios tableros diferentes. Te mostramos algunos tableros iniciales y sus correspondientes tableros finales.

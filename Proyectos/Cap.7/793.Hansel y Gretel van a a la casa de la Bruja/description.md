@@ -1,4 +1,4 @@
-#Proyecto 'Hansel y Gretel van a a la casa de la Bruja'
+# Proyecto 'Hansel y Gretel van a a la casa de la Bruja'
 
 Hansel y Gretel van en la carreta mágica hacia la casa de la bruja y deben dejar miguitas de pan en el camino para poder volver, porque no saben qué forma ni qué longitud tiene el camino. Cada grupo de miguitas se representa con una bolita de color “`miguitas()`”, una función que devuelve el color correspondiente. El lugar donde Hansel y Gretel se suben a la carreta se representa con 2 bolitas negras, cada sección del camino se representa con 1 bolita negra y la casa de la bruja se representa con 3 bolitas negras. En el tablero puede haber también bolitas negras que no pertenecen al camino, y que no serán tenidas en cuenta en la solución.
 En el proyecto se provee también un procedimiento primitivo `AvanzarCarreta` que se encarga de avanzar la carreta; completá el programa para que avance la carreta hasta la casa de la bruja sin olvidar ir dejando miguitas en el camino. Un posible tablero inicial y su correspondiente tablero final, con y sin vestimenta, se observan en las imágenes:

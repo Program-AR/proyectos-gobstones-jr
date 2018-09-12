@@ -1,4 +1,4 @@
-#Proyecto 'El mecánico de naves espaciales'
+# Proyecto 'El mecánico de naves espaciales'
 
 Utilizando los procedimientos primitivos provistos, escribí un programa que permita que 
 el marciano repare su nave y pueda volver a su planeta. 

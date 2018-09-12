@@ -1,4 +1,4 @@
-#Proyecto 'Números binarios con procedimientos'
+# Proyecto 'Números binarios con procedimientos'
 
 Tu tarea es construir un programa que ponga las siguientes cantidades de bolitas rojas en celdas consecutivas, como se vé en la imagen. Pero _para cada número_, solamente podés usar como _máximo una invocación_ a cada uno de los procedimientos primitivos y nada más. Tenés que poner:
  * 3 bolitas rojas

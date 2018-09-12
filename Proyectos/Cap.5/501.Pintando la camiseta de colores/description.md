@@ -1,4 +1,4 @@
-#Proyecto 'Pintando la camiseta de colores'
+# Proyecto 'Pintando la camiseta de colores'
 
 En este proyecto vas a encontrar ya empezado un programa que dibuja una camiseta con dos colores. Pero hay un problema: los procedimientos `PintarConColorPrincipal` y `PintarConColorSecundario` no están hechos. Tu trabajo, entonces, es implementar esos dos procedimientos para efectivamente representar la imagen de una camiseta de fútbol. Un detalle importante es que estos procedimientos deben poner entre 0 y 4 bolitas de los colores Rojo, Verde o Azul; si ponés otras cosas, la vestimenta no va a servir…
 Experimentá con diferentes combinaciones de bolitas rojas, azules y verdes, siempre no más de 4 de cada una, para obtener diferentes camisetas. Te mostramos cómo quedaría una posible combinación de colores con y sin vestimenta:

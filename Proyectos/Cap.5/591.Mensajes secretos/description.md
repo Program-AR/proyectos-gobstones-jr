@@ -1,4 +1,4 @@
-#Proyecto 'Mensajes secretos'
+# Proyecto 'Mensajes secretos'
 
 El emperador de Roma alrededor del año 50 a.C., Julio César, enviaba mensajes secretos a sus generales en cartas. Para evitar que sus enemigos descubrieran sus secretos si capturaban a uno de sus mensajeros, ideó un mecanismo para ocultar el significado del texto. Para ello, él y sus generales se ponían de acuerdo en un número, al que llamaremos el _número del César_, y luego escribían cada carácter del texto sumándole ese número al código del mismo. Por ejemplo, si el número del César fuese el 3, la ‘A’ se escribiría como ‘D’: 1 bolita negra que representa la ‘A’ más las 3 bolitas del número del César son 4 bolitas negras, es decir una ‘D’. Y la ‘B’ como ‘E’: 2 bolitas de la ‘B’ más las 3 indicadas por el número del César son 5 bolitas. Entonces podemos cifrar palabras enteras:
 

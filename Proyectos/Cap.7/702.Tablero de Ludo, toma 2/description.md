@@ -1,4 +1,4 @@
-#Proyecto 'Tablero de Ludo, toma 2'
+# Proyecto 'Tablero de Ludo, toma 2'
 
 Completá el programa para lograr el mismo tablero que en la actividad _"Tablero de ludo, toma 1"_, o sea, obtener el siguiente tablero final (mostrado con y sin vestimenta):
 

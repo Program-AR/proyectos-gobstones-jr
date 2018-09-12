@@ -1,4 +1,4 @@
-#Proyecto 'Super Lucho, recargado'
+# Proyecto 'Super Lucho, recargado'
 
 Construí un programa para que, una vez más, Lucho encienda todas las luces, pero esta vez también debe contar cuántas luces prendió. No sabemos qué tamaño tiene el tablero de luces, ni en qué lugares hay luces. Para informar cuántas luces prendió, Lucho deberá utilizar bolitas rojas en el origen. Te mostramos un tablero inicial y su correspondiente tablero final.
 

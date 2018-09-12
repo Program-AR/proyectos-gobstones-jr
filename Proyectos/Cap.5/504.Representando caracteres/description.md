@@ -1,4 +1,4 @@
-#Proyecto 'Representando caracteres'
+# Proyecto 'Representando caracteres'
 
 Construí un programa que escriba tu nombre. Para representar las 27 letras del alfabeto castellano y el espacio, vamos a utilizar bolitas negras, según la siguiente codificación:
 

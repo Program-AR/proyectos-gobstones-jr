@@ -1,4 +1,4 @@
-#Proyecto 'Dibujar figuras con subtareas'
+# Proyecto 'Dibujar figuras con subtareas'
 
 Completá el programa para lograr el mismo tablero que en las actividades _“Ludo loco, toma 1”_ o _“Ludo loco, toma 2”_, o sea, el siguiente tablero (mostrado con y sin vestimenta): 
 

@@ -1,4 +1,4 @@
-#Proyecto 'Dibujar figuras con subtareas, revisado'
+# Proyecto 'Dibujar figuras con subtareas, revisado'
 
 Otra vez más, tenés que dibujar cuatro cuadrados, tal como en la actividad _“Dibujar figuras con subtareas”_, o sea, obtener el siguiente tablero final (mostrado con y sin vestimenta):
 

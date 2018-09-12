@@ -1,4 +1,4 @@
-#Proyecto 'Dos cuadrados'
+# Proyecto 'Dos cuadrados'
 
 A) Construí un programa para dibujar dos cuadrados de color rojo, cada uno de tres bolitas 
    de lado, como muestra la figura. 

@@ -40,7 +40,7 @@ function updateDescription(infoExercise) {
     try {
         description = fs.readFileSync(infoExercise.new.path + "/description.md").toString();
         console.log(`  Updating description.md...`)
-        description = description.replace(/^#Proyecto.*/, `#Proyecto '${infoExercise.new.name}'`);
+        description = description.replace(/^#\s*Proyecto.*/, `# Proyecto '${infoExercise.new.name}'`);
         description = description.replace(/\n\[PDF\]:.*/g, `\n[PDF]: ${encodeURI(`https://raw.githubusercontent.com/Program-AR/proyectos-gobstones-jr/master/${infoExercise.new.path}/assets/resources/description.pdf`)} "Enunciado de '${infoExercise.new.name}' en PDF"`);
         fs.writeFileSync(infoExercise.new.path + "/description.md", description)
     }

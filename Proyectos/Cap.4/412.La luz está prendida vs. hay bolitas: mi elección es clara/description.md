@@ -1,4 +1,4 @@
-#Proyecto 'La luz está prendida vs. hay bolitas: mi elección es clara'
+# Proyecto 'La luz está prendida vs. hay bolitas: mi elección es clara'
 
 Compará los procedimientos que vienen hechos: `SimularInterruptorDeLuz` y `MantenerSeccionDelCantero`. Después de que encuentres en qué se diferencian, tenemos un desafío. Podés ver los dos procedimientos en la siguiente imagen:
 

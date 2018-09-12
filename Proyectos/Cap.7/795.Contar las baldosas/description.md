@@ -1,4 +1,4 @@
-#Proyecto 'Contar las baldosas'
+# Proyecto 'Contar las baldosas'
 
 Construí un programa que cuente las baldosas que hay en el patio. El patio está representado por el tablero, y cada celda es una baldosa; el resultado de la cuenta hay que ponerlo en la celda de la esquina suroeste usando bolitas negras. Te mostramos algunos tableros finales, sin vestimenta y con ella:
 

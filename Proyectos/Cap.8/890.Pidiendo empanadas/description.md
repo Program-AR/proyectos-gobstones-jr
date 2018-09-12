@@ -1,4 +1,4 @@
-#Proyecto 'Pidiendo empanadas'
+# Proyecto 'Pidiendo empanadas'
 
 Viernes a la noche, la familia decide pedir empanadas. Cada integrante de la familia quiere una determinada cantidad de empanadas de una variedad particular. Quien se encarga de hacer el pedido no puede recordar las preferencias de cada persona, por lo que decidimos hacer un programa en donde cada cual sume al pedido cuántas empanadas quiere de cada variedad. De esta forma facilitamos la organización y evitamos comer una empanada que no nos gusta.
 

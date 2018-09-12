@@ -1,4 +1,4 @@
-#Proyecto 'No me quiero caer'
+# Proyecto 'No me quiero caer'
 
 Construí un programa para dibujar una víbora de bolitas de longitud 10. La víbora debe empezar en la celda actual, y continuar hacia el Este. Si hay suficiente lugar, queda toda recta; pero si en algún momento no puede moverse más hacia el Este porque se acaba el tablero, dobla y sigue hacia el Norte. El programa debe funcionar en todos los tableros donde haya más de diez lugares hacia el Este y el Norte; o dicho de otro modo, no te tenés que preocupar de quedarte sin lugar hacia el Norte. Las siguientes figuras muestran algunos tableros iniciales y los tableros finales correspondientes:
 

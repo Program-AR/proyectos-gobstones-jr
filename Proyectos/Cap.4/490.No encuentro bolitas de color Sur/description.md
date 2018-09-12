@@ -1,4 +1,4 @@
-#Proyecto 'No encuentro bolitas de color Sur'
+# Proyecto 'No encuentro bolitas de color Sur'
 
 ¿Qué hará el cabezal si le damos como instrucción `Poner(Sur)`? Puesto que el comando `Poner` espera un dato como argumento y `Sur` es un dato, podemos intentar hacer esa combinación. ¿Tiene sentido? ¿Qué va a pasar? Construí un programa que haga exactamente eso y probalo. Reflexioná sobre lo que sucedió y tratá de explicarlo.
 

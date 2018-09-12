@@ -1,4 +1,4 @@
-#Proyecto 'Y también…'
+# Proyecto 'Y también…'
 
 En este proyecto también se representan flores, pero con una diferencia interesante respecto del anterior: en lugar de representarse con dos bolitas rojas, en éste las flores se representan con dos rojas y una verde. Tu trabajo es completar las definiciones de `PlantarFlor` y `hayFlor` para tener en cuenta la nueva representación. La condición que tenés que definir para saber si hay una flor está compuesta por dos partes: preguntar si hay bolitas rojas _y también_ preguntar si hay una bolita verde. Como siempre, la caja de herramientas puede tener alguna nueva herramienta que te ayude con este problema. 
 

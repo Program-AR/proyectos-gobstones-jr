@@ -1,4 +1,4 @@
-#Proyecto 'Editor de textos simple'
+# Proyecto 'Editor de textos simple'
 
 Vas a construir un programa interactivo que permita escribir hasta 10 líneas de texto con un máximo de 15 caracteres por línea. Para eso, usamos la siguiente representación:
 

@@ -1,4 +1,4 @@
-#Proyecto 'Por qué falla'
+# Proyecto 'Por qué falla'
 
 Mirá el programa de la imagen. Sin ejecutarlo, pensá: ¿Cómo va a comportarse la máquina al intentar realizarlo? Prestá atención a los tipos de datos de los argumentos que se utilizan en el programa.
 

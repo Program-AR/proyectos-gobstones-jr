@@ -1,4 +1,4 @@
-#Proyecto 'Ludo loco, toma 2'
+# Proyecto 'Ludo loco, toma 2'
 
 Completá el programa para lograr el mismo tablero que en la actividad _“Ludo loco, toma 1”_, o sea, el siguiente tablero (mostrado con y sin vestimenta): 
 

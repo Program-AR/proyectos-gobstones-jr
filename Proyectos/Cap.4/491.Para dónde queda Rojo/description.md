@@ -1,4 +1,4 @@
-#Proyecto 'Para dónde queda Rojo'
+# Proyecto 'Para dónde queda Rojo'
 
 Antes de este ejercicio deberías hace el 4.1.1.1. *“No encuentro bolitas de color Sur”*. Si ya hiciste ese, ahora tenés que tratar de pensar qué va a pasar si el programa intenta hacer `Mover(Rojo)`. ¡Atención! Tenés que anotar lo que creés que va a pasar antes de que lo ejecutes.
  

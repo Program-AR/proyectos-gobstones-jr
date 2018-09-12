@@ -1,4 +1,4 @@
-#Proyecto 'Contar las baldosas rajadas'
+# Proyecto 'Contar las baldosas rajadas'
 
 Construí un programa que cuente las baldosas rajadas que hay en el patio. Una baldosa está rajada si tiene al menos una bolita verde. La idea es que modifiques el programa de la parte anterior para que no cuente todas, sino solamente las rajadas. Te mostramos algunos tableros finales, sin vestimenta y con ella.
 

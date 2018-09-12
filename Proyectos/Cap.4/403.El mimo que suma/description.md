@@ -1,4 +1,4 @@
-#Proyecto 'El mimo que suma'
+# Proyecto 'El mimo que suma'
 
 Nuevamente hay que hacer que el cabezal juegue a ser un mimo, pero en lugar de imitar solamente las bolitas azules, ahora hay que imitar _al mismo tiempo_ las bolitas azules y las negras. El desafío es que en tu programa uses una única repetición. Explorá el entorno para encontrar la manera en la que el número de bolitas azules y el número de bolitas negras se puedan usar juntos en la repetición. Te mostramos algunos tableros iniciales y finales:
  

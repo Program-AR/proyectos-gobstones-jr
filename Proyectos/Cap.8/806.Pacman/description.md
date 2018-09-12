@@ -1,4 +1,4 @@
-#Proyecto 'Pacman'
+# Proyecto 'Pacman'
 
 En esta actividad vas a programar una versión simplificada del juego del Pacman. En este juego el personaje Pacman debe navegar por un laberinto hasta comer todas las pastillas que se encuentran desperdigadas. Los jugadores pueden controlar los movimientos del Pacman usando las flechas direccionales del teclado, pero como el Pacman no puede atravesar las paredes del laberinto, si el jugador hace un movimiento inválido, el Pacman debe quedarse en el lugar. Además de comer todas las pastillas en el laberinto, el Pacman debe evadir a un Fantasma que lo persigue. Por cada movimiento del Pacman el Fantasma también debe hacer un movimiento que lo acerque al Pacman, ya sea horizontal o verticalmente. Al igual que el Pacman, el Fantasma no puede atravesar las paredes, así que si intenta hacer un movimiento inválido debe quedarse en el lugar, aunque si tiene al menos una opción válida que lo acerque debe tomarla. Si el fantasma entra en el mismo casillero que el Pacman, el jugador pierde la partida y el programa debe hacer BOOM.
 
