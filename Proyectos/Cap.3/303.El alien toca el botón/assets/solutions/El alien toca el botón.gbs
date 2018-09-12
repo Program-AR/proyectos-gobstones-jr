@@ -1,12 +1,3 @@
-procedure MoverAlienAlEste() {
-  ...
-}
-
-procedure TocarBotón() {
-  ...
-}
-
-
 program {
   MoverAlienAlEste()
   MoverAlienAlEste()

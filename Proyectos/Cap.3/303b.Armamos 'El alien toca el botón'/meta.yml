@@ -1,6 +1,6 @@
 name: Armamos 'El alien toca el botón'
 attire:
-  active: El alien toca botón
+  active: El alien toca el botón
   user_permissions:
     can_toggle_visibility: true
   visible: false
@@ -92,17 +92,19 @@ blocks:
     - IrAlBorde
     - Procedimientos primitivos
   visible:
-    - COMANDOS
+    - -- Biblioteca --
+    - Procedimientos primitivos
+    - -- Mis operaciones --
+    - Mis procedimientos
+    - -- Comandos --
     - Poner
     - Mover
     - Sacar
     - IrAlBorde
-    - Procedimientos primitivos
-    - Mis procedimientos
-    - EXPRESIONES
+    - -- Expresiones --
     - Color
     - Direccion
-    - DEFINICIONES
+    - -- Definiciones --
     - procedures_defnoreturnnoparams
 board:
   active: 1

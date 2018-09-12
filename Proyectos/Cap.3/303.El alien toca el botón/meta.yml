@@ -1,7 +1,7 @@
 attire:
-  active: El alien toca botón
+  active: El alien toca el botón
   user_permissions:
-    can_toggle_visibility: true
+    can_toggle_visibility: false
   visible: true
 blocks:
   defaultToolbox: |
@@ -95,14 +95,19 @@ blocks:
     - Color
     - Direccion
   visible:
+    - -- Biblioteca --
+    - Procedimientos primitivos
+    - -- Mis operaciones --
+    - Mis procedimientos
+    - -- Comandos --
     - Poner
     - Mover
     - Sacar
     - IrAlBorde
-    - Procedimientos primitivos
-    - Mis procedimientos
+    - -- Expresiones --
     - Color
     - Direccion
+    - -- Definiciones --
     - procedures_defnoreturnnoparams
     - Definicion de procedimientos simples
 board:
@@ -111,6 +116,7 @@ board:
   user_permissions:
     can_change_source: false
     can_edit_board: false
+    can_view_attire_section: false
   visible_edition: true
 execution_speed:
   active: high

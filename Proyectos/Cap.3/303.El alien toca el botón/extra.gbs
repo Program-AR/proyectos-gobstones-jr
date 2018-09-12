@@ -5,7 +5,7 @@ procedure MoverAlienAlEste() {
   Poner(Verde)
 }
 
-procedure TocarBoton() { 
-  if (not hayBolitas(Rojo)) { BOOM("No estoy en el boton") }
+procedure TocarBotón() { 
+  if (not hayBolitas(Rojo)) { BOOM("No estoy en el botón") }
   Sacar(Rojo) 
 }

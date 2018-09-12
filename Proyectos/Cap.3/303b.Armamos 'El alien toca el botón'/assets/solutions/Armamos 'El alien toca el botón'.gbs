@@ -1,9 +1,11 @@
 procedure MoverAlienAlEste() {
-  ...
+  Sacar(Verde)
+  Mover(Este)
+  Poner(Verde)
 }
 
 procedure TocarBotón() {
-  ...
+  Sacar(Rojo)
 }
 
 
