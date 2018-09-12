@@ -1,1 +1,1 @@
-﻿<xml xmlns="http://www.w3.org/1999/xhtml"><block type="Program" id="u9VPU5Qp1=F(t-?K/HN;" deletable="false" movable="false" editable="false" x="30" y="30"></block></xml>
+<xml xmlns="http://www.w3.org/1999/xhtml"><variables></variables><block type="Program" id="u9VPU5Qp1=F(t-?K/HN;" deletable="false" movable="false" editable="false" x="30" y="30"><mutation timestamp="1536768106744"></mutation></block><block type="procedures_defnoreturnnoparams" id="v/4v0*Iekd-ifouX?zkq" x="275" y="30"><field name="NAME">Dibujar cuadrado rojo</field></block></xml>

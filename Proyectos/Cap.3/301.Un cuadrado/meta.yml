@@ -6,19 +6,19 @@ attire:
   visible: false
 blocks:
   defaultToolbox: |
-    <category name="Biblioteca" gbs_custom="SEPARATOR">
+    <category name="-- Biblioteca --" custom="SEPARATOR">
     </category>
       <category name="Procedimientos primitivos">
       </category>
       <category name="Funciones primitivas">
       </category>
-    <category name="Mis operaciones" gbs_custom="SEPARATOR">
+    <category name="-- Mis operaciones --" custom="SEPARATOR">
     </category>
-      <category name="Procedimientos" gbs_custom="PROCEDURE_CALLS">
+      <category name="Mis procedimientos" custom="PROCEDURE_CALLS">
       </category>
-      <category name="Funciones" gbs_custom="FUNCTION_CALLS">
+      <category name="Mis funciones" custom="FUNCTION_CALLS">
       </category>
-    <category name="Comandos" gbs_custom="SEPARATOR">
+    <category name="-- Comandos --" custom="SEPARATOR">
     </category>
       <category name="Básicos">
         <block type="Poner"></block>
@@ -39,7 +39,7 @@ blocks:
       <category name="Asignación">
         <block type="Asignacion"></block>
       </category>
-    <category name="Expresiones" gbs_custom="SEPARATOR">
+    <category name="-- Expresiones --" gbs_custom="SEPARATOR">
     </category>
       <category name="Valores">
         <block type="ColorSelector"></block>
@@ -61,7 +61,7 @@ blocks:
         <block type="previo"></block>
         <block type="opuesto"></block>
       </category>
-    <category name="Definiciones" gbs_custom="SEPARATOR">
+    <category name="-- Definiciones --" gbs_custom="SEPARATOR">
     </category>
       <category name="Procedimientos">
         <block type="procedures_defnoreturnnoparams"></block>
@@ -77,7 +77,7 @@ blocks:
         <block type="InteractiveNumberBinding"></block>
         <block type="InteractiveKeyBinding"></block>
       </category>
-    <category name="Auxiliares del docente" gbs_custom="SEPARATOR">
+    <category name="-- Auxiliares del docente --" gbs_custom="SEPARATOR">
     </category>
       <category name="Programas">
         <block type="Program"></block>
@@ -92,12 +92,12 @@ blocks:
     - Sacar
     - IrAlBorde
   visible:
-    - COMANDOS
+    - -- Comandos --
     - Poner
     - Mover
     - Sacar
     - IrAlBorde
-    - EXPRESIONES
+    - -- Expresiones --
     - Color
     - Direccion
 board:
