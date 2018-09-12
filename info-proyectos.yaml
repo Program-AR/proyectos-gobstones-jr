@@ -1,0 +1,492 @@
+- id: "Cap.2"
+  name: "Programas y comandos básicos"
+  exercises:
+    - old:
+        id: "2.1.1"
+        name: "Glotón, el robot"
+      new:
+        id: "201"
+        name: "Glotón, el robot"
+    - old:
+        id: "2.1.2"
+        name: "Glotón, el granjero y las bolitas"
+      new:
+        id: "202"
+        name: "Glotón, el granjero y las bolitas"
+    - old:
+        id: "2.2.1"
+        name: "Bolitas de colores"
+      new:
+        id: "203"
+        name: "Bolitas de colores"
+    - old:
+        id: "2.2.2.1"
+        name: "Víbora de bolitas, horizontal"
+      new:
+        id: "204"
+        name: "La víbora esperando una presa"
+    - old:
+        id: "2.2.2.2"
+        name: "Víbora de bolitas, vertical"
+      new:
+        id: "205"
+        name: "La víbora, a punto de atacar"
+    - old:
+        id: "2.2.2.3"
+        name: "Una víbora más inquieta"
+      new:
+        id: "206"
+        name: "La víbora al ataque"
+    - old:
+        id: "2.2.3.1"
+        name: "Vaciar la celda"
+      new:
+        id: "207"
+        name: "La celda vacía"
+    - old:
+        id: "2.2.3.2"
+        name: "Limpiar la cruz roja"
+      new:
+        id: "208"
+        name: "La cruz roja"
+    - old:
+        id: "2.3.1.1"
+        name: "Marcando las puntas"
+      new:
+        id: "209"
+        name: "¡Al rincón!"
+    - old:
+        id: "2.3.1.2"
+        name: "Lugar para los corners"
+      new:
+        id: "209b"
+        name: "Lugar para los corners"
+    - old:
+        id: "2.4.1"
+        name: "Snake básico"
+      new:
+        id: "210"
+        name: "La víbora que come manzanas deliciosas"
+- id: "Cap.3"
+  name: "Procedimientos y repeticiones simples"
+  exercises:
+    - old:
+        id: "3.1.1.1"
+        name: "Programo el cuadrado"
+      new:
+        id: "301"
+        name: "Un cuadrado"
+    - old:
+        id: "3.1.1.2"
+        name: "Programo el cuadrado, programo el cuadrado"
+      new:
+        id: "302"
+        name: "Dos cuadrados"
+    - old:
+        id: "3.1.3"
+        name: "Dos cuadrados, pero más fáciles"
+      new:
+        id: "302"
+        name: "Dos cuadrados, pero más fáciles"
+    - old:
+        id: "3.2.1.2"
+        name: "Armamos 'El alien toca botón'"
+      new:
+        id: "303b"
+        name: "Armamos 'El alien toca el botón'"
+    - old:
+        id: "3.2.1"
+        name: "El alien toca botón"
+      new:
+        id: "303"
+        name: "El alien toca el botón"
+    - old:
+        id: "3.2.2.1"
+        name: "Preparando el fútbol de robots"
+      new:
+        id: "304"
+        name: "Beto, el robot goleador"
+    - old:
+        id: "3.2.2.2"
+        name: "Preparando el fútbol de robots, sin procedimientos"
+      new:
+        id: "305"
+        name: "Fútbol de robots, sin procedimientos"
+    - old:
+        id: "3.2.3"
+        name: "La gran aventura del mar encantado"
+      new:
+        id: "306"
+        name: "La gran aventura del mar encantado"
+    - old:
+        id: "3.2.4"
+        name: "Lucho enciende las luces"
+      new:
+        id: "307"
+        name: "Lucho enciende las luces"
+    - old:
+        id: "3.3.1.1"
+        name: "Poner muchas bolitas se vuelve incómodo"
+      new:
+        id: "308"
+        name: "Muchas bolitas rojas"
+    - old:
+        id: "3.3.1.2"
+        name: "La computadora repite por nosotros"
+      new:
+        id: "308"
+        name: "Poner muchas bolitas se vuelve incómodo"
+    - old:
+        id: "3.3.2"
+        name: "El final del pasillo"
+      new:
+        id: "309"
+        name: "El final del pasillo"
+    - old:
+        id: "3.3.3"
+        name: "Siga la flecha"
+      new:
+        id: "310"
+        name: "Siga la flecha"
+    - old:
+        id: "3.3.4"
+        name: "Candela, me quemo"
+      new:
+        id: "311"
+        name: "Candela, me quemo"
+    - old:
+        id: "3.3.5"
+        name: "Entrenamiento para fútbol de robots"
+      new:
+        id: "312"
+        name: "El entrenamiento del robot goleador"
+    - old:
+        id: "3.4.1"
+        name: "Reparando la nave"
+      new:
+        id: "313"
+        name: "El mecánico de naves espaciales"
+- id: "Cap.4"
+  name: "Datos, alternativas condicionales y funciones"
+  exercises:
+    - old:
+        id: "4.1.1.1"
+        name: "No encuentro bolitas de color Sur"
+      new:
+        id: "490"
+        name: "No encuentro bolitas de color Sur"
+    - old:
+        id: "4.1.1.2"
+        name: "Para dónde queda Rojo"
+      new:
+        id: "491"
+        name: "Para dónde queda Rojo"
+    - old:
+        id: "4.1.1.3"
+        name: "Y por qué hace BOOM"
+      new:
+        id: "401"
+        name: "Por qué falla"
+    - old:
+        id: "4.1.2.1"
+        name: "El cabezal juega a ser mimo"
+      new:
+        id: "402"
+        name: "El cabezal juega a ser mimo"
+    - old:
+        id: "4.1.2.2"
+        name: "El mimo que suma"
+      new:
+        id: "403"
+        name: "El mimo que suma"
+    - old:
+        id: "4.1.2.3"
+        name: "Super mimo multiplica"
+      new:
+        id: "404"
+        name: "Super mimo multiplica"
+    - old:
+        id: "4.1.3.1"
+        name: "Escapar de la jaula"
+      new:
+        id: "405"
+        name: "Escapar de la jaula"
+    - old:
+        id: "4.1.3.2"
+        name: "La flecha enloqueció"
+      new:
+        id: "406"
+        name: "La flecha enloqueció"
+    - old:
+        id: "4.1.4"
+        name: "Laberinto"
+      new:
+        id: "407"
+        name: "Laberinto"
+    - old:
+        id: "4.2.1"
+        name: "Apagar la luz, o prenderla"
+      new:
+        id: "408"
+        name: "Apagar la luz, o prenderla"
+    - old:
+        id: "4.2.2"
+        name: "No me quiero caer"
+      new:
+        id: "409"
+        name: "No me quiero caer"
+    - old:
+        id: "4.2.3"
+        name: "Siempre el mejor"
+      new:
+        id: "410"
+        name: "Que gane el mejor"
+    - old:
+        id: "4.2.4"
+        name: "No, no y no"
+      new:
+        id: "411"
+        name: "Ponemos pelotas, ¿o no?"
+    - old:
+        id: "4.3.1.1"
+        name: "Mi elección es clara"
+      new:
+        id: "412"
+        name: "La luz está prendida vs. hay bolitas: mi elección es clara"
+    - old:
+        id: "4.3.1.2"
+        name: "Y también…"
+      new:
+        id: "413"
+        name: "Y también…"
+    - old:
+        id: "4.3.2"
+        name: "Laberinto con queso"
+      new:
+        id: "414"
+        name: "Laberinto con queso"
+    - old:
+        id: "4.4.1"
+        name: "Lucho recargado"
+      new:
+        id: "415"
+        name: "Lucho recargado"
+- id: "Cap.5"
+  name: "Representación de la información"
+  exercises:
+    - old:
+        id: "5.2.3"
+        name: "Números binarios con procedimientos"
+      new:
+        id: "590"
+        name: "Números binarios con procedimientos"
+    - old:
+        id: "5.3.1"
+        name: "Pintando la camiseta de colores"
+      new:
+        id: "501"
+        name: "Pintando la camiseta de colores"
+    - old:
+        id: "5.3.2"
+        name: "Dibujando en escalas de grises"
+      new:
+        id: "502"
+        name: "Dibujando en escalas de grises"
+    - old:
+        id: "5.3.3"
+        name: "Compresión de imágenes"
+      new:
+        id: "503"
+        name: "Compresión de imágenes"
+    - old:
+        id: "5.4.1"
+        name: "Representando caracteres"
+      new:
+        id: "504"
+        name: "Representando caracteres"
+    - old:
+        id: "5.4.2"
+        name: "Mensajes secretos"
+      new:
+        id: "591"
+        name: "Mensajes secretos"
+    - old:
+        id: "5.5.1"
+        name: "Texto en colores"
+      new:
+        id: "592"
+        name: "Texto en colores"
+- id: "Cap.7"
+  name: "Parámetros, repeticiones condicionales y variables"
+  exercises:
+    - old:
+        id: "8.1.2.1"
+        name: "Tablero de Ludo, toma 1"
+      new:
+        id: "701"
+        name: "Tablero de Ludo, toma 1"
+    - old:
+        id: "8.1.2.2"
+        name: "Tablero de Ludo, toma 2"
+      new:
+        id: "702"
+        name: "Tablero de Ludo, toma 2"
+    - old:
+        id: "8.1.4.1"
+        name: "Ludo loco, toma 1"
+      new:
+        id: "790"
+        name: "Ludo loco, toma 1"
+    - old:
+        id: "8.1.4.2"
+        name: "Ludo loco, toma 2"
+      new:
+        id: "703"
+        name: "Ludo loco, toma 2"
+    - old:
+        id: "8.1.5.1"
+        name: "Dibujar figuras con subtareas"
+      new:
+        id: "791"
+        name: "Dibujar figuras con subtareas"
+    - old:
+        id: "8.1.5.2"
+        name: "Dibujar figuras con subtareas, revisado"
+      new:
+        id: "704"
+        name: "Dibujar figuras con subtareas, revisado"
+    - old:
+        id: "8.1.6"
+        name: "Varias cosas de una sola vez"
+      new:
+        id: "792"
+        name: "Varias cosas de una sola vez"
+    - old:
+        id: "8.2.1.1"
+        name: "Super Lucho 1"
+      new:
+        id: "705"
+        name: "Super Lucho 1"
+    - old:
+        id: "8.2.1.2"
+        name: "Super Lucho 2"
+      new:
+        id: "706"
+        name: "Super Lucho 2"
+    - old:
+        id: "8.2.2"
+        name: "Laberinto con queso, recargado"
+      new:
+        id: "707"
+        name: "Laberinto con queso, recargado"
+    - old:
+        id: "8.2.3"
+        name: "Más entrenamiento para Beto"
+      new:
+        id: "708"
+        name: "Más entrenamiento para Beto"
+    - old:
+        id: "8.2.4"
+        name: "Hansel y Gretel van a a la casa de la Bruja"
+      new:
+        id: "793"
+        name: "Hansel y Gretel van a a la casa de la Bruja"
+    - old:
+        id: "8.2.5"
+        name: "Limpiemos imágenes"
+      new:
+        id: "794"
+        name: "Limpiemos imágenes"
+    - old:
+        id: "8.2.6"
+        name: "Dónde puse las llaves"
+      new:
+        id: "709"
+        name: "¿Dónde puse las llaves?"
+    - old:
+        id: "8.3.1"
+        name: "Otra vez el cabezal juega a ser mimo"
+      new:
+        id: "710"
+        name: "Otra vez el cabezal juega a ser mimo"
+    - old:
+        id: "8.3.2"
+        name: "Super Lucho también cuenta luces"
+      new:
+        id: "711"
+        name: "Super Lucho también cuenta luces"
+    - old:
+        id: "8.3.3"
+        name: "A qué distancia está el borde"
+      new:
+        id: "712"
+        name: "A qué distancia está el borde"
+    - old:
+        id: "8.3.4.1"
+        name: "Contar las baldosas"
+      new:
+        id: "795"
+        name: "Contar las baldosas"
+    - old:
+        id: "8.3.4.2"
+        name: "Contar las baldosas rajadas"
+      new:
+        id: "713"
+        name: "Contar las baldosas rajadas"
+    - old:
+        id: "8.3.5"
+        name: "El radar"
+      new:
+        id: "796"
+        name: "El radar"
+    - old:
+        id: "8.4.1"
+        name: "Super Lucho, recargado"
+      new:
+        id: "714"
+        name: "Super Lucho, recargado"
+- id: "Cap.8"
+  name: "Interactividad y proyectos finales"
+  exercises:
+    - old:
+        id: "9.1.1.1"
+        name: "Al cabezal lo muevo yo"
+      new:
+        id: "801"
+        name: "Al cabezal lo muevo yo"
+    - old:
+        id: "9.1.1.2"
+        name: "Editor de tableros"
+      new:
+        id: "802"
+        name: "Editor de tableros"
+    - old:
+        id: "9.1.2"
+        name: "Pidiendo empanadas"
+      new:
+        id: "890"
+        name: "Pidiendo empanadas"
+    - old:
+        id: "9.1.3"
+        name: "Editor de textos simple"
+      new:
+        id: "803"
+        name: "Editor de textos simple"
+    - old:
+        id: "9.2.1"
+        name: "Definición por penal"
+      new:
+        id: "804"
+        name: "Definición por penal"
+    - old:
+        id: "9.2.2"
+        name: "Snake"
+      new:
+        id: "805"
+        name: "Snake"
+    - old:
+        id: "9.2.3"
+        name: "Pacman"
+      new:
+        id: "806"
+        name: "Pacman"
