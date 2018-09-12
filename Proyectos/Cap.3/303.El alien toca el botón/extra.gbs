@@ -1,4 +1,4 @@
-procedure MoverAlienAlEste() {
+procedure MoverAlAlienAlEste() {
   if (not hayBolitas(Verde)) { BOOM("No estoy sobre el alien") }
   Sacar(Verde) 
   Mover(Este)

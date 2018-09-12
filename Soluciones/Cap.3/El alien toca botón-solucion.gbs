@@ -1,6 +1,6 @@
 program {
-    MoverAlienAlEste()
-    MoverAlienAlEste()
-    MoverAlienAlEste()
+    MoverAlAlienAlEste()
+    MoverAlAlienAlEste()
+    MoverAlAlienAlEste()
     TocarBoton()
 }
