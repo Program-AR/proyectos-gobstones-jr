@@ -1,0 +1,34 @@
+procedure Poner5Rojas() {
+  repeat(5) {
+    Poner(Rojo)
+  }
+}
+
+procedure Poner13Rojas() {
+  repeat(13) {
+    Poner(Rojo)
+  }
+}
+
+procedure Poner10Rojas() {
+  repeat(10) {
+    Poner(Rojo)
+  }
+}
+
+procedure Poner13218Rojas() {
+  repeat(13218) {
+    Poner(Rojo)
+  }
+}
+
+
+program {
+  Poner5Rojas()
+  Mover(Este)
+  Poner10Rojas()
+  Mover(Este)
+  Poner13Rojas()
+  Mover(Este)
+  Poner13218Rojas()
+}

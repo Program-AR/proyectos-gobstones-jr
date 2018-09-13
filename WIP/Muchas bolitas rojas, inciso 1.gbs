@@ -1,0 +1,45 @@
+procedure Poner5Rojas() {
+  Poner(Rojo)
+  Poner(Rojo)
+  Poner(Rojo)
+  Poner(Rojo)
+  Poner(Rojo)
+}
+
+procedure Poner13Rojas() {
+  Poner(Rojo)
+  Poner(Rojo)
+  Poner(Rojo)
+  Poner(Rojo)
+  Poner(Rojo)
+  Poner(Rojo)
+  Poner(Rojo)
+  Poner(Rojo)
+  Poner(Rojo)
+  Poner(Rojo)
+  Poner(Rojo)
+  Poner(Rojo)
+  Poner(Rojo)
+}
+
+procedure Poner10Rojas() {
+  Poner(Rojo)
+  Poner(Rojo)
+  Poner(Rojo)
+  Poner(Rojo)
+  Poner(Rojo)
+  Poner(Rojo)
+  Poner(Rojo)
+  Poner(Rojo)
+  Poner(Rojo)
+  Poner(Rojo)
+}
+
+
+program {
+  Poner5Rojas()
+  Mover(Este)
+  Poner10Rojas()
+  Mover(Este)
+  Poner13Rojas()
+}
