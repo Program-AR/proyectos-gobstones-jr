@@ -1,49 +1,50 @@
-﻿procedure MoverMarcianoAl_(dir) {
+﻿/*@ATTRIBUTE@block_name@Mover a Edgardo al _@*/
+procedure MoverAEdgardoAl_(dir) {
   n := nroBolitas(Verde)
-  if (n==0) { BOOM("El marciano no está en esta celda") }
+  if (n==0) { BOOM("Edgardo no está en esta celda") }
   repeat (n) { Sacar(Verde) }
   Mover(dir)
   repeat (n) { Poner(Verde) }
 }
 
 procedure AgarrarHierro() {
-  if (not hayBolitas(Verde))  { BOOM("El marciano no está en esta celda") }
+  if (not hayBolitas(Verde))  { BOOM("Edgardo no está en esta celda") }
   if (not hayBolitas(Azul))   { BOOM("No hay hierro en este lugar") }
-  if (nroBolitas(Verde) /= 1) { BOOM("Ya estoy cargando algo") }
+  if (nroBolitas(Verde) /= 1) { BOOM("Edgardo ya está cargando algo") }
   Sacar(Azul)
   Poner(Verde)
   Poner(Verde)
 }
 
-procedure AgarrarCarbon() {
-  if (not hayBolitas(Verde))  { BOOM("El marciano no está en esta celda") }
+procedure AgarrarCarbón() {
+  if (not hayBolitas(Verde))  { BOOM("Edgardo no no está en esta celda") }
   if (not hayBolitas(Negro))  { BOOM("No hay carbón en este lugar") }
-  if (nroBolitas(Verde) /= 1) { BOOM("Ya estoy cargando algo") }
+  if (nroBolitas(Verde) /= 1) { BOOM("Edgardo ya está cargando algo") }
   Sacar(Negro)
   Poner(Verde)
 }
 
 procedure PonerHierroEnLaNave() {
-  if (not hayBolitas(Verde))  { BOOM("El marciano no está en esta celda") }
-  if (not hayBolitas(Rojo))   { BOOM("No estoy en la nave") }
-  if (nroBolitas(Verde) /= 3) { BOOM("No tengo hierro") }
+  if (not hayBolitas(Verde))  { BOOM("Edgardo no está en esta celda") }
+  if (not hayBolitas(Rojo))   { BOOM("Edgardo no está en la nave") }
+  if (nroBolitas(Verde) /= 3) { BOOM("Edgardo no tiene hierro") }
   Sacar(Verde)
   Sacar(Verde)
   Poner(Rojo)
 }
 
-procedure PonerCarbonEnLaNave() {
-  if (not hayBolitas(Verde))  { BOOM("El marciano no está en esta celda") }
-  if (not hayBolitas(Rojo))   { BOOM("No estoy en la nave") }
-  if (nroBolitas(Verde) /= 2) { BOOM("No tengo carbón") }
+procedure PonerCarbónEnLaNave() {
+  if (not hayBolitas(Verde))  { BOOM("Edgardo no está en esta celda") }
+  if (not hayBolitas(Rojo))   { BOOM("Edgardo no está en la nave") }
+  if (nroBolitas(Verde) /= 2) { BOOM("Edgardo no tiene carbón") }
   Sacar(Verde)
   Poner(Rojo)
 }
 
 procedure VolverACasa() {
-  if (nroBolitas(Rojo) == 0)  { BOOM("No estoy en la nave") }
+  if (nroBolitas(Rojo) == 0)  { BOOM("Edgardo no está en la nave") }
   if (nroBolitas(Rojo) /= 7)  { BOOM("La nave no está lista") }
-  if (nroBolitas(Verde) /= 1) { BOOM("No estoy listo para manejar la nave") }
+  if (nroBolitas(Verde) /= 1) { BOOM("Edgardo no está listo para manejar la nave") }
   Sacar(Verde)
   repeat (7) { Sacar(Rojo) }
 }
