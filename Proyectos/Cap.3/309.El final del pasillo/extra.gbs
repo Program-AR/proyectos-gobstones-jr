@@ -1,5 +1,6 @@
-﻿procedure MoverABetoAl_(dir) {
-    if (not hayBolitas(Azul)) { BOOM("Beto no está en esta celda") }
+﻿/*@ATTRIBUTE@block_name@Mover al Beto al _@*/
+procedure MoverAlBetoAl_(dir) {
+    if (not hayBolitas(Azul)) { BOOM("El Beto no está en esta celda") }
     Sacar(Azul)
     Mover(dir)
     if (hayBolitas(Negro))    { BOOM("Tocaste una pared explosiva") }

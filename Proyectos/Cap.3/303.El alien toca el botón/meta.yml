@@ -117,7 +117,7 @@ board:
     can_change_source: false
     can_edit_board: false
     can_view_attire_section: false
-  visible_edition: true
+  visible_edition: false
 execution_speed:
   active: high
   user_permissions:

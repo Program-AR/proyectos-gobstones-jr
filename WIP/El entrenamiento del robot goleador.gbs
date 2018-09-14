@@ -1,0 +1,40 @@
+procedure EntrenarAlBeto() {
+  repeat(4) {
+    PatearYVolver()
+    MoverAlBetoAl_(Norte)
+  }
+  PatearYVolver()
+}
+
+procedure PatearYVolver() {
+  IrHastaLaPelota()
+  PatearLaPelota()
+  Volver()
+}
+
+procedure IrHastaLaPelota() {
+  repeat(6) {
+    MoverAlBetoAl_(Este)
+  }
+}
+
+procedure PatearLaPelota() {
+  MoverElPieDelBeto()
+  repeat(3) {
+    MoverLaPelotaAl_(Este)
+  }
+  repeat(3) {
+    Mover(Oeste)
+  }
+}
+
+procedure Volver() {
+  repeat(6) {
+    MoverAlBetoAl_(Oeste)
+  }
+}
+
+
+program {
+  EntrenarAlBeto()
+}

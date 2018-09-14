@@ -1,0 +1,12 @@
+procedure ApagarElIncendio() {
+  repeat(6) {
+    UsarElMatafuegos()
+    Mover(Este)
+  }
+  UsarElMatafuegos()
+}
+
+
+program {
+  ApagarElIncendio()
+}

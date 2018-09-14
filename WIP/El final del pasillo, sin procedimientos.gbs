@@ -1,0 +1,17 @@
+procedure LlegarAlFinalDelPasillo() {
+  MoverAlBetoAl_(Sur)
+  MoverAlBetoAl_(Oeste)
+  MoverAlBetoAl_(Oeste)
+  MoverAlBetoAl_(Oeste)
+  MoverAlBetoAl_(Oeste)
+  MoverAlBetoAl_(Oeste)
+  MoverAlBetoAl_(Oeste)
+  MoverAlBetoAl_(Oeste)
+  MoverAlBetoAl_(Oeste)
+  MoverAlBetoAl_(Oeste)
+}
+
+
+program {
+  LlegarAlFinalDelPasillo()
+}

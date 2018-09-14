@@ -11,18 +11,22 @@ blocks:
     - IrAlBorde
     - Color
   visible:
+    - '-- Biblioteca --'
+    - Procedimientos primitivos
+    - '-- Mis operaciones --'
+    - Mis procedimientos
+    - '-- Comandos --'
     - Poner
     - Mover
     - Sacar
     - IrAlBorde
-    - Procedimientos primitivos
-    - Mis procedimientos
     - RepeticionSimple
+    - '-- Expresiones --'
     - Color
     - Direccion
     - Numero
+    - '-- Definiciones --'
     - procedures_defnoreturnnoparams
-    - Definicion de procedimientos simples
   defaultToolbox: |
     <category name="-- Biblioteca --" gbs_custom="SEPARATOR">
     </category>
@@ -112,6 +116,7 @@ board:
   user_permissions:
     can_change_source: false
     can_edit_board: false
+    can_view_size_section: false
   visible_edition: true
 execution_speed:
   active: high
