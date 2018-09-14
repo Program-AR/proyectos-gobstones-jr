@@ -1,15 +1,40 @@
-program { DibujarFlecha() }
-
-procedure DibujarFlecha() {
-  repeat (7) { Poner(Verde) Mover(Este) }
-  DibujarPuntaDeFlecha()
-  IrAlBorde(Sur) Mover(Norte) IrAlBorde(Oeste) 
+procedure DibujarLaPuntaDeLaFlecha() {
+  repeat(4) {
+    Poner(Verde)
+  }
+  Mover(Oeste)
+  Mover(Norte)
+  repeat(2) {
+    Poner(Verde)
+  }
+  Mover(Sur)
+  Mover(Sur)
+  repeat(3) {
+    Poner(Verde)
+  }
 }
 
-procedure DibujarPuntaDeFlecha() { 
-  repeat (4) { Poner(Verde) }
-  Mover(Norte) Mover(Oeste)
-  repeat (2) { Poner(Verde) }
-  Mover(Sur)   Mover(Sur)
-  repeat (3) { Poner(Verde) }
+procedure DibujarLaFlecha() {
+  DibujarElÁstil()
+  DibujarLaPuntaDeLaFlecha()
+}
+
+procedure DibujarElÁstil() {
+  repeat(7) {
+    Poner(Verde)
+    Mover(Este)
+  }
+}
+
+procedure VolverAlInicio() {
+  Mover(Norte)
+  repeat(6) {
+    Mover(Oeste)
+  }
+}
+
+
+program {
+  DibujarLaFlecha()
+  VolverAlInicio()
 }

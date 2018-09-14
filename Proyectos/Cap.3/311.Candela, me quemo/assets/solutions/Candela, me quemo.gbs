@@ -1,11 +1,12 @@
-﻿program {
-  ApagarIncendio()
-}
-
-procedure ApagarIncendio() {
+procedure ApagarElIncendio() {
   repeat(6) {
-    UsarMatafuego()
+    UsarElMatafuegos()
     Mover(Este)
   }
-  UsarMatafuego()
+  UsarElMatafuegos()
+}
+
+
+program {
+  ApagarElIncendio()
 }

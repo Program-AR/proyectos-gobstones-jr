@@ -1,6 +1,11 @@
-program { LlegarAlFinalDelPasillo() }
-
 procedure LlegarAlFinalDelPasillo() {
-  MoverABetoAl_(Sur)
-  repeat (9) { MoverABetoAl_(Oeste) }
+  MoverAlBetoAl_(Sur)
+  repeat(9) {
+    MoverAlBetoAl_(Oeste)
+  }
+}
+
+
+program {
+  LlegarAlFinalDelPasillo()
 }

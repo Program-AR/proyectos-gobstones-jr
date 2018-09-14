@@ -1,18 +1,30 @@
-program {
-    
+procedure EntrenarAlBeto() {
+  BOOM("El programa todavía no está completo")
 }
 
-procedure EntrenarAlBeto() { ... }
+procedure PatearYVolver() {
+  BOOM("El programa todavía no está completo")
+}
 
-procedure PatearYVolver() { ... }
+procedure IrHastaLaPelota() {
+  BOOM("El programa todavía no está completo")
+}
 
 procedure PatearLaPelota() {
   MoverElPieDelBeto()
-  repeat (3) { MoverLaPelotaAl_(Este) }
-  repeat (3) { Mover(Oeste) }
+  repeat(3) {
+    MoverLaPelotaAl_(Este)
+  }
+  repeat(3) {
+    Mover(Oeste)
+  }
 }
 
-procedure IrHastaLaPelota() { ... }
+procedure Volver() {
+  BOOM("El programa todavía no está completo")
+}
 
-procedure Volver() { ... }
 
+program {
+  BOOM("El programa todavía no está completo")
+}

@@ -1,17 +1,23 @@
-program{
-    
+procedure DibujarLaPuntaDeLaFlecha() {
+  repeat(4) {
+    BOOM("El programa todavía no está completo")
+  }
+  Mover(Oeste)
+  Mover(Norte)
+  repeat(boom("El programa todavía no está completo")) {
+    Poner(Verde)
+  }
+  Mover(Sur)
+  Mover(Sur)
+  BOOM("El programa todavía no está completo")
 }
 
-procedure DibujarFlecha() {
-  ...
-  DibujarPuntaDeFlecha()
-  ...
+procedure DibujarLaFlecha() {
+  BOOM("El programa todavía no está completo")
+  DibujarLaPuntaDeLaFlecha()
 }
 
-procedure DibujarPuntaDeFlecha() { 
-  repeat (4) { ... }
-  Mover(Norte) Mover(Oeste)
-  repeat (...) { Poner(Verde) }
-  Mover(Sur)   Mover(Sur)
-  ...
+
+program {
+  DibujarLaFlecha()
 }
