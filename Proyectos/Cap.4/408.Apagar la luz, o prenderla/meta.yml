@@ -18,26 +18,11 @@ blocks:
     - previo
     - opuesto
   visible:
-    - Poner
-    - Mover
-    - Sacar
-    - IrAlBorde
-    - Procedimientos primitivos
-    - Mis procedimientos
-    - RepeticionSimple
-    - AlternativaCompleta
-    - Color
-    - Direccion
-    - Numero
-    - hayBolitas
-    - nroBolitas
-    - FuncionesPrimitivas
-    - OperadorNumerico
-    - siguiente
-    - previo
-    - opuesto
-    - procedures_defnoreturnnoparams
-    - Definicion de procedimientos simples
+    - - AlternativaSimple
+    - - puedeMover
+    - - OperadorDeComparacion
+    - - not
+    - - OperadorDeNegacion
   defaultToolbox: |
     <category name="-- Biblioteca --" gbs_custom="SEPARATOR">
     </category>
@@ -80,7 +65,7 @@ blocks:
         <block type="math_number"></block>
         <block type="BoolSelector"></block>
       </category>
-      <category name="Expresiones primitivas">
+      <category name="Sensores">
         <block type="hayBolitas"></block>
         <block type="puedeMover"></block>
         <block type="nroBolitas"></block>

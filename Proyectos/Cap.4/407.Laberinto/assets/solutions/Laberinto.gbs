@@ -1,7 +1,3 @@
-﻿program {
-  SalirDelLaberinto()
-}
-
 procedure SalirDelLaberinto() {
   repeat(20) {
     AvanzarUnPasoSiguiendoLaFlecha()
@@ -9,5 +5,10 @@ procedure SalirDelLaberinto() {
 }
 
 procedure AvanzarUnPasoSiguiendoLaFlecha() {
-  MoverRatónA_YSacarLaFlecha(dondeApuntaLaFlecha())
+  MoverAlRatónA_YSacarLaFlecha(dondeApuntaLaFlecha())
+}
+
+
+program {
+  SalirDelLaberinto()
 }

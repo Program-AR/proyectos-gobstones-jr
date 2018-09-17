@@ -1,11 +1,10 @@
-﻿program {
-  ImitarNegrasYAzules()
-}
-
-procedure ImitarNegrasYAzules() {
-  repeat(...) {
-     ...
+procedure ImitarLasNegrasMásLasAzules() {
+  repeat(boom("El programa todavía no está completo")) {
+    BOOM("El programa todavía no está completo")
   }
 }
 
 
+program {
+  ImitarLasNegrasMásLasAzules()
+}

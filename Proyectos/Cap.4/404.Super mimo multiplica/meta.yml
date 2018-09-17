@@ -11,20 +11,24 @@ blocks:
     - IrAlBorde
     - Direccion
   visible:
+    - '-- Biblioteca --'
+    - Procedimientos primitivos
+    - '-- Mis operaciones --'
+    - Mis procedimientos
+    - '-- Comandos --'
     - Poner
     - Mover
     - Sacar
     - IrAlBorde
-    - Procedimientos primitivos
-    - Mis procedimientos
     - RepeticionSimple
+    - '-- Expresiones --'
     - Color
     - Direccion
     - Numero
     - nroBolitas
     - OperadorNumerico
+    - '-- Definiciones --'
     - procedures_defnoreturnnoparams
-    - Definicion de procedimientos simples
   defaultToolbox: |
     <category name="-- Biblioteca --" gbs_custom="SEPARATOR">
     </category>
@@ -67,7 +71,7 @@ blocks:
         <block type="math_number"></block>
         <block type="BoolSelector"></block>
       </category>
-      <category name="Expresiones primitivas">
+      <category name="Sensores">
         <block type="hayBolitas"></block>
         <block type="puedeMover"></block>
         <block type="nroBolitas"></block>

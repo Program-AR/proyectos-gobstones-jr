@@ -1,5 +1,0 @@
-﻿program {
-  repeat(nroBolitas(Azul)) {
-    Poner(Rojo)
-  }
-}

@@ -1,0 +1,10 @@
+procedure ImitarLasAzulesEnRojo() {
+  repeat(nroBolitas(Azul)) {
+    Poner(Rojo)
+  }
+}
+
+
+program {
+  ImitarLasAzulesEnRojo()
+}

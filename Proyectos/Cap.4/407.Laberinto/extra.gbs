@@ -9,7 +9,7 @@ function dondeApuntaLaFlecha() {
     return (ret)
 }
 
-procedure MoverAlRatónA_YSacarLaFlecha(dir) {
+procedure MoverElRatónA_YSacarLaFlecha(dir) {
  	if (nroBolitas(Azul)/=1) { BOOM("No está el ratón")   }
   	if (nroBolitas(Verde)>2) { BOOM("Estoy en la salida") }
  	Sacar(Azul)

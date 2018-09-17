@@ -1,7 +1,3 @@
-﻿program {
-  DibujarCuadrado()
-}
-
 procedure DibujarCuadrado() {
   DibujarLíneaAlNorte()
   DibujarLíneaAlEste()
@@ -35,4 +31,9 @@ procedure DibujarLíneaAlOeste() {
     Poner(Verde)
     Mover(Oeste)
   }
+}
+
+
+program {
+  DibujarCuadrado()
 }

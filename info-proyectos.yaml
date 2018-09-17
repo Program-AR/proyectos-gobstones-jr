@@ -125,12 +125,6 @@
         id: "308"
         name: "Muchas bolitas rojas"
     - old:
-        id: "3.3.1.2"
-        name: "La computadora repite por nosotros"
-      new:
-        id: "308"
-        name: "Poner muchas bolitas se vuelve incómodo"
-    - old:
         id: "3.3.2"
         name: "El final del pasillo"
       new:

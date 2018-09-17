@@ -1,10 +1,29 @@
-name: ¡Al rincón!
+name: 'Ponemos pelotas, ¿o no?'
 attire:
-  active: null
+  active: Fútbol de robots
   user_permissions:
     can_toggle_visibility: true
   visible: false
 blocks:
+  disabled:
+    - Poner
+    - Sacar
+    - IrAlBorde
+    - Color
+    - AlternativaCompleta
+    - puedeMover
+    - hayBolitas
+    - nroBolitas
+    - OperadorNumerico
+    - OperadorDeComparacion
+    - siguiente
+    - previo
+    - opuesto
+  visible:
+    - RepeticionSimple
+    - AlternativaSimple
+    - not
+    - OperadorDeNegacion
   defaultToolbox: |
     <category name="-- Biblioteca --" gbs_custom="SEPARATOR">
     </category>
@@ -47,7 +66,7 @@ blocks:
         <block type="math_number"></block>
         <block type="BoolSelector"></block>
       </category>
-      <category name="Expresiones primitivas">
+      <category name="Sensores">
         <block type="hayBolitas"></block>
         <block type="puedeMover"></block>
         <block type="nroBolitas"></block>
@@ -88,30 +107,19 @@ blocks:
       <block type="ExpresionCompletar"></block>
       <block type="AsociacionDeTeclaCompletar"></block>
     </category>
-  disabled:
-    - Sacar
-    - Mover
-  visible:
-    - Poner
-    - Mover
-    - Sacar
-    - IrAlBorde
-    - Color
-    - Direccion
 board:
   active: 1
-  initial_board_source: random
-  visible_edition: true
-  collapse_toolbox: false
+  initial_board_source: selected
   user_permissions:
-    can_view_attire_section: false
+    can_change_source: false
     can_edit_board: false
-    can_change_initial_board: true
-    can_change_initial_board_source: true
-    can_view_size_section: false
+  visible_edition: true
 execution_speed:
   active: instantaneous
   user_permissions:
     can_change_speed: true
 library:
   visible: false
+source:
+  visible: true
+  percentage: 0.75

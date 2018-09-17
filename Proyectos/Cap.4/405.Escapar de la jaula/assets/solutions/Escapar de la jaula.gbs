@@ -1,4 +1,8 @@
-﻿program {  AyudarAlRatonASalir() }
+procedure AyudarAlRatónASalir() {
+  MoverAlRatónA_(dondeApuntaLaFlecha())
+}
 
-procedure  AyudarAlRatonASalir() 
-{ MoverAlRatónA_(dondeApuntaLaFlecha()) }
+
+program {
+  AyudarAlRatónASalir()
+}

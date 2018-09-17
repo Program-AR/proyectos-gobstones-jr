@@ -10,8 +10,6 @@ blocks:
     - Mover
     - Sacar
     - IrAlBorde
-    - AlternativaSimple
-    - AlternativaCompleta
     - Color
     - Direccion
     - puedeMover
@@ -25,31 +23,26 @@ blocks:
     - previo
     - opuesto
   visible:
+    - '-- Biblioteca --'
+    - Procedimientos primitivos
+    - FuncionesPrimitivas
+    - '-- Mis operaciones --'
+    - Mis procedimientos
+    - '-- Comandos --'
     - Poner
     - Mover
     - Sacar
     - IrAlBorde
-    - Procedimientos primitivos
-    - Mis procedimientos
     - RepeticionSimple
-    - AlternativaSimple
-    - AlternativaCompleta
+    - '-- Expresiones --'
     - Color
     - Direccion
     - Numero
-    - puedeMover
-    - hayBolitas
     - nroBolitas
-    - FuncionesPrimitivas
     - OperadorNumerico
-    - OperadorDeComparacion
-    - not
-    - OperadorDeNegacion
-    - siguiente
-    - previo
     - opuesto
+    - '-- Definiciones --'
     - procedures_defnoreturnnoparams
-    - Definicion de procedimientos simples
   defaultToolbox: |
     <category name="-- Biblioteca --" gbs_custom="SEPARATOR">
     </category>
@@ -92,7 +85,7 @@ blocks:
         <block type="math_number"></block>
         <block type="BoolSelector"></block>
       </category>
-      <category name="Expresiones primitivas">
+      <category name="Sensores">
         <block type="hayBolitas"></block>
         <block type="puedeMover"></block>
         <block type="nroBolitas"></block>
@@ -141,7 +134,7 @@ board:
     can_edit_board: false
   visible_edition: true
 execution_speed:
-  active: instantaneous
+  active: high
   user_permissions:
     can_change_speed: true
 library:

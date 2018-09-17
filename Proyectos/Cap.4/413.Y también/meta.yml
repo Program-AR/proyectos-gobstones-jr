@@ -1,4 +1,4 @@
-name: 'La luz está prendida vs. hay bolitas: mi elección es clara'
+name: Y también…
 attire:
   active: null
   user_permissions:
@@ -6,45 +6,16 @@ attire:
   visible: false
 blocks:
   disabled:
+    - Sacar
     - IrAlBorde
-    - RepeticionSimple
-    - AlternativaSimple
-    - Numero
     - puedeMover
-    - nroBolitas
     - OperadorNumerico
-    - OperadorDeComparacion
-    - not
-    - OperadorDeNegacion
     - siguiente
     - previo
     - opuesto
   visible:
-    - Poner
-    - Mover
-    - Sacar
-    - IrAlBorde
-    - Procedimientos primitivos
-    - Mis procedimientos
-    - RepeticionSimple
-    - AlternativaSimple
-    - AlternativaCompleta
-    - Color
-    - Direccion
-    - Numero
-    - puedeMover
-    - hayBolitas
-    - nroBolitas
-    - FuncionesPrimitivas
-    - Mis funciones
-    - OperadorNumerico
-    - OperadorDeComparacion
-    - OperadorDeNegacion
-    - siguiente
-    - previo
-    - opuesto
-    - procedures_defnoreturnnoparams
-    - procedures_defreturnsimple
+    - BOOM
+    - OperadorLogico
   defaultToolbox: |
     <category name="-- Biblioteca --" gbs_custom="SEPARATOR">
     </category>
@@ -87,7 +58,7 @@ blocks:
         <block type="math_number"></block>
         <block type="BoolSelector"></block>
       </category>
-      <category name="Expresiones primitivas">
+      <category name="Sensores">
         <block type="hayBolitas"></block>
         <block type="puedeMover"></block>
         <block type="nroBolitas"></block>
