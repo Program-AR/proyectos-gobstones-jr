@@ -20,10 +20,32 @@ blocks:
     - previo
     - opuesto
   visible:
+    - '-- Biblioteca --'
+    - Procedimientos primitivos
+    - FuncionesPrimitivas
+    - '-- Mis operaciones --'
+    - Mis procedimientos
+    - '-- Comandos --'
+    - Poner
+    - Mover
+    - Sacar
+    - IrAlBorde
     - RepeticionSimple
     - AlternativaSimple
+    - AlternativaCompleta
+    - '-- Expresiones --'
+    - Color
+    - Direccion
+    - Numero
+    - nroBolitas
+    - hayBolitas
+    - puedeMover
+    - OperadorNumerico
+    - OperadorDeComparacion
+    - opuesto
     - not
-    - OperadorDeNegacion
+    - '-- Definiciones --'
+    - procedures_defnoreturnnoparams
   defaultToolbox: |
     <category name="-- Biblioteca --" gbs_custom="SEPARATOR">
     </category>
