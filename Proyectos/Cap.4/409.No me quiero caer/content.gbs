@@ -1,7 +1,3 @@
-﻿program {
-  DibujarLaVíbora()
-}
-
 procedure DibujarLaVíbora() {
   repeat(10) {
     DibujarSegmentoDeVíboraYAvanzar()
@@ -9,5 +5,9 @@ procedure DibujarLaVíbora() {
 }
 
 procedure DibujarSegmentoDeVíboraYAvanzar() {
-   ...
+  BOOM("El programa todavía no está completo")
+}
+
+
+program {
 }

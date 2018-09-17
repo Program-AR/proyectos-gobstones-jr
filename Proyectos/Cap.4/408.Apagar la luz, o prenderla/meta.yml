@@ -7,7 +7,6 @@ attire:
 blocks:
   disabled:
     - Mover
-    - Sacar
     - IrAlBorde
     - RepeticionSimple
     - Direccion

@@ -1,0 +1,14 @@
+procedure SimularInterruptorDeLuz() {
+  if (hayBolitas(Azul)) {
+    Sacar(Azul)
+    Poner(Negro)
+  } else {
+    Sacar(Negro)
+    Poner(Azul)
+  }
+}
+
+
+program {
+  SimularInterruptorDeLuz()
+}

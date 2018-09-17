@@ -1,20 +1,19 @@
-﻿program {
-  DibujaLaVíbora()
-}
-
-procedure DibujaLaVíbora() {
+procedure DibujarLaVíbora() {
   repeat(10) {
     DibujarSegmentoDeVíboraYAvanzar()
   }
 }
 
 procedure DibujarSegmentoDeVíboraYAvanzar() {
+  Poner(Verde)
   if (puedeMover(Este)) {
-    Poner(Verde)
     Mover(Este)
-  }
-  else {
-    Poner(Verde)
+  } else {
     Mover(Norte)
   }
+}
+
+
+program {
+  DibujarLaVíbora()
 }
