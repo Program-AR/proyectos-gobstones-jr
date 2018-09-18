@@ -7,9 +7,12 @@ procedure CompletarLaFilaDePelotas() {
 }
 
 procedure AgregarUnaPelotaSiHaceFalta() {
-  BOOM("El programa todavía no está completo")
+  if (not(hayUnaPelota())) {
+    AgregarUnaPelota()
+  }
 }
 
 
 program {
+  CompletarLaFilaDePelotas()
 }
