@@ -7,17 +7,17 @@ attire:
 blocks:
   disabled: []
   visible:
-      - '-- Biblioteca --'
+    - '-- Biblioteca --'
     - Procedimientos primitivos
     - FuncionesPrimitivas
     - '-- Mis operaciones --'
     - Mis procedimientos
+    - Mis funciones
     - '-- Comandos --'
     - Poner
     - Mover
     - Sacar
     - IrAlBorde
-    - BOOM
     - RepeticionSimple
     - AlternativaSimple
     - AlternativaCompleta
@@ -127,7 +127,7 @@ board:
     can_edit_board: false
   visible_edition: true
 execution_speed:
-  active: instantaneous
+  active: high
   user_permissions:
     can_change_speed: true
 library:

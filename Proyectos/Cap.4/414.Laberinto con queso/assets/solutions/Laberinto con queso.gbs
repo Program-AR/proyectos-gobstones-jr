@@ -1,7 +1,3 @@
-﻿program {
-  SalirDelLaberintoComiendoElQueso()
-}
-
 procedure SalirDelLaberintoComiendoElQueso() {
   repeat(20) {
     ComerElQuesoSiHay()
@@ -10,40 +6,61 @@ procedure SalirDelLaberintoComiendoElQueso() {
 }
 
 procedure ComerElQuesoSiHay() {
-  if (hayQueso()) { ComerElQueso() }
+  if (hayQueso()) {
+    ComerElQueso()
+  }
 }
 
 procedure AvanzarUnPasoSiguiendoLaFlecha() {
-  if (laFlechaApuntaAlNorte())     {
-                                     SacarLaFlecha()
-                                     MoverAlRatónAl_(Norte)
-                                   }
-  elseif (laFlechaApuntaAlEste())  {
-                                     SacarLaFlecha()
-                                     MoverAlRatónAl_(Este)
-                                   }
-  elseif (laFlechaApuntaAlSur())   {
-                                       SacarLaFlecha()
-                                       MoverAlRatónAl_(Sur)
-                                   }
-  elseif (laFlechaApuntaAlOeste()) {
-                                       SacarLaFlecha()
-                                       MoverAlRatónAl_(Oeste)
-                                   }
-  else { BOOM("No hay flecha en esta celda") }
+  if (laFlechaApuntaAlNorte()) {
+    SacarLaFlecha()
+    MoverAlRatónAl_(Norte)
+  } elseif (laFlechaApuntaAlEste()) {
+    SacarLaFlecha()
+    MoverAlRatónAl_(Este)
+  } elseif (laFlechaApuntaAlSur()) {
+    SacarLaFlecha()
+    MoverAlRatónAl_(Sur)
+  } elseif (laFlechaApuntaAlOeste()) {
+    SacarLaFlecha()
+    MoverAlRatónAl_(Oeste)
+  } else {
+  }
 }
 
 procedure ComerElQueso() {
-  if (not(hayQueso())) 
-       { BOOM("No hay queso para comer") }
-  else { SacarElQueso() }
+  if (not(hayQueso())) {
+    BOOM("No hay queso para comer")
+  } else {
+    SacarElQueso()
+  }
 }
 
-procedure SacarElQueso() { Sacar (Verde) }
+procedure SacarElQueso() {
+  Sacar(Verde)
+}
 
-function hayQueso() { return (nroBolitas(Verde) == 1) }
+function hayQueso() {
+  return (nroBolitas(Verde) == 1)
+}
 
-function laFlechaApuntaAlNorte() { return (nroBolitas(Rojo) == 1) }
-function laFlechaApuntaAlEste()  { return (nroBolitas(Rojo) == 2) }
-function laFlechaApuntaAlSur()   { return (nroBolitas(Rojo) == 3) }
-function laFlechaApuntaAlOeste() { return (nroBolitas(Rojo) == 4) }
+function laFlechaApuntaAlNorte() {
+  return (nroBolitas(Rojo) == 1)
+}
+
+function laFlechaApuntaAlEste() {
+  return (nroBolitas(Rojo) == 2)
+}
+
+function laFlechaApuntaAlSur() {
+  return (nroBolitas(Rojo) == 3)
+}
+
+function laFlechaApuntaAlOeste() {
+  return (nroBolitas(Rojo) == 4)
+}
+
+
+program {
+  SalirDelLaberintoComiendoElQueso()
+}

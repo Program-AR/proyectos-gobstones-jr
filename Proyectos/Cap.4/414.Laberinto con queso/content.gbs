@@ -27,7 +27,6 @@ procedure AvanzarUnPasoSiguiendoLaFlecha() {
   elseif (...)                     {
                                      ...
                                    }
-  else { BOOM("No hay flecha en esta celda") }
   }}}
 }
 
