@@ -1,5 +1,13 @@
 procedure PintarConColorPrimario() {
-  ...
+  repeat(0) {
+    Poner(Rojo)
+  }
+  repeat(3) {
+    Poner(Verde)
+  }
+  repeat(4) {
+    Poner(Azul)
+  }
 }
 
 procedure PintarLíneaPrimariaCortaDeLaManga() {
@@ -59,7 +67,15 @@ procedure PintarLíneaSecundariaMediaDeLaManga() {
 }
 
 procedure PintarConColorSecundario() {
-  ...
+  repeat(4) {
+    Poner(Rojo)
+  }
+  repeat(4) {
+    Poner(Verde)
+  }
+  repeat(4) {
+    Poner(Azul)
+  }
 }
 
 procedure PintarMitadDerecha() {
