@@ -1,19 +1,19 @@
 procedure DibujarLaPuntaDeLaFlecha() {
   repeat(4) {
-    BOOM("El programa todavía no está completo")
+    ...
   }
   Mover(Oeste)
   Mover(Norte)
-  repeat(boom("El programa todavía no está completo")) {
+  repeat(...) {
     Poner(Verde)
   }
   Mover(Sur)
   Mover(Sur)
-  BOOM("El programa todavía no está completo")
+  ...
 }
 
 procedure DibujarLaFlecha() {
-  BOOM("El programa todavía no está completo")
+  ...
   DibujarLaPuntaDeLaFlecha()
 }
 

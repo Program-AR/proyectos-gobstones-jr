@@ -1,23 +1,23 @@
 procedure CombatirVerdolagaVsCopaAlta() {
-  if (boom("El programa todavía no está completo")) {
+  if (...) {
     Empatan()
-  } elseif (boom("El programa todavía no está completo")) {
-    BOOM("El programa todavía no está completo")
+  } elseif (...) {
+    ...
   } else {
-    BOOM("El programa todavía no está completo")
+    ...
   }
 }
 
 procedure SacarAVerdolaga() {
-  BOOM("El programa todavía no está completo")
+  ...
 }
 
 procedure Empatan() {
-  BOOM("El programa todavía no está completo")
+  ...
 }
 
 procedure SacarACopaAlta() {
-  BOOM("El programa todavía no está completo")
+  ...
 }
 
 

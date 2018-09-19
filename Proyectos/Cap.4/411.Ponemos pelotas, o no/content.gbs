@@ -7,7 +7,7 @@ procedure CompletarLaFilaDePelotas() {
 }
 
 procedure AgregarUnaPelotaSiHaceFalta() {
-  BOOM("El programa todavía no está completo")
+  ...
 }
 
 

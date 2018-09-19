@@ -1,13 +1,13 @@
 procedure EntrenarAlBeto() {
-  BOOM("El programa todavía no está completo")
+  ...
 }
 
 procedure PatearYVolver() {
-  BOOM("El programa todavía no está completo")
+  ...
 }
 
 procedure IrHastaLaPelota() {
-  BOOM("El programa todavía no está completo")
+  ...
 }
 
 procedure PatearLaPelota() {
@@ -21,10 +21,10 @@ procedure PatearLaPelota() {
 }
 
 procedure Volver() {
-  BOOM("El programa todavía no está completo")
+  ...
 }
 
 
 program {
-  BOOM("El programa todavía no está completo")
+  ...
 }
