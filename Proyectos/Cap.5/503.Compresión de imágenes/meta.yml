@@ -1,52 +1,48 @@
 attire:
-  active: RGB
+  active: Colores RGB
   user_permissions:
     can_toggle_visibility: true
   visible: false
 blocks:
   disabled:
     - Sacar
-    - AlternativaSimple
     - hayBolitas
     - nroBolitas
+    - puedeMover
     - OperadorDeComparacion
     - not
-    - OperadorDeNegacion
     - OperadorLogico
-    - siguiente
-    - previo
     - opuesto
   visible:
+    - '-- Biblioteca --'
+    - Procedimientos primitivos
+    - FuncionesPrimitivas
+    - '-- Mis operaciones --'
+    - Mis procedimientos
+    - Mis funciones
+    - '-- Comandos --'
     - Poner
     - Mover
     - Sacar
     - IrAlBorde
-    - BOOM
-    - Procedimientos primitivos
-    - Mis procedimientos
     - RepeticionSimple
     - AlternativaSimple
     - AlternativaCompleta
+    - '-- Expresiones --'
     - Color
     - Direccion
     - Numero
-    - puedeMover
-    - hayBolitas
     - nroBolitas
-    - FuncionesPrimitivas
-    - Mis funciones
+    - hayBolitas
+    - puedeMover
     - OperadorNumerico
     - OperadorDeComparacion
-    - not
-    - OperadorDeNegacion
-    - OperadorLogico
-    - siguiente
-    - previo
     - opuesto
+    - OperadorLogico
+    - not
+    - '-- Definiciones --'
     - procedures_defnoreturnnoparams
-    - Definicion de procedimientos simples
-    - procedures_defreturn
-    - Definicion de funciones simples
+    - procedures_defreturnsimple
   defaultToolbox: |
     <category name="-- Biblioteca --" gbs_custom="SEPARATOR">
     </category>
@@ -136,6 +132,7 @@ board:
   user_permissions:
     can_change_source: false
     can_edit_board: false
+    can_view_size_section: false
   visible_edition: true
 execution_speed:
   active: instantaneous

@@ -1,0 +1,158 @@
+procedure AvanzarElCursor() {
+  Mover(Este)
+}
+
+procedure Espacio() {
+  AvanzarElCursor()
+}
+
+procedure A() {
+  Poner__Veces(Negro, 1)
+  AvanzarElCursor()
+}
+
+procedure F() {
+  Poner__Veces(Negro, 6)
+  AvanzarElCursor()
+}
+
+procedure K() {
+  Poner__Veces(Negro, 11)
+  AvanzarElCursor()
+}
+
+procedure O() {
+  Poner__Veces(Negro, 16)
+  AvanzarElCursor()
+}
+
+procedure U() {
+  Poner__Veces(Negro, 22)
+  AvanzarElCursor()
+}
+
+procedure B() {
+  Poner__Veces(Negro, 2)
+  AvanzarElCursor()
+}
+
+procedure G() {
+  Poner__Veces(Negro, 7)
+  AvanzarElCursor()
+}
+
+procedure L() {
+  Poner__Veces(Negro, 12)
+  AvanzarElCursor()
+}
+
+procedure P() {
+  Poner__Veces(Negro, 17)
+  AvanzarElCursor()
+}
+
+procedure V() {
+  Poner__Veces(Negro, 23)
+  AvanzarElCursor()
+}
+
+procedure C() {
+  Poner__Veces(Negro, 3)
+  AvanzarElCursor()
+}
+
+procedure H() {
+  Poner__Veces(Negro, 8)
+  AvanzarElCursor()
+}
+
+procedure M() {
+  Poner__Veces(Negro, 13)
+  AvanzarElCursor()
+}
+
+procedure Q() {
+  Poner__Veces(Negro, 18)
+  AvanzarElCursor()
+}
+
+procedure W() {
+  Poner__Veces(Negro, 24)
+  AvanzarElCursor()
+}
+
+procedure D() {
+  Poner__Veces(Negro, 4)
+  AvanzarElCursor()
+}
+
+procedure I() {
+  Poner__Veces(Negro, 9)
+  AvanzarElCursor()
+}
+
+procedure N() {
+  Poner__Veces(Negro, 14)
+  AvanzarElCursor()
+}
+
+procedure R() {
+  Poner__Veces(Negro, 19)
+  AvanzarElCursor()
+}
+
+procedure X2() {
+  Poner__Veces(Negro, 25)
+  AvanzarElCursor()
+}
+
+procedure E() {
+  Poner__Veces(Negro, 5)
+  AvanzarElCursor()
+}
+
+procedure J() {
+  Poner__Veces(Negro, 10)
+  AvanzarElCursor()
+}
+
+procedure Ñ() {
+  Poner__Veces(Negro, 15)
+  AvanzarElCursor()
+}
+
+procedure S() {
+  Poner__Veces(Negro, 20)
+  AvanzarElCursor()
+}
+
+procedure Y() {
+  Poner__Veces(Negro, 26)
+  AvanzarElCursor()
+}
+
+procedure T() {
+  Poner__Veces(Negro, 21)
+  AvanzarElCursor()
+}
+
+procedure Z() {
+  Poner__Veces(Negro, 27)
+  AvanzarElCursor()
+}
+
+
+program {
+  G()
+  O()
+  B()
+  S()
+  T()
+  O()
+  N()
+  E()
+  S()
+  Espacio()
+  J()
+  R()
+}

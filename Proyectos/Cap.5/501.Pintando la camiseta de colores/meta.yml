@@ -17,7 +17,6 @@ blocks:
     - not
     - OperadorLogico
     - opuesto
-    - procedures_defreturn
   visible:
     - '-- Biblioteca --'
     - Procedimientos primitivos

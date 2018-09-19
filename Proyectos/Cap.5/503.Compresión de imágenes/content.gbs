@@ -1,45 +1,43 @@
-program {
-  DescomprimirImagen()
-}
-
-procedure DescomprimirImagen() {
-  repeat (8) {
-     ...
-  }
-  IrAlBorde(Sur)
-}
-
 procedure DescomprimirFila() {
-  repeat (nroBolitas_EnLaPrimeraCelda(Negro)-1) {
-    MoverAlEsteSiPuede()
+  repeat(nroBolitas_EnLaPrimeraCelda(Negro) - 1) {
+    Mover(Este)
     ...
   }
   IrAlBorde(Oeste)
   ...
 }
 
-procedure MoverAlEsteSiPuede() {
-    if (puedeMover(Este))
-           { Mover(Este) }
-      else { BOOM("Codificación inválida") }
+procedure DescomprimirImagen() {
+  repeat(8) {
+    ...
+  }
+  DescomprimirFila()
+  ...
+}
+
+procedure CopiarAzulDeLaPrimeraCelda() {
+  repeat(nroBolitas_EnLaPrimeraCelda(Azul)) {
+    ...
+  }
 }
 
 procedure CopiarColorRGB() {
-  CopiarColorAzul()
-  CopiarColorRojo()
-  CopiarColorVerde()
+  CopiarRojoDeLaPrimeraCelda()
+  CopiarVerdeDeLaPrimeraCelda()
+  CopiarAzulDeLaPrimeraCelda()
 }
 
-procedure CopiarColorAzul() {
-  repeat (nroBolitas_EnLaPrimeraCelda(Azul))  { ...  }
+procedure CopiarRojoDeLaPrimeraCelda() {
+  repeat(...) {
+    Poner(Rojo)
+  }
 }
 
-procedure CopiarColorRojo() {
-  repeat (...)  { Poner(Rojo)  }
-}
-
-procedure CopiarColorVerde() {
+procedure CopiarVerdeDeLaPrimeraCelda() {
   ...
 }
 
 
+program {
+  DescomprimirImagen()
+}

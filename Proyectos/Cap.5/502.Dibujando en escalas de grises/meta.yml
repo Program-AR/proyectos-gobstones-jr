@@ -43,8 +43,6 @@ blocks:
     - '-- Definiciones --'
     - procedures_defnoreturnnoparams
     - procedures_defreturnsimple
-    - ExpresionCompletar
-    - ComandoCompletar
   defaultToolbox: |
     <category name="-- Biblioteca --" gbs_custom="SEPARATOR">
     </category>

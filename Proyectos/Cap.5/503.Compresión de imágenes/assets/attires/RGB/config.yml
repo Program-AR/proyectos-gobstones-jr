@@ -1,4 +1,4 @@
-name: RGB
+name: Colores RGB
 rules:
   - image: 0000.png
     when:
