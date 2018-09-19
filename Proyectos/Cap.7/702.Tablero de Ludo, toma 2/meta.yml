@@ -1,13 +1,12 @@
 name: 'Tablero de Ludo, toma 2'
 attire:
-  active: Cuadrados
+  active: Tablero de Ludo
   user_permissions:
     can_toggle_visibility: true
   visible: true
 blocks:
   disabled:
     - Sacar
-    - BOOM
     - AlternativaSimple
     - AlternativaCompleta
     - puedeMover
@@ -20,44 +19,39 @@ blocks:
     - not
     - OperadorDeNegacion
     - OperadorLogico
-    - siguiente
-    - previo
     - opuesto
-    - procedures_defreturn
-    - Definicion de funciones simples
+    - procedures_defreturnsimple
   visible:
+    - '-- Biblioteca --'
+    - Procedimientos primitivos
+    - FuncionesPrimitivas
+    - '-- Mis operaciones --'
+    - Mis procedimientos
+    - Mis funciones
+    - '-- Comandos --'
     - Poner
     - Mover
     - Sacar
     - IrAlBorde
-    - BOOM
-    - Procedimientos primitivos
-    - Mis procedimientos
     - RepeticionSimple
     - AlternativaSimple
     - AlternativaCompleta
+    - '-- Expresiones --'
     - Color
     - Direccion
     - Numero
-    - puedeMover
-    - hayBolitas
     - nroBolitas
-    - FuncionesPrimitivas
-    - Mis funciones
+    - hayBolitas
+    - puedeMover
     - OperadorNumerico
     - OperadorDeComparacion
-    - not
-    - OperadorDeNegacion
-    - OperadorLogico
-    - siguiente
-    - previo
     - opuesto
+    - OperadorLogico
+    - not
+    - '-- Definiciones --'
     - procedures_defnoreturnnoparams
-    - Definicion de procedimientos simples
     - procedures_defnoreturn
-    - Definicion de procedimientos parametrizados
-    - procedures_defreturn
-    - Definicion de funciones simples
+    - procedures_defreturnsimple
   defaultToolbox: |
     <category name="-- Biblioteca --" gbs_custom="SEPARATOR">
     </category>
@@ -153,7 +147,7 @@ board:
     can_change_initial_board_source: false
     can_view_size_section: false
 execution_speed:
-  active: instantaneous
+  active: high
   user_permissions:
     can_change_speed: true
 source:

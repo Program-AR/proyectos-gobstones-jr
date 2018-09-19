@@ -1,38 +1,47 @@
-﻿program {
-  ...
-}
-
-procedure DibujarCuadradoDeColorRojo()  {
-  ...
+procedure DibujarCuadradoDeColorRojo() {
+  BOOM("El programa todavía no está completo")
 }
 
 procedure DibujarCuadradoDeColorNegro() {
-  ...
+  BOOM("El programa todavía no está completo")
 }
 
-procedure DibujarCuadradoDeColorAzul()  {
-  ...
-}
-
-procedure DibujarCuadradoDeColorVerde() {
-  ...
+procedure DibujarCuadradoDeColorAzul() {
+  BOOM("El programa todavía no está completo")
 }
 
 procedure PosicionarseParaElPrimerCuadrado() {
-  IrAlBorde(Oeste)  IrAlBorde(Sur)
+  IrAlBorde(Oeste)
+  IrAlBorde(Sur)
+}
+
+procedure DibujarCuadradoDeColorVerde() {
+  BOOM("El programa todavía no está completo")
 }
 
 procedure PosicionarseParaElSegundoCuadrado() {
-  IrAlBorde(Sur)    IrAlBorde(Este)
-  repeat(2) { Mover(Oeste) }
+  IrAlBorde(Sur)
+  IrAlBorde(Este)
+  Mover(Oeste)
+  Mover(Oeste)
 }
 
 procedure PosicionarseParaElTercerCuadrado() {
-  IrAlBorde(Norte)  IrAlBorde(Este)
-  repeat(2) { Mover(Sur)  Mover(Oeste) }
+  IrAlBorde(Norte)
+  Mover(Sur)
+  Mover(Sur)
+  IrAlBorde(Este)
+  Mover(Oeste)
+  Mover(Oeste)
 }
 
 procedure PosicionarseParaElCuartoCuadrado() {
-  IrAlBorde(Oeste)  IrAlBorde(Norte)
-  repeat(2) { Mover(Sur) }
+  IrAlBorde(Oeste)
+  IrAlBorde(Norte)
+  Mover(Sur)
+  Mover(Sur)
+}
+
+
+program {
 }

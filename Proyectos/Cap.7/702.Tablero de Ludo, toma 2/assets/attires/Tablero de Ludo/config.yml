@@ -1,4 +1,4 @@
-name: Cuadrados
+name: Tablero de Ludo
 rules:
   - image: Fondo.png
     when:
@@ -30,9 +30,4 @@ rules:
       blue: 0
       green: 1
       red: 0
-  - image: Violeta.png
-    when:
-      black: 0
-      blue: 1
-      green: 0
-      red: 1
+
