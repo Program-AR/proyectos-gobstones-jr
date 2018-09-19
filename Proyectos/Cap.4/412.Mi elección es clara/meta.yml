@@ -25,6 +25,7 @@ blocks:
     - FuncionesPrimitivas
     - '-- Mis operaciones --'
     - Mis procedimientos
+    - Mis funciones
     - '-- Comandos --'
     - Poner
     - Mover
@@ -138,7 +139,7 @@ board:
     can_edit_board: false
   visible_edition: true
 execution_speed:
-  active: instantaneous
+  active: medium
   user_permissions:
     can_change_speed: true
 library:

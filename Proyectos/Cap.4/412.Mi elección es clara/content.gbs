@@ -1,27 +1,44 @@
-﻿program {
-  MantenerSecciónDelCantero()
+procedure SimularUnInterruptorDeLuz() {
+  if (hayBolitas(Azul)) {
+    ApagarLaLuz()
+  } else {
+    PrenderLaLuz()
+  }
+}
+
+procedure MantenerLaSecciónDeHuerta() {
+  if (hayPlantas()) {
+    FertilizarPlantas()
+  } else {
+    PlantarTomates()
+  }
+}
+
+function hayPlantas() {
+  return (hayBolitas(Verde))
+}
+
+procedure PrenderLaLuz() {
+  Poner(Azul)
+  Sacar(Negro)
+}
+
+procedure PlantarTomates() {
+  Poner(Verde)
+}
+
+procedure ApagarLaLuz() {
+  Poner(Negro)
+  Sacar(Azul)
+}
+
+procedure FertilizarPlantas() {
+  Poner(Rojo)
+}
+
+
+program {
+  MantenerLaSecciónDeHuerta()
   Mover(Norte)
-  SimularInterruptorDeLuz()
+  SimularUnInterruptorDeLuz()
 }
-
-function hayFlor() {
-  return (hayBolitas(Rojo))
-}
-
-procedure SimularInterruptorDeLuz() {
-  if (hayBolitas(Azul)) 
-       { ApagarLaLuz()  }
-  else { PrenderLaLuz() }
-}
-
-procedure MantenerSecciónDelCantero() {
-  if (hayFlor()) 
-       { FertilizarFlor() }
-  else { PlantarFlor()    }
-}
-
-procedure PrenderLaLuz() { Poner(Azul)  Sacar(Negro) }
-procedure ApagarLaLuz()  { Poner(Negro) Sacar(Azul)  }
-
-procedure PlantarFlor()    { Poner(Rojo) }
-procedure FertilizarFlor() { Poner(Verde) }
