@@ -119,9 +119,11 @@ board:
   user_permissions:
     can_change_source: false
     can_edit_board: false
+    can_view_attire_section: false
+    can_view_size_section: false
   visible_edition: false
 execution_speed:
-  active: instantaneous
+  active: high
   user_permissions:
     can_change_speed: true
 library:

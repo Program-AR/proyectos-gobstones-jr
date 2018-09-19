@@ -2,7 +2,7 @@ attire:
   active: Fútbol de robots
   user_permissions:
     can_toggle_visibility: true
-  visible: true
+  visible: false
 blocks:
   disabled:
     - IrAlBorde

@@ -1,9 +1,9 @@
 name: 'La luz está prendida vs. hay bolitas: mi elección es clara'
 attire:
-  active: null
+  active: Plantas y luces
   user_permissions:
     can_toggle_visibility: true
-  visible: false
+  visible: true
 blocks:
   disabled:
     - IrAlBorde
@@ -137,6 +137,7 @@ board:
   user_permissions:
     can_change_source: false
     can_edit_board: false
+    can_view_size_section: false
   visible_edition: true
 execution_speed:
   active: medium

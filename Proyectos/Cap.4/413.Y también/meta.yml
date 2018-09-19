@@ -1,9 +1,9 @@
 name: Y también…
 attire:
-  active: null
+  active: Plantas y luces
   user_permissions:
     can_toggle_visibility: true
-  visible: false
+  visible: true
 blocks:
   disabled:
     - Poner
