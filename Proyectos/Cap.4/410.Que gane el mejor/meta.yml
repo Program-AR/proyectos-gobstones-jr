@@ -135,7 +135,7 @@ board:
     can_edit_board: false
   visible_edition: true
 execution_speed:
-  active: high
+  active: medium
   user_permissions:
     can_change_speed: true
 library:
