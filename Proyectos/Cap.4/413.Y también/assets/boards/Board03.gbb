@@ -1,4 +1,7 @@
 ﻿GBB/1.0
 size 10 1
-cell 7 0 Azul 0 Negro 0 Rojo 2 Verde 1
+cell 7 0 Azul 0 Negro 0 Rojo 1 Verde 1
+cell 2 0 Azul 0 Negro 0 Rojo 1 Verde 0
+cell 5 0 Azul 0 Negro 0 Rojo 1 Verde 0
+cell 3 0 Azul 0 Negro 0 Rojo 0 Verde 1
 head 0 0

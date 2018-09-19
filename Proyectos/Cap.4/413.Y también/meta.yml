@@ -6,7 +6,7 @@ attire:
   visible: false
 blocks:
   disabled:
-    - Sacar
+    - Poner
     - IrAlBorde
     - puedeMover
     - OperadorNumerico
@@ -19,6 +19,7 @@ blocks:
     - FuncionesPrimitivas
     - '-- Mis operaciones --'
     - Mis procedimientos
+    - Mis funciones
     - '-- Comandos --'
     - Poner
     - Mover
@@ -133,7 +134,7 @@ board:
     can_edit_board: false
   visible_edition: true
 execution_speed:
-  active: instantaneous
+  active: high
   user_permissions:
     can_change_speed: true
 library:
