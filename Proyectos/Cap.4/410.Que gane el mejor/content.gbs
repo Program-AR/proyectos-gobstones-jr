@@ -1,23 +1,25 @@
-﻿program {
-  CombatirGikachuVsGarmander()
+procedure CombatirVerdolagaVsCopaAlta() {
+  if (boom("El programa todavía no está completo")) {
+    Empatan()
+  } elseif (boom("El programa todavía no está completo")) {
+    BOOM("El programa todavía no está completo")
+  } else {
+    BOOM("El programa todavía no está completo")
+  }
 }
 
-procedure CombatirGikachuVsGarmander() {
-  if     (...) 
-         { Empatan() }
-  elseif (...) 
-         { ... }
-  else   { ...   }
-}
-
-procedure SacarGikachu() {
-  ...
-}
-
-procedure SacarGarmander() {
-  ...
+procedure SacarAVerdolaga() {
+  BOOM("El programa todavía no está completo")
 }
 
 procedure Empatan() {
-  ...
+  BOOM("El programa todavía no está completo")
+}
+
+procedure SacarACopaAlta() {
+  BOOM("El programa todavía no está completo")
+}
+
+
+program {
 }

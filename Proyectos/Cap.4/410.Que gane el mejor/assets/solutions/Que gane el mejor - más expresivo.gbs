@@ -1,0 +1,35 @@
+procedure CombatirVerdolagaVsCopaAlta() {
+  if (nroBolitas(Negro) == nroBolitas(Verde)) {
+    Empatan()
+  } elseif (nroBolitas(Negro) > nroBolitas(Verde)) {
+    GanaCopaAlta()
+  } else {
+    GanaVerdolaga()
+  }
+}
+
+procedure GanaCopaAlta() {
+  SacarAVerdolaga()
+}
+
+procedure SacarAVerdolaga() {
+  SacarTodas_(Verde)
+}
+
+procedure Empatan() {
+  SacarAVerdolaga()
+  SacarACopaAlta()
+}
+
+procedure GanaVerdolaga() {
+  SacarACopaAlta()
+}
+
+procedure SacarACopaAlta() {
+  SacarTodas_(Negro)
+}
+
+
+program {
+  CombatirVerdolagaVsCopaAlta()
+}
