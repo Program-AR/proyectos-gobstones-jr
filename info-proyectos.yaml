@@ -158,18 +158,6 @@
   name: "Datos, alternativas condicionales y funciones"
   exercises:
     - old:
-        id: "4.1.1.1"
-        name: "No encuentro bolitas de color Sur"
-      new:
-        id: "490"
-        name: "No encuentro bolitas de color Sur"
-    - old:
-        id: "4.1.1.2"
-        name: "Para dónde queda Rojo"
-      new:
-        id: "491"
-        name: "Para dónde queda Rojo"
-    - old:
         id: "4.1.1.3"
         name: "Y por qué hace BOOM"
       new:

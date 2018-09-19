@@ -141,16 +141,6 @@
     "repo": "program-ar/proyectos-gobstones-jr",
     "exercises": [
       {
-        "id": "490",
-        "name": "No encuentro bolitas de color Sur",
-        "path": "Proyectos/Cap.4/490.No encuentro bolitas de color Sur"
-      },
-      {
-        "id": "491",
-        "name": "Para dónde queda Rojo",
-        "path": "Proyectos/Cap.4/491.Para dónde queda Rojo"
-      },
-      {
         "id": "401",
         "name": "Por qué falla",
         "path": "Proyectos/Cap.4/401.Por qué falla"
