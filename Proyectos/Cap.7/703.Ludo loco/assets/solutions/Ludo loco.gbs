@@ -1,0 +1,73 @@
+procedure DibujarUnCuadrado(colorDelCuadrado, longitudDelLado) {
+  repeat(longitudDelLado - 1) {
+    Poner(colorDelCuadrado)
+    Mover(Norte)
+  }
+  repeat(longitudDelLado - 1) {
+    Poner(colorDelCuadrado)
+    Mover(Este)
+  }
+  repeat(longitudDelLado - 1) {
+    Poner(colorDelCuadrado)
+    Mover(Sur)
+  }
+  repeat(longitudDelLado - 1) {
+    Poner(colorDelCuadrado)
+    Mover(Oeste)
+  }
+}
+
+procedure PosicionarseParaUnCuadrado(dirección1, distancia1, dirección2, distancia2) {
+  IrAlBorde(dirección1)
+  repeat(distancia1 - 1) {
+    Mover(opuesto(dirección1))
+  }
+  IrAlBorde(dirección2)
+  repeat(distancia2 - 1) {
+    Mover(opuesto(dirección2))
+  }
+}
+
+procedure PosicionarseParaElPrimerCuadrado() {
+  PosicionarseParaUnCuadrado(Oeste, 1, Sur, 1)
+}
+
+procedure PosicionarseParaElSegundoCuadrado() {
+  PosicionarseParaUnCuadrado(Este, 3, Sur, 1)
+}
+
+procedure PosicionarseParaElTercerCuadrado() {
+  PosicionarseParaUnCuadrado(Este, 6, Norte, 6)
+}
+
+procedure DibujarElPrimerCuadrado() {
+  DibujarUnCuadrado(Rojo, 4)
+}
+
+procedure DibujarElSegundoCuadrado() {
+  DibujarUnCuadrado(Negro, 3)
+}
+
+procedure PosicionarseParaElCuartoCuadrado() {
+  PosicionarseParaUnCuadrado(Oeste, 1, Norte, 5)
+}
+
+procedure DibujarElTercerCuadrado() {
+  DibujarUnCuadrado(Azul, 6)
+}
+
+procedure DibujarElCuartoCuadrado() {
+  DibujarUnCuadrado(Verde, 5)
+}
+
+
+program {
+  PosicionarseParaElPrimerCuadrado()
+  DibujarElPrimerCuadrado()
+  PosicionarseParaElSegundoCuadrado()
+  DibujarElSegundoCuadrado()
+  PosicionarseParaElTercerCuadrado()
+  DibujarElTercerCuadrado()
+  PosicionarseParaElCuartoCuadrado()
+  DibujarElCuartoCuadrado()
+}

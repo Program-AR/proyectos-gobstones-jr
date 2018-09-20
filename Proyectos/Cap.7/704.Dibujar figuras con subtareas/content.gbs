@@ -1,0 +1,17 @@
+procedure DibujarCuadrado(colorDelCuadrado, longitudDelLado) {
+  DibujarLínea(Norte, colorDelCuadrado, longitudDelLado - 1)
+  DibujarLínea(Este, colorDelCuadrado, longitudDelLado - 1)
+  DibujarLínea(Sur, colorDelCuadrado, longitudDelLado - 1)
+  DibujarLínea(Oeste, colorDelCuadrado, longitudDelLado - 1)
+}
+
+procedure DibujarLínea(direcciónADibujar, colorDeLaLínea, longitudDeLaLínea) {
+  BOOM("El programa todavía no está completo")
+}
+
+
+program {
+  PosicionarseEnLaEsquina__ParaUnCuadradoDeTamaño_(Sur, Oeste, 4)
+  DibujarCuadrado(Rojo, 4)
+  BOOM("El programa todavía no está completo")
+}

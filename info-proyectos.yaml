@@ -318,7 +318,7 @@
         name: "Ludo loco, toma 2"
       new:
         id: "703"
-        name: "Ludo loco, toma 2"
+        name: "Ludo loco"
     - old:
         id: "8.1.5.1"
         name: "Dibujar figuras con subtareas"
@@ -330,7 +330,7 @@
         name: "Dibujar figuras con subtareas, revisado"
       new:
         id: "704"
-        name: "Dibujar figuras con subtareas, revisado"
+        name: "Dibujar figuras con subtareas"
     - old:
         id: "8.1.6"
         name: "Varias cosas de una sola vez"

@@ -1,26 +1,20 @@
-name: Super Lucho 1
+name: Dibujar figuras con subtareas
 attire:
-  active: Super Lucho
+  active: Tablero de Ludo
   user_permissions:
     can_toggle_visibility: true
   visible: true
 blocks:
   disabled:
-    - Poner
-    - Mover
     - Sacar
     - IrAlBorde
-    - RepeticionSimple
     - AlternativaSimple
     - AlternativaCompleta
-    - Color
-    - Direccion
-    - Numero
     - puedeMover
     - hayBolitas
     - nroBolitas
+    - FuncionesPrimitivas
     - Mis funciones
-    - OperadorNumerico
     - OperadorDeComparacion
     - not
     - OperadorLogico
@@ -57,8 +51,6 @@ blocks:
     - procedures_defnoreturnnoparams
     - procedures_defnoreturn
     - procedures_defreturnsimple
-    - ComandoCompletar
-    - ExpresionCompletar
   defaultToolbox: |
     <category name="-- Biblioteca --" gbs_custom="SEPARATOR">
     </category>
@@ -144,10 +136,11 @@ blocks:
     </category>
 board:
   active: 1
-  initial_board_source: random
+  initial_board_source: selected
   user_permissions:
     can_change_source: false
     can_edit_board: false
+    can_view_size_section: false
   visible_edition: true
 execution_speed:
   active: high
