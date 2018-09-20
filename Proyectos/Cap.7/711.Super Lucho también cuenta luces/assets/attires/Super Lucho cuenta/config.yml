@@ -30,25 +30,25 @@ rules:
       blue: 2
       green: 1
       red: 0
-  - image: LuchoAfuera.png
+  - image: Lucho.png
     when:
       black: 1
       blue: 0
       green: 0
       red: 0
-  - image: LuchoEnCamino.png
+  - image: LuchoCamino.png
     when:
       black: 1
       blue: 0
       green: 1
       red: 0
-  - image: LuchoEnLuzApagada.png
+  - image: LuchoLuzApagada.png
     when:
       black: 1
       blue: 1
       green: 1
       red: 0
-  - image: LuchoEnLuzPrendida.png
+  - image: LuchoLuzPrendida.png
     when:
       black: 1
       blue: 2
@@ -114,3 +114,69 @@ rules:
       blue: 0
       green: 2
       red: 9
+  - image: LuchoMeta-10.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 10
+  - image: LuchoMeta-11.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 11
+  - image: LuchoMeta-12.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 12
+  - image: LuchoMeta-13.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 13
+  - image: LuchoMeta-14.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 14
+  - image: LuchoMeta-15.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 15
+  - image: LuchoMeta-16.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 16
+  - image: LuchoMeta-17.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 17
+  - image: LuchoMeta-18.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 18
+  - image: LuchoMeta-19.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 19
+  - image: LuchoMeta-20.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 20
