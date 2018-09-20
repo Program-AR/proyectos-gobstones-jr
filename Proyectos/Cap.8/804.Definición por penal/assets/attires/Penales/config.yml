@@ -18,7 +18,7 @@ rules:
       blue: '*'
       green: '*'
       red: 4
-  - image: ArcoSoloAIzq.png
+  - image: ArcoSoloIzq.png
     when:
       black: 0
       blue: 0
@@ -36,7 +36,7 @@ rules:
       blue: 0
       green: 0
       red: 3
-  - image: ArcoYPelotaAIzq.png
+  - image: ArcoYPelotaIzq.png
     when:
       black: 1
       blue: 0
@@ -54,7 +54,7 @@ rules:
       blue: 0
       green: 0
       red: 3
-  - image: ArcoAIzqConArquero.png
+  - image: ArcoIzqConArquero.png
     when:
       black: 2
       blue: 0
@@ -72,7 +72,7 @@ rules:
       blue: 0
       green: 0
       red: 3
-  - image: ArcoPelotaYArqueroAIzq.png
+  - image: ArcoPelotaYArqueroIzq.png
     when:
       black: 3
       blue: 0
