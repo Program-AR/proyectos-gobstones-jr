@@ -5,20 +5,6 @@ attire:
     can_toggle_visibility: true
   visible: true
 blocks:
-  disabled:
-    - Sacar
-    - AlternativaSimple
-    - AlternativaCompleta
-    - puedeMover
-    - hayBolitas
-    - nroBolitas
-    - FuncionesPrimitivas
-    - Mis funciones
-    - OperadorDeComparacion
-    - not
-    - OperadorLogico
-    - opuesto
-    - procedures_defreturn
   visible:
     - '-- Biblioteca --'
     - Procedimientos primitivos
