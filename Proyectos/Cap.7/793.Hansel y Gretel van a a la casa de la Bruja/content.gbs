@@ -1,6 +1,0 @@
-program {
-  ...
-}
-
-function miguitas() { return(Rojo) }
-function llegamosALoDeLaBruja() { return (nroBolitas(Negro)==3) }

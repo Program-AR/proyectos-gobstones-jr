@@ -1,3 +1,0 @@
-procedure SacarTodas_(color) {	AuxSacar__Veces(color,nroBolitas(color)) }
-
-procedure AuxSacar__Veces(color,n) { repeat(n) { Sacar(color) } }

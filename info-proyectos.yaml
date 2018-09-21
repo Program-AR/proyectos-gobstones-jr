@@ -308,23 +308,11 @@
         id: "702"
         name: "Tablero de Ludo, toma 2"
     - old:
-        id: "8.1.4.1"
-        name: "Ludo loco, toma 1"
-      new:
-        id: "790"
-        name: "Ludo loco, toma 1"
-    - old:
         id: "8.1.4.2"
         name: "Ludo loco, toma 2"
       new:
         id: "703"
         name: "Ludo loco"
-    - old:
-        id: "8.1.5.1"
-        name: "Dibujar figuras con subtareas"
-      new:
-        id: "791"
-        name: "Dibujar figuras con subtareas"
     - old:
         id: "8.1.5.2"
         name: "Dibujar figuras con subtareas, revisado"
@@ -362,18 +350,6 @@
         id: "708"
         name: "Más entrenamiento para Beto"
     - old:
-        id: "8.2.4"
-        name: "Hansel y Gretel van a a la casa de la Bruja"
-      new:
-        id: "793"
-        name: "Hansel y Gretel van a a la casa de la Bruja"
-    - old:
-        id: "8.2.5"
-        name: "Limpiemos imágenes"
-      new:
-        id: "794"
-        name: "Limpiemos imágenes"
-    - old:
         id: "8.2.6"
         name: "Dónde puse las llaves"
       new:
@@ -398,23 +374,11 @@
         id: "712"
         name: "A qué distancia está el borde"
     - old:
-        id: "8.3.4.1"
-        name: "Contar las baldosas"
-      new:
-        id: "795"
-        name: "Contar las baldosas"
-    - old:
         id: "8.3.4.2"
         name: "Contar las baldosas rajadas"
       new:
         id: "713"
         name: "Contar las baldosas rajadas"
-    - old:
-        id: "8.3.5"
-        name: "El radar"
-      new:
-        id: "796"
-        name: "El radar"
     - old:
         id: "8.4.1"
         name: "Super Lucho, recargado"

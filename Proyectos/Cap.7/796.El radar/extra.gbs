@@ -1,1 +1,0 @@
-procedure Mover__Veces(dirección, cantidad) { repeat(cantidad) { Mover(dirección) } }
