@@ -5,27 +5,6 @@ attire:
     can_toggle_visibility: true
   visible: true
 blocks:
-  disabled:
-    - Poner
-    - Mover
-    - Sacar
-    - IrAlBorde
-    - RepeticionSimple
-    - AlternativaSimple
-    - AlternativaCompleta
-    - Color
-    - Direccion
-    - Numero
-    - puedeMover
-    - hayBolitas
-    - nroBolitas
-    - Mis funciones
-    - OperadorNumerico
-    - OperadorDeComparacion
-    - not
-    - OperadorLogico
-    - opuesto
-    - procedures_defreturn
   visible:
     - '-- Biblioteca --'
     - Procedimientos primitivos
@@ -39,6 +18,7 @@ blocks:
     - Sacar
     - IrAlBorde
     - RepeticionSimple
+    - RepeticionCondicional
     - AlternativaSimple
     - AlternativaCompleta
     - '-- Expresiones --'
