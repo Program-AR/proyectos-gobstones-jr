@@ -1,26 +1,32 @@
-﻿program { ... }
-
-function encontréLasLlaves() { return (...) }
+function encontréLasLlaves() {
+  return (boom("El programa todavía no está completo"))
+}
 
 procedure BuscarLasLlaves() {
-  ...
-  while (not (...)) 
-    { ... }
+  BOOM("El programa todavía no está completo")
+  while (not ()) {
+    BOOM("El programa todavía no está completo")
+  }
 }
 
 procedure PasarAlSiguienteCajónYAbrirlo() {
-  if (...) 
-       { Mover(Este) } 
-  else {
-         ...
-       }
+  if (boom("El programa todavía no está completo")) {
+    Mover(Este)
+  } else {
+    BOOM("El programa todavía no está completo")
+  }
   AbrirElCajón()
 }
 
 procedure IrAlPrimerCajónYAbrirlo() {
-  ...
+  BOOM("El programa todavía no está completo")
   AbrirElCajón()
 }
 
-procedure AbrirElCajón() { ... }
+procedure AbrirElCajón() {
+  Sacar(Negro)
+}
 
+
+program {
+}

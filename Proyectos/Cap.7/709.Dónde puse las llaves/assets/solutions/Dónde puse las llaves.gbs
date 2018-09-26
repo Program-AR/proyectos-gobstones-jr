@@ -1,0 +1,35 @@
+function encontréLasLlaves() {
+  return (hayBolitas(Rojo))
+}
+
+procedure BuscarLasLlaves() {
+  IrAlPrimerCajónYAbrirlo()
+  while (not (encontréLasLlaves())) {
+    PasarAlSiguienteCajónYAbrirlo()
+  }
+}
+
+procedure PasarAlSiguienteCajónYAbrirlo() {
+  if (puedeMover(Este)) {
+    Mover(Este)
+  } else {
+    Mover(Norte)
+    IrAlBorde(Oeste)
+  }
+  AbrirElCajón()
+}
+
+procedure IrAlPrimerCajónYAbrirlo() {
+  IrAlBorde(Sur)
+  IrAlBorde(Oeste)
+  AbrirElCajón()
+}
+
+procedure AbrirElCajón() {
+  Sacar(Negro)
+}
+
+
+program {
+  BuscarLasLlaves()
+}
