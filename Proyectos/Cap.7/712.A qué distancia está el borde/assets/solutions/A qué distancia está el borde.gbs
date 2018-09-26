@@ -1,0 +1,29 @@
+procedure PasarALaSiguienteCelda(direcciónAMover) {
+  if (puedeMover(direcciónAMover)) {
+    Mover(direcciónAMover)
+  }
+}
+
+function esLaÚltimaCelda(dirección) {
+  return (not(puedeMover(dirección)))
+}
+
+procedure InformarDistanciaHastaElBorde(color, direcciónAMedir) {
+  cantidadDePasosAvanzados := 0
+  while (not (esLaÚltimaCelda(direcciónAMedir))) {
+    cantidadDePasosAvanzados := cantidadDePasosAvanzados + 1
+    PasarALaSiguienteCelda(direcciónAMedir)
+  }
+  repeat(cantidadDePasosAvanzados) {
+    Mover(opuesto(direcciónAMedir))
+  }
+  Poner__Veces(color, cantidadDePasosAvanzados)
+}
+
+
+program {
+  InformarDistanciaHastaElBorde(Azul, Norte)
+  InformarDistanciaHastaElBorde(Negro, Este)
+  InformarDistanciaHastaElBorde(Verde, Sur)
+  InformarDistanciaHastaElBorde(Rojo, Oeste)
+}

@@ -4,45 +4,37 @@ attire:
     can_toggle_visibility: true
   visible: true
 blocks:
-  disabled:
-    - IrAlBorde
-    - BOOM
-    - RepeticionSimple
-    - AlternativaCompleta
-    - puedeMover
-    - hayBolitas
-    - siguiente
-    - previo
-    - opuesto
+  disabled: []
   visible:
+    - '-- Biblioteca --'
+    - ProcedimientosPrimitivos
+    - FuncionesPrimitivas
+    - '-- Mis operaciones --'
+    - Mis procedimientos
+    - Mis funciones
+    - '-- Comandos --'
     - Poner
     - Mover
     - Sacar
     - IrAlBorde
-    - BOOM
-    - Procedimientos primitivos
-    - Mis procedimientos
     - RepeticionSimple
     - RepeticionCondicional
     - AlternativaSimple
     - AlternativaCompleta
     - Asignacion
+    - '-- Expresiones --'
     - Color
     - Direccion
     - Numero
     - puedeMover
     - hayBolitas
     - nroBolitas
-    - FuncionesPrimitivas
-    - Mis funciones
     - OperadorNumerico
     - OperadorDeComparacion
-    - not
-    - OperadorDeNegacion
-    - OperadorLogico
-    - siguiente
-    - previo
     - opuesto
+    - OperadorLogico
+    - OperadorDeNegacion
+    - '-- Definiciones --'
     - DefinicionDeProcedimientoSimple
     - DefinicionDeProcedimientoParametrizado
     - DefinicionDeFuncionSimple

@@ -1,0 +1,12 @@
+procedure ImitarAzulesConRojasPeroEnElEste() {
+  repeat(nroBolitas(Azul)) {
+    Mover(Este)
+    Poner(Rojo)
+    Mover(Oeste)
+  }
+}
+
+
+program {
+  ImitarAzulesConRojasPeroEnElEste()
+}

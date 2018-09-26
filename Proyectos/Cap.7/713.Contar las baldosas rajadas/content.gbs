@@ -1,33 +1,34 @@
-program { InformarLaCantidadDeRajadas() }
-
-procedure InformarLaCantidadDeRajadas() {
+procedure InformarLaCantidadDeBaldosasRajadas() {
   IrALaEsquinaSuroeste()
-  Poner__Veces(Negro, cantidadDeBaldosasRajadas())
+  Poner__Veces(Negro, ...)
 }
 
-function cantidadDeBaldosasRajadas() {
-  ComenzarElRecorrido()
-  cantidadDeBaldosasRajadasYaVistas := 0
-  while (not (esLaUltimaBaldosa())) {
-    if (esBaldosaRajada()) { cantidadDeBaldosasRajadasYaVistas := cantidadDeBaldosasRajadasYaVistas + 1 }
-    PasarALaSiguienteBaldosa()
-  }
-  if (esBaldosaRajada()) { cantidadDeBaldosasRajadasYaVistas := cantidadDeBaldosasRajadasYaVistas + 1 }
-
-  return (cantidadDeBaldosasRajadasYaVistas)
+procedure ComenzarElRecorrido() {
+  IrALaEsquinaSuroeste()
 }
 
-procedure ComenzarElRecorrido() { IrALaEsquinaSuroeste() }
+function esUnaBaldosaRajada() {
+  return (hayBolitas(Verde))
+}
 
 procedure PasarALaSiguienteBaldosa() {
-  if (puedeMover(Este)) 
-       { Mover(Este) } 
-  else {
-         IrAlBorde(Oeste)
-         Mover(Norte)
-       }
+  if (puedeMover(Este)) {
+    Mover(Este)
+  } else {
+    IrAlBorde(Oeste)
+    Mover(Norte)
+  }
 }
 
-procedure IrALaEsquinaSuroeste() { IrAlBorde(Sur)  IrAlBorde(Oeste) }
-function esLaUltimaBaldosa() { return (not(puedeMover(Este)) && not(puedeMover(Norte))) }
-function esBaldosaRajada()   { return (hayBolitas(Verde)) }
+function esLaÚltimaBaldosa() {
+  return (...)
+}
+
+procedure IrALaEsquinaSuroeste() {
+  IrAlBorde(Sur)
+  IrAlBorde(Oeste)
+}
+
+
+program {
+}

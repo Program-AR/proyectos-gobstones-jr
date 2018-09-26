@@ -1,16 +1,10 @@
 name: Super Lucho cuenta
 rules:
-  - image: Fondo.png
+  - image: FondoLucho.png
     when:
       black: 0
       blue: 0
       green: 0
-      red: 0
-  - image: Camino.png
-    when:
-      black: 0
-      blue: 0
-      green: 1
       red: 0
   - image: Meta.png
     when:
@@ -22,13 +16,13 @@ rules:
     when:
       black: 0
       blue: 1
-      green: 1
+      green: 0
       red: 0
   - image: LuzPrendida.png
     when:
       black: 0
       blue: 2
-      green: 1
+      green: 0
       red: 0
   - image: Lucho.png
     when:
@@ -36,23 +30,17 @@ rules:
       blue: 0
       green: 0
       red: 0
-  - image: LuchoCamino.png
-    when:
-      black: 1
-      blue: 0
-      green: 1
-      red: 0
   - image: LuchoLuzApagada.png
     when:
       black: 1
       blue: 1
-      green: 1
+      green: 0
       red: 0
   - image: LuchoLuzPrendida.png
     when:
       black: 1
       blue: 2
-      green: 1
+      green: 0
       red: 0
   - image: LuchoMeta-0.png
     when:

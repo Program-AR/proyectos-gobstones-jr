@@ -1,10 +1,8 @@
-﻿program { ...() }
-
-procedure EncenderYContar() {
+procedure IrALaEsquinaSuroeste() {
   ...
 }
 
-procedure IrAlInicioDelReocrrido() {
+procedure EncenderYContar() {
   ...
 }
 
@@ -12,13 +10,23 @@ procedure PasarALaSiguienteCelda() {
   ...
 }
 
-function esLaÚltimaCelda() { return (...) }
-function esLuzApagada() { return (...) }
-procedure EncenderLuz() { ... }
+function esLaÚltimaCelda() {
+  return (...)
+}
 
-procedure PonerALucho() { ... }
-procedure SacarALucho() { ... }
+procedure EncenderLuz() {
+  ...
+}
+
+function esLuzApagada() {
+  return (...)
+}
+
 procedure MoverALucho(direcciónAMover) {
+  ...
+}
+
+procedure SacarALucho() {
   ...
 }
 
@@ -26,3 +34,10 @@ procedure LlevarALuchoAlBorde(direcciónDelBorde) {
   ...
 }
 
+procedure PonerALucho() {
+  ...
+}
+
+
+program {
+}

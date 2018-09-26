@@ -1,15 +1,15 @@
 procedure EncenderLaFilaDeLucesYContarlas() {
-  cantidadDeLucesQueYaPrendí := ...
-  while (not ()) {
-    ...
+  cantidadDeLucesQueYaPrendí := 0
+  while (not (luchoEstáEnLaMeta())) {
+    EncenderLuz()
     cantidadDeLucesQueYaPrendí := cantidadDeLucesQueYaPrendí + 1
-    ...
+    MoverALucho(Este)
   }
-  InformarLucesPrendidas(...)
+  InformarLucesPrendidas(cantidadDeLucesQueYaPrendí)
 }
 
 procedure InformarLucesPrendidas(cantidadDeLucesAInformar) {
-  ...
+  Poner__Veces(Rojo, cantidadDeLucesAInformar)
 }
 
 procedure EncenderLuz() {
@@ -28,4 +28,5 @@ function luchoEstáEnLaMeta() {
 
 
 program {
+  EncenderLaFilaDeLucesYContarlas()
 }

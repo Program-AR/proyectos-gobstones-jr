@@ -1,0 +1,68 @@
+procedure IrALaEsquinaSuroeste() {
+  LlevarALuchoAlBorde(Sur)
+  LlevarALuchoAlBorde(Oeste)
+}
+
+procedure EncenderYContar() {
+  IrALaEsquinaSuroeste()
+  cantidadDeLucesQueYaPrendí := 0
+  while (not (esLaÚltimaCelda())) {
+    if (esLuzApagada()) {
+      EncenderLuz()
+      cantidadDeLucesQueYaPrendí := cantidadDeLucesQueYaPrendí + 1
+    }
+    PasarALaSiguienteCelda()
+  }
+  if (esLuzApagada()) {
+    EncenderLuz()
+    cantidadDeLucesQueYaPrendí := cantidadDeLucesQueYaPrendí + 1
+  }
+  IrALaEsquinaSuroeste()
+  Poner__Veces(Rojo, cantidadDeLucesQueYaPrendí)
+}
+
+procedure PasarALaSiguienteCelda() {
+  if (puedeMover(Este)) {
+    MoverALucho(Este)
+  } else {
+    LlevarALuchoAlBorde(Oeste)
+    MoverALucho(Norte)
+  }
+}
+
+function esLaÚltimaCelda() {
+  return (not(puedeMover(Este)) && not(puedeMover(Norte)))
+}
+
+procedure EncenderLuz() {
+  Poner(Azul)
+}
+
+function esLuzApagada() {
+  return (nroBolitas(Azul) == 1)
+}
+
+procedure MoverALucho(direcciónAMover) {
+  SacarALucho()
+  Mover(direcciónAMover)
+  PonerALucho()
+}
+
+procedure SacarALucho() {
+  Sacar(Negro)
+}
+
+procedure LlevarALuchoAlBorde(direcciónDelBorde) {
+  SacarALucho()
+  IrAlBorde(direcciónDelBorde)
+  PonerALucho()
+}
+
+procedure PonerALucho() {
+  Poner(Negro)
+}
+
+
+program {
+  EncenderYContar()
+}

@@ -4,48 +4,36 @@ attire:
     can_toggle_visibility: true
   visible: false
 blocks:
-  disabled:
-    - Poner
-    - Sacar
-    - IrAlBorde
-    - BOOM
-    - RepeticionSimple
-    - AlternativaCompleta
-    - hayBolitas
-    - nroBolitas
-    - OperadorDeComparacion
-    - OperadorLogico
-    - siguiente
-    - previo
-    - opuesto
   visible:
+    - '-- Biblioteca --'
+    - ProcedimientosPrimitivos
+    - FuncionesPrimitivas
+    - '-- Mis operaciones --'
+    - Mis procedimientos
+    - Mis funciones
+    - '-- Comandos --'
     - Poner
     - Mover
     - Sacar
     - IrAlBorde
-    - BOOM
-    - Procedimientos primitivos
-    - Mis procedimientos
     - RepeticionSimple
     - RepeticionCondicional
     - AlternativaSimple
     - AlternativaCompleta
     - Asignacion
+    - '-- Expresiones --'
     - Color
     - Direccion
     - Numero
     - puedeMover
     - hayBolitas
     - nroBolitas
-    - FuncionesPrimitivas
-    - Mis funciones
     - OperadorNumerico
     - OperadorDeComparacion
-    - OperadorDeNegacion
-    - OperadorLogico
-    - siguiente
-    - previo
     - opuesto
+    - OperadorLogico
+    - OperadorDeNegacion
+    - '-- Definiciones --'
     - DefinicionDeProcedimientoSimple
     - DefinicionDeProcedimientoParametrizado
     - DefinicionDeFuncionSimple
@@ -140,6 +128,8 @@ board:
   user_permissions:
     can_change_source: false
     can_edit_board: false
+    can_view_attire_section: false
+    can_view_size_section: false
   visible_edition: true
 execution_speed:
   active: high
