@@ -219,13 +219,8 @@
   },
   {
     "name": "Representación de la información",
-    "repo": "gobstones/proyectos-jr",
+    "repo": "program-ar/proyectos-gobstones-jr",
     "exercises": [
-      {
-        "id": "590",
-        "name": "Números binarios con procedimientos",
-        "path": "Proyectos/Cap.5/590.Números binarios con procedimientos"
-      },
       {
         "id": "501",
         "name": "Pintando la camiseta de colores",
@@ -245,22 +240,12 @@
         "id": "504",
         "name": "Representando caracteres",
         "path": "Proyectos/Cap.5/504.Representando caracteres"
-      },
-      {
-        "id": "591",
-        "name": "Mensajes secretos",
-        "path": "Proyectos/Cap.5/591.Mensajes secretos"
-      },
-      {
-        "id": "592",
-        "name": "Texto en colores",
-        "path": "Proyectos/Cap.5/592.Texto en colores"
       }
     ]
   },
   {
     "name": "Parámetros, repeticiones condicionales y variables",
-    "repo": "gobstones/proyectos-jr",
+    "repo": "program-ar/proyectos-gobstones-jr",
     "exercises": [
       {
         "id": "701",
@@ -336,7 +321,7 @@
   },
   {
     "name": "Interactividad y proyectos finales",
-    "repo": "gobstones/proyectos-jr",
+    "repo": "program-ar/proyectos-gobstones-jr",
     "exercises": [
       {
         "id": "801",
