@@ -4,6 +4,7 @@ attire:
     can_toggle_visibility: true
   visible: true
 blocks:
+  disabled: []
   visible:
     - '-- Biblioteca --'
     - Procedimientos primitivos

@@ -4,6 +4,7 @@ attire:
     can_toggle_visibility: true
   visible: true
 blocks:
+  disabled: []
   visible:
     - '-- Biblioteca --'
     - Procedimientos primitivos
@@ -36,8 +37,6 @@ blocks:
     - procedures_defnoreturnnoparams
     - procedures_defnoreturn
     - procedures_defreturnsimple
-    - ComandoCompletar
-    - ExpresionCompletar
   defaultToolbox: |
     <category name="-- Biblioteca --" gbs_custom="SEPARATOR">
     </category>

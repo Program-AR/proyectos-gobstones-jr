@@ -4,20 +4,7 @@ attire:
     can_toggle_visibility: true
   visible: true
 blocks:
-  disabled:
-    - Poner
-    - Mover
-    - Sacar
-    - IrAlBorde
-    - RepeticionSimple
-    - AlternativaSimple
-    - puedeMover
-    - hayBolitas
-    - OperadorNumerico
-    - OperadorLogico
-    - siguiente
-    - previo
-    - opuesto
+  disabled: []
   visible:
     - Poner
     - Mover

@@ -6,12 +6,12 @@ procedure DibujarCuadrado(colorDelCuadrado, longitudDelLado) {
 }
 
 procedure DibujarLínea(direcciónADibujar, colorDeLaLínea, longitudDeLaLínea) {
-  BOOM("El programa todavía no está completo")
+  ...
 }
 
 
 program {
   PosicionarseEnLaEsquina__ParaUnCuadradoDeTamaño_(Sur, Oeste, 4)
   DibujarCuadrado(Rojo, 4)
-  BOOM("El programa todavía no está completo")
+  ...
 }

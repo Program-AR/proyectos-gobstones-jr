@@ -1,25 +1,25 @@
 function encontréLasLlaves() {
-  return (boom("El programa todavía no está completo"))
+  return (...)
 }
 
 procedure BuscarLasLlaves() {
-  BOOM("El programa todavía no está completo")
+  ...
   while (not ()) {
-    BOOM("El programa todavía no está completo")
+    ...
   }
 }
 
 procedure PasarAlSiguienteCajónYAbrirlo() {
-  if (boom("El programa todavía no está completo")) {
+  if (...) {
     Mover(Este)
   } else {
-    BOOM("El programa todavía no está completo")
+    ...
   }
   AbrirElCajón()
 }
 
 procedure IrAlPrimerCajónYAbrirlo() {
-  BOOM("El programa todavía no está completo")
+  ...
   AbrirElCajón()
 }
 

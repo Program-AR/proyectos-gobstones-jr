@@ -19,17 +19,17 @@ procedure ConvertirFilaDePíxelesAMonocromático() {
 procedure ConvertirAPíxelMonocromático() {
   CodificarTonoDeGris()
   SacarTodas_(Rojo)
-  BOOM("El programa todavía no está completo")
+  ...
 }
 
 procedure CodificarTonoDeGris() {
   repeat(promedioDeColoresRGB()) {
-    BOOM("El programa todavía no está completo")
+    ...
   }
 }
 
 function promedioDeColoresRGB() {
-  return (boom("El programa todavía no está completo") div 3)
+  return (... div 3)
 }
 
 

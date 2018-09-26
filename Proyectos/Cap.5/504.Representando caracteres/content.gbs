@@ -1,23 +1,23 @@
 procedure DescomprimirFila() {
   repeat(nroBolitas_EnLaPrimeraCelda(Negro) - 1) {
     Mover(Este)
-    BOOM("El programa todavía no está completo")
+    ...
   }
   IrAlBorde(Oeste)
-  BOOM("El programa todavía no está completo")
+  ...
 }
 
 procedure DescomprimirImagen() {
   repeat(8) {
-    BOOM("El programa todavía no está completo")
+    ...
   }
   DescomprimirFila()
-  BOOM("El programa todavía no está completo")
+  ...
 }
 
 procedure CopiarAzulDeLaPrimeraCelda() {
   repeat(nroBolitas_EnLaPrimeraCelda(Azul)) {
-    BOOM("El programa todavía no está completo")
+    ...
   }
 }
 
@@ -28,13 +28,13 @@ procedure CopiarColorRGB() {
 }
 
 procedure CopiarRojoDeLaPrimeraCelda() {
-  repeat(boom("El programa todavía no está completo")) {
+  repeat(...) {
     Poner(Rojo)
   }
 }
 
 procedure CopiarVerdeDeLaPrimeraCelda() {
-  BOOM("El programa todavía no está completo")
+  ...
 }
 
 

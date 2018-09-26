@@ -1,13 +1,13 @@
 procedure DibujarCuadradoDeColorRojo() {
-  BOOM("El programa todavía no está completo")
+  ...
 }
 
 procedure DibujarCuadradoDeColorNegro() {
-  BOOM("El programa todavía no está completo")
+  ...
 }
 
 procedure DibujarCuadradoDeColorAzul() {
-  BOOM("El programa todavía no está completo")
+  ...
 }
 
 procedure PosicionarseParaElPrimerCuadrado() {
@@ -16,7 +16,7 @@ procedure PosicionarseParaElPrimerCuadrado() {
 }
 
 procedure DibujarCuadradoDeColorVerde() {
-  BOOM("El programa todavía no está completo")
+  ...
 }
 
 procedure PosicionarseParaElSegundoCuadrado() {

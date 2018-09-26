@@ -26,8 +26,6 @@ blocks:
     - Numero
     - '-- Definiciones --'
     - procedures_defnoreturnnoparams
-    - ComandoCompletar
-    - ExpresionCompletar
   defaultToolbox: |
     <category name="-- Biblioteca --" gbs_custom="SEPARATOR">
     </category>
