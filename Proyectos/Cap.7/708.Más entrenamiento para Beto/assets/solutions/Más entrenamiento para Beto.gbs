@@ -1,9 +1,15 @@
 procedure EntrenarAlBeto() {
-  BOOM("El programa todavía no está completo")
+  repeat(4) {
+    PatearYVolverAlBordeOeste()
+    MoverAlBeto(Norte)
+  }
+  PatearYVolverAlBordeOeste()
 }
 
 procedure MoverAlBetoHastaLaPelota() {
-  BOOM("El programa todavía no está completo")
+  while (not (llegueALaPelota())) {
+    MoverAlBeto(Este)
+  }
 }
 
 procedure PatearLaPelota() {
@@ -18,7 +24,9 @@ procedure PatearYVolverAlBordeOeste() {
 }
 
 procedure VolverAlBetoAlBordeOeste() {
-  BOOM("El programa todavía no está completo")
+  while (not (not(puedeMover(Oeste)))) {
+    MoverAlBeto(Oeste)
+  }
 }
 
 procedure MoverLaPelotaYVolverABeto() {
