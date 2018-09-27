@@ -3,10 +3,6 @@ procedure InformarLaCantidadDeBaldosasRajadas() {
   Poner__Veces(Negro, ...)
 }
 
-procedure ComenzarElRecorrido() {
-  IrALaEsquinaSuroeste()
-}
-
 function esUnaBaldosaRajada() {
   return (hayBolitas(Verde))
 }
