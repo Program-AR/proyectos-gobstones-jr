@@ -5,4 +5,10 @@ interactive program {
   K_ARROW_RIGHT -> {
     Mover(Este)
   }
+  K_ARROW_UP -> {
+    Mover(Norte)
+  }
+  K_ARROW_DOWN -> {
+    Mover(Sur)
+  }
 }
