@@ -3,7 +3,7 @@ procedure AlargarLaCabezaAl(dirección) {
   if (puedeMover(dirección)) {
     Mover(dirección)
   } else {
-    BOOM("La víbora se cayó del tablero")
+    ...
   }
   if (not(hayVíbora())) {
     PonerLaCabezaMirandoAl(dirección)

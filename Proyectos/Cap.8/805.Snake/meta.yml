@@ -43,9 +43,6 @@ blocks:
     - DefinicionDeAsociacionDeTeclaEspecial
     - DefinicionDeAsociacionDeTeclaLetra
     - DefinicionDeAsociacionDeTeclaNumero
-    - ComandoCompletar
-    - ExpresionCompletar
-    - AsociacionDeTeclaCompletar
   defaultToolbox: |
     <category name="-- Biblioteca --" gbs_custom="SEPARATOR">
     </category>
