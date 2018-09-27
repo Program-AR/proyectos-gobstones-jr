@@ -1,41 +1,41 @@
 procedure IrALaEsquinaSuroeste() {
-  ...
+  BOOM("El programa todavía no está completo")
 }
 
 procedure EncenderYContar() {
-  ...
+  BOOM("El programa todavía no está completo")
 }
 
 procedure PasarALaSiguienteCelda() {
-  ...
+  BOOM("El programa todavía no está completo")
 }
 
 function esLaÚltimaCelda() {
-  return (...)
+  return (boom("El programa todavía no está completo"))
 }
 
 procedure EncenderLuz() {
-  ...
+  Poner(Azul)
 }
 
 function esLuzApagada() {
-  return (...)
+  return (nroBolitas(Azul) == 1)
 }
 
 procedure MoverALucho(direcciónAMover) {
-  ...
+  BOOM("El programa todavía no está completo")
 }
 
 procedure SacarALucho() {
-  ...
+  Sacar(Negro)
 }
 
 procedure LlevarALuchoAlBorde(direcciónDelBorde) {
-  ...
+  BOOM("El programa todavía no está completo")
 }
 
 procedure PonerALucho() {
-  ...
+  Poner(Negro)
 }
 
 
