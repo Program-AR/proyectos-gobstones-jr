@@ -1,22 +1,22 @@
 procedure SalirDelLaberintoComiendoElQueso() {
-  BOOM("El programa todavía no está completo")
+  ...
 }
 
 procedure ComerElQuesoSiHay() {
-  BOOM("El programa todavía no está completo")
+  ...
 }
 
 procedure AvanzarUnPasoSiguiendoLaFlecha() {
   if (laFlechaApuntaAlNorte()) {
     SacarLaFlecha()
     MoverAlRatónAl_(Norte)
-  } elseif (boom("El programa todavía no está completo")) {
-    BOOM("El programa todavía no está completo")
-  } elseif (boom("El programa todavía no está completo")) {
+  } elseif (...) {
+    ...
+  } elseif (...) {
     SacarLaFlecha()
     MoverAlRatónAl_(Sur)
   } else {
-    BOOM("El programa todavía no está completo")
+    ...
   }
 }
 
