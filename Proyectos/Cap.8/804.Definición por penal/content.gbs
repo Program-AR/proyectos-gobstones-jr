@@ -1,27 +1,71 @@
-interactive program {
-  ...
+procedure Atajar(dirección) {
+  BOOM("El programa todavía no está completo")
 }
 
-...
+procedure Patear(dirección) {
+  BOOM("El programa todavía no está completo")
+}
 
-function izquierda() { return(1) }
-function centro()    { return(...) }
-...
+function izquierda() {
+  return (1)
+}
 
-function opciónDePatear() { return(Azul) }
-function opciónDeAtajar() { return(...) }
+function opciónDeAtajar() {
+  return (Verde)
+}
 
-function jugadorUnoYaOptó() { return(nroBolitas(opciónDeAtajar()) > 0) }
-function jugadorDosYaOptó() { return(...) }
+function centro() {
+  return (boom("El programa todavía no está completo"))
+}
+
+function opciónDePatear() {
+  return (boom("El programa todavía no está completo"))
+}
+
+function jugadorUnoYaOptó() {
+  return (nroBolitas(opciónDeAtajar()) > 0)
+}
 
 procedure PonerOpción(opción, color) {
-  ...
+  BOOM("El programa todavía no está completo")
 }
 
-procedure SacarArquero() { Mover(Norte)   SacarTodas_(Negro)       Mover(Sur) }
-procedure PonerArquero() { Mover(Norte)   Poner__Veces(Negro, 2)   Mover(Sur) }
+function jugadorDosYaOptó() {
+  return (boom("El programa todavía no está completo"))
+}
 
-procedure SacarPelota()  { Sacar(Negro) }
-procedure PonerPelota()  { Mover(Norte)   Poner(Negro)             Mover(Sur) }
+procedure MoverSegúnOpción(opción) {
+  BOOM("El programa todavía no está completo")
+}
 
-procedure VolverAlCentro() { IrAlBorde(Oeste) IrAlBorde(Sur) Mover(Este) }
+procedure SacarArquero() {
+  Mover(Norte)
+  SacarTodas_(Negro)
+  Mover(Sur)
+}
+
+procedure PonerArquero() {
+  Mover(Norte)
+  Poner__Veces(Negro, 2)
+  Mover(Sur)
+}
+
+procedure VolverAlCentro() {
+  IrAlBorde(Oeste)
+  IrAlBorde(Sur)
+  Mover(Este)
+}
+
+procedure SacarPelota() {
+  SacarTodas_(Negro)
+}
+
+procedure PonerPelota() {
+  Mover(Norte)
+  Poner__Veces(Negro, 1)
+  Mover(Sur)
+}
+
+
+interactive program {
+}

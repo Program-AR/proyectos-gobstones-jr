@@ -60,16 +60,50 @@ function direcciónCodificada(color) {
   return (valorARetornar)
 }
 
+procedure AcortarLaVíbora() {
+  IrDeLaCabezaALaCola()
+  AcortarLaCola()
+  IrDeLaColaALaCabeza()
+}
+
 procedure MoverLaVíboraAl(dirección) {
-  BOOM("El programa todavía no está completo")
+  AlargarLaCabezaAl(dirección)
+  if (hayManzana()) {
+    SacarManzana()
+  } else {
+    AcortarLaVíbora()
+  }
+}
+
+procedure IrDeLaCabezaALaCola() {
+  while (not (hayCola())) {
+    Mover(direcciónDelSegmentoPosterior())
+  }
+}
+
+procedure IrDeLaColaALaCabeza() {
+  while (not (hayCabeza())) {
+    Mover(direcciónDelSegmentoAnterior())
+  }
+}
+
+procedure MoverLaVíbora() {
+  MoverLaVíboraAl(direcciónDelÚltimoMovimiento())
+}
+
+procedure AcortarLaCola() {
+  direcciónSiguiente := direcciónDelSegmentoAnterior()
+  SacarTodas_(códigoDeAnterior())
+  Mover(direcciónSiguiente)
+  SacarTodas_(códigoDePosterior())
 }
 
 procedure SacarManzana() {
-  BOOM("El programa todavía no está completo")
+  Sacar(códigoDeManzana())
 }
 
 function hayManzana() {
-  return (boom("El programa todavía no está completo"))
+  return (nroBolitas(códigoDeManzana()) == 1)
 }
 
 function códigoDeManzana() {
@@ -85,7 +119,7 @@ function códigoDeAnterior() {
 }
 
 function hayVíbora() {
-  return (boom("El programa todavía no está completo"))
+  return (hayBolitas(códigoDeAnterior()) || hayBolitas(códigoDePosterior()))
 }
 
 function códigoDePosterior() {
@@ -103,11 +137,11 @@ function direcciónDelSegmentoPosterior() {
 }
 
 function hayCola() {
-  return (boom("El programa todavía no está completo"))
+  return (hayBolitas(códigoDeAnterior()) && not(hayBolitas(códigoDePosterior())))
 }
 
 function hayCabeza() {
-  return (boom("El programa todavía no está completo"))
+  return (not(hayBolitas(códigoDeAnterior())) && hayBolitas(códigoDePosterior()))
 }
 
 function direcciónDelSegmentoAnterior() {
@@ -122,4 +156,19 @@ function direcciónDelSegmentoAnterior() {
 
 
 interactive program {
+  K_ARROW_LEFT -> {
+    MoverLaVíboraAl(Oeste)
+  }
+  K_ARROW_RIGHT -> {
+    MoverLaVíboraAl(Este)
+  }
+  K_ARROW_UP -> {
+    MoverLaVíboraAl(Norte)
+  }
+  K_ARROW_DOWN -> {
+    MoverLaVíboraAl(Sur)
+  }
+  TIMEOUT(500) -> {
+  MoverLaVíbora()
+  }
 }

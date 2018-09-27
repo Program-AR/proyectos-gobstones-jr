@@ -4,58 +4,47 @@ attire:
     can_toggle_visibility: true
   visible: true
 blocks:
-  disabled:
-    - Poner
-    - Sacar
-    - BOOM
-    - RepeticionSimple
-    - AlternativaCompleta
-    - Asignacion
-    - puedeMover
-    - hayBolitas
-    - OperadorNumerico
-    - OperadorDeNegacion
-    - OperadorSiguiente
-    - OperadorPrevio
-    - OperadorOpuesto
-    - DefinicionDeAsociacionDeTeclaNúmero
-    - DefinicionDeFuncionSimpleParametrizada
-    - DefinicionDeFuncionParametrizada
+  disabled: []
   visible:
+    - '-- Biblioteca --'
+    - ProcedimientosPrimitivos
+    - FuncionesPrimitivas
+    - '-- Mis operaciones --'
+    - Mis procedimientos
+    - Mis funciones
+    - '-- Comandos --'
     - Poner
     - Mover
     - Sacar
     - IrAlBorde
-    - BOOM
-    - Procedimientos primitivos
-    - Mis procedimientos
     - RepeticionSimple
+    - RepeticionCondicional
     - AlternativaSimple
     - AlternativaCompleta
     - Asignacion
+    - '-- Expresiones --'
     - Color
     - Direccion
     - Numero
     - puedeMover
     - hayBolitas
     - nroBolitas
-    - FuncionesPrimitivas
-    - Mis funciones
     - OperadorNumerico
     - OperadorDeComparacion
-    - OperadorDeNegacion
-    - OperadorLogico
-    - OperadorSiguiente
-    - OperadorPrevio
     - OperadorOpuesto
-    - DefinicionDeAsociacionDeTeclaEspecial
-    - DefinicionDeAsociacionDeTeclaLetra
-    - DefinicionDeAsociacionDeTeclaNúmero
+    - OperadorLogico
+    - OperadorDeNegacion
+    - '-- Definiciones --'
     - DefinicionDeProcedimientoSimple
     - DefinicionDeProcedimientoParametrizado
     - DefinicionDeFuncionSimple
     - DefinicionDeFuncionSimpleParametrizada
-    - DefinicionDeFuncionParametrizada
+    - DefinicionDeAsociacionDeTeclaEspecial
+    - DefinicionDeAsociacionDeTeclaLetra
+    - DefinicionDeAsociacionDeTeclaNumero
+    - ComandoCompletar
+    - ExpresionCompletar
+    - AsociacionDeTeclaCompletar
   defaultToolbox: |
     <category name="-- Biblioteca --" gbs_custom="SEPARATOR">
     </category>
@@ -145,6 +134,7 @@ board:
   user_permissions:
     can_change_source: false
     can_edit_board: false
+    can_view_size_section: false
   visible_edition: true
 execution_speed:
   active: instantaneous

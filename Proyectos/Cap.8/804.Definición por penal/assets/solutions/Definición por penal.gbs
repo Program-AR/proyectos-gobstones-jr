@@ -1,0 +1,124 @@
+procedure Atajar(dirección) {
+  PonerOpción(dirección, opciónDeAtajar())
+}
+
+procedure Patear(dirección) {
+  PonerOpción(dirección, opciónDePatear())
+}
+
+function izquierda() {
+  return (1)
+}
+
+function opciónDeAtajar() {
+  return (Verde)
+}
+
+function centro() {
+  return (2)
+}
+
+function opciónDePatear() {
+  return (Azul)
+}
+
+function derecha() {
+  return (3)
+}
+
+function jugadorUnoYaOptó() {
+  return (nroBolitas(opciónDeAtajar()) > 0)
+}
+
+procedure PonerOpción(opción, color) {
+  SacarTodas_(color)
+  Poner__Veces(color, opción)
+  if (jugadorUnoYaOptó() && jugadorDosYaOptó()) {
+    EjecutarPenal()
+  }
+}
+
+function jugadorDosYaOptó() {
+  return (nroBolitas(opciónDePatear()) > 0)
+}
+
+procedure EjecutarPenal() {
+  MoverArquero()
+  MoverPelota()
+}
+
+procedure MoverArquero() {
+  SacarArquero()
+  MoverSegúnOpción(nroBolitas(opciónDeAtajar()))
+  PonerArquero()
+  VolverAlCentro()
+}
+
+procedure MoverPelota() {
+  SacarPelota()
+  MoverSegúnOpción(nroBolitas(opciónDePatear()))
+  PonerPelota()
+  VolverAlCentro()
+}
+
+procedure MoverSegúnOpción(opción) {
+  if (opción == izquierda()) {
+    Mover(Oeste)
+  }
+  if (opción == derecha()) {
+    Mover(Este)
+  }
+}
+
+procedure SacarArquero() {
+  Mover(Norte)
+  SacarTodas_(Negro)
+  Mover(Sur)
+}
+
+procedure PonerArquero() {
+  Mover(Norte)
+  Poner__Veces(Negro, 2)
+  Mover(Sur)
+}
+
+procedure VolverAlCentro() {
+  IrAlBorde(Oeste)
+  IrAlBorde(Sur)
+  Mover(Este)
+}
+
+procedure SacarPelota() {
+  SacarTodas_(Negro)
+}
+
+procedure PonerPelota() {
+  Mover(Norte)
+  Poner__Veces(Negro, 1)
+  Mover(Sur)
+}
+
+
+interactive program {
+  K_Q -> {
+    Atajar(izquierda())
+  }
+  K_W -> {
+    Atajar(centro())
+  }
+  K_E -> {
+    Atajar(derecha())
+  }
+  K_I -> {
+    Patear(izquierda())
+  }
+  K_O -> {
+    Patear(centro())
+  }
+  K_P -> {
+    Patear(derecha())
+  }
+  K_ENTER -> {
+    ResetearElJuego()
+  }
+}
