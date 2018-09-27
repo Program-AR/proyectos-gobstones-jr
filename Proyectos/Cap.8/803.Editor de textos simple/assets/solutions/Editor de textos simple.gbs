@@ -1,17 +1,24 @@
 procedure PonerCarácter(códigoDeCarácterAPoner) {
-  ...
+  LimpiarCelda()
+  Poner__Veces(Negro, códigoDeCarácterAPoner)
+  AvanzarCursor()
 }
 
 procedure AvanzarCursor() {
-  ...
+  if (puedeMover(Este)) {
+    Mover(Este)
+  } else {
+    NuevaLínea()
+  }
 }
 
 procedure NuevaLínea() {
-  ...
+  MoverSiSePuede(Sur)
+  IrAlBorde(Oeste)
 }
 
 procedure LimpiarCelda() {
-  ...
+  SacarTodas_(Negro)
 }
 
 function códigoDeEspacio() {
@@ -23,7 +30,9 @@ function códigoDeLetraA() {
 }
 
 procedure MoverSiSePuede(dirección) {
-  ...
+  if (puedeMover(dirección)) {
+    Mover(Sur)
+  }
 }
 
 function códigoDeLetraB() {
@@ -111,23 +120,23 @@ function códigoDeLetraU() {
 }
 
 function códigoDeLetraV() {
-  return (...)
+  return (23)
 }
 
 function códigoDeLetraW() {
-  return (...)
+  return (24)
 }
 
 function códigoDeLetraX() {
-  return (...)
+  return (25)
 }
 
 function códigoDeLetraY() {
-  return (...)
+  return (26)
 }
 
 function códigoDeLetraZ() {
-  return (...)
+  return (27)
 }
 
 
@@ -192,9 +201,6 @@ interactive program {
   K_N -> {
     PonerCarácter(códigoDeLetraN())
   }
-  K_Ñ -> {
-    PonerCarácter(códigoDeLetraÑ())
-  }
   K_O -> {
     PonerCarácter(códigoDeLetraO())
   }
@@ -215,5 +221,20 @@ interactive program {
   }
   K_U -> {
     PonerCarácter(códigoDeLetraU())
+  }
+  K_V -> {
+    PonerCarácter(códigoDeLetraV())
+  }
+  K_W -> {
+    PonerCarácter(códigoDeLetraW())
+  }
+  K_X -> {
+    PonerCarácter(códigoDeLetraX())
+  }
+  K_Y -> {
+    PonerCarácter(códigoDeLetraY())
+  }
+  K_Z -> {
+    PonerCarácter(códigoDeLetraZ())
   }
 }
