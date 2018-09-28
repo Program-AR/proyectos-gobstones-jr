@@ -1,0 +1,3 @@
+procedure Poner__Veces(color, n) {
+  repeat(n) { Poner(color) }
+}

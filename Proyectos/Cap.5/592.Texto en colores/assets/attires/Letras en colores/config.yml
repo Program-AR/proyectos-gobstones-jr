@@ -1,0 +1,656 @@
+name: Letras en colores
+rules:
+  - image: Espacio.png
+    when:
+      black: 0
+      blue: '*'
+      green: '*'
+      red: '*'
+  - image: A-Negra.png
+    when:
+      black: 1
+      blue: 0
+      green: 0
+      red: 0
+  - image: B-Negra.png
+    when:
+      black: 2
+      blue: 0
+      green: 0
+      red: 0
+  - image: C-Negra.png
+    when:
+      black: 3
+      blue: 0
+      green: 0
+      red: 0
+  - image: D-Negra.png
+    when:
+      black: 4
+      blue: 0
+      green: 0
+      red: 0
+  - image: E-Negra.png
+    when:
+      black: 5
+      blue: 0
+      green: 0
+      red: 0
+  - image: F-Negra.png
+    when:
+      black: 6
+      blue: 0
+      green: 0
+      red: 0
+  - image: G-Negra.png
+    when:
+      black: 7
+      blue: 0
+      green: 0
+      red: 0
+  - image: H-Negra.png
+    when:
+      black: 8
+      blue: 0
+      green: 0
+      red: 0
+  - image: I-Negra.png
+    when:
+      black: 9
+      blue: 0
+      green: 0
+      red: 0
+  - image: J-Negra.png
+    when:
+      black: 10
+      blue: 0
+      green: 0
+      red: 0
+  - image: K-Negra.png
+    when:
+      black: 11
+      blue: 0
+      green: 0
+      red: 0
+  - image: L-Negra.png
+    when:
+      black: 12
+      blue: 0
+      green: 0
+      red: 0
+  - image: M-Negra.png
+    when:
+      black: 13
+      blue: 0
+      green: 0
+      red: 0
+  - image: N-Negra.png
+    when:
+      black: 14
+      blue: 0
+      green: 0
+      red: 0
+  - image: Ñ-Negra.png
+    when:
+      black: 15
+      blue: 0
+      green: 0
+      red: 0
+  - image: O-Negra.png
+    when:
+      black: 16
+      blue: 0
+      green: 0
+      red: 0
+  - image: P-Negra.png
+    when:
+      black: 17
+      blue: 0
+      green: 0
+      red: 0
+  - image: Q-Negra.png
+    when:
+      black: 18
+      blue: 0
+      green: 0
+      red: 0
+  - image: R-Negra.png
+    when:
+      black: 19
+      blue: 0
+      green: 0
+      red: 0
+  - image: S-Negra.png
+    when:
+      black: 20
+      blue: 0
+      green: 0
+      red: 0
+  - image: T-Negra.png
+    when:
+      black: 21
+      blue: 0
+      green: 0
+      red: 0
+  - image: U-Negra.png
+    when:
+      black: 22
+      blue: 0
+      green: 0
+      red: 0
+  - image: V-Negra.png
+    when:
+      black: 23
+      blue: 0
+      green: 0
+      red: 0
+  - image: W-Negra.png
+    when:
+      black: 24
+      blue: 0
+      green: 0
+      red: 0
+  - image: X-Negra.png
+    when:
+      black: 25
+      blue: 0
+      green: 0
+      red: 0
+  - image: Y-Negra.png
+    when:
+      black: 26
+      blue: 0
+      green: 0
+      red: 0
+  - image: Z-Negra.png
+    when:
+      black: 27
+      blue: 0
+      green: 0
+      red: 0
+  - image: A-Roja.png
+    when:
+      black: 1
+      blue: 0
+      green: 0
+      red: 4
+  - image: B-Roja.png
+    when:
+      black: 2
+      blue: 0
+      green: 0
+      red: 4
+  - image: C-Roja.png
+    when:
+      black: 3
+      blue: 0
+      green: 0
+      red: 4
+  - image: D-Roja.png
+    when:
+      black: 4
+      blue: 0
+      green: 0
+      red: 4
+  - image: E-Roja.png
+    when:
+      black: 5
+      blue: 0
+      green: 0
+      red: 4
+  - image: F-Roja.png
+    when:
+      black: 6
+      blue: 0
+      green: 0
+      red: 4
+  - image: G-Roja.png
+    when:
+      black: 7
+      blue: 0
+      green: 0
+      red: 4
+  - image: H-Roja.png
+    when:
+      black: 8
+      blue: 0
+      green: 0
+      red: 4
+  - image: I-Roja.png
+    when:
+      black: 9
+      blue: 0
+      green: 0
+      red: 4
+  - image: J-Roja.png
+    when:
+      black: 10
+      blue: 0
+      green: 0
+      red: 4
+  - image: K-Roja.png
+    when:
+      black: 11
+      blue: 0
+      green: 0
+      red: 4
+  - image: L-Roja.png
+    when:
+      black: 12
+      blue: 0
+      green: 0
+      red: 4
+  - image: M-Roja.png
+    when:
+      black: 13
+      blue: 0
+      green: 0
+      red: 4
+  - image: N-Roja.png
+    when:
+      black: 14
+      blue: 0
+      green: 0
+      red: 4
+  - image: Ñ-Roja.png
+    when:
+      black: 15
+      blue: 0
+      green: 0
+      red: 4
+  - image: O-Roja.png
+    when:
+      black: 16
+      blue: 0
+      green: 0
+      red: 4
+  - image: P-Roja.png
+    when:
+      black: 17
+      blue: 0
+      green: 0
+      red: 4
+  - image: Q-Roja.png
+    when:
+      black: 18
+      blue: 0
+      green: 0
+      red: 4
+  - image: R-Roja.png
+    when:
+      black: 19
+      blue: 0
+      green: 0
+      red: 4
+  - image: S-Roja.png
+    when:
+      black: 20
+      blue: 0
+      green: 0
+      red: 4
+  - image: T-Roja.png
+    when:
+      black: 21
+      blue: 0
+      green: 0
+      red: 4
+  - image: U-Roja.png
+    when:
+      black: 22
+      blue: 0
+      green: 0
+      red: 4
+  - image: V-Roja.png
+    when:
+      black: 23
+      blue: 0
+      green: 0
+      red: 4
+  - image: W-Roja.png
+    when:
+      black: 24
+      blue: 0
+      green: 0
+      red: 4
+  - image: X-Roja.png
+    when:
+      black: 25
+      blue: 0
+      green: 0
+      red: 4
+  - image: Y-Roja.png
+    when:
+      black: 26
+      blue: 0
+      green: 0
+      red: 4
+  - image: Z-Roja.png
+    when:
+      black: 27
+      blue: 0
+      green: 0
+      red: 4
+  - image: A-Verde.png
+    when:
+      black: 1
+      blue: 0
+      green: 4
+      red: 0
+  - image: B-Verde.png
+    when:
+      black: 2
+      blue: 0
+      green: 4
+      red: 0
+  - image: C-Verde.png
+    when:
+      black: 3
+      blue: 0
+      green: 4
+      red: 0
+  - image: D-Verde.png
+    when:
+      black: 4
+      blue: 0
+      green: 4
+      red: 0
+  - image: E-Verde.png
+    when:
+      black: 5
+      blue: 0
+      green: 4
+      red: 0
+  - image: F-Verde.png
+    when:
+      black: 6
+      blue: 0
+      green: 4
+      red: 0
+  - image: G-Verde.png
+    when:
+      black: 7
+      blue: 0
+      green: 4
+      red: 0
+  - image: H-Verde.png
+    when:
+      black: 8
+      blue: 0
+      green: 4
+      red: 0
+  - image: I-Verde.png
+    when:
+      black: 9
+      blue: 0
+      green: 4
+      red: 0
+  - image: J-Verde.png
+    when:
+      black: 10
+      blue: 0
+      green: 4
+      red: 0
+  - image: K-Verde.png
+    when:
+      black: 11
+      blue: 0
+      green: 4
+      red: 0
+  - image: L-Verde.png
+    when:
+      black: 12
+      blue: 0
+      green: 4
+      red: 0
+  - image: M-Verde.png
+    when:
+      black: 13
+      blue: 0
+      green: 4
+      red: 0
+  - image: N-Verde.png
+    when:
+      black: 14
+      blue: 0
+      green: 4
+      red: 0
+  - image: Ñ-Verde.png
+    when:
+      black: 15
+      blue: 0
+      green: 4
+      red: 0
+  - image: O-Verde.png
+    when:
+      black: 16
+      blue: 0
+      green: 4
+      red: 0
+  - image: P-Verde.png
+    when:
+      black: 17
+      blue: 0
+      green: 4
+      red: 0
+  - image: Q-Verde.png
+    when:
+      black: 18
+      blue: 0
+      green: 4
+      red: 0
+  - image: R-Verde.png
+    when:
+      black: 19
+      blue: 0
+      green: 4
+      red: 0
+  - image: S-Verde.png
+    when:
+      black: 20
+      blue: 0
+      green: 4
+      red: 0
+  - image: T-Verde.png
+    when:
+      black: 21
+      blue: 0
+      green: 4
+      red: 0
+  - image: U-Verde.png
+    when:
+      black: 22
+      blue: 0
+      green: 4
+      red: 0
+  - image: V-Verde.png
+    when:
+      black: 23
+      blue: 0
+      green: 4
+      red: 0
+  - image: W-Verde.png
+    when:
+      black: 24
+      blue: 0
+      green: 4
+      red: 0
+  - image: X-Verde.png
+    when:
+      black: 25
+      blue: 0
+      green: 4
+      red: 0
+  - image: Y-Verde.png
+    when:
+      black: 26
+      blue: 0
+      green: 4
+      red: 0
+  - image: Z-Verde.png
+    when:
+      black: 27
+      blue: 0
+      green: 4
+      red: 0
+  - image: A-Azul.png
+    when:
+      black: 1
+      blue: 4
+      green: 0
+      red: 0
+  - image: B-Azul.png
+    when:
+      black: 2
+      blue: 4
+      green: 0
+      red: 0
+  - image: C-Azul.png
+    when:
+      black: 3
+      blue: 4
+      green: 0
+      red: 0
+  - image: D-Azul.png
+    when:
+      black: 4
+      blue: 4
+      green: 0
+      red: 0
+  - image: E-Azul.png
+    when:
+      black: 5
+      blue: 4
+      green: 0
+      red: 0
+  - image: F-Azul.png
+    when:
+      black: 6
+      blue: 4
+      green: 0
+      red: 0
+  - image: G-Azul.png
+    when:
+      black: 7
+      blue: 4
+      green: 0
+      red: 0
+  - image: H-Azul.png
+    when:
+      black: 8
+      blue: 4
+      green: 0
+      red: 0
+  - image: I-Azul.png
+    when:
+      black: 9
+      blue: 4
+      green: 0
+      red: 0
+  - image: J-Azul.png
+    when:
+      black: 10
+      blue: 4
+      green: 0
+      red: 0
+  - image: K-Azul.png
+    when:
+      black: 11
+      blue: 4
+      green: 0
+      red: 0
+  - image: L-Azul.png
+    when:
+      black: 12
+      blue: 4
+      green: 0
+      red: 0
+  - image: M-Azul.png
+    when:
+      black: 13
+      blue: 4
+      green: 0
+      red: 0
+  - image: N-Azul.png
+    when:
+      black: 14
+      blue: 4
+      green: 0
+      red: 0
+  - image: Ñ-Azul.png
+    when:
+      black: 15
+      blue: 4
+      green: 0
+      red: 0
+  - image: O-Azul.png
+    when:
+      black: 16
+      blue: 4
+      green: 0
+      red: 0
+  - image: P-Azul.png
+    when:
+      black: 17
+      blue: 4
+      green: 0
+      red: 0
+  - image: Q-Azul.png
+    when:
+      black: 18
+      blue: 4
+      green: 0
+      red: 0
+  - image: R-Azul.png
+    when:
+      black: 19
+      blue: 4
+      green: 0
+      red: 0
+  - image: S-Azul.png
+    when:
+      black: 20
+      blue: 4
+      green: 0
+      red: 0
+  - image: T-Azul.png
+    when:
+      black: 21
+      blue: 4
+      green: 0
+      red: 0
+  - image: U-Azul.png
+    when:
+      black: 22
+      blue: 4
+      green: 0
+      red: 0
+  - image: V-Azul.png
+    when:
+      black: 23
+      blue: 4
+      green: 0
+      red: 0
+  - image: W-Azul.png
+    when:
+      black: 24
+      blue: 4
+      green: 0
+      red: 0
+  - image: X-Azul.png
+    when:
+      black: 25
+      blue: 4
+      green: 0
+      red: 0
+  - image: Y-Azul.png
+    when:
+      black: 26
+      blue: 4
+      green: 0
+      red: 0
+  - image: Z-Azul.png
+    when:
+      black: 27
+      blue: 4
+      green: 0
+      red: 0

@@ -1,0 +1,37 @@
+﻿program {
+   ...
+}
+
+procedure ElegirColorRojo()  { ... }
+procedure ElegirColorAzul()  { ... }
+procedure ElegirColorVerde() { ... }
+
+procedure AvanzarCursor() { Mover(Este) }
+procedure Espacio() { AvanzarCursor() }
+
+procedure A() { Poner__Veces(Negro,  1) AvanzarCursor() }
+procedure B() { Poner__Veces(Negro,  2) AvanzarCursor() }
+procedure C() { Poner__Veces(Negro,  3) AvanzarCursor() }
+procedure D() { Poner__Veces(Negro,  4) AvanzarCursor() }
+procedure E() { Poner__Veces(Negro,  5) AvanzarCursor() }
+procedure F() { Poner__Veces(Negro,  6) AvanzarCursor() }
+procedure G() { Poner__Veces(Negro,  7) AvanzarCursor() }
+procedure H() { Poner__Veces(Negro,  8) AvanzarCursor() }
+procedure I() { Poner__Veces(Negro,  9) AvanzarCursor() }
+procedure J() { Poner__Veces(Negro, 10) AvanzarCursor() }
+procedure K() { Poner__Veces(Negro, 11) AvanzarCursor() }
+procedure L() { Poner__Veces(Negro, 12) AvanzarCursor() }
+procedure M() { Poner__Veces(Negro, 13) AvanzarCursor() }
+procedure N() { Poner__Veces(Negro, 14) AvanzarCursor() }
+procedure O() { Poner__Veces(Negro, 16) AvanzarCursor() }
+procedure P() { Poner__Veces(Negro, 17) AvanzarCursor() }
+procedure Q() { Poner__Veces(Negro, 18) AvanzarCursor() }
+procedure R() { Poner__Veces(Negro, 19) AvanzarCursor() }
+procedure S() { Poner__Veces(Negro, 20) AvanzarCursor() }
+procedure T() { Poner__Veces(Negro, 21) AvanzarCursor() }
+procedure U() { Poner__Veces(Negro, 22) AvanzarCursor() }
+procedure V() { Poner__Veces(Negro, 23) AvanzarCursor() }
+procedure W() { Poner__Veces(Negro, 24) AvanzarCursor() }
+procedure X() { Poner__Veces(Negro, 25) AvanzarCursor() }
+procedure Y() { Poner__Veces(Negro, 26) AvanzarCursor() }
+procedure Z() { Poner__Veces(Negro, 27) AvanzarCursor() }
