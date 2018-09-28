@@ -251,12 +251,6 @@
   name: "Representación de la información"
   exercises:
     - old:
-        id: "5.2.3"
-        name: "Números binarios con procedimientos"
-      new:
-        id: "590"
-        name: "Números binarios con procedimientos"
-    - old:
         id: "5.3.1"
         name: "Pintando la camiseta de colores"
       new:
@@ -284,13 +278,13 @@
         id: "5.4.2"
         name: "Mensajes secretos"
       new:
-        id: "591"
+        id: "505"
         name: "Mensajes secretos"
     - old:
         id: "5.5.1"
         name: "Texto en colores"
       new:
-        id: "592"
+        id: "506"
         name: "Texto en colores"
 - id: "Cap.7"
   name: "Parámetros, repeticiones condicionales y variables"
