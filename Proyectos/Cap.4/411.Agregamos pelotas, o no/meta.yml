@@ -1,69 +1,63 @@
+name: 'Agregamos pelotas, ¿o no?'
 attire:
-  active: Empanadas
+  active: Fútbol de robots
   user_permissions:
     can_toggle_visibility: true
   visible: true
 blocks:
   disabled:
-    - BOOM
+    - Poner
+    - Sacar
+    - IrAlBorde
+    - Color
     - AlternativaCompleta
-    - Asignacion
-    - Mis funciones
+    - puedeMover
+    - hayBolitas
+    - nroBolitas
     - OperadorNumerico
-    - OperadorDeNegacion
-    - OperadorLogico
-    - OperadorSiguiente
-    - OperadorPrevio
-    - OperadorOpuesto
-    - DefinicionDeFuncionSimple
-    - DefinicionDeFuncionSimpleParametrizada
-    - DefinicionDeFuncionParametrizada
+    - OperadorDeComparacion
+    - siguiente
+    - previo
+    - opuesto
   visible:
+    - '-- Biblioteca --'
+    - Procedimientos primitivos
+    - FuncionesPrimitivas
+    - '-- Mis operaciones --'
+    - Mis procedimientos
+    - '-- Comandos --'
     - Poner
     - Mover
     - Sacar
     - IrAlBorde
-    - BOOM
-    - Procedimientos primitivos
-    - Mis procedimientos
     - RepeticionSimple
     - AlternativaSimple
     - AlternativaCompleta
-    - Asignacion
+    - '-- Expresiones --'
     - Color
     - Direccion
     - Numero
-    - puedeMover
-    - hayBolitas
     - nroBolitas
-    - FuncionesPrimitivas
-    - Mis funciones
+    - hayBolitas
+    - puedeMover
     - OperadorNumerico
     - OperadorDeComparacion
-    - OperadorDeNegacion
-    - OperadorLogico
-    - OperadorSiguiente
-    - OperadorPrevio
-    - OperadorOpuesto
-    - DefinicionDeAsociacionDeTeclaEspecial
-    - DefinicionDeAsociacionDeTeclaLetra
-    - DefinicionDeProcedimientoSimple
-    - DefinicionDeProcedimientoParametrizado
-    - DefinicionDeFuncionSimple
-    - DefinicionDeFuncionSimpleParametrizada
-    - DefinicionDeFuncionParametrizada
+    - opuesto
+    - not
+    - '-- Definiciones --'
+    - procedures_defnoreturnnoparams
   defaultToolbox: |
     <category name="-- Biblioteca --" gbs_custom="SEPARATOR">
     </category>
-      <category name="Procedimientos primitivos">
+      <category name="Procedimientos" gbs_custom="PRIMITIVE_PROCEDURES">
       </category>
-      <category name="Funciones primitivas">
+      <category name="Funciones" gbs_custom="PRIMITIVE_FUNCTIONS">
       </category>
     <category name="-- Mis operaciones --" gbs_custom="SEPARATOR">
     </category>
-      <category name="Mis procedimientos" custom="PROCEDURE_CALLS">
+      <category name="Mis procedimientos" gbs_custom="PROCEDURE_CALLS">
       </category>
-      <category name="Mis funciones" custom="FUNCTION_CALLS">
+      <category name="Mis funciones" gbs_custom="FUNCTION_CALLS">
       </category>
     <category name="-- Comandos --" gbs_custom="SEPARATOR">
     </category>
@@ -143,9 +137,14 @@ board:
     can_edit_board: false
   visible_edition: true
 execution_speed:
-  active: instantaneous
+  active: high
   user_permissions:
-    can_change_speed: false
+    can_change_speed: true
+    can_edit_board: false
+    can_view_size_section: false
+  visible_edition: true
 library:
   visible: false
-name: Pidiendo empanadas
+source:
+  visible: true
+  percentage: 0.75

@@ -1,9 +1,13 @@
 const fs = require("fs");
 const yaml = require("js-yaml");
 
+function escapeName(name) {
+    return name.replace(/[.…:<>"*\\/|¡!¿?]/g,"");
+}
+
 function generatePaths(infoExercise) {
     infoExercise.old.path = `Proyectos/${infoExercise.infoCap.id}/${infoExercise.old.id}.${infoExercise.old.name}`;
-    infoExercise.new.path = `Proyectos/${infoExercise.infoCap.id}/${infoExercise.new.id}.${infoExercise.new.name}`;
+    infoExercise.new.path = `Proyectos/${infoExercise.infoCap.id}/${infoExercise.new.id}.${escapeName(infoExercise.new.name)}`;
 }
 
 function updateGuides(infoExercise, guides) {

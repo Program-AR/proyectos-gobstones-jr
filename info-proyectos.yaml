@@ -222,7 +222,7 @@
         name: "No, no y no"
       new:
         id: "411"
-        name: "Ponemos pelotas, ¿o no?"
+        name: "Agregamos pelotas, ¿o no?"
     - old:
         id: "4.3.1.1"
         name: "Mi elección es clara"
@@ -314,12 +314,6 @@
         id: "704"
         name: "Dibujar figuras con subtareas"
     - old:
-        id: "8.1.6"
-        name: "Varias cosas de una sola vez"
-      new:
-        id: "792"
-        name: "Varias cosas de una sola vez"
-    - old:
         id: "8.2.1.1"
         name: "Super Lucho 1"
       new:
@@ -394,12 +388,6 @@
       new:
         id: "802"
         name: "Editor de tableros"
-    - old:
-        id: "9.1.2"
-        name: "Pidiendo empanadas"
-      new:
-        id: "890"
-        name: "Pidiendo empanadas"
     - old:
         id: "9.1.3"
         name: "Editor de textos simple"
