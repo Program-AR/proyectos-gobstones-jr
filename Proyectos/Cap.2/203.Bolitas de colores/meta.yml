@@ -89,7 +89,9 @@ blocks:
     </category>
   disabled: []
   visible:
+    - '-- Comandos --'
     - Poner
+    - '-- Expresiones --'
     - Color
 board:
   active: 1

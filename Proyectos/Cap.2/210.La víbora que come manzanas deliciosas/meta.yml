@@ -88,13 +88,14 @@ blocks:
       <block type="ExpresionCompletar"></block>
       <block type="AsociacionDeTeclaCompletar"></block>
     </category>
-  disabled:
-    - IrAlBorde
+  disabled: []
   visible:
+    - '-- Comandos --'
     - Poner
     - Mover
     - Sacar
     - IrAlBorde
+    - '-- Expresiones --'
     - Color
     - Direccion
 board:

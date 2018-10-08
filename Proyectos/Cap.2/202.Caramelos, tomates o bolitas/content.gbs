@@ -1,0 +1,26 @@
+procedure PonerBolitasDeColorVerde() {
+  repeat(19) {
+    IrALaPróximaCelda()
+    PonerBolitaDeColorVerde()
+  }
+}
+
+procedure SacarBolitasDeColorRojo() {
+  repeat(19) {
+    IrALaPróximaCelda()
+    SacarBolitaDeColorRojo()
+  }
+}
+
+procedure VolverAlComienzoCambiandoBolitas() {
+  IrAlOrigen()
+  CambiarVerdesPorAzulesYRojas()
+}
+
+
+program {
+  PonerBolitasDeColorVerde()
+  VolverAlComienzoCambiandoBolitas()
+  SacarBolitasDeColorRojo()
+  IrAlOrigen()
+}

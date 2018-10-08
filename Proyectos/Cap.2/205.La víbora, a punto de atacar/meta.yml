@@ -90,8 +90,10 @@ blocks:
     </category>
   disabled: []
   visible:
+    - '-- Comandos --'
     - Poner
     - Mover
+    - '-- Expresiones --'
     - Color
     - Direccion
 board:

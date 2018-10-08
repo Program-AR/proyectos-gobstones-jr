@@ -1,9 +1,9 @@
-name: La víbora esperando una presa
+name: Repartija de caramelos
 attire:
-  active: null
+  active: Repartiendo caramelos
   user_permissions:
-    can_toggle_visibility: true
-  visible: false
+    can_toggle_visibility: false
+  visible: true
 blocks:
   defaultToolbox: |
     <category name="-- Biblioteca --" gbs_custom="SEPARATOR">
@@ -90,22 +90,25 @@ blocks:
     </category>
   disabled: []
   visible:
-    - '-- Comandos --'
-    - Poner
-    - Mover
-    - '-- Expresiones --'
-    - Color
-    - Direccion
+    - '-- Biblioteca --'
+    - Procedimientos
 board:
   active: 1
   initial_board_source: selected
-  user_permissions:
-    can_change_source: false
-    can_edit_board: false
   visible_edition: false
+  collapse_toolbox: false
+  user_permissions:
+    can_view_attire_section: false
+    can_edit_board: false
+    can_change_initial_board: false
+    can_change_initial_board_source: false
+    can_view_size_section: false
 execution_speed:
-  active: instantaneous
+  active: medium
   user_permissions:
     can_change_speed: true
 library:
   visible: false
+source:
+  visible: true
+  percentage: 0.75

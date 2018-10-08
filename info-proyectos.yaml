@@ -2,17 +2,17 @@
   name: "Programas y comandos básicos"
   exercises:
     - old:
-        id: "2.1.1"
+        id: "201"
         name: "Glotón, el robot"
       new:
         id: "201"
-        name: "Glotón, el robot"
+        name: "Repartija de caramelos"
     - old:
-        id: "2.1.2"
+        id: "202"
         name: "Glotón, el granjero y las bolitas"
       new:
         id: "202"
-        name: "Glotón, el granjero y las bolitas"
+        name: "¿Caramelos, tomates o bolitas?"
     - old:
         id: "2.2.1"
         name: "Bolitas de colores"
@@ -55,12 +55,6 @@
       new:
         id: "209"
         name: "¡Al rincón!"
-    - old:
-        id: "2.3.1.2"
-        name: "Lugar para los corners"
-      new:
-        id: "209b"
-        name: "Lugar para los corners"
     - old:
         id: "2.4.1"
         name: "Snake básico"

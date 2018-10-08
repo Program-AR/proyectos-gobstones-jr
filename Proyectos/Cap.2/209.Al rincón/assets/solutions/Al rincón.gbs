@@ -1,0 +1,11 @@
+program {
+  IrAlBorde(Este)
+  IrAlBorde(Norte)
+  Poner(Verde)
+  IrAlBorde(Sur)
+  Poner(Verde)
+  IrAlBorde(Oeste)
+  Poner(Verde)
+  IrAlBorde(Norte)
+  Poner(Verde)
+}

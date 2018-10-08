@@ -5,13 +5,13 @@
     "exercises": [
       {
         "id": "201",
-        "name": "Glotón, el robot",
-        "path": "Proyectos/Cap.2/201.Glotón, el robot"
+        "name": "Repartija de caramelos",
+        "path": "Proyectos/Cap.2/201.Repartija de caramelos"
       },
       {
         "id": "202",
-        "name": "Glotón, el granjero y las bolitas",
-        "path": "Proyectos/Cap.2/202.Glotón, el granjero y las bolitas"
+        "name": "¿Caramelos, tomates o bolitas?",
+        "path": "Proyectos/Cap.2/202.Caramelos, tomates o bolitas"
       },
       {
         "id": "203",
@@ -47,11 +47,6 @@
         "id": "209",
         "name": "¡Al rincón!",
         "path": "Proyectos/Cap.2/209.Al rincón"
-      },
-      {
-        "id": "209b",
-        "name": "Lugar para los corners",
-        "path": "Proyectos/Cap.2/209b.Lugar para los corners"
       },
       {
         "id": "210",
