@@ -1,20 +1,11 @@
-procedure SubirEncendiendoDiagonal() {
-  EncenderLuz()
-  MoverALuchoEnDiagonalHaciaArriba()
-  EncenderLuz()
-  MoverALuchoEnDiagonalHaciaArriba()
-  EncenderLuz()
-  MoverALuchoEnDiagonalHaciaArriba()
-  EncenderLuz()
+procedure EncenderLaDiagonalInferior() {
+  IrALaBaseDeLaDiagonalInferior()
+  SubirEncendiendoLasLuces()
 }
 
-procedure IrALaBaseDeLaDiagonalSuperior() {
-  MoverALuchoAl_(Norte)
-}
-
-procedure MoverALuchoEnDiagonalHaciaArriba() {
-  MoverALuchoAl_(Norte)
-  MoverALuchoAl_(Este)
+procedure EncenderLaDiagonalSuperior() {
+  IrALaBaseDeLaDiagonalSuperior()
+  SubirEncendiendoLasLuces()
 }
 
 procedure IrALaBaseDeLaDiagonalInferior() {
@@ -25,10 +16,27 @@ procedure IrALaBaseDeLaDiagonalInferior() {
   MoverALuchoAl_(Oeste)
 }
 
+procedure IrALaBaseDeLaDiagonalSuperior() {
+  MoverALuchoAl_(Norte)
+}
+
+procedure SubirEncendiendoLasLuces() {
+  EncenderLaLuz()
+  MoverALuchoEnDiagonalSubiendo()
+  EncenderLaLuz()
+  MoverALuchoEnDiagonalSubiendo()
+  EncenderLaLuz()
+  MoverALuchoEnDiagonalSubiendo()
+  EncenderLaLuz()
+}
+
+procedure MoverALuchoEnDiagonalSubiendo() {
+  MoverALuchoAl_(Norte)
+  MoverALuchoAl_(Este)
+}
+
 
 program {
-  IrALaBaseDeLaDiagonalSuperior()
-  SubirEncendiendoDiagonal()
-  IrALaBaseDeLaDiagonalInferior()
-  SubirEncendiendoDiagonal()
+  EncenderLaDiagonalSuperior()
+  EncenderLaDiagonalInferior()
 }

@@ -1,35 +1,35 @@
-procedure EncenderDiagonalInferior() {
+procedure EncenderLaDiagonalInferior() {
   MoverALuchoAl_(Este)
   MoverALuchoAl_(Este)
   MoverALuchoAl_(Sur)
-  EncenderLuz()
+  EncenderLaLuz()
   MoverALuchoAl_(Sur)
   MoverALuchoAl_(Oeste)
-  EncenderLuz()
+  EncenderLaLuz()
   MoverALuchoAl_(Sur)
   MoverALuchoAl_(Oeste)
-  EncenderLuz()
+  EncenderLaLuz()
   MoverALuchoAl_(Sur)
   MoverALuchoAl_(Oeste)
-  EncenderLuz()
+  EncenderLaLuz()
 }
 
-procedure EncenderDiagonalSuperior() {
+procedure EncenderLaDiagonalSuperior() {
   MoverALuchoAl_(Norte)
-  EncenderLuz()
-  MoverALuchoAl_(Norte)
-  MoverALuchoAl_(Este)
-  EncenderLuz()
+  EncenderLaLuz()
   MoverALuchoAl_(Norte)
   MoverALuchoAl_(Este)
-  EncenderLuz()
+  EncenderLaLuz()
   MoverALuchoAl_(Norte)
   MoverALuchoAl_(Este)
-  EncenderLuz()
+  EncenderLaLuz()
+  MoverALuchoAl_(Norte)
+  MoverALuchoAl_(Este)
+  EncenderLaLuz()
 }
 
 
 program {
-  EncenderDiagonalSuperior()
-  EncenderDiagonalInferior()
+  EncenderLaDiagonalSuperior()
+  EncenderLaDiagonalInferior()
 }

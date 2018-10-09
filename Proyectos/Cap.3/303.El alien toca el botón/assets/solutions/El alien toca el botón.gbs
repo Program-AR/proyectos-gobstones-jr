@@ -2,5 +2,5 @@ program {
   MoverAlAlienAlEste()
   MoverAlAlienAlEste()
   MoverAlAlienAlEste()
-  TocarBotón()
+  TocarElBotón()
 }

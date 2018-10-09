@@ -1,44 +1,44 @@
 procedure BuscarLaLlave() {
-  MoverProtagonistaAl_(Norte)
-  MoverProtagonistaAl_(Norte)
-  MoverProtagonistaAl_(Norte)
-  MoverProtagonistaAl_(Este)
-  MoverProtagonistaAl_(Este)
-  MoverProtagonistaAl_(Este)
-  MoverProtagonistaAl_(Este)
+  MoverALaPrincesaAl_(Norte)
+  MoverALaPrincesaAl_(Norte)
+  MoverALaPrincesaAl_(Norte)
+  MoverALaPrincesaAl_(Este)
+  MoverALaPrincesaAl_(Este)
+  MoverALaPrincesaAl_(Este)
+  MoverALaPrincesaAl_(Este)
   AgarrarLaLlave()
 }
 
 procedure RescatarAlPríncipe() {
-  MoverProtagonistaAl_(Norte)
-  MoverProtagonistaAl_(Norte)
-  MoverProtagonistaAl_(Este)
+  MoverALaPrincesaAl_(Norte)
+  MoverALaPrincesaAl_(Norte)
+  MoverALaPrincesaAl_(Este)
   AtacarAlCaballeroConLaEspada()
 }
 
 procedure BuscarElUnicornioYEscapar() {
-  MoverProtagonistaAl_(Sur)
-  MoverProtagonistaAl_(Sur)
-  MoverProtagonistaAl_(Este)
-  MoverProtagonistaAl_(Este)
+  MoverALaPrincesaAl_(Sur)
+  MoverALaPrincesaAl_(Sur)
+  MoverALaPrincesaAl_(Este)
+  MoverALaPrincesaAl_(Este)
   HuirEnElUnicornio()
 }
 
 procedure BuscarElSombrero() {
-  MoverProtagonistaAl_(Norte)
-  MoverProtagonistaAl_(Oeste)
-  MoverProtagonistaAl_(Oeste)
-  MoverProtagonistaAl_(Oeste)
-  MoverProtagonistaAl_(Oeste)
+  MoverALaPrincesaAl_(Norte)
+  MoverALaPrincesaAl_(Oeste)
+  MoverALaPrincesaAl_(Oeste)
+  MoverALaPrincesaAl_(Oeste)
+  MoverALaPrincesaAl_(Oeste)
   AbrirElCofreYAgarrarElSombrero()
 }
 
 procedure ConseguirLaEspada() {
-  MoverProtagonistaAl_(Sur)
-  MoverProtagonistaAl_(Sur)
-  MoverProtagonistaAl_(Sur)
-  MoverProtagonistaAl_(Sur)
-  MoverProtagonistaAl_(Este)
+  MoverALaPrincesaAl_(Sur)
+  MoverALaPrincesaAl_(Sur)
+  MoverALaPrincesaAl_(Sur)
+  MoverALaPrincesaAl_(Sur)
+  MoverALaPrincesaAl_(Este)
   DarElSombreroAlMago()
 }
 

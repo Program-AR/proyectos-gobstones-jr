@@ -4,12 +4,8 @@ attire:
     can_toggle_visibility: true
   visible: true
 blocks:
-  disabled:
-    - IrAlBorde
-    - Procedimientos primitivos
+  disabled: []
   visible:
-    - '-- Biblioteca --'
-    - Procedimientos primitivos
     - '-- Mis operaciones --'
     - Mis procedimientos
     - '-- Comandos --'
@@ -21,7 +17,7 @@ blocks:
     - Color
     - Direccion
     - '-- Definiciones --'
-    - procedures_defnoreturnnoparams
+    - DefinicionDeProcedimientoSimple
   defaultToolbox: |
     <category name="-- Biblioteca --" gbs_custom="SEPARATOR">
     </category>
@@ -119,4 +115,4 @@ execution_speed:
     can_change_speed: true
 library:
   visible: false
-name: 'Fútbol de robots, sin procedimientos'
+name: 'Beto, el robot goleador, sin procedimientos'

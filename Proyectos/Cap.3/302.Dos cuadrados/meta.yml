@@ -87,8 +87,7 @@ blocks:
       <block type="ExpresionCompletar"></block>
       <block type="AsociacionDeTeclaCompletar"></block>
     </category>
-  disabled:
-    - Sacar
+  disabled: []
   visible:
     - '-- Mis operaciones --'
     - Mis procedimientos
@@ -101,8 +100,7 @@ blocks:
     - Color
     - Direccion
     - '-- Definiciones --'
-    - procedures_defnoreturnnoparams
-    - Definicion de procedimientos simples
+    - DefinicionDeProcedimientoSimple
 board:
   active: 1
   initial_board_source: selected

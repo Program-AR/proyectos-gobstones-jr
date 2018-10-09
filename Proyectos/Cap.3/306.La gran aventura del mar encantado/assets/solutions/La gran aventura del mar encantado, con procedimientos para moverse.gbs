@@ -1,64 +1,64 @@
-procedure IrALaLlave() {
-  MoverProtagonistaAl_(Norte)
-  MoverProtagonistaAl_(Norte)
-  MoverProtagonistaAl_(Norte)
-  MoverProtagonistaAl_(Este)
-  MoverProtagonistaAl_(Este)
-  MoverProtagonistaAl_(Este)
-  MoverProtagonistaAl_(Este)
+procedure IrDelInicioALaLlave() {
+  MoverALaPrincesaAl_(Norte)
+  MoverALaPrincesaAl_(Norte)
+  MoverALaPrincesaAl_(Norte)
+  MoverALaPrincesaAl_(Este)
+  MoverALaPrincesaAl_(Este)
+  MoverALaPrincesaAl_(Este)
+  MoverALaPrincesaAl_(Este)
 }
 
-procedure IrAlCaballero() {
-  MoverProtagonistaAl_(Norte)
-  MoverProtagonistaAl_(Norte)
-  MoverProtagonistaAl_(Este)
+procedure IrDelMagoAlCaballero() {
+  MoverALaPrincesaAl_(Norte)
+  MoverALaPrincesaAl_(Norte)
+  MoverALaPrincesaAl_(Este)
 }
 
 procedure BuscarLaLlave() {
-  IrALaLlave()
+  IrDelInicioALaLlave()
   AgarrarLaLlave()
 }
 
-procedure IrAlUnicornio() {
-  MoverProtagonistaAl_(Sur)
-  MoverProtagonistaAl_(Sur)
-  MoverProtagonistaAl_(Este)
-  MoverProtagonistaAl_(Este)
+procedure IrDelCaballeroAlUnicornio() {
+  MoverALaPrincesaAl_(Sur)
+  MoverALaPrincesaAl_(Sur)
+  MoverALaPrincesaAl_(Este)
+  MoverALaPrincesaAl_(Este)
 }
 
 procedure BuscarElSombrero() {
-  IrAlCofre()
+  IrDeLaLlaveAlCofre()
   AbrirElCofreYAgarrarElSombrero()
 }
 
-procedure IrAlCofre() {
-  MoverProtagonistaAl_(Norte)
-  MoverProtagonistaAl_(Oeste)
-  MoverProtagonistaAl_(Oeste)
-  MoverProtagonistaAl_(Oeste)
-  MoverProtagonistaAl_(Oeste)
+procedure IrDeLaLlaveAlCofre() {
+  MoverALaPrincesaAl_(Norte)
+  MoverALaPrincesaAl_(Oeste)
+  MoverALaPrincesaAl_(Oeste)
+  MoverALaPrincesaAl_(Oeste)
+  MoverALaPrincesaAl_(Oeste)
 }
 
 procedure ConseguirLaEspada() {
-  IrAlMago()
+  IrDelCofreAlMago()
   DarElSombreroAlMago()
 }
 
 procedure RescatarAlPríncipe() {
-  IrAlCaballero()
+  IrDelMagoAlCaballero()
   AtacarAlCaballeroConLaEspada()
 }
 
-procedure IrAlMago() {
-  MoverProtagonistaAl_(Sur)
-  MoverProtagonistaAl_(Sur)
-  MoverProtagonistaAl_(Sur)
-  MoverProtagonistaAl_(Sur)
-  MoverProtagonistaAl_(Este)
+procedure IrDelCofreAlMago() {
+  MoverALaPrincesaAl_(Sur)
+  MoverALaPrincesaAl_(Sur)
+  MoverALaPrincesaAl_(Sur)
+  MoverALaPrincesaAl_(Sur)
+  MoverALaPrincesaAl_(Este)
 }
 
 procedure BuscarElUnicornioYEscapar() {
-  IrAlUnicornio()
+  IrDelCaballeroAlUnicornio()
   HuirEnElUnicornio()
 }
 

@@ -4,15 +4,10 @@ attire:
     can_toggle_visibility: true
   visible: true
 blocks:
-  disabled:
-    - Poner
-    - Mover
-    - Sacar
-    - IrAlBorde
-    - Color
+  disabled: []
   visible:
     - '-- Biblioteca --'
-    - Procedimientos primitivos
+    - Procedimientos
     - '-- Mis operaciones --'
     - Mis procedimientos
     - '-- Comandos --'
@@ -24,11 +19,17 @@ blocks:
     - Color
     - Direccion
     - '-- Definiciones --'
-    - procedures_defnoreturnnoparams
+    - DefinicionDeProcedimientoSimple
   defaultToolbox: |
     <category name="-- Biblioteca --" gbs_custom="SEPARATOR">
     </category>
-      <category name="Procedimientos" gbs_custom="PRIMITIVE_PROCEDURES">
+      <category name="Procedimientos">
+        <block type="MoverALaPrincesaAl_"></block>
+        <block type="AgarrarLaLlave"></block>
+        <block type="AbrirElCofreYAgarrarElSombrero"></block>
+        <block type="DarElSombreroAlMago"></block>
+        <block type="AtacarAlCaballeroConLaEspada"></block>
+        <block type="HuirEnElUnicornio"></block>
       </category>
       <category name="Funciones" gbs_custom="PRIMITIVE_FUNCTIONS">
       </category>

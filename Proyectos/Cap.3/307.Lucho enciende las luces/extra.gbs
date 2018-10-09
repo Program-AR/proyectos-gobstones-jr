@@ -1,4 +1,4 @@
-procedure EncenderLuz() { 
+procedure EncenderLaLuz() { 
   if (not hayBolitas(Negro)) { BOOM("Lucho no está en este lugar para encender la luz") }
   if (nroBolitas(Azul) == 1)         { Poner(Azul) } 
    else { if (nroBolitas(Azul) == 2) { BOOM("La luz ya está encendida") }

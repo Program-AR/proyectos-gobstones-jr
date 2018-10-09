@@ -88,12 +88,8 @@ blocks:
       <block type="ExpresionCompletar"></block>
       <block type="AsociacionDeTeclaCompletar"></block>
     </category>
-  disabled:
-    - IrAlBorde
-    - Procedimientos primitivos
+  disabled: []
   visible:
-    - '-- Biblioteca --'
-    - Procedimientos primitivos
     - '-- Mis operaciones --'
     - Mis procedimientos
     - '-- Comandos --'
@@ -105,7 +101,7 @@ blocks:
     - Color
     - Direccion
     - '-- Definiciones --'
-    - procedures_defnoreturnnoparams
+    - DefinicionDeProcedimientoSimple
 board:
   active: 1
   initial_board_source: selected

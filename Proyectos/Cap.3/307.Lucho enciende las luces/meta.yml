@@ -4,12 +4,7 @@ attire:
     can_toggle_visibility: true
   visible: true
 blocks:
-  disabled:
-    - Poner
-    - Mover
-    - Sacar
-    - IrAlBorde
-    - Color
+  disabled: []
   visible:
     - '-- Biblioteca --'
     - Procedimientos primitivos
@@ -24,7 +19,7 @@ blocks:
     - Color
     - Direccion
     - '-- Definiciones --'
-    - procedures_defnoreturnnoparams
+    - DefinicionDeProcedimientoSimple
   defaultToolbox: |
     <category name="-- Biblioteca --" gbs_custom="SEPARATOR">
     </category>
