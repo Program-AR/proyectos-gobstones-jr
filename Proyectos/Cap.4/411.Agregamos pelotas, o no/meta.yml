@@ -18,11 +18,11 @@ blocks:
     - OperadorDeComparacion
     - siguiente
     - previo
-    - opuesto
+    - OperadorOpuesto
   visible:
     - '-- Biblioteca --'
-    - Procedimientos primitivos
-    - FuncionesPrimitivas
+    - Procedimientos
+    - Funciones
     - '-- Mis operaciones --'
     - Mis procedimientos
     - '-- Comandos --'
@@ -42,10 +42,10 @@ blocks:
     - puedeMover
     - OperadorNumerico
     - OperadorDeComparacion
-    - opuesto
-    - not
+    - OperadorOpuesto
+    - OperadorDeNegacion
     - '-- Definiciones --'
-    - procedures_defnoreturnnoparams
+    - DefinicionDeProcedimientoSimple
   defaultToolbox: |
     <category name="-- Biblioteca --" gbs_custom="SEPARATOR">
     </category>

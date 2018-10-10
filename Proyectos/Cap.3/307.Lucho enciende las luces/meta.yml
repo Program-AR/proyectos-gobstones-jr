@@ -7,7 +7,7 @@ blocks:
   disabled: []
   visible:
     - '-- Biblioteca --'
-    - Procedimientos primitivos
+    - Procedimientos
     - '-- Mis operaciones --'
     - Mis procedimientos
     - '-- Comandos --'

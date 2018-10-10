@@ -11,7 +11,7 @@ blocks:
     - Color
   visible:
     - '-- Biblioteca --'
-    - Procedimientos primitivos
+    - Procedimientos
     - '-- Mis operaciones --'
     - Mis procedimientos
     - '-- Comandos --'
@@ -25,7 +25,7 @@ blocks:
     - Direccion
     - Numero
     - '-- Definiciones --'
-    - procedures_defnoreturnnoparams
+    - DefinicionDeProcedimientoSimple
   defaultToolbox: |
     <category name="-- Biblioteca --" gbs_custom="SEPARATOR">
     </category>

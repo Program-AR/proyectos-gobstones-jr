@@ -7,8 +7,8 @@ blocks:
   disabled: []
   visible:
     - '-- Biblioteca --'
-    - Procedimientos primitivos
-    - FuncionesPrimitivas
+    - Procedimientos
+    - Funciones
     - '-- Mis operaciones --'
     - Mis procedimientos
     - Mis funciones
@@ -30,13 +30,13 @@ blocks:
     - puedeMover
     - OperadorNumerico
     - OperadorDeComparacion
-    - opuesto
+    - OperadorOpuesto
     - OperadorLogico
-    - not
+    - OperadorDeNegacion
     - '-- Definiciones --'
-    - procedures_defnoreturnnoparams
-    - procedures_defnoreturn
-    - procedures_defreturnsimple
+    - DefinicionDeProcedimientoSimple
+    - DefinicionDeProcedimientoParametrizado
+    - DefinicionDeFuncionSimple
   defaultToolbox: |
     <category name="-- Biblioteca --" gbs_custom="SEPARATOR">
     </category>

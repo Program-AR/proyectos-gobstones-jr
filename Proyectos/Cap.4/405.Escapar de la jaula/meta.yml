@@ -18,8 +18,8 @@ blocks:
     - OperadorNumerico
   visible:
     - '-- Biblioteca --'
-    - Procedimientos primitivos
-    - FuncionesPrimitivas
+    - Procedimientos
+    - Funciones
     - '-- Mis operaciones --'
     - Mis procedimientos
     - '-- Comandos --'
@@ -35,7 +35,7 @@ blocks:
     - nroBolitas
     - OperadorNumerico
     - '-- Definiciones --'
-    - procedures_defnoreturnnoparams
+    - DefinicionDeProcedimientoSimple
   defaultToolbox: |
     <category name="-- Biblioteca --" gbs_custom="SEPARATOR">
     </category>

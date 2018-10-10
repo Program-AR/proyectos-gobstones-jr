@@ -6,8 +6,8 @@ attire:
 blocks:
   visible:
     - '-- Biblioteca --'
-    - ProcedimientosPrimitivos
-    - FuncionesPrimitivas
+    - Procedimientos
+    - Funciones
     - '-- Mis operaciones --'
     - Mis procedimientos
     - Mis funciones
@@ -30,7 +30,7 @@ blocks:
     - nroBolitas
     - OperadorNumerico
     - OperadorDeComparacion
-    - opuesto
+    - OperadorOpuesto
     - OperadorLogico
     - OperadorDeNegacion
     - '-- Definiciones --'

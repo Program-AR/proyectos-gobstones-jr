@@ -14,15 +14,15 @@ blocks:
     - nroBolitas
     - OperadorNumerico
     - OperadorDeComparacion
-    - not
+    - OperadorDeNegacion
     - OperadorDeNegacion
     - siguiente
     - previo
-    - opuesto
+    - OperadorOpuesto
   visible:
     - '-- Biblioteca --'
-    - Procedimientos primitivos
-    - FuncionesPrimitivas
+    - Procedimientos
+    - Funciones
     - '-- Mis operaciones --'
     - Mis procedimientos
     - Mis funciones
@@ -43,11 +43,11 @@ blocks:
     - puedeMover
     - OperadorNumerico
     - OperadorDeComparacion
-    - opuesto
-    - not
+    - OperadorOpuesto
+    - OperadorDeNegacion
     - '-- Definiciones --'
-    - procedures_defnoreturnnoparams
-    - procedures_defreturnsimple
+    - DefinicionDeProcedimientoSimple
+    - DefinicionDeFuncionSimple
   defaultToolbox: |
     <category name="-- Biblioteca --" gbs_custom="SEPARATOR">
     </category>

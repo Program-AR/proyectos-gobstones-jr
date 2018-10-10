@@ -11,19 +11,19 @@ blocks:
     - AlternativaCompleta
     - puedeMover
     - OperadorNumerico
-    - not
+    - OperadorDeNegacion
     - OperadorDeNegacion
     - OperadorLogico
     - siguiente
     - previo
-    - opuesto
+    - OperadorOpuesto
   visible:
     - Poner
     - Mover
     - Sacar
     - IrAlBorde
     - BOOM
-    - Procedimientos primitivos
+    - Procedimientos
     - Mis procedimientos
     - RepeticionSimple
     - AlternativaSimple
@@ -34,19 +34,19 @@ blocks:
     - puedeMover
     - hayBolitas
     - nroBolitas
-    - FuncionesPrimitivas
+    - Funciones
     - Mis funciones
     - OperadorNumerico
     - OperadorDeComparacion
-    - not
+    - OperadorDeNegacion
     - OperadorDeNegacion
     - OperadorLogico
     - siguiente
     - previo
-    - opuesto
-    - procedures_defnoreturnnoparams
+    - OperadorOpuesto
+    - DefinicionDeProcedimientoSimple
     - Definicion de procedimientos simples
-    - procedures_defreturn
+    - DefinicionDeFuncionSimpleParametrizada
     - Definicion de funciones simples
   defaultToolbox: |
     <category name="-- Biblioteca --" gbs_custom="SEPARATOR">

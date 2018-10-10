@@ -15,11 +15,11 @@ blocks:
     - OperadorNumerico
     - siguiente
     - previo
-    - opuesto
+    - OperadorOpuesto
   visible:
     - '-- Biblioteca --'
-    - Procedimientos primitivos
-    - FuncionesPrimitivas
+    - Procedimientos
+    - Funciones
     - '-- Mis operaciones --'
     - Mis procedimientos
     - '-- Comandos --'
@@ -36,9 +36,9 @@ blocks:
     - nroBolitas
     - hayBolitas
     - OperadorNumerico
-    - opuesto
+    - OperadorOpuesto
     - '-- Definiciones --'
-    - procedures_defnoreturnnoparams
+    - DefinicionDeProcedimientoSimple
   defaultToolbox: |
     <category name="-- Biblioteca --" gbs_custom="SEPARATOR">
     </category>
