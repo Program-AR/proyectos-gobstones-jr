@@ -1,0 +1,2648 @@
+name: Que gane el mejor
+rules:
+  - image: Fondo.png
+    when:
+      black: 0
+      blue: 0
+      green: 0
+      red: 0
+  - image: CopaAlta1.png
+    when:
+      black: 1
+      blue: 0
+      green: 0
+      red: 0
+  - image: CopaAlta2.png
+    when:
+      black: 2
+      blue: 0
+      green: 0
+      red: 0
+  - image: CopaAlta3.png
+    when:
+      black: 3
+      blue: 0
+      green: 0
+      red: 0
+  - image: CopaAlta4.png
+    when:
+      black: 4
+      blue: 0
+      green: 0
+      red: 0
+  - image: CopaAlta5.png
+    when:
+      black: 5
+      blue: 0
+      green: 0
+      red: 0
+  - image: CopaAlta6.png
+    when:
+      black: 6
+      blue: 0
+      green: 0
+      red: 0
+  - image: CopaAlta7.png
+    when:
+      black: 7
+      blue: 0
+      green: 0
+      red: 0
+  - image: CopaAlta8.png
+    when:
+      black: 8
+      blue: 0
+      green: 0
+      red: 0
+  - image: CopaAlta9.png
+    when:
+      black: 9
+      blue: 0
+      green: 0
+      red: 0
+  - image: CopaAlta10.png
+    when:
+      black: 10
+      blue: 0
+      green: 0
+      red: 0
+  - image: CopaAlta11.png
+    when:
+      black: 11
+      blue: 0
+      green: 0
+      red: 0
+  - image: CopaAlta12.png
+    when:
+      black: 12
+      blue: 0
+      green: 0
+      red: 0
+  - image: CopaAlta13.png
+    when:
+      black: 13
+      blue: 0
+      green: 0
+      red: 0
+  - image: CopaAlta14.png
+    when:
+      black: 14
+      blue: 0
+      green: 0
+      red: 0
+  - image: CopaAlta15.png
+    when:
+      black: 15
+      blue: 0
+      green: 0
+      red: 0
+  - image: CopaAlta16.png
+    when:
+      black: 16
+      blue: 0
+      green: 0
+      red: 0
+  - image: CopaAlta17.png
+    when:
+      black: 17
+      blue: 0
+      green: 0
+      red: 0
+  - image: CopaAlta18.png
+    when:
+      black: 18
+      blue: 0
+      green: 0
+      red: 0
+  - image: CopaAlta19.png
+    when:
+      black: 19
+      blue: 0
+      green: 0
+      red: 0
+  - image: CopaAlta20.png
+    when:
+      black: 20
+      blue: 0
+      green: 0
+      red: 0
+  - image: Verdolaga1.png
+    when:
+      black: 0
+      blue: 0
+      green: 1
+      red: 0
+  - image: Verdolaga1-CopaAlta1.png
+    when:
+      black: 1
+      blue: 0
+      green: 1
+      red: 0
+  - image: Verdolaga1-CopaAlta2.png
+    when:
+      black: 2
+      blue: 0
+      green: 1
+      red: 0
+  - image: Verdolaga1-CopaAlta3.png
+    when:
+      black: 3
+      blue: 0
+      green: 1
+      red: 0
+  - image: Verdolaga1-CopaAlta4.png
+    when:
+      black: 4
+      blue: 0
+      green: 1
+      red: 0
+  - image: Verdolaga1-CopaAlta5.png
+    when:
+      black: 5
+      blue: 0
+      green: 1
+      red: 0
+  - image: Verdolaga1-CopaAlta6.png
+    when:
+      black: 6
+      blue: 0
+      green: 1
+      red: 0
+  - image: Verdolaga1-CopaAlta7.png
+    when:
+      black: 7
+      blue: 0
+      green: 1
+      red: 0
+  - image: Verdolaga1-CopaAlta8.png
+    when:
+      black: 8
+      blue: 0
+      green: 1
+      red: 0
+  - image: Verdolaga1-CopaAlta9.png
+    when:
+      black: 9
+      blue: 0
+      green: 1
+      red: 0
+  - image: Verdolaga1-CopaAlta10.png
+    when:
+      black: 10
+      blue: 0
+      green: 1
+      red: 0
+  - image: Verdolaga1-CopaAlta11.png
+    when:
+      black: 11
+      blue: 0
+      green: 1
+      red: 0
+  - image: Verdolaga1-CopaAlta12.png
+    when:
+      black: 12
+      blue: 0
+      green: 1
+      red: 0
+  - image: Verdolaga1-CopaAlta13.png
+    when:
+      black: 13
+      blue: 0
+      green: 1
+      red: 0
+  - image: Verdolaga1-CopaAlta14.png
+    when:
+      black: 14
+      blue: 0
+      green: 1
+      red: 0
+  - image: Verdolaga1-CopaAlta15.png
+    when:
+      black: 15
+      blue: 0
+      green: 1
+      red: 0
+  - image: Verdolaga1-CopaAlta16.png
+    when:
+      black: 16
+      blue: 0
+      green: 1
+      red: 0
+  - image: Verdolaga1-CopaAlta17.png
+    when:
+      black: 17
+      blue: 0
+      green: 1
+      red: 0
+  - image: Verdolaga1-CopaAlta18.png
+    when:
+      black: 18
+      blue: 0
+      green: 1
+      red: 0
+  - image: Verdolaga1-CopaAlta19.png
+    when:
+      black: 19
+      blue: 0
+      green: 1
+      red: 0
+  - image: Verdolaga1-CopaAlta20.png
+    when:
+      black: 20
+      blue: 0
+      green: 1
+      red: 0
+  - image: Verdolaga2.png
+    when:
+      black: 0
+      blue: 0
+      green: 2
+      red: 0
+  - image: Verdolaga2-CopaAlta1.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 0
+  - image: Verdolaga2-CopaAlta2.png
+    when:
+      black: 2
+      blue: 0
+      green: 2
+      red: 0
+  - image: Verdolaga2-CopaAlta3.png
+    when:
+      black: 3
+      blue: 0
+      green: 2
+      red: 0
+  - image: Verdolaga2-CopaAlta4.png
+    when:
+      black: 4
+      blue: 0
+      green: 2
+      red: 0
+  - image: Verdolaga2-CopaAlta5.png
+    when:
+      black: 5
+      blue: 0
+      green: 2
+      red: 0
+  - image: Verdolaga2-CopaAlta6.png
+    when:
+      black: 6
+      blue: 0
+      green: 2
+      red: 0
+  - image: Verdolaga2-CopaAlta7.png
+    when:
+      black: 7
+      blue: 0
+      green: 2
+      red: 0
+  - image: Verdolaga2-CopaAlta8.png
+    when:
+      black: 8
+      blue: 0
+      green: 2
+      red: 0
+  - image: Verdolaga2-CopaAlta9.png
+    when:
+      black: 9
+      blue: 0
+      green: 2
+      red: 0
+  - image: Verdolaga2-CopaAlta10.png
+    when:
+      black: 10
+      blue: 0
+      green: 2
+      red: 0
+  - image: Verdolaga2-CopaAlta11.png
+    when:
+      black: 11
+      blue: 0
+      green: 2
+      red: 0
+  - image: Verdolaga2-CopaAlta12.png
+    when:
+      black: 12
+      blue: 0
+      green: 2
+      red: 0
+  - image: Verdolaga2-CopaAlta13.png
+    when:
+      black: 13
+      blue: 0
+      green: 2
+      red: 0
+  - image: Verdolaga2-CopaAlta14.png
+    when:
+      black: 14
+      blue: 0
+      green: 2
+      red: 0
+  - image: Verdolaga2-CopaAlta15.png
+    when:
+      black: 15
+      blue: 0
+      green: 2
+      red: 0
+  - image: Verdolaga2-CopaAlta16.png
+    when:
+      black: 16
+      blue: 0
+      green: 2
+      red: 0
+  - image: Verdolaga2-CopaAlta17.png
+    when:
+      black: 17
+      blue: 0
+      green: 2
+      red: 0
+  - image: Verdolaga2-CopaAlta18.png
+    when:
+      black: 18
+      blue: 0
+      green: 2
+      red: 0
+  - image: Verdolaga2-CopaAlta19.png
+    when:
+      black: 19
+      blue: 0
+      green: 2
+      red: 0
+  - image: Verdolaga2-CopaAlta20.png
+    when:
+      black: 20
+      blue: 0
+      green: 2
+      red: 0
+  - image: Verdolaga3.png
+    when:
+      black: 0
+      blue: 0
+      green: 3
+      red: 0
+  - image: Verdolaga3-CopaAlta1.png
+    when:
+      black: 1
+      blue: 0
+      green: 3
+      red: 0
+  - image: Verdolaga3-CopaAlta2.png
+    when:
+      black: 2
+      blue: 0
+      green: 3
+      red: 0
+  - image: Verdolaga3-CopaAlta3.png
+    when:
+      black: 3
+      blue: 0
+      green: 3
+      red: 0
+  - image: Verdolaga3-CopaAlta4.png
+    when:
+      black: 4
+      blue: 0
+      green: 3
+      red: 0
+  - image: Verdolaga3-CopaAlta5.png
+    when:
+      black: 5
+      blue: 0
+      green: 3
+      red: 0
+  - image: Verdolaga3-CopaAlta6.png
+    when:
+      black: 6
+      blue: 0
+      green: 3
+      red: 0
+  - image: Verdolaga3-CopaAlta7.png
+    when:
+      black: 7
+      blue: 0
+      green: 3
+      red: 0
+  - image: Verdolaga3-CopaAlta8.png
+    when:
+      black: 8
+      blue: 0
+      green: 3
+      red: 0
+  - image: Verdolaga3-CopaAlta9.png
+    when:
+      black: 9
+      blue: 0
+      green: 3
+      red: 0
+  - image: Verdolaga3-CopaAlta10.png
+    when:
+      black: 10
+      blue: 0
+      green: 3
+      red: 0
+  - image: Verdolaga3-CopaAlta11.png
+    when:
+      black: 11
+      blue: 0
+      green: 3
+      red: 0
+  - image: Verdolaga3-CopaAlta12.png
+    when:
+      black: 12
+      blue: 0
+      green: 3
+      red: 0
+  - image: Verdolaga3-CopaAlta13.png
+    when:
+      black: 13
+      blue: 0
+      green: 3
+      red: 0
+  - image: Verdolaga3-CopaAlta14.png
+    when:
+      black: 14
+      blue: 0
+      green: 3
+      red: 0
+  - image: Verdolaga3-CopaAlta15.png
+    when:
+      black: 15
+      blue: 0
+      green: 3
+      red: 0
+  - image: Verdolaga3-CopaAlta16.png
+    when:
+      black: 16
+      blue: 0
+      green: 3
+      red: 0
+  - image: Verdolaga3-CopaAlta17.png
+    when:
+      black: 17
+      blue: 0
+      green: 3
+      red: 0
+  - image: Verdolaga3-CopaAlta18.png
+    when:
+      black: 18
+      blue: 0
+      green: 3
+      red: 0
+  - image: Verdolaga3-CopaAlta19.png
+    when:
+      black: 19
+      blue: 0
+      green: 3
+      red: 0
+  - image: Verdolaga3-CopaAlta20.png
+    when:
+      black: 20
+      blue: 0
+      green: 3
+      red: 0
+  - image: Verdolaga4.png
+    when:
+      black: 0
+      blue: 0
+      green: 4
+      red: 0
+  - image: Verdolaga4-CopaAlta1.png
+    when:
+      black: 1
+      blue: 0
+      green: 4
+      red: 0
+  - image: Verdolaga4-CopaAlta2.png
+    when:
+      black: 2
+      blue: 0
+      green: 4
+      red: 0
+  - image: Verdolaga4-CopaAlta3.png
+    when:
+      black: 3
+      blue: 0
+      green: 4
+      red: 0
+  - image: Verdolaga4-CopaAlta4.png
+    when:
+      black: 4
+      blue: 0
+      green: 4
+      red: 0
+  - image: Verdolaga4-CopaAlta5.png
+    when:
+      black: 5
+      blue: 0
+      green: 4
+      red: 0
+  - image: Verdolaga4-CopaAlta6.png
+    when:
+      black: 6
+      blue: 0
+      green: 4
+      red: 0
+  - image: Verdolaga4-CopaAlta7.png
+    when:
+      black: 7
+      blue: 0
+      green: 4
+      red: 0
+  - image: Verdolaga4-CopaAlta8.png
+    when:
+      black: 8
+      blue: 0
+      green: 4
+      red: 0
+  - image: Verdolaga4-CopaAlta9.png
+    when:
+      black: 9
+      blue: 0
+      green: 4
+      red: 0
+  - image: Verdolaga4-CopaAlta10.png
+    when:
+      black: 10
+      blue: 0
+      green: 4
+      red: 0
+  - image: Verdolaga4-CopaAlta11.png
+    when:
+      black: 11
+      blue: 0
+      green: 4
+      red: 0
+  - image: Verdolaga4-CopaAlta12.png
+    when:
+      black: 12
+      blue: 0
+      green: 4
+      red: 0
+  - image: Verdolaga4-CopaAlta13.png
+    when:
+      black: 13
+      blue: 0
+      green: 4
+      red: 0
+  - image: Verdolaga4-CopaAlta14.png
+    when:
+      black: 14
+      blue: 0
+      green: 4
+      red: 0
+  - image: Verdolaga4-CopaAlta15.png
+    when:
+      black: 15
+      blue: 0
+      green: 4
+      red: 0
+  - image: Verdolaga4-CopaAlta16.png
+    when:
+      black: 16
+      blue: 0
+      green: 4
+      red: 0
+  - image: Verdolaga4-CopaAlta17.png
+    when:
+      black: 17
+      blue: 0
+      green: 4
+      red: 0
+  - image: Verdolaga4-CopaAlta18.png
+    when:
+      black: 18
+      blue: 0
+      green: 4
+      red: 0
+  - image: Verdolaga4-CopaAlta19.png
+    when:
+      black: 19
+      blue: 0
+      green: 4
+      red: 0
+  - image: Verdolaga4-CopaAlta20.png
+    when:
+      black: 20
+      blue: 0
+      green: 4
+      red: 0
+  - image: Verdolaga5.png
+    when:
+      black: 0
+      blue: 0
+      green: 5
+      red: 0
+  - image: Verdolaga5-CopaAlta1.png
+    when:
+      black: 1
+      blue: 0
+      green: 5
+      red: 0
+  - image: Verdolaga5-CopaAlta2.png
+    when:
+      black: 2
+      blue: 0
+      green: 5
+      red: 0
+  - image: Verdolaga5-CopaAlta3.png
+    when:
+      black: 3
+      blue: 0
+      green: 5
+      red: 0
+  - image: Verdolaga5-CopaAlta4.png
+    when:
+      black: 4
+      blue: 0
+      green: 5
+      red: 0
+  - image: Verdolaga5-CopaAlta5.png
+    when:
+      black: 5
+      blue: 0
+      green: 5
+      red: 0
+  - image: Verdolaga5-CopaAlta6.png
+    when:
+      black: 6
+      blue: 0
+      green: 5
+      red: 0
+  - image: Verdolaga5-CopaAlta7.png
+    when:
+      black: 7
+      blue: 0
+      green: 5
+      red: 0
+  - image: Verdolaga5-CopaAlta8.png
+    when:
+      black: 8
+      blue: 0
+      green: 5
+      red: 0
+  - image: Verdolaga5-CopaAlta9.png
+    when:
+      black: 9
+      blue: 0
+      green: 5
+      red: 0
+  - image: Verdolaga5-CopaAlta10.png
+    when:
+      black: 10
+      blue: 0
+      green: 5
+      red: 0
+  - image: Verdolaga5-CopaAlta11.png
+    when:
+      black: 11
+      blue: 0
+      green: 5
+      red: 0
+  - image: Verdolaga5-CopaAlta12.png
+    when:
+      black: 12
+      blue: 0
+      green: 5
+      red: 0
+  - image: Verdolaga5-CopaAlta13.png
+    when:
+      black: 13
+      blue: 0
+      green: 5
+      red: 0
+  - image: Verdolaga5-CopaAlta14.png
+    when:
+      black: 14
+      blue: 0
+      green: 5
+      red: 0
+  - image: Verdolaga5-CopaAlta15.png
+    when:
+      black: 15
+      blue: 0
+      green: 5
+      red: 0
+  - image: Verdolaga5-CopaAlta16.png
+    when:
+      black: 16
+      blue: 0
+      green: 5
+      red: 0
+  - image: Verdolaga5-CopaAlta17.png
+    when:
+      black: 17
+      blue: 0
+      green: 5
+      red: 0
+  - image: Verdolaga5-CopaAlta18.png
+    when:
+      black: 18
+      blue: 0
+      green: 5
+      red: 0
+  - image: Verdolaga5-CopaAlta19.png
+    when:
+      black: 19
+      blue: 0
+      green: 5
+      red: 0
+  - image: Verdolaga5-CopaAlta20.png
+    when:
+      black: 20
+      blue: 0
+      green: 5
+      red: 0
+  - image: Verdolaga6.png
+    when:
+      black: 0
+      blue: 0
+      green: 6
+      red: 0
+  - image: Verdolaga6-CopaAlta1.png
+    when:
+      black: 1
+      blue: 0
+      green: 6
+      red: 0
+  - image: Verdolaga6-CopaAlta2.png
+    when:
+      black: 2
+      blue: 0
+      green: 6
+      red: 0
+  - image: Verdolaga6-CopaAlta3.png
+    when:
+      black: 3
+      blue: 0
+      green: 6
+      red: 0
+  - image: Verdolaga6-CopaAlta4.png
+    when:
+      black: 4
+      blue: 0
+      green: 6
+      red: 0
+  - image: Verdolaga6-CopaAlta5.png
+    when:
+      black: 5
+      blue: 0
+      green: 6
+      red: 0
+  - image: Verdolaga6-CopaAlta6.png
+    when:
+      black: 6
+      blue: 0
+      green: 6
+      red: 0
+  - image: Verdolaga6-CopaAlta7.png
+    when:
+      black: 7
+      blue: 0
+      green: 6
+      red: 0
+  - image: Verdolaga6-CopaAlta8.png
+    when:
+      black: 8
+      blue: 0
+      green: 6
+      red: 0
+  - image: Verdolaga6-CopaAlta9.png
+    when:
+      black: 9
+      blue: 0
+      green: 6
+      red: 0
+  - image: Verdolaga6-CopaAlta10.png
+    when:
+      black: 10
+      blue: 0
+      green: 6
+      red: 0
+  - image: Verdolaga6-CopaAlta11.png
+    when:
+      black: 11
+      blue: 0
+      green: 6
+      red: 0
+  - image: Verdolaga6-CopaAlta12.png
+    when:
+      black: 12
+      blue: 0
+      green: 6
+      red: 0
+  - image: Verdolaga6-CopaAlta13.png
+    when:
+      black: 13
+      blue: 0
+      green: 6
+      red: 0
+  - image: Verdolaga6-CopaAlta14.png
+    when:
+      black: 14
+      blue: 0
+      green: 6
+      red: 0
+  - image: Verdolaga6-CopaAlta15.png
+    when:
+      black: 15
+      blue: 0
+      green: 6
+      red: 0
+  - image: Verdolaga6-CopaAlta16.png
+    when:
+      black: 16
+      blue: 0
+      green: 6
+      red: 0
+  - image: Verdolaga6-CopaAlta17.png
+    when:
+      black: 17
+      blue: 0
+      green: 6
+      red: 0
+  - image: Verdolaga6-CopaAlta18.png
+    when:
+      black: 18
+      blue: 0
+      green: 6
+      red: 0
+  - image: Verdolaga6-CopaAlta19.png
+    when:
+      black: 19
+      blue: 0
+      green: 6
+      red: 0
+  - image: Verdolaga6-CopaAlta20.png
+    when:
+      black: 20
+      blue: 0
+      green: 6
+      red: 0
+  - image: Verdolaga7.png
+    when:
+      black: 0
+      blue: 0
+      green: 7
+      red: 0
+  - image: Verdolaga7-CopaAlta1.png
+    when:
+      black: 1
+      blue: 0
+      green: 7
+      red: 0
+  - image: Verdolaga7-CopaAlta2.png
+    when:
+      black: 2
+      blue: 0
+      green: 7
+      red: 0
+  - image: Verdolaga7-CopaAlta3.png
+    when:
+      black: 3
+      blue: 0
+      green: 7
+      red: 0
+  - image: Verdolaga7-CopaAlta4.png
+    when:
+      black: 4
+      blue: 0
+      green: 7
+      red: 0
+  - image: Verdolaga7-CopaAlta5.png
+    when:
+      black: 5
+      blue: 0
+      green: 7
+      red: 0
+  - image: Verdolaga7-CopaAlta6.png
+    when:
+      black: 6
+      blue: 0
+      green: 7
+      red: 0
+  - image: Verdolaga7-CopaAlta7.png
+    when:
+      black: 7
+      blue: 0
+      green: 7
+      red: 0
+  - image: Verdolaga7-CopaAlta8.png
+    when:
+      black: 8
+      blue: 0
+      green: 7
+      red: 0
+  - image: Verdolaga7-CopaAlta9.png
+    when:
+      black: 9
+      blue: 0
+      green: 7
+      red: 0
+  - image: Verdolaga7-CopaAlta10.png
+    when:
+      black: 10
+      blue: 0
+      green: 7
+      red: 0
+  - image: Verdolaga7-CopaAlta11.png
+    when:
+      black: 11
+      blue: 0
+      green: 7
+      red: 0
+  - image: Verdolaga7-CopaAlta12.png
+    when:
+      black: 12
+      blue: 0
+      green: 7
+      red: 0
+  - image: Verdolaga7-CopaAlta13.png
+    when:
+      black: 13
+      blue: 0
+      green: 7
+      red: 0
+  - image: Verdolaga7-CopaAlta14.png
+    when:
+      black: 14
+      blue: 0
+      green: 7
+      red: 0
+  - image: Verdolaga7-CopaAlta15.png
+    when:
+      black: 15
+      blue: 0
+      green: 7
+      red: 0
+  - image: Verdolaga7-CopaAlta16.png
+    when:
+      black: 16
+      blue: 0
+      green: 7
+      red: 0
+  - image: Verdolaga7-CopaAlta17.png
+    when:
+      black: 17
+      blue: 0
+      green: 7
+      red: 0
+  - image: Verdolaga7-CopaAlta18.png
+    when:
+      black: 18
+      blue: 0
+      green: 7
+      red: 0
+  - image: Verdolaga7-CopaAlta19.png
+    when:
+      black: 19
+      blue: 0
+      green: 7
+      red: 0
+  - image: Verdolaga7-CopaAlta20.png
+    when:
+      black: 20
+      blue: 0
+      green: 7
+      red: 0
+  - image: Verdolaga8.png
+    when:
+      black: 0
+      blue: 0
+      green: 8
+      red: 0
+  - image: Verdolaga8-CopaAlta1.png
+    when:
+      black: 1
+      blue: 0
+      green: 8
+      red: 0
+  - image: Verdolaga8-CopaAlta2.png
+    when:
+      black: 2
+      blue: 0
+      green: 8
+      red: 0
+  - image: Verdolaga8-CopaAlta3.png
+    when:
+      black: 3
+      blue: 0
+      green: 8
+      red: 0
+  - image: Verdolaga8-CopaAlta4.png
+    when:
+      black: 4
+      blue: 0
+      green: 8
+      red: 0
+  - image: Verdolaga8-CopaAlta5.png
+    when:
+      black: 5
+      blue: 0
+      green: 8
+      red: 0
+  - image: Verdolaga8-CopaAlta6.png
+    when:
+      black: 6
+      blue: 0
+      green: 8
+      red: 0
+  - image: Verdolaga8-CopaAlta7.png
+    when:
+      black: 7
+      blue: 0
+      green: 8
+      red: 0
+  - image: Verdolaga8-CopaAlta8.png
+    when:
+      black: 8
+      blue: 0
+      green: 8
+      red: 0
+  - image: Verdolaga8-CopaAlta9.png
+    when:
+      black: 9
+      blue: 0
+      green: 8
+      red: 0
+  - image: Verdolaga8-CopaAlta10.png
+    when:
+      black: 10
+      blue: 0
+      green: 8
+      red: 0
+  - image: Verdolaga8-CopaAlta11.png
+    when:
+      black: 11
+      blue: 0
+      green: 8
+      red: 0
+  - image: Verdolaga8-CopaAlta12.png
+    when:
+      black: 12
+      blue: 0
+      green: 8
+      red: 0
+  - image: Verdolaga8-CopaAlta13.png
+    when:
+      black: 13
+      blue: 0
+      green: 8
+      red: 0
+  - image: Verdolaga8-CopaAlta14.png
+    when:
+      black: 14
+      blue: 0
+      green: 8
+      red: 0
+  - image: Verdolaga8-CopaAlta15.png
+    when:
+      black: 15
+      blue: 0
+      green: 8
+      red: 0
+  - image: Verdolaga8-CopaAlta16.png
+    when:
+      black: 16
+      blue: 0
+      green: 8
+      red: 0
+  - image: Verdolaga8-CopaAlta17.png
+    when:
+      black: 17
+      blue: 0
+      green: 8
+      red: 0
+  - image: Verdolaga8-CopaAlta18.png
+    when:
+      black: 18
+      blue: 0
+      green: 8
+      red: 0
+  - image: Verdolaga8-CopaAlta19.png
+    when:
+      black: 19
+      blue: 0
+      green: 8
+      red: 0
+  - image: Verdolaga8-CopaAlta20.png
+    when:
+      black: 20
+      blue: 0
+      green: 8
+      red: 0
+  - image: Verdolaga9.png
+    when:
+      black: 0
+      blue: 0
+      green: 9
+      red: 0
+  - image: Verdolaga9-CopaAlta1.png
+    when:
+      black: 1
+      blue: 0
+      green: 9
+      red: 0
+  - image: Verdolaga9-CopaAlta2.png
+    when:
+      black: 2
+      blue: 0
+      green: 9
+      red: 0
+  - image: Verdolaga9-CopaAlta3.png
+    when:
+      black: 3
+      blue: 0
+      green: 9
+      red: 0
+  - image: Verdolaga9-CopaAlta4.png
+    when:
+      black: 4
+      blue: 0
+      green: 9
+      red: 0
+  - image: Verdolaga9-CopaAlta5.png
+    when:
+      black: 5
+      blue: 0
+      green: 9
+      red: 0
+  - image: Verdolaga9-CopaAlta6.png
+    when:
+      black: 6
+      blue: 0
+      green: 9
+      red: 0
+  - image: Verdolaga9-CopaAlta7.png
+    when:
+      black: 7
+      blue: 0
+      green: 9
+      red: 0
+  - image: Verdolaga9-CopaAlta8.png
+    when:
+      black: 8
+      blue: 0
+      green: 9
+      red: 0
+  - image: Verdolaga9-CopaAlta9.png
+    when:
+      black: 9
+      blue: 0
+      green: 9
+      red: 0
+  - image: Verdolaga9-CopaAlta10.png
+    when:
+      black: 10
+      blue: 0
+      green: 9
+      red: 0
+  - image: Verdolaga9-CopaAlta11.png
+    when:
+      black: 11
+      blue: 0
+      green: 9
+      red: 0
+  - image: Verdolaga9-CopaAlta12.png
+    when:
+      black: 12
+      blue: 0
+      green: 9
+      red: 0
+  - image: Verdolaga9-CopaAlta13.png
+    when:
+      black: 13
+      blue: 0
+      green: 9
+      red: 0
+  - image: Verdolaga9-CopaAlta14.png
+    when:
+      black: 14
+      blue: 0
+      green: 9
+      red: 0
+  - image: Verdolaga9-CopaAlta15.png
+    when:
+      black: 15
+      blue: 0
+      green: 9
+      red: 0
+  - image: Verdolaga9-CopaAlta16.png
+    when:
+      black: 16
+      blue: 0
+      green: 9
+      red: 0
+  - image: Verdolaga9-CopaAlta17.png
+    when:
+      black: 17
+      blue: 0
+      green: 9
+      red: 0
+  - image: Verdolaga9-CopaAlta18.png
+    when:
+      black: 18
+      blue: 0
+      green: 9
+      red: 0
+  - image: Verdolaga9-CopaAlta19.png
+    when:
+      black: 19
+      blue: 0
+      green: 9
+      red: 0
+  - image: Verdolaga9-CopaAlta20.png
+    when:
+      black: 20
+      blue: 0
+      green: 9
+      red: 0
+  - image: Verdolaga10.png
+    when:
+      black: 0
+      blue: 0
+      green: 10
+      red: 0
+  - image: Verdolaga10-CopaAlta1.png
+    when:
+      black: 1
+      blue: 0
+      green: 10
+      red: 0
+  - image: Verdolaga10-CopaAlta2.png
+    when:
+      black: 2
+      blue: 0
+      green: 10
+      red: 0
+  - image: Verdolaga10-CopaAlta3.png
+    when:
+      black: 3
+      blue: 0
+      green: 10
+      red: 0
+  - image: Verdolaga10-CopaAlta4.png
+    when:
+      black: 4
+      blue: 0
+      green: 10
+      red: 0
+  - image: Verdolaga10-CopaAlta5.png
+    when:
+      black: 5
+      blue: 0
+      green: 10
+      red: 0
+  - image: Verdolaga10-CopaAlta6.png
+    when:
+      black: 6
+      blue: 0
+      green: 10
+      red: 0
+  - image: Verdolaga10-CopaAlta7.png
+    when:
+      black: 7
+      blue: 0
+      green: 10
+      red: 0
+  - image: Verdolaga10-CopaAlta8.png
+    when:
+      black: 8
+      blue: 0
+      green: 10
+      red: 0
+  - image: Verdolaga10-CopaAlta9.png
+    when:
+      black: 9
+      blue: 0
+      green: 10
+      red: 0
+  - image: Verdolaga10-CopaAlta10.png
+    when:
+      black: 10
+      blue: 0
+      green: 10
+      red: 0
+  - image: Verdolaga10-CopaAlta11.png
+    when:
+      black: 11
+      blue: 0
+      green: 10
+      red: 0
+  - image: Verdolaga10-CopaAlta12.png
+    when:
+      black: 12
+      blue: 0
+      green: 10
+      red: 0
+  - image: Verdolaga10-CopaAlta13.png
+    when:
+      black: 13
+      blue: 0
+      green: 10
+      red: 0
+  - image: Verdolaga10-CopaAlta14.png
+    when:
+      black: 14
+      blue: 0
+      green: 10
+      red: 0
+  - image: Verdolaga10-CopaAlta15.png
+    when:
+      black: 15
+      blue: 0
+      green: 10
+      red: 0
+  - image: Verdolaga10-CopaAlta16.png
+    when:
+      black: 16
+      blue: 0
+      green: 10
+      red: 0
+  - image: Verdolaga10-CopaAlta17.png
+    when:
+      black: 17
+      blue: 0
+      green: 10
+      red: 0
+  - image: Verdolaga10-CopaAlta18.png
+    when:
+      black: 18
+      blue: 0
+      green: 10
+      red: 0
+  - image: Verdolaga10-CopaAlta19.png
+    when:
+      black: 19
+      blue: 0
+      green: 10
+      red: 0
+  - image: Verdolaga10-CopaAlta20.png
+    when:
+      black: 20
+      blue: 0
+      green: 10
+      red: 0
+  - image: Verdolaga11.png
+    when:
+      black: 0
+      blue: 0
+      green: 11
+      red: 0
+  - image: Verdolaga11-CopaAlta1.png
+    when:
+      black: 1
+      blue: 0
+      green: 11
+      red: 0
+  - image: Verdolaga11-CopaAlta2.png
+    when:
+      black: 2
+      blue: 0
+      green: 11
+      red: 0
+  - image: Verdolaga11-CopaAlta3.png
+    when:
+      black: 3
+      blue: 0
+      green: 11
+      red: 0
+  - image: Verdolaga11-CopaAlta4.png
+    when:
+      black: 4
+      blue: 0
+      green: 11
+      red: 0
+  - image: Verdolaga11-CopaAlta5.png
+    when:
+      black: 5
+      blue: 0
+      green: 11
+      red: 0
+  - image: Verdolaga11-CopaAlta6.png
+    when:
+      black: 6
+      blue: 0
+      green: 11
+      red: 0
+  - image: Verdolaga11-CopaAlta7.png
+    when:
+      black: 7
+      blue: 0
+      green: 11
+      red: 0
+  - image: Verdolaga11-CopaAlta8.png
+    when:
+      black: 8
+      blue: 0
+      green: 11
+      red: 0
+  - image: Verdolaga11-CopaAlta9.png
+    when:
+      black: 9
+      blue: 0
+      green: 11
+      red: 0
+  - image: Verdolaga11-CopaAlta10.png
+    when:
+      black: 10
+      blue: 0
+      green: 11
+      red: 0
+  - image: Verdolaga11-CopaAlta11.png
+    when:
+      black: 11
+      blue: 0
+      green: 11
+      red: 0
+  - image: Verdolaga11-CopaAlta12.png
+    when:
+      black: 12
+      blue: 0
+      green: 11
+      red: 0
+  - image: Verdolaga11-CopaAlta13.png
+    when:
+      black: 13
+      blue: 0
+      green: 11
+      red: 0
+  - image: Verdolaga11-CopaAlta14.png
+    when:
+      black: 14
+      blue: 0
+      green: 11
+      red: 0
+  - image: Verdolaga11-CopaAlta15.png
+    when:
+      black: 15
+      blue: 0
+      green: 11
+      red: 0
+  - image: Verdolaga11-CopaAlta16.png
+    when:
+      black: 16
+      blue: 0
+      green: 11
+      red: 0
+  - image: Verdolaga11-CopaAlta17.png
+    when:
+      black: 17
+      blue: 0
+      green: 11
+      red: 0
+  - image: Verdolaga11-CopaAlta18.png
+    when:
+      black: 18
+      blue: 0
+      green: 11
+      red: 0
+  - image: Verdolaga11-CopaAlta19.png
+    when:
+      black: 19
+      blue: 0
+      green: 11
+      red: 0
+  - image: Verdolaga11-CopaAlta20.png
+    when:
+      black: 20
+      blue: 0
+      green: 11
+      red: 0
+  - image: Verdolaga12.png
+    when:
+      black: 0
+      blue: 0
+      green: 12
+      red: 0
+  - image: Verdolaga12-CopaAlta1.png
+    when:
+      black: 1
+      blue: 0
+      green: 12
+      red: 0
+  - image: Verdolaga12-CopaAlta2.png
+    when:
+      black: 2
+      blue: 0
+      green: 12
+      red: 0
+  - image: Verdolaga12-CopaAlta3.png
+    when:
+      black: 3
+      blue: 0
+      green: 12
+      red: 0
+  - image: Verdolaga12-CopaAlta4.png
+    when:
+      black: 4
+      blue: 0
+      green: 12
+      red: 0
+  - image: Verdolaga12-CopaAlta5.png
+    when:
+      black: 5
+      blue: 0
+      green: 12
+      red: 0
+  - image: Verdolaga12-CopaAlta6.png
+    when:
+      black: 6
+      blue: 0
+      green: 12
+      red: 0
+  - image: Verdolaga12-CopaAlta7.png
+    when:
+      black: 7
+      blue: 0
+      green: 12
+      red: 0
+  - image: Verdolaga12-CopaAlta8.png
+    when:
+      black: 8
+      blue: 0
+      green: 12
+      red: 0
+  - image: Verdolaga12-CopaAlta9.png
+    when:
+      black: 9
+      blue: 0
+      green: 12
+      red: 0
+  - image: Verdolaga12-CopaAlta10.png
+    when:
+      black: 10
+      blue: 0
+      green: 12
+      red: 0
+  - image: Verdolaga12-CopaAlta11.png
+    when:
+      black: 11
+      blue: 0
+      green: 12
+      red: 0
+  - image: Verdolaga12-CopaAlta12.png
+    when:
+      black: 12
+      blue: 0
+      green: 12
+      red: 0
+  - image: Verdolaga12-CopaAlta13.png
+    when:
+      black: 13
+      blue: 0
+      green: 12
+      red: 0
+  - image: Verdolaga12-CopaAlta14.png
+    when:
+      black: 14
+      blue: 0
+      green: 12
+      red: 0
+  - image: Verdolaga12-CopaAlta15.png
+    when:
+      black: 15
+      blue: 0
+      green: 12
+      red: 0
+  - image: Verdolaga12-CopaAlta16.png
+    when:
+      black: 16
+      blue: 0
+      green: 12
+      red: 0
+  - image: Verdolaga12-CopaAlta17.png
+    when:
+      black: 17
+      blue: 0
+      green: 12
+      red: 0
+  - image: Verdolaga12-CopaAlta18.png
+    when:
+      black: 18
+      blue: 0
+      green: 12
+      red: 0
+  - image: Verdolaga12-CopaAlta19.png
+    when:
+      black: 19
+      blue: 0
+      green: 12
+      red: 0
+  - image: Verdolaga12-CopaAlta20.png
+    when:
+      black: 20
+      blue: 0
+      green: 12
+      red: 0
+  - image: Verdolaga13.png
+    when:
+      black: 0
+      blue: 0
+      green: 13
+      red: 0
+  - image: Verdolaga13-CopaAlta1.png
+    when:
+      black: 1
+      blue: 0
+      green: 13
+      red: 0
+  - image: Verdolaga13-CopaAlta2.png
+    when:
+      black: 2
+      blue: 0
+      green: 13
+      red: 0
+  - image: Verdolaga13-CopaAlta3.png
+    when:
+      black: 3
+      blue: 0
+      green: 13
+      red: 0
+  - image: Verdolaga13-CopaAlta4.png
+    when:
+      black: 4
+      blue: 0
+      green: 13
+      red: 0
+  - image: Verdolaga13-CopaAlta5.png
+    when:
+      black: 5
+      blue: 0
+      green: 13
+      red: 0
+  - image: Verdolaga13-CopaAlta6.png
+    when:
+      black: 6
+      blue: 0
+      green: 13
+      red: 0
+  - image: Verdolaga13-CopaAlta7.png
+    when:
+      black: 7
+      blue: 0
+      green: 13
+      red: 0
+  - image: Verdolaga13-CopaAlta8.png
+    when:
+      black: 8
+      blue: 0
+      green: 13
+      red: 0
+  - image: Verdolaga13-CopaAlta9.png
+    when:
+      black: 9
+      blue: 0
+      green: 13
+      red: 0
+  - image: Verdolaga13-CopaAlta10.png
+    when:
+      black: 10
+      blue: 0
+      green: 13
+      red: 0
+  - image: Verdolaga13-CopaAlta11.png
+    when:
+      black: 11
+      blue: 0
+      green: 13
+      red: 0
+  - image: Verdolaga13-CopaAlta12.png
+    when:
+      black: 12
+      blue: 0
+      green: 13
+      red: 0
+  - image: Verdolaga13-CopaAlta13.png
+    when:
+      black: 13
+      blue: 0
+      green: 13
+      red: 0
+  - image: Verdolaga13-CopaAlta14.png
+    when:
+      black: 14
+      blue: 0
+      green: 13
+      red: 0
+  - image: Verdolaga13-CopaAlta15.png
+    when:
+      black: 15
+      blue: 0
+      green: 13
+      red: 0
+  - image: Verdolaga13-CopaAlta16.png
+    when:
+      black: 16
+      blue: 0
+      green: 13
+      red: 0
+  - image: Verdolaga13-CopaAlta17.png
+    when:
+      black: 17
+      blue: 0
+      green: 13
+      red: 0
+  - image: Verdolaga13-CopaAlta18.png
+    when:
+      black: 18
+      blue: 0
+      green: 13
+      red: 0
+  - image: Verdolaga13-CopaAlta19.png
+    when:
+      black: 19
+      blue: 0
+      green: 13
+      red: 0
+  - image: Verdolaga13-CopaAlta20.png
+    when:
+      black: 20
+      blue: 0
+      green: 13
+      red: 0
+  - image: Verdolaga14.png
+    when:
+      black: 0
+      blue: 0
+      green: 14
+      red: 0
+  - image: Verdolaga14-CopaAlta1.png
+    when:
+      black: 1
+      blue: 0
+      green: 14
+      red: 0
+  - image: Verdolaga14-CopaAlta2.png
+    when:
+      black: 2
+      blue: 0
+      green: 14
+      red: 0
+  - image: Verdolaga14-CopaAlta3.png
+    when:
+      black: 3
+      blue: 0
+      green: 14
+      red: 0
+  - image: Verdolaga14-CopaAlta4.png
+    when:
+      black: 4
+      blue: 0
+      green: 14
+      red: 0
+  - image: Verdolaga14-CopaAlta5.png
+    when:
+      black: 5
+      blue: 0
+      green: 14
+      red: 0
+  - image: Verdolaga14-CopaAlta6.png
+    when:
+      black: 6
+      blue: 0
+      green: 14
+      red: 0
+  - image: Verdolaga14-CopaAlta7.png
+    when:
+      black: 7
+      blue: 0
+      green: 14
+      red: 0
+  - image: Verdolaga14-CopaAlta8.png
+    when:
+      black: 8
+      blue: 0
+      green: 14
+      red: 0
+  - image: Verdolaga14-CopaAlta9.png
+    when:
+      black: 9
+      blue: 0
+      green: 14
+      red: 0
+  - image: Verdolaga14-CopaAlta10.png
+    when:
+      black: 10
+      blue: 0
+      green: 14
+      red: 0
+  - image: Verdolaga14-CopaAlta11.png
+    when:
+      black: 11
+      blue: 0
+      green: 14
+      red: 0
+  - image: Verdolaga14-CopaAlta12.png
+    when:
+      black: 12
+      blue: 0
+      green: 14
+      red: 0
+  - image: Verdolaga14-CopaAlta13.png
+    when:
+      black: 13
+      blue: 0
+      green: 14
+      red: 0
+  - image: Verdolaga14-CopaAlta14.png
+    when:
+      black: 14
+      blue: 0
+      green: 14
+      red: 0
+  - image: Verdolaga14-CopaAlta15.png
+    when:
+      black: 15
+      blue: 0
+      green: 14
+      red: 0
+  - image: Verdolaga14-CopaAlta16.png
+    when:
+      black: 16
+      blue: 0
+      green: 14
+      red: 0
+  - image: Verdolaga14-CopaAlta17.png
+    when:
+      black: 17
+      blue: 0
+      green: 14
+      red: 0
+  - image: Verdolaga14-CopaAlta18.png
+    when:
+      black: 18
+      blue: 0
+      green: 14
+      red: 0
+  - image: Verdolaga14-CopaAlta19.png
+    when:
+      black: 19
+      blue: 0
+      green: 14
+      red: 0
+  - image: Verdolaga14-CopaAlta20.png
+    when:
+      black: 20
+      blue: 0
+      green: 14
+      red: 0
+  - image: Verdolaga15.png
+    when:
+      black: 0
+      blue: 0
+      green: 15
+      red: 0
+  - image: Verdolaga15-CopaAlta1.png
+    when:
+      black: 1
+      blue: 0
+      green: 15
+      red: 0
+  - image: Verdolaga15-CopaAlta2.png
+    when:
+      black: 2
+      blue: 0
+      green: 15
+      red: 0
+  - image: Verdolaga15-CopaAlta3.png
+    when:
+      black: 3
+      blue: 0
+      green: 15
+      red: 0
+  - image: Verdolaga15-CopaAlta4.png
+    when:
+      black: 4
+      blue: 0
+      green: 15
+      red: 0
+  - image: Verdolaga15-CopaAlta5.png
+    when:
+      black: 5
+      blue: 0
+      green: 15
+      red: 0
+  - image: Verdolaga15-CopaAlta6.png
+    when:
+      black: 6
+      blue: 0
+      green: 15
+      red: 0
+  - image: Verdolaga15-CopaAlta7.png
+    when:
+      black: 7
+      blue: 0
+      green: 15
+      red: 0
+  - image: Verdolaga15-CopaAlta8.png
+    when:
+      black: 8
+      blue: 0
+      green: 15
+      red: 0
+  - image: Verdolaga15-CopaAlta9.png
+    when:
+      black: 9
+      blue: 0
+      green: 15
+      red: 0
+  - image: Verdolaga15-CopaAlta10.png
+    when:
+      black: 10
+      blue: 0
+      green: 15
+      red: 0
+  - image: Verdolaga15-CopaAlta11.png
+    when:
+      black: 11
+      blue: 0
+      green: 15
+      red: 0
+  - image: Verdolaga15-CopaAlta12.png
+    when:
+      black: 12
+      blue: 0
+      green: 15
+      red: 0
+  - image: Verdolaga15-CopaAlta13.png
+    when:
+      black: 13
+      blue: 0
+      green: 15
+      red: 0
+  - image: Verdolaga15-CopaAlta14.png
+    when:
+      black: 14
+      blue: 0
+      green: 15
+      red: 0
+  - image: Verdolaga15-CopaAlta15.png
+    when:
+      black: 15
+      blue: 0
+      green: 15
+      red: 0
+  - image: Verdolaga15-CopaAlta16.png
+    when:
+      black: 16
+      blue: 0
+      green: 15
+      red: 0
+  - image: Verdolaga15-CopaAlta17.png
+    when:
+      black: 17
+      blue: 0
+      green: 15
+      red: 0
+  - image: Verdolaga15-CopaAlta18.png
+    when:
+      black: 18
+      blue: 0
+      green: 15
+      red: 0
+  - image: Verdolaga15-CopaAlta19.png
+    when:
+      black: 19
+      blue: 0
+      green: 15
+      red: 0
+  - image: Verdolaga15-CopaAlta20.png
+    when:
+      black: 20
+      blue: 0
+      green: 15
+      red: 0
+  - image: Verdolaga16.png
+    when:
+      black: 0
+      blue: 0
+      green: 16
+      red: 0
+  - image: Verdolaga16-CopaAlta1.png
+    when:
+      black: 1
+      blue: 0
+      green: 16
+      red: 0
+  - image: Verdolaga16-CopaAlta2.png
+    when:
+      black: 2
+      blue: 0
+      green: 16
+      red: 0
+  - image: Verdolaga16-CopaAlta3.png
+    when:
+      black: 3
+      blue: 0
+      green: 16
+      red: 0
+  - image: Verdolaga16-CopaAlta4.png
+    when:
+      black: 4
+      blue: 0
+      green: 16
+      red: 0
+  - image: Verdolaga16-CopaAlta5.png
+    when:
+      black: 5
+      blue: 0
+      green: 16
+      red: 0
+  - image: Verdolaga16-CopaAlta6.png
+    when:
+      black: 6
+      blue: 0
+      green: 16
+      red: 0
+  - image: Verdolaga16-CopaAlta7.png
+    when:
+      black: 7
+      blue: 0
+      green: 16
+      red: 0
+  - image: Verdolaga16-CopaAlta8.png
+    when:
+      black: 8
+      blue: 0
+      green: 16
+      red: 0
+  - image: Verdolaga16-CopaAlta9.png
+    when:
+      black: 9
+      blue: 0
+      green: 16
+      red: 0
+  - image: Verdolaga16-CopaAlta10.png
+    when:
+      black: 10
+      blue: 0
+      green: 16
+      red: 0
+  - image: Verdolaga16-CopaAlta11.png
+    when:
+      black: 11
+      blue: 0
+      green: 16
+      red: 0
+  - image: Verdolaga16-CopaAlta12.png
+    when:
+      black: 12
+      blue: 0
+      green: 16
+      red: 0
+  - image: Verdolaga16-CopaAlta13.png
+    when:
+      black: 13
+      blue: 0
+      green: 16
+      red: 0
+  - image: Verdolaga16-CopaAlta14.png
+    when:
+      black: 14
+      blue: 0
+      green: 16
+      red: 0
+  - image: Verdolaga16-CopaAlta15.png
+    when:
+      black: 15
+      blue: 0
+      green: 16
+      red: 0
+  - image: Verdolaga16-CopaAlta16.png
+    when:
+      black: 16
+      blue: 0
+      green: 16
+      red: 0
+  - image: Verdolaga16-CopaAlta17.png
+    when:
+      black: 17
+      blue: 0
+      green: 16
+      red: 0
+  - image: Verdolaga16-CopaAlta18.png
+    when:
+      black: 18
+      blue: 0
+      green: 16
+      red: 0
+  - image: Verdolaga16-CopaAlta19.png
+    when:
+      black: 19
+      blue: 0
+      green: 16
+      red: 0
+  - image: Verdolaga16-CopaAlta20.png
+    when:
+      black: 20
+      blue: 0
+      green: 16
+      red: 0
+  - image: Verdolaga17.png
+    when:
+      black: 0
+      blue: 0
+      green: 17
+      red: 0
+  - image: Verdolaga17-CopaAlta1.png
+    when:
+      black: 1
+      blue: 0
+      green: 17
+      red: 0
+  - image: Verdolaga17-CopaAlta2.png
+    when:
+      black: 2
+      blue: 0
+      green: 17
+      red: 0
+  - image: Verdolaga17-CopaAlta3.png
+    when:
+      black: 3
+      blue: 0
+      green: 17
+      red: 0
+  - image: Verdolaga17-CopaAlta4.png
+    when:
+      black: 4
+      blue: 0
+      green: 17
+      red: 0
+  - image: Verdolaga17-CopaAlta5.png
+    when:
+      black: 5
+      blue: 0
+      green: 17
+      red: 0
+  - image: Verdolaga17-CopaAlta6.png
+    when:
+      black: 6
+      blue: 0
+      green: 17
+      red: 0
+  - image: Verdolaga17-CopaAlta7.png
+    when:
+      black: 7
+      blue: 0
+      green: 17
+      red: 0
+  - image: Verdolaga17-CopaAlta8.png
+    when:
+      black: 8
+      blue: 0
+      green: 17
+      red: 0
+  - image: Verdolaga17-CopaAlta9.png
+    when:
+      black: 9
+      blue: 0
+      green: 17
+      red: 0
+  - image: Verdolaga17-CopaAlta10.png
+    when:
+      black: 10
+      blue: 0
+      green: 17
+      red: 0
+  - image: Verdolaga17-CopaAlta11.png
+    when:
+      black: 11
+      blue: 0
+      green: 17
+      red: 0
+  - image: Verdolaga17-CopaAlta12.png
+    when:
+      black: 12
+      blue: 0
+      green: 17
+      red: 0
+  - image: Verdolaga17-CopaAlta13.png
+    when:
+      black: 13
+      blue: 0
+      green: 17
+      red: 0
+  - image: Verdolaga17-CopaAlta14.png
+    when:
+      black: 14
+      blue: 0
+      green: 17
+      red: 0
+  - image: Verdolaga17-CopaAlta15.png
+    when:
+      black: 15
+      blue: 0
+      green: 17
+      red: 0
+  - image: Verdolaga17-CopaAlta16.png
+    when:
+      black: 16
+      blue: 0
+      green: 17
+      red: 0
+  - image: Verdolaga17-CopaAlta17.png
+    when:
+      black: 17
+      blue: 0
+      green: 17
+      red: 0
+  - image: Verdolaga17-CopaAlta18.png
+    when:
+      black: 18
+      blue: 0
+      green: 17
+      red: 0
+  - image: Verdolaga17-CopaAlta19.png
+    when:
+      black: 19
+      blue: 0
+      green: 17
+      red: 0
+  - image: Verdolaga17-CopaAlta20.png
+    when:
+      black: 20
+      blue: 0
+      green: 17
+      red: 0
+  - image: Verdolaga18.png
+    when:
+      black: 0
+      blue: 0
+      green: 18
+      red: 0
+  - image: Verdolaga18-CopaAlta1.png
+    when:
+      black: 1
+      blue: 0
+      green: 18
+      red: 0
+  - image: Verdolaga18-CopaAlta2.png
+    when:
+      black: 2
+      blue: 0
+      green: 18
+      red: 0
+  - image: Verdolaga18-CopaAlta3.png
+    when:
+      black: 3
+      blue: 0
+      green: 18
+      red: 0
+  - image: Verdolaga18-CopaAlta4.png
+    when:
+      black: 4
+      blue: 0
+      green: 18
+      red: 0
+  - image: Verdolaga18-CopaAlta5.png
+    when:
+      black: 5
+      blue: 0
+      green: 18
+      red: 0
+  - image: Verdolaga18-CopaAlta6.png
+    when:
+      black: 6
+      blue: 0
+      green: 18
+      red: 0
+  - image: Verdolaga18-CopaAlta7.png
+    when:
+      black: 7
+      blue: 0
+      green: 18
+      red: 0
+  - image: Verdolaga18-CopaAlta8.png
+    when:
+      black: 8
+      blue: 0
+      green: 18
+      red: 0
+  - image: Verdolaga18-CopaAlta9.png
+    when:
+      black: 9
+      blue: 0
+      green: 18
+      red: 0
+  - image: Verdolaga18-CopaAlta10.png
+    when:
+      black: 10
+      blue: 0
+      green: 18
+      red: 0
+  - image: Verdolaga18-CopaAlta11.png
+    when:
+      black: 11
+      blue: 0
+      green: 18
+      red: 0
+  - image: Verdolaga18-CopaAlta12.png
+    when:
+      black: 12
+      blue: 0
+      green: 18
+      red: 0
+  - image: Verdolaga18-CopaAlta13.png
+    when:
+      black: 13
+      blue: 0
+      green: 18
+      red: 0
+  - image: Verdolaga18-CopaAlta14.png
+    when:
+      black: 14
+      blue: 0
+      green: 18
+      red: 0
+  - image: Verdolaga18-CopaAlta15.png
+    when:
+      black: 15
+      blue: 0
+      green: 18
+      red: 0
+  - image: Verdolaga18-CopaAlta16.png
+    when:
+      black: 16
+      blue: 0
+      green: 18
+      red: 0
+  - image: Verdolaga18-CopaAlta17.png
+    when:
+      black: 17
+      blue: 0
+      green: 18
+      red: 0
+  - image: Verdolaga18-CopaAlta18.png
+    when:
+      black: 18
+      blue: 0
+      green: 18
+      red: 0
+  - image: Verdolaga18-CopaAlta19.png
+    when:
+      black: 19
+      blue: 0
+      green: 18
+      red: 0
+  - image: Verdolaga18-CopaAlta20.png
+    when:
+      black: 20
+      blue: 0
+      green: 18
+      red: 0
+  - image: Verdolaga19.png
+    when:
+      black: 0
+      blue: 0
+      green: 19
+      red: 0
+  - image: Verdolaga19-CopaAlta1.png
+    when:
+      black: 1
+      blue: 0
+      green: 19
+      red: 0
+  - image: Verdolaga19-CopaAlta2.png
+    when:
+      black: 2
+      blue: 0
+      green: 19
+      red: 0
+  - image: Verdolaga19-CopaAlta3.png
+    when:
+      black: 3
+      blue: 0
+      green: 19
+      red: 0
+  - image: Verdolaga19-CopaAlta4.png
+    when:
+      black: 4
+      blue: 0
+      green: 19
+      red: 0
+  - image: Verdolaga19-CopaAlta5.png
+    when:
+      black: 5
+      blue: 0
+      green: 19
+      red: 0
+  - image: Verdolaga19-CopaAlta6.png
+    when:
+      black: 6
+      blue: 0
+      green: 19
+      red: 0
+  - image: Verdolaga19-CopaAlta7.png
+    when:
+      black: 7
+      blue: 0
+      green: 19
+      red: 0
+  - image: Verdolaga19-CopaAlta8.png
+    when:
+      black: 8
+      blue: 0
+      green: 19
+      red: 0
+  - image: Verdolaga19-CopaAlta9.png
+    when:
+      black: 9
+      blue: 0
+      green: 19
+      red: 0
+  - image: Verdolaga19-CopaAlta10.png
+    when:
+      black: 10
+      blue: 0
+      green: 19
+      red: 0
+  - image: Verdolaga19-CopaAlta11.png
+    when:
+      black: 11
+      blue: 0
+      green: 19
+      red: 0
+  - image: Verdolaga19-CopaAlta12.png
+    when:
+      black: 12
+      blue: 0
+      green: 19
+      red: 0
+  - image: Verdolaga19-CopaAlta13.png
+    when:
+      black: 13
+      blue: 0
+      green: 19
+      red: 0
+  - image: Verdolaga19-CopaAlta14.png
+    when:
+      black: 14
+      blue: 0
+      green: 19
+      red: 0
+  - image: Verdolaga19-CopaAlta15.png
+    when:
+      black: 15
+      blue: 0
+      green: 19
+      red: 0
+  - image: Verdolaga19-CopaAlta16.png
+    when:
+      black: 16
+      blue: 0
+      green: 19
+      red: 0
+  - image: Verdolaga19-CopaAlta17.png
+    when:
+      black: 17
+      blue: 0
+      green: 19
+      red: 0
+  - image: Verdolaga19-CopaAlta18.png
+    when:
+      black: 18
+      blue: 0
+      green: 19
+      red: 0
+  - image: Verdolaga19-CopaAlta19.png
+    when:
+      black: 19
+      blue: 0
+      green: 19
+      red: 0
+  - image: Verdolaga19-CopaAlta20.png
+    when:
+      black: 20
+      blue: 0
+      green: 19
+      red: 0
+  - image: Verdolaga20.png
+    when:
+      black: 0
+      blue: 0
+      green: 20
+      red: 0
+  - image: Verdolaga20-CopaAlta1.png
+    when:
+      black: 1
+      blue: 0
+      green: 20
+      red: 0
+  - image: Verdolaga20-CopaAlta2.png
+    when:
+      black: 2
+      blue: 0
+      green: 20
+      red: 0
+  - image: Verdolaga20-CopaAlta3.png
+    when:
+      black: 3
+      blue: 0
+      green: 20
+      red: 0
+  - image: Verdolaga20-CopaAlta4.png
+    when:
+      black: 4
+      blue: 0
+      green: 20
+      red: 0
+  - image: Verdolaga20-CopaAlta5.png
+    when:
+      black: 5
+      blue: 0
+      green: 20
+      red: 0
+  - image: Verdolaga20-CopaAlta6.png
+    when:
+      black: 6
+      blue: 0
+      green: 20
+      red: 0
+  - image: Verdolaga20-CopaAlta7.png
+    when:
+      black: 7
+      blue: 0
+      green: 20
+      red: 0
+  - image: Verdolaga20-CopaAlta8.png
+    when:
+      black: 8
+      blue: 0
+      green: 20
+      red: 0
+  - image: Verdolaga20-CopaAlta9.png
+    when:
+      black: 9
+      blue: 0
+      green: 20
+      red: 0
+  - image: Verdolaga20-CopaAlta10.png
+    when:
+      black: 10
+      blue: 0
+      green: 20
+      red: 0
+  - image: Verdolaga20-CopaAlta11.png
+    when:
+      black: 11
+      blue: 0
+      green: 20
+      red: 0
+  - image: Verdolaga20-CopaAlta12.png
+    when:
+      black: 12
+      blue: 0
+      green: 20
+      red: 0
+  - image: Verdolaga20-CopaAlta13.png
+    when:
+      black: 13
+      blue: 0
+      green: 20
+      red: 0
+  - image: Verdolaga20-CopaAlta14.png
+    when:
+      black: 14
+      blue: 0
+      green: 20
+      red: 0
+  - image: Verdolaga20-CopaAlta15.png
+    when:
+      black: 15
+      blue: 0
+      green: 20
+      red: 0
+  - image: Verdolaga20-CopaAlta16.png
+    when:
+      black: 16
+      blue: 0
+      green: 20
+      red: 0
+  - image: Verdolaga20-CopaAlta17.png
+    when:
+      black: 17
+      blue: 0
+      green: 20
+      red: 0
+  - image: Verdolaga20-CopaAlta18.png
+    when:
+      black: 18
+      blue: 0
+      green: 20
+      red: 0
+  - image: Verdolaga20-CopaAlta19.png
+    when:
+      black: 19
+      blue: 0
+      green: 20
+      red: 0
+  - image: Verdolaga20-CopaAlta20.png
+    when:
+      black: 20
+      blue: 0
+      green: 20
+      red: 0

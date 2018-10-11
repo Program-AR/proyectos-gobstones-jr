@@ -42,6 +42,48 @@ rules:
       blue: 0
       green: '*'
       red: 0
+  - image: BaldosaComunOscura.png
+    when:
+      black: 0
+      blue: 1
+      green: 0
+      red: 0
+  - image: BaldosaRajadaOscura00.png
+    when:
+      black: 0
+      blue: 1
+      green: 1
+      red: 0
+  - image: BaldosaRajadaOscura01.png
+    when:
+      black: 0
+      blue: 1
+      green: 2
+      red: 0
+  - image: BaldosaRajadaOscura02.png
+    when:
+      black: 0
+      blue: 1
+      green: 3
+      red: 0
+  - image: BaldosaRajadaOscura03.png
+    when:
+      black: 0
+      blue: 1
+      green: 4
+      red: 0
+  - image: BaldosaRajadaOscura04.png
+    when:
+      black: 0
+      blue: 1
+      green: 5
+      red: 0
+  - image: BaldosaRajadaOscura03.png
+    when:
+      black: 0
+      blue: 1
+      green: '*'
+      red: 0
   - image: 01.png
     when:
       black: 1

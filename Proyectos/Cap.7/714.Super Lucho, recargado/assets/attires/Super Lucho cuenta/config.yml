@@ -168,3 +168,177 @@ rules:
       blue: 0
       green: 2
       red: 20
+  - image: LuchoMeta-21.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 21
+  - image: LuchoMeta-22.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 22
+  - image: LuchoMeta-23.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 23
+  - image: LuchoMeta-24.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 24
+  - image: LuchoMeta-25.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 25
+  - image: LuchoMeta-26.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 26
+  - image: LuchoMeta-27.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 27
+  - image: LuchoMeta-28.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 28
+  - image: LuchoMeta-29.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 29
+  - image: LuchoMeta-30.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 30
+  - image: LuchoMeta-31.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 31
+  - image: LuchoMeta-32.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 32
+  - image: LuchoMeta-33.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 33
+  - image: LuchoMeta-34.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 34
+  - image: LuchoMeta-35.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 35
+  - image: LuchoMeta-36.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 36
+  - image: LuchoMeta-37.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 37
+  - image: LuchoMeta-38.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 38
+  - image: LuchoMeta-39.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 39
+  - image: LuchoMeta-40.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 40
+  - image: LuchoMeta-41.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 41
+  - image: LuchoMeta-42.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 42
+  - image: LuchoMeta-43.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 43
+  - image: LuchoMeta-44.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 44
+  - image: LuchoMeta-45.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 45
+  - image: LuchoMeta-46.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 46
+  - image: LuchoMeta-47.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 47
+  - image: LuchoMeta-48.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 48
+  - image: LuchoMeta-49.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 49

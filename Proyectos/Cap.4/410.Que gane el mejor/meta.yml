@@ -1,6 +1,6 @@
 name: Que gane el mejor
 attire:
-  active: null
+  active: Que gane el mejor
   user_permissions:
     can_toggle_visibility: true
   visible: true
