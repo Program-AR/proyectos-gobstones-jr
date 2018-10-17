@@ -13,7 +13,7 @@ carbón y de hierro.
 </center>
 
 Escribí un procedimiento por cada tarea que haya que hacer y ponele un nombre adecuado. 
-Por ejemplo, `IrHastaElCarbón`, `AgarrarCarbón`, `VolverConElCarbón` podrían ser algunos de los 
+Por ejemplo, `IrHastaElCarbón`, `AgarrarUnaPiezaDeCarbón`, `VolverConElCarbón` podrían ser algunos de los 
 procedimientos que definas. 
 ¿Podés organizar bien el programa para que todas las tareas tengan su procedimiento? 
 Al leer el programa final, ¿se entiende la estrategia de solución que pensaste?

@@ -4,18 +4,8 @@ procedure RepararLaNaveYVolverACasa() {
 }
 
 procedure RepararLaNave() {
-  BuscarYPonerTodoElHierro()
-  BuscarYPonerTodoElCarbón()
-}
-
-procedure BuscarYPonerTodoElHierro() {
   repeat(3) {
     BuscarYPonerUnaPiezaDeHierro()
-  }
-}
-
-procedure BuscarYPonerTodoElCarbón() {
-  repeat(3) {
     BuscarYPonerUnaPiezaDeCarbón()
   }
 }

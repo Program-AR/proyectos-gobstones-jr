@@ -1,9 +1,9 @@
 procedure ApagarElIncendio() {
   repeat(6) {
-    UsarElMatafuegos()
+    UsarElMatafuego()
     Mover(Este)
   }
-  UsarElMatafuegos()
+  UsarElMatafuego()
 }
 
 

@@ -1,4 +1,4 @@
-procedure DibujarLaPuntaDeLaFlecha() {
+procedure DibujarLaPuntaDeFlecha() {
   repeat(4) {
     ...
   }
@@ -14,7 +14,7 @@ procedure DibujarLaPuntaDeLaFlecha() {
 
 procedure DibujarLaFlecha() {
   ...
-  DibujarLaPuntaDeLaFlecha()
+  DibujarLaPuntaDeFlecha()
 }
 
 

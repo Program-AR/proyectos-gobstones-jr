@@ -1,14 +1,14 @@
 procedure LlegarAlFinalDelPasillo() {
-  MoverAlBetoAl_(Sur)
-  MoverAlBetoAl_(Oeste)
-  MoverAlBetoAl_(Oeste)
-  MoverAlBetoAl_(Oeste)
-  MoverAlBetoAl_(Oeste)
-  MoverAlBetoAl_(Oeste)
-  MoverAlBetoAl_(Oeste)
-  MoverAlBetoAl_(Oeste)
-  MoverAlBetoAl_(Oeste)
-  MoverAlBetoAl_(Oeste)
+  MoverALuchoAl_(Sur)
+  MoverALuchoAl_(Oeste)
+  MoverALuchoAl_(Oeste)
+  MoverALuchoAl_(Oeste)
+  MoverALuchoAl_(Oeste)
+  MoverALuchoAl_(Oeste)
+  MoverALuchoAl_(Oeste)
+  MoverALuchoAl_(Oeste)
+  MoverALuchoAl_(Oeste)
+  MoverALuchoAl_(Oeste)
 }
 
 

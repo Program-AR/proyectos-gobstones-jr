@@ -7,7 +7,7 @@ procedure MoverAEdgardoAl_(dir) {
   repeat (n) { Poner(Verde) }
 }
 
-procedure AgarrarHierro() {
+procedure AgarrarUnaPiezaDeHierro() {
   if (not hayBolitas(Verde))  { BOOM("Edgardo no está en esta celda") }
   if (not hayBolitas(Azul))   { BOOM("No hay hierro en este lugar") }
   if (nroBolitas(Verde) /= 1) { BOOM("Edgardo ya está cargando algo") }
@@ -16,7 +16,7 @@ procedure AgarrarHierro() {
   Poner(Verde)
 }
 
-procedure AgarrarCarbón() {
+procedure AgarrarUnaPiezaDeCarbón() {
   if (not hayBolitas(Verde))  { BOOM("Edgardo no no está en esta celda") }
   if (not hayBolitas(Negro))  { BOOM("No hay carbón en este lugar") }
   if (nroBolitas(Verde) /= 1) { BOOM("Edgardo ya está cargando algo") }

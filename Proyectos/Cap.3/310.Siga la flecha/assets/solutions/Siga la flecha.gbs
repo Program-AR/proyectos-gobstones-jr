@@ -1,4 +1,4 @@
-procedure DibujarLaPuntaDeLaFlecha() {
+procedure DibujarLaPuntaDeFlecha() {
   repeat(4) {
     Poner(Verde)
   }
@@ -15,11 +15,11 @@ procedure DibujarLaPuntaDeLaFlecha() {
 }
 
 procedure DibujarLaFlecha() {
-  DibujarElÁstil()
-  DibujarLaPuntaDeLaFlecha()
+  DibujarElAstil()
+  DibujarLaPuntaDeFlecha()
 }
 
-procedure DibujarElÁstil() {
+procedure DibujarElAstil() {
   repeat(7) {
     Poner(Verde)
     Mover(Este)
@@ -28,9 +28,7 @@ procedure DibujarElÁstil() {
 
 procedure VolverAlInicio() {
   Mover(Norte)
-  repeat(6) {
-    Mover(Oeste)
-  }
+  IrAlBorde(Oeste)
 }
 
 

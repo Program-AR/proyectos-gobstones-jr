@@ -1,7 +1,7 @@
 procedure LlegarAlFinalDelPasillo() {
-  MoverAlBetoAl_(Sur)
+  MoverALuchoAl_(Sur)
   repeat(9) {
-    MoverAlBetoAl_(Oeste)
+    MoverALuchoAl_(Oeste)
   }
 }
 
