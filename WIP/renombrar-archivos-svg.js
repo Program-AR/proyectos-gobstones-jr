@@ -18,7 +18,7 @@ filenames.forEach(filename => {
             .new.name
             .replace(/[.…:<>"*\\/|¡!¿?]/g, "");
         console.log("Renaming " + projectNumber + "." + projectName + filenameParts[2]);
-        fs.renameSync(filename, projectNumber + "." + projectName + filenameParts[2]);
+        fs.renameSync(filename, "../BloquesSVG/Cap." + projectNumber[0] + "/" + projectNumber + "." + projectName + filenameParts[2]);
     }
 })
 
