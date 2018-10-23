@@ -5,14 +5,8 @@ attire:
     can_toggle_visibility: true
   visible: false
 blocks:
-  disabled:
-    - Mover
-    - Sacar
-    - IrAlBorde
-    - Direccion
+  disabled: []
   visible:
-    - '-- Biblioteca --'
-    - Procedimientos
     - '-- Mis operaciones --'
     - Mis procedimientos
     - '-- Comandos --'

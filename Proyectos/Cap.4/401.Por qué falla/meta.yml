@@ -7,8 +7,6 @@ attire:
 blocks:
   disabled: []
   visible:
-    - '-- Biblioteca --'
-    - Procedimientos
     - '-- Mis operaciones --'
     - Mis procedimientos
     - '-- Comandos --'

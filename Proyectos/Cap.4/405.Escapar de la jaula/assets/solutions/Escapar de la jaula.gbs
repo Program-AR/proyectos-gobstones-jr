@@ -1,5 +1,5 @@
 procedure AyudarAlRatónASalir() {
-  MoverAlRatónA_(dondeApuntaLaFlecha())
+  MoverElRatónA_(dondeApuntaLaFlecha())
 }
 
 

@@ -1,10 +1,10 @@
-procedure ImitarElDobleDeLasAzules() {
-  repeat(...) {
+procedure ImitarLasAzulesEnRojo() {
+  repeat(boom("El programa todavía no está completo")) {
     Poner(Rojo)
   }
 }
 
 
 program {
-  ImitarElDobleDeLasAzules()
+  ImitarLasAzulesEnRojo()
 }
