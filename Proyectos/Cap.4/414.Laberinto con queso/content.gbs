@@ -1,7 +1,3 @@
-﻿program {
-  
-}
-
 procedure SalirDelLaberintoComiendoElQueso() {
   repeat(20) {
     ComerElQuesoSiHay()
@@ -10,37 +6,52 @@ procedure SalirDelLaberintoComiendoElQueso() {
 }
 
 procedure ComerElQuesoSiHay() {
-  ...
+  BOOM("El programa todavía no está completo")
 }
 
 procedure AvanzarUnPasoSiguiendoLaFlecha() {
-  if (laFlechaApuntaAlNorte())     {
-                                     SacarLaFlecha()
-                                     MoverAlRatónAl_(Norte)
-                                   }
-  elseif (laFlechaApuntaAlEste())  {
-                                     ...
-                                   }
-  elseif (...)                     {
-                                     ...
-                                   }
-  elseif (...)                     {
-                                     ...
-                                   }
-  }}}
+  if (laFlechaApuntaAlNorte()) {
+    SacarLaFlecha()
+    MoverAlRatónAl_(Norte)
+  } elseif (laFlechaApuntaAlEste()) {
+    BOOM("El programa todavía no está completo")
+  } elseif (boom("El programa todavía no está completo")) {
+    BOOM("El programa todavía no está completo")
+  } elseif (boom("El programa todavía no está completo")) {
+    BOOM("El programa todavía no está completo")
+  } else {
+  }
 }
 
 procedure ComerElQueso() {
-  if (not(hayQueso())) 
-       { BOOM("No hay queso para comer") }
-  else { SacarElQueso() }
+  SacarElQueso()
 }
 
-procedure SacarElQueso() { Sacar(Verde) }
+procedure SacarElQueso() {
+  Sacar(Verde)
+}
 
-function hayQueso() { return (...) }
+function hayQueso() {
+  return (boom("El programa todavía no está completo"))
+}
 
-function laFlechaApuntaAlNorte() { return (nroBolitas(Rojo) == 1) }
-function laFlechaApuntaAlEste()  { return (...) }
-function laFlechaApuntaAlSur()   { return (...) }
-function laFlechaApuntaAlOeste() { return (...) }
+function laFlechaApuntaAlNorte() {
+  return (nroBolitas(Rojo) == 1)
+}
+
+function laFlechaApuntaAlEste() {
+  return (boom("El programa todavía no está completo"))
+}
+
+function laFlechaApuntaAlSur() {
+  return (boom("El programa todavía no está completo"))
+}
+
+function laFlechaApuntaAlOeste() {
+  return (boom("El programa todavía no está completo"))
+}
+
+
+program {
+  SalirDelLaberintoComiendoElQueso()
+}

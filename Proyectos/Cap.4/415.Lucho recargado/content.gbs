@@ -1,45 +1,37 @@
 procedure EncenderLasFilasDeLuces() {
-  ...
+  BOOM("El programa todavía no está completo")
 }
 
 procedure MoverALuchoAlNorte() {
-  ...
+  BOOM("El programa todavía no está completo")
 }
 
 procedure EncenderUnaFilaYVolver() {
-  ...
+  BOOM("El programa todavía no está completo")
 }
 
-procedure EncenderLuzSiCorresponde() {
-  ...
+procedure EncenderLaLuzSiCorresponde() {
+  BOOM("El programa todavía no está completo")
 }
 
 procedure VolverALuchoAlBordeOeste() {
-  ...
+  BOOM("El programa todavía no está completo")
 }
 
 procedure MoverALuchoAlEste() {
-  ...
+  BOOM("El programa todavía no está completo")
 }
 
-procedure EncenderLuz() {
-  ...
+procedure EncenderLaLuz() {
+  BOOM("El programa todavía no está completo")
 }
 
 procedure MoverALuchoAlOeste() {
-  ...
+  BOOM("El programa todavía no está completo")
 }
 
-function hayLuzApagada() {
-  return (...)
-}
-
-function hayLuzPrendida() {
-  return (...)
-}
-
-function hayLuz() {
-  return (...)
+function hayUnaLuzApagada() {
+  return (boom("El programa todavía no está completo"))
 }
 
 

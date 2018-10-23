@@ -29,11 +29,7 @@ procedure AvanzarUnPasoSiguiendoLaFlecha() {
 }
 
 procedure ComerElQueso() {
-  if (not(hayQueso())) {
-    BOOM("No hay queso para comer")
-  } else {
-    SacarElQueso()
-  }
+  SacarElQueso()
 }
 
 procedure SacarElQueso() {

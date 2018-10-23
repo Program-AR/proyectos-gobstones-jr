@@ -1,0 +1,59 @@
+procedure EncenderLasFilasDeLuces() {
+  repeat(5) {
+    EncenderUnaFilaYVolver()
+    MoverALuchoAlNorte()
+  }
+  EncenderUnaFilaYVolver()
+}
+
+procedure MoverALuchoAlNorte() {
+  Sacar(Negro)
+  Mover(Norte)
+  Poner(Negro)
+}
+
+procedure EncenderUnaFilaYVolver() {
+  repeat(8) {
+    EncenderLaLuzSiCorresponde()
+    MoverALuchoAlEste()
+  }
+  EncenderLaLuzSiCorresponde()
+  VolverALuchoAlBordeOeste()
+}
+
+procedure VolverALuchoAlBordeOeste() {
+  repeat(8) {
+    MoverALuchoAlOeste()
+  }
+}
+
+procedure EncenderLaLuzSiCorresponde() {
+  if (hayUnaLuzApagada()) {
+    EncenderLaLuz()
+  }
+}
+
+procedure MoverALuchoAlEste() {
+  Sacar(Negro)
+  Mover(Este)
+  Poner(Negro)
+}
+
+procedure EncenderLaLuz() {
+  Poner(Azul)
+}
+
+procedure MoverALuchoAlOeste() {
+  Sacar(Negro)
+  Mover(Oeste)
+  Poner(Negro)
+}
+
+function hayUnaLuzApagada() {
+  return (nroBolitas(Azul) == 1)
+}
+
+
+program {
+  EncenderLasFilasDeLuces()
+}

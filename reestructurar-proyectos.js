@@ -157,12 +157,12 @@ infoAll.forEach(infoCap => {
         infoExercise.infoCap = infoCap;
         console.log(`Exercise ${infoExercise.new.id}: ${infoExercise.new.name}`);
         generatePaths(infoExercise);
-        updateGuides(infoExercise, guides);
-        renameDirectory(infoExercise);
+        // updateGuides(infoExercise, guides);
+        // renameDirectory(infoExercise);
         updateMeta(infoExercise);
-        updateDescription(infoExercise);
-        hideDescription(infoExercise);
-        checkStructure(infoExercise);
+        // updateDescription(infoExercise);
+        // hideDescription(infoExercise);
+        // checkStructure(infoExercise);
     });
 })
 
