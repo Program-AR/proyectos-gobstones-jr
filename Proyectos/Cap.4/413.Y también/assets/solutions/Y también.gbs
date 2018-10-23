@@ -1,14 +1,14 @@
 procedure CosecharTodosLosTomates() {
   repeat(9) {
-    CosecharTomatesSiHay()
+    CosecharLosTomatesSiHay()
     Mover(Este)
   }
-  CosecharTomatesSiHay()
+  CosecharLosTomatesSiHay()
 }
 
-procedure CosecharTomatesSiHay() {
+procedure CosecharLosTomatesSiHay() {
   if (hayTomates()) {
-    CosecharTomates()
+    CosecharLosTomates()
   }
 }
 
@@ -16,7 +16,7 @@ function hayTomates() {
   return (hayBolitas(Verde) && hayBolitas(Rojo))
 }
 
-procedure CosecharTomates() {
+procedure CosecharLosTomates() {
   Sacar(Rojo)
 }
 

@@ -1,23 +1,23 @@
 procedure CosecharTodosLosTomates() {
   repeat(9) {
-    CosecharTomatesSiHay()
+    CosecharLosTomatesSiHay()
     Mover(Este)
   }
-  CosecharTomatesSiHay()
+  CosecharLosTomatesSiHay()
 }
 
-procedure CosecharTomatesSiHay() {
+procedure CosecharLosTomatesSiHay() {
   if (hayTomates()) {
-    CosecharTomates()
+    CosecharLosTomates()
   }
 }
 
 function hayTomates() {
-  return (...)
+  return (boom("El programa todavía no está completo"))
 }
 
-procedure CosecharTomates() {
-  ...
+procedure CosecharLosTomates() {
+  BOOM("El programa todavía no está completo")
 }
 
 

@@ -5,20 +5,7 @@ attire:
     can_toggle_visibility: true
   visible: true
 blocks:
-  disabled:
-    - Poner
-    - Sacar
-    - IrAlBorde
-    - Color
-    - AlternativaCompleta
-    - puedeMover
-    - hayBolitas
-    - nroBolitas
-    - OperadorNumerico
-    - OperadorDeComparacion
-    - siguiente
-    - previo
-    - OperadorOpuesto
+  disabled: []
   visible:
     - '-- Biblioteca --'
     - Procedimientos
@@ -131,7 +118,7 @@ blocks:
     </category>
 board:
   active: 1
-  initial_board_source: selected
+  initial_board_source: random
   user_permissions:
     can_change_source: false
     can_edit_board: false

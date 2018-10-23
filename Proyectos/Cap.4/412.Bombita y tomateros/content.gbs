@@ -6,9 +6,9 @@ procedure SimularUnInterruptorDeLuz() {
   }
 }
 
-procedure MantenerLaSecciónDeHuerta() {
+procedure MantenerLaSecciónDeLaHuerta() {
   if (hayPlantas()) {
-    FertilizarPlantas()
+    FertilizarLasPlantas()
   } else {
     PlantarTomates()
   }
@@ -32,13 +32,13 @@ procedure ApagarLaLuz() {
   Sacar(Azul)
 }
 
-procedure FertilizarPlantas() {
+procedure FertilizarLasPlantas() {
   Poner(Rojo)
 }
 
 
 program {
-  MantenerLaSecciónDeHuerta()
+  MantenerLaSecciónDeLaHuerta()
   Mover(Norte)
   SimularUnInterruptorDeLuz()
 }

@@ -1,0 +1,26 @@
+name: Sembrando tomates
+rules:
+  - image: ParcelaVacia.png
+    when:
+      black: 0
+      blue: 0
+      green: 0
+      red: 0
+  - image: PlantasPequeñas.png
+    when:
+      black: 0
+      blue: 0
+      green: 0
+      red: 1
+  - image: PlantasSinTomates.png
+    when:
+      black: 0
+      blue: 0
+      green: 1
+      red: 0
+  - image: PlantasConTomates.png
+    when:
+      black: 0
+      blue: 0
+      green: 1
+      red: 1

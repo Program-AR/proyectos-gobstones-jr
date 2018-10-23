@@ -1,4 +1,4 @@
-name: Plantas y luces
+name: Bombita y tomateros
 rules:
   - image: ParcelaVacia.png
     when:
@@ -6,18 +6,12 @@ rules:
       blue: 0
       green: 0
       red: 0
-  - image: PlantasPequeñas.png
+  - image: PlantasSinTomates.png
     when:
       black: 0
       blue: 0
       green: 1
       red: 0
-  - image: PlantasSinTomates.png
-    when:
-      black: 0
-      blue: 0
-      green: 0
-      red: 1
   - image: PlantasConTomates.png
     when:
       black: 0

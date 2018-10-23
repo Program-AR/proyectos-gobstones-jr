@@ -1,22 +1,12 @@
 name: Y también…
 attire:
-  active: Plantas y luces
+  active: Sembrando tomates
   user_permissions:
     can_toggle_visibility: true
   visible: true
 blocks:
-  disabled:
-    - Poner
-    - IrAlBorde
-    - puedeMover
-    - OperadorNumerico
-    - siguiente
-    - previo
-    - OperadorOpuesto
+  disabled: []
   visible:
-    - '-- Biblioteca --'
-    - Procedimientos
-    - Funciones
     - '-- Mis operaciones --'
     - Mis procedimientos
     - Mis funciones
