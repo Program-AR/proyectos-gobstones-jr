@@ -5,19 +5,8 @@ attire:
     can_toggle_visibility: true
   visible: false
 blocks:
-  disabled:
-    - Sacar
-    - IrAlBorde
-    - hayBolitas
-    - nroBolitas
-    - OperadorNumerico
-    - siguiente
-    - previo
-    - OperadorOpuesto
+  disabled: []
   visible:
-    - '-- Biblioteca --'
-    - Procedimientos
-    - Funciones
     - '-- Mis operaciones --'
     - Mis procedimientos
     - '-- Comandos --'

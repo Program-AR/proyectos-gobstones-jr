@@ -5,7 +5,7 @@ procedure SalirDelLaberinto() {
 }
 
 procedure AvanzarUnPasoSiguiendoLaFlecha() {
-  MoverAlRatónA_YSacarLaFlecha(dondeApuntaLaFlecha())
+  MoverElRatónA_YSacarLaFlecha(dondeApuntaLaFlecha())
 }
 
 
