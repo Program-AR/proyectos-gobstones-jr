@@ -1,113 +1,113 @@
-procedure PintarConColorPrimario() {
-  ...
+procedure PintarConElColorPrimario() {
+  BOOM("El programa todavía no está completo")
 }
 
-procedure PintarLíneaPrimariaCortaDeLaManga() {
+procedure PintarLaLíneaPrimariaCortaDeLaManga() {
   repeat(5) {
     Mover(Norte)
   }
   repeat(3) {
-    PintarConColorPrimario()
+    PintarConElColorPrimario()
     Mover(Norte)
   }
 }
 
-procedure PintarLíneaSecundariaCortaDeLaManga() {
+procedure PintarLaLíneaSecundariaCortaDeLaManga() {
   repeat(5) {
     Mover(Norte)
   }
   repeat(3) {
-    PintarConColorSecundario()
+    PintarConElColorSecundario()
     Mover(Norte)
   }
 }
 
-procedure PintarMitadIzquierda() {
-  PintarLíneaPrimariaCortaDeLaManga()
+procedure PintarLaMitadIzquierda() {
+  PintarLaLíneaPrimariaCortaDeLaManga()
   PasarALaSiguienteColumna()
-  PintarLíneaSecundariaMediaDeLaManga()
+  PintarLaLíneaSecundariaMediaDeLaManga()
   PasarALaSiguienteColumna()
-  PintarLíneaPrimariaLargaDeLaManga()
+  PintarLaLíneaPrimariaLargaDeLaManga()
   PasarALaSiguienteColumna()
-  PintarLíneaSecundariaCortaDelTorso()
+  PintarLaLíneaSecundariaCortaDelTorso()
   PasarALaSiguienteColumna()
-  PintarLíneaSecundariaLargaDelTorso()
+  PintarLaLíneaSecundariaLargaDelTorso()
   PasarALaSiguienteColumna()
-  PintarLíneaPrimariaLargaDelTorso()
+  PintarLaLíneaPrimariaLargaDelTorso()
   PasarALaSiguienteColumna()
-  PintarLíneaPrimariaCortaDelTorso()
+  PintarLaLíneaPrimariaCortaDelTorso()
 }
 
-procedure PintarLíneaPrimariaMediaDeLaManga() {
+procedure PintarLaLíneaPrimariaMediaDeLaManga() {
   repeat(5) {
     Mover(Norte)
   }
   repeat(4) {
-    PintarConColorPrimario()
+    PintarConElColorPrimario()
     Mover(Norte)
   }
 }
 
-procedure PintarLíneaSecundariaMediaDeLaManga() {
+procedure PintarLaLíneaSecundariaMediaDeLaManga() {
   repeat(5) {
     Mover(Norte)
   }
   repeat(4) {
-    PintarConColorSecundario()
+    PintarConElColorSecundario()
     Mover(Norte)
   }
 }
 
-procedure PintarConColorSecundario() {
-  ...
+procedure PintarConElColorSecundario() {
+  BOOM("El programa todavía no está completo")
 }
 
-procedure PintarMitadDerecha() {
-  PintarLíneaSecundariaCortaDelTorso()
+procedure PintarLaMitadDerecha() {
+  PintarLaLíneaSecundariaCortaDelTorso()
   PasarALaSiguienteColumna()
-  PintarLíneaSecundariaLargaDelTorso()
+  PintarLaLíneaSecundariaLargaDelTorso()
   PasarALaSiguienteColumna()
-  PintarLíneaPrimariaLargaDelTorso()
+  PintarLaLíneaPrimariaLargaDelTorso()
   PasarALaSiguienteColumna()
-  PintarLíneaPrimariaCortaDelTorso()
+  PintarLaLíneaPrimariaCortaDelTorso()
   PasarALaSiguienteColumna()
-  PintarLíneaSecundariaLargaDeLaManga()
+  PintarLaLíneaSecundariaLargaDeLaManga()
   PasarALaSiguienteColumna()
-  PintarLíneaPrimariaMediaDeLaManga()
+  PintarLaLíneaPrimariaMediaDeLaManga()
   PasarALaSiguienteColumna()
-  PintarLíneaSecundariaCortaDeLaManga()
+  PintarLaLíneaSecundariaCortaDeLaManga()
 }
 
-procedure PintarLíneaPrimariaLargaDeLaManga() {
+procedure PintarLaLíneaPrimariaLargaDeLaManga() {
   repeat(6) {
     Mover(Norte)
   }
   repeat(4) {
-    PintarConColorPrimario()
+    PintarConElColorPrimario()
     Mover(Norte)
   }
 }
 
-procedure PintarLíneaSecundariaLargaDeLaManga() {
+procedure PintarLaLíneaSecundariaLargaDeLaManga() {
   repeat(6) {
     Mover(Norte)
   }
   repeat(4) {
-    PintarConColorSecundario()
+    PintarConElColorSecundario()
     Mover(Norte)
   }
 }
 
-procedure PintarLíneaPrimariaLargaDelTorso() {
+procedure PintarLaLíneaPrimariaLargaDelTorso() {
   repeat(11) {
-    PintarConColorPrimario()
+    PintarConElColorPrimario()
     Mover(Norte)
   }
 }
 
-procedure PintarLíneaSecundariaLargaDelTorso() {
+procedure PintarLaLíneaSecundariaLargaDelTorso() {
   repeat(11) {
-    PintarConColorSecundario()
+    PintarConElColorSecundario()
     Mover(Norte)
   }
 }
@@ -117,23 +117,23 @@ procedure PasarALaSiguienteColumna() {
   Mover(Este)
 }
 
-procedure PintarLíneaPrimariaCortaDelTorso() {
+procedure PintarLaLíneaPrimariaCortaDelTorso() {
   repeat(10) {
-    PintarConColorPrimario()
+    PintarConElColorPrimario()
     Mover(Norte)
   }
 }
 
-procedure PintarLíneaSecundariaCortaDelTorso() {
+procedure PintarLaLíneaSecundariaCortaDelTorso() {
   repeat(10) {
-    PintarConColorSecundario()
+    PintarConElColorSecundario()
     Mover(Norte)
   }
 }
 
 
 program {
-  PintarMitadIzquierda()
+  PintarLaMitadIzquierda()
   PasarALaSiguienteColumna()
-  PintarMitadDerecha()
+  PintarLaMitadDerecha()
 }

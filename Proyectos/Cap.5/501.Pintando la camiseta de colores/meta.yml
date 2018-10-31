@@ -4,23 +4,8 @@ attire:
     can_toggle_visibility: true
   visible: true
 blocks:
-  disabled:
-    - Sacar
-    - Alternativas
-    - puedeMover
-    - hayBolitas
-    - nroBolitas
-    - Funciones
-    - Mis funciones
-    - OperadorNumerico
-    - OperadorDeComparacion
-    - OperadorDeNegacion
-    - OperadorLogico
-    - OperadorOpuesto
+  disabled: []
   visible:
-    - '-- Biblioteca --'
-    - Procedimientos
-    - Funciones
     - '-- Mis operaciones --'
     - Mis procedimientos
     - Mis funciones
