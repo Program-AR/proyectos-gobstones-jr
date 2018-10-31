@@ -14,10 +14,10 @@ procedure MoverALuchoAlNorte() {
 
 procedure EncenderUnaFilaYVolver() {
   repeat(8) {
-    EncenderLuzSiCorresponde()
+    EncenderLaLuzSiCorresponde()
     MoverALuchoAlEste()
   }
-  EncenderLuzSiCorresponde()
+  EncenderLaLuzSiCorresponde()
   VolverALuchoAlBordeOeste()
 }
 
@@ -27,9 +27,9 @@ procedure VolverALuchoAlBordeOeste() {
   }
 }
 
-procedure EncenderLuzSiCorresponde() {
-  if (hayLuz()) {
-    EncenderLuz()
+procedure EncenderLaLuzSiCorresponde() {
+  if (hayUnaLuzApagada()) {
+    EncenderLaLuz()
   }
 }
 
@@ -39,7 +39,7 @@ procedure MoverALuchoAlEste() {
   Poner(Negro)
 }
 
-procedure EncenderLuz() {
+procedure EncenderLaLuz() {
   Poner(Azul)
 }
 
@@ -49,16 +49,8 @@ procedure MoverALuchoAlOeste() {
   Poner(Negro)
 }
 
-function hayLuzApagada() {
+function hayUnaLuzApagada() {
   return (nroBolitas(Azul) == 1)
-}
-
-function hayLuzPrendida() {
-  return (nroBolitas(Azul) == 2)
-}
-
-function hayLuz() {
-  return (hayLuzApagada() || hayLuzPrendida())
 }
 
 
