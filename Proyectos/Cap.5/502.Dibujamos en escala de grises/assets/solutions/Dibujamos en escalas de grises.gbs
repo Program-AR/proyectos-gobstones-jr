@@ -1,0 +1,43 @@
+procedure ConvertirLaImagenAEscalaDeGrises() {
+  repeat(9) {
+    ConvertirUnaFilaAEscalaDeGrises()
+    Mover(Norte)
+  }
+  ConvertirUnaFilaAEscalaDeGrises()
+  IrAlBorde(Sur)
+}
+
+procedure ConvertirUnaFilaAEscalaDeGrises() {
+  repeat(9) {
+    AgrisarUnPíxel()
+    Mover(Este)
+  }
+  AgrisarUnPíxel()
+  IrAlBorde(Oeste)
+}
+
+procedure AgrisarUnPíxel() {
+  CodificarElTonoDeGris()
+  SacarTodas_(Rojo)
+  SacarTodas_(Verde)
+  SacarTodas_(Azul)
+}
+
+procedure CodificarElTonoDeGris() {
+  repeat(promedioDeColoresRGB()) {
+    Poner(Negro)
+  }
+}
+
+function promedioDeColoresRGB() {
+  return (númeroTotalDeBolitas() div 3)
+}
+
+function númeroTotalDeBolitas() {
+  return (nroBolitas(Rojo) + (nroBolitas(Verde) + nroBolitas(Azul)))
+}
+
+
+program {
+  ConvertirLaImagenAEscalaDeGrises()
+}

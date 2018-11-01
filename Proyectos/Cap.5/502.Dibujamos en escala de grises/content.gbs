@@ -1,0 +1,38 @@
+procedure ConvertirLaImagenAEscalaDeGrises() {
+  repeat(9) {
+    ConvertirUnaFilaAEscalaDeGrises()
+    Mover(Norte)
+  }
+  ConvertirUnaFilaAEscalaDeGrises()
+  IrAlBorde(Sur)
+}
+
+procedure ConvertirUnaFilaAEscalaDeGrises() {
+  repeat(9) {
+    AgrisarUnPíxel()
+    Mover(Este)
+  }
+  AgrisarUnPíxel()
+  IrAlBorde(Oeste)
+}
+
+procedure AgrisarUnPíxel() {
+  CodificarElTonoDeGris()
+  SacarTodas_(Rojo)
+  ...
+}
+
+procedure CodificarElTonoDeGris() {
+  repeat(promedioDeColoresRGB()) {
+    ...
+  }
+}
+
+function promedioDeColoresRGB() {
+  return (... div 3)
+}
+
+
+program {
+  ConvertirLaImagenAEscalaDeGrises()
+}

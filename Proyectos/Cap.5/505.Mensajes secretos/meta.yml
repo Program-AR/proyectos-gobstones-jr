@@ -4,50 +4,38 @@ attire:
     can_toggle_visibility: true
   visible: true
 blocks:
-  disabled:
-    - Poner
-    - Sacar
-    - BOOM
-    - AlternativaCompleta
-    - puedeMover
-    - OperadorNumerico
-    - OperadorDeNegacion
-    - OperadorDeNegacion
-    - OperadorLogico
-    - siguiente
-    - previo
-    - OperadorOpuesto
+  disabled: []
   visible:
+    - '-- Biblioteca --'
+    - Procedimientos
+    - Funciones
+    - '-- Mis operaciones --'
+    - Mis procedimientos
+    - Mis funciones
+    - '-- Comandos --'
     - Poner
     - Mover
     - Sacar
     - IrAlBorde
-    - BOOM
-    - Procedimientos
-    - Mis procedimientos
     - RepeticionSimple
     - AlternativaSimple
     - AlternativaCompleta
+    - '-- Expresiones --'
     - Color
     - Direccion
     - Numero
-    - puedeMover
-    - hayBolitas
     - nroBolitas
-    - Funciones
-    - Mis funciones
+    - hayBolitas
+    - puedeMover
     - OperadorNumerico
     - OperadorDeComparacion
-    - OperadorDeNegacion
-    - OperadorDeNegacion
-    - OperadorLogico
-    - siguiente
-    - previo
     - OperadorOpuesto
+    - OperadorLogico
+    - OperadorDeNegacion
+    - '-- Definiciones --'
     - DefinicionDeProcedimientoSimple
-    - Definicion de procedimientos simples
-    - DefinicionDeFuncionSimpleParametrizada
-    - Definicion de funciones simples
+    - DefinicionDeFuncionSimple
+    - ComandoCompletar
   defaultToolbox: |
     <category name="-- Biblioteca --" gbs_custom="SEPARATOR">
     </category>

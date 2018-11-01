@@ -1,46 +1,46 @@
-procedure DescomprimirFila() {
-  repeat(nroBolitas_EnLaPrimeraCelda(Negro) - 1) {
+procedure DescomprimirUnaFila() {
+  repeat(nroDeBolitas_EnLaPrimeraCelda(Negro) - 1) {
     Mover(Este)
-    CopiarColorRGB()
+    CopiarElColorRGBDeLaPrimeraCelda()
   }
   IrAlBorde(Oeste)
-  SacarTodasLasDeColor_(Negro)
+  SacarTodasLasBolitasDeColor_(Negro)
 }
 
-procedure DescomprimirImagen() {
+procedure DescomprimirLaImagen() {
   repeat(8) {
-    DescomprimirFila()
+    DescomprimirUnaFila()
     Mover(Norte)
   }
-  DescomprimirFila()
+  DescomprimirUnaFila()
   IrAlBorde(Sur)
 }
 
-procedure CopiarAzulDeLaPrimeraCelda() {
-  repeat(nroBolitas_EnLaPrimeraCelda(Azul)) {
+procedure CopiarLaCompontenteAzulDeLaPrimeraCelda() {
+  repeat(nroDeBolitas_EnLaPrimeraCelda(Azul)) {
     Poner(Azul)
   }
 }
 
-procedure CopiarColorRGB() {
-  CopiarRojoDeLaPrimeraCelda()
-  CopiarVerdeDeLaPrimeraCelda()
-  CopiarAzulDeLaPrimeraCelda()
+procedure CopiarElColorRGBDeLaPrimeraCelda() {
+  CopiarLaCompontenteRojaDeLaPrimeraCelda()
+  CopiarLaCompontenteVerdeDeLaPrimeraCelda()
+  CopiarLaCompontenteAzulDeLaPrimeraCelda()
 }
 
-procedure CopiarRojoDeLaPrimeraCelda() {
-  repeat(nroBolitas_EnLaPrimeraCelda(Rojo)) {
+procedure CopiarLaCompontenteRojaDeLaPrimeraCelda() {
+  repeat(nroDeBolitas_EnLaPrimeraCelda(Rojo)) {
     Poner(Rojo)
   }
 }
 
-procedure CopiarVerdeDeLaPrimeraCelda() {
-  repeat(nroBolitas_EnLaPrimeraCelda(Verde)) {
+procedure CopiarLaCompontenteVerdeDeLaPrimeraCelda() {
+  repeat(nroDeBolitas_EnLaPrimeraCelda(Verde)) {
     Poner(Verde)
   }
 }
 
 
 program {
-  DescomprimirImagen()
+  DescomprimirLaImagen()
 }

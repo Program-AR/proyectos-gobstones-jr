@@ -4,20 +4,7 @@ attire:
     can_toggle_visibility: true
   visible: true
 blocks:
-  disabled:
-    - Sacar
-    - IrAlBorde
-    - Alternativas
-    - puedeMover
-    - hayBolitas
-    - nroBolitas
-    - OperadorNumerico
-    - OperadorDeComparacion
-    - OperadorDeNegacion
-    - OperadorLogico
-    - OperadorOpuesto
-    - DefinicionDeFuncionSimpleParametrizada
-    - Definicion de funciones simples
+  disabled: []
   visible:
     - '-- Biblioteca --'
     - Procedimientos
@@ -145,4 +132,4 @@ execution_speed:
     can_change_speed: true
 library:
   visible: false
-name: Representando caracteres
+name: Representamos caracteres

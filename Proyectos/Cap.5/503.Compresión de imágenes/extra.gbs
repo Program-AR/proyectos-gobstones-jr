@@ -1,9 +1,9 @@
-function nroBolitas_EnLaPrimeraCelda(color) {
+function nroDeBolitas_EnLaPrimeraCelda(color) {
   IrAlBorde(Oeste)
   return (nroBolitas(color))
 }
 
-procedure SacarTodasLasDeColor_(color) {
+procedure SacarTodasLasBolitasDeColor_(color) {
   repeat (nroBolitas(color)) 
      { Sacar(color) }
 }

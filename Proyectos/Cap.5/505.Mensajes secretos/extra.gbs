@@ -1,7 +1,7 @@
-procedure Poner__Veces(color, n) {
-  repeat(n) { Poner(color) }
+procedure Poner_BolitasNegras(n) {
+  repeat(n) { Poner(Negro) }
 }
 
-procedure Sacar__Veces(color, n) {
-  repeat(n) { Sacar(color) }
+procedure Sacar_BolitasNegras(n) {
+  repeat(n) { Sacar(Negro) }
 }

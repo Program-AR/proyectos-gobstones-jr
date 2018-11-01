@@ -1,5 +1,5 @@
 procedure PintarConElColorPrimario() {
-  BOOM("El programa todavía no está completo")
+  ...
 }
 
 procedure PintarLaLíneaPrimariaCortaDeLaManga() {
@@ -59,7 +59,7 @@ procedure PintarLaLíneaSecundariaMediaDeLaManga() {
 }
 
 procedure PintarConElColorSecundario() {
-  BOOM("El programa todavía no está completo")
+  ...
 }
 
 procedure PintarLaMitadDerecha() {

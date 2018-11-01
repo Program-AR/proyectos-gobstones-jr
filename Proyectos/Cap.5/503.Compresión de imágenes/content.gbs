@@ -1,5 +1,5 @@
-procedure DescomprimirFila() {
-  repeat(nroBolitas_EnLaPrimeraCelda(Negro) - 1) {
+procedure DescomprimirUnaFila() {
+  repeat(nroDeBolitas_EnLaPrimeraCelda(Negro) - 1) {
     Mover(Este)
     ...
   }
@@ -7,37 +7,37 @@ procedure DescomprimirFila() {
   ...
 }
 
-procedure DescomprimirImagen() {
+procedure DescomprimirLaImagen() {
   repeat(8) {
     ...
   }
-  DescomprimirFila()
+  DescomprimirUnaFila()
   ...
 }
 
-procedure CopiarAzulDeLaPrimeraCelda() {
-  repeat(nroBolitas_EnLaPrimeraCelda(Azul)) {
+procedure CopiarLaComponenteAzulDeLaPrimeraCelda() {
+  repeat(nroDeBolitas_EnLaPrimeraCelda(Azul)) {
     ...
   }
 }
 
-procedure CopiarColorRGB() {
-  CopiarRojoDeLaPrimeraCelda()
-  CopiarVerdeDeLaPrimeraCelda()
-  CopiarAzulDeLaPrimeraCelda()
+procedure CopiarElColorRGBDeLaPrimeraCelda() {
+  CopiarLaComponenteRojaDeLaPrimeraCelda()
+  CopiarLaComponenteVerdeDeLaPrimeraCelda()
+  CopiarLaComponenteAzulDeLaPrimeraCelda()
 }
 
-procedure CopiarRojoDeLaPrimeraCelda() {
+procedure CopiarLaComponenteRojaDeLaPrimeraCelda() {
   repeat(...) {
     Poner(Rojo)
   }
 }
 
-procedure CopiarVerdeDeLaPrimeraCelda() {
+procedure CopiarLaComponenteVerdeDeLaPrimeraCelda() {
   ...
 }
 
 
 program {
-  DescomprimirImagen()
+  DescomprimirLaImagen()
 }

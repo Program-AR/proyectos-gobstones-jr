@@ -218,13 +218,13 @@
     "exercises": [
       {
         "id": "501",
-        "name": "Pintando la camiseta de colores",
-        "path": "Proyectos/Cap.5/501.Pintando la camiseta de colores"
+        "name": "Pintamos la camiseta de colores",
+        "path": "Proyectos/Cap.5/501.Pintamos la camiseta de colores"
       },
       {
         "id": "502",
-        "name": "Dibujando en escalas de grises",
-        "path": "Proyectos/Cap.5/502.Dibujando en escalas de grises"
+        "name": "Dibujamos en escala de grises",
+        "path": "Proyectos/Cap.5/502.Dibujamos en escala de grises"
       },
       {
         "id": "503",
@@ -233,8 +233,8 @@
       },
       {
         "id": "504",
-        "name": "Representando caracteres",
-        "path": "Proyectos/Cap.5/504.Representando caracteres"
+        "name": "Representamos caracteres",
+        "path": "Proyectos/Cap.5/504.Representamos caracteres"
       },
       {
         "id": "505",

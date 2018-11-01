@@ -1,25 +1,43 @@
-procedure ElegirElColorRojo() {
-  ...
-}
-
 procedure AvanzarElCursor() {
   Mover(Este)
 }
 
-procedure ElegirElColorAzul() {
-  ...
-}
-
-procedure Espacio() {
+procedure B() {
+  Poner_BolitasNegras(2)
   AvanzarElCursor()
 }
 
-procedure ElegirElColorVerde() {
-  ...
+procedure N() {
+  Poner_BolitasNegras(14)
+  AvanzarElCursor()
 }
 
-procedure A() {
-  Poner_BolitasNegras(1)
+procedure T() {
+  Poner_BolitasNegras(21)
+  AvanzarElCursor()
+}
+
+procedure E() {
+  Poner_BolitasNegras(5)
+  AvanzarElCursor()
+}
+
+procedure O() {
+  Poner_BolitasNegras(16)
+  AvanzarElCursor()
+}
+
+procedure G() {
+  Poner_BolitasNegras(7)
+  AvanzarElCursor()
+}
+
+procedure S() {
+  Poner_BolitasNegras(20)
+  AvanzarElCursor()
+}
+
+procedure Espacio() {
   AvanzarElCursor()
 }
 
@@ -33,68 +51,8 @@ procedure K() {
   AvanzarElCursor()
 }
 
-procedure O() {
-  Poner_BolitasNegras(16)
-  AvanzarElCursor()
-}
-
-procedure T() {
-  Poner_BolitasNegras(21)
-  AvanzarElCursor()
-}
-
-procedure Y() {
-  Poner_BolitasNegras(26)
-  AvanzarElCursor()
-}
-
-procedure B() {
-  Poner_BolitasNegras(2)
-  AvanzarElCursor()
-}
-
-procedure G() {
-  Poner_BolitasNegras(7)
-  AvanzarElCursor()
-}
-
-procedure L() {
-  Poner_BolitasNegras(12)
-  AvanzarElCursor()
-}
-
 procedure P() {
   Poner_BolitasNegras(17)
-  AvanzarElCursor()
-}
-
-procedure U() {
-  Poner_BolitasNegras(22)
-  AvanzarElCursor()
-}
-
-procedure Z() {
-  Poner_BolitasNegras(27)
-  AvanzarElCursor()
-}
-
-procedure C() {
-  Poner_BolitasNegras(3)
-  AvanzarElCursor()
-}
-
-procedure H() {
-  Poner_BolitasNegras(8)
-  AvanzarElCursor()
-}
-
-procedure M() {
-  Poner_BolitasNegras(13)
-  AvanzarElCursor()
-}
-
-procedure Q() {
-  Poner_BolitasNegras(18)
   AvanzarElCursor()
 }
 
@@ -103,23 +61,28 @@ procedure V() {
   AvanzarElCursor()
 }
 
-procedure D() {
-  Poner_BolitasNegras(4)
+procedure Z() {
+  Poner_BolitasNegras(27)
   AvanzarElCursor()
 }
 
-procedure I() {
-  Poner_BolitasNegras(9)
+procedure A() {
+  Poner_BolitasNegras(1)
   AvanzarElCursor()
 }
 
-procedure N() {
-  Poner_BolitasNegras(14)
+procedure H() {
+  Poner_BolitasNegras(8)
   AvanzarElCursor()
 }
 
-procedure R() {
-  Poner_BolitasNegras(19)
+procedure L() {
+  Poner_BolitasNegras(12)
+  AvanzarElCursor()
+}
+
+procedure Q() {
+  Poner_BolitasNegras(18)
   AvanzarElCursor()
 }
 
@@ -128,8 +91,33 @@ procedure W() {
   AvanzarElCursor()
 }
 
-procedure E() {
-  Poner_BolitasNegras(5)
+procedure C() {
+  Poner_BolitasNegras(3)
+  AvanzarElCursor()
+}
+
+procedure I() {
+  Poner_BolitasNegras(9)
+  AvanzarElCursor()
+}
+
+procedure M() {
+  Poner_BolitasNegras(13)
+  AvanzarElCursor()
+}
+
+procedure R() {
+  Poner_BolitasNegras(19)
+  AvanzarElCursor()
+}
+
+procedure X() {
+  Poner_BolitasNegras(25)
+  AvanzarElCursor()
+}
+
+procedure D() {
+  Poner_BolitasNegras(4)
   AvanzarElCursor()
 }
 
@@ -143,17 +131,25 @@ procedure Ñ() {
   AvanzarElCursor()
 }
 
-procedure S() {
-  Poner_BolitasNegras(20)
+procedure U() {
+  Poner_BolitasNegras(22)
   AvanzarElCursor()
 }
 
-procedure X() {
-  Poner_BolitasNegras(25)
+procedure Y() {
+  Poner_BolitasNegras(26)
   AvanzarElCursor()
 }
 
 
 program {
-  ...
+  G()
+  O()
+  B()
+  S()
+  T()
+  O()
+  N()
+  E()
+  S()
 }

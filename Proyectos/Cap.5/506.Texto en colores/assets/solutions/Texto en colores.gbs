@@ -1,17 +1,21 @@
-procedure CifrarUnCarácterComoCésar() {
-  ...
+procedure ElegirElColorRojo() {
+  Poner(Rojo)
 }
 
 procedure AvanzarElCursor() {
   Mover(Este)
 }
 
+procedure ElegirElColorAzul() {
+  Poner(Azul)
+}
+
 procedure Espacio() {
   AvanzarElCursor()
 }
 
-procedure DescifrarUnCarácterComoCésar() {
-  ...
+procedure ElegirElColorVerde() {
+  Poner(Verde)
 }
 
 procedure A() {
@@ -44,10 +48,6 @@ procedure Y() {
   AvanzarElCursor()
 }
 
-procedure CifrarElTexto() {
-  ...
-}
-
 procedure B() {
   Poner_BolitasNegras(2)
   AvanzarElCursor()
@@ -66,10 +66,6 @@ procedure L() {
 procedure P() {
   Poner_BolitasNegras(17)
   AvanzarElCursor()
-}
-
-function númeroDelCésar() {
-  return (3)
 }
 
 procedure U() {
@@ -95,10 +91,6 @@ procedure H() {
 procedure M() {
   Poner_BolitasNegras(13)
   AvanzarElCursor()
-}
-
-procedure DescifrarElTexto() {
-  ...
 }
 
 procedure Q() {
@@ -141,12 +133,6 @@ procedure E() {
   AvanzarElCursor()
 }
 
-procedure AjustarElExceso() {
-  if (nroBolitas(Negro) > cantidadDeCaracteres()) {
-    Sacar_BolitasNegras(cantidadDeCaracteres())
-  }
-}
-
 procedure J() {
   Poner_BolitasNegras(10)
   AvanzarElCursor()
@@ -167,31 +153,24 @@ procedure X() {
   AvanzarElCursor()
 }
 
-function cantidadDeCaracteres() {
-  return (27)
-}
-
-function hayUnCarácter() {
-  return (hayBolitas(Negro))
-}
-
-procedure AjustarLasFaltantes() {
-  if (nroBolitas(Negro) <= númeroDelCésar()) {
-    Poner_BolitasNegras(cantidadDeCaracteres())
-  }
-}
-
 
 program {
-  S()
-  E()
-  C()
-  R()
-  E()
-  T()
+  ElegirElColorRojo()
+  G()
+  ElegirElColorRojo()
   O()
-  IrAlBorde(Oeste)
-  CifrarElTexto()
-  IrAlBorde(Oeste)
-  DescifrarElTexto()
+  ElegirElColorRojo()
+  B()
+  ElegirElColorAzul()
+  S()
+  ElegirElColorAzul()
+  T()
+  ElegirElColorAzul()
+  O()
+  ElegirElColorVerde()
+  N()
+  ElegirElColorVerde()
+  E()
+  ElegirElColorVerde()
+  S()
 }

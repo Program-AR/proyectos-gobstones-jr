@@ -249,13 +249,13 @@
         name: "Pintando la camiseta de colores"
       new:
         id: "501"
-        name: "Pintando la camiseta de colores"
+        name: "Pintamos la camiseta de colores"
     - old:
         id: "5.3.2"
         name: "Dibujando en escalas de grises"
       new:
         id: "502"
-        name: "Dibujando en escalas de grises"
+        name: "Dibujamos en escalas de grises"
     - old:
         id: "5.3.3"
         name: "Compresión de imágenes"
@@ -267,7 +267,7 @@
         name: "Representando caracteres"
       new:
         id: "504"
-        name: "Representando caracteres"
+        name: "Representamos caracteres"
     - old:
         id: "5.4.2"
         name: "Mensajes secretos"
