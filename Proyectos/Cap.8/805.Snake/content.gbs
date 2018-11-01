@@ -61,15 +61,15 @@ function direcciónCodificada(color) {
 }
 
 procedure MoverLaVíboraAl(dirección) {
-  BOOM("El programa todavía no está completo")
+  ...
 }
 
 procedure SacarManzana() {
-  BOOM("El programa todavía no está completo")
+  ...
 }
 
 function hayManzana() {
-  return (boom("El programa todavía no está completo"))
+  return (...)
 }
 
 function códigoDeManzana() {
@@ -85,7 +85,7 @@ function códigoDeAnterior() {
 }
 
 function hayVíbora() {
-  return (boom("El programa todavía no está completo"))
+  return (...)
 }
 
 function códigoDePosterior() {
@@ -103,11 +103,11 @@ function direcciónDelSegmentoPosterior() {
 }
 
 function hayCola() {
-  return (boom("El programa todavía no está completo"))
+  return (...)
 }
 
 function hayCabeza() {
-  return (boom("El programa todavía no está completo"))
+  return (...)
 }
 
 function direcciónDelSegmentoAnterior() {

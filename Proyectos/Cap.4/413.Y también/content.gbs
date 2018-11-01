@@ -13,11 +13,11 @@ procedure CosecharLosTomatesSiHay() {
 }
 
 function hayTomates() {
-  return (boom("El programa todavía no está completo"))
+  return (...)
 }
 
 procedure CosecharLosTomates() {
-  BOOM("El programa todavía no está completo")
+  ...
 }
 
 

@@ -1,5 +1,5 @@
 procedure ImitarElDobleDeLasAzules() {
-  repeat(boom("El programa todavía no está completo")) {
+  repeat(...) {
     Poner(Rojo)
   }
 }

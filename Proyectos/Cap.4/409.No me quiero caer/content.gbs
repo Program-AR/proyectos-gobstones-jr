@@ -5,7 +5,7 @@ procedure DibujarLaVíbora() {
 }
 
 procedure DibujarSegmentoDeLaVíboraYAvanzar() {
-  BOOM("El programa todavía no está completo")
+  ...
 }
 
 

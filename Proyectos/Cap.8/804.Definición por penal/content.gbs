@@ -1,9 +1,9 @@
 procedure Atajar(dirección) {
-  BOOM("El programa todavía no está completo")
+  ...
 }
 
 procedure Patear(dirección) {
-  BOOM("El programa todavía no está completo")
+  ...
 }
 
 function izquierda() {
@@ -15,11 +15,11 @@ function opciónDeAtajar() {
 }
 
 function centro() {
-  return (boom("El programa todavía no está completo"))
+  return (...)
 }
 
 function opciónDePatear() {
-  return (boom("El programa todavía no está completo"))
+  return (...)
 }
 
 function jugadorUnoYaOptó() {
@@ -27,15 +27,15 @@ function jugadorUnoYaOptó() {
 }
 
 procedure PonerOpción(opción, color) {
-  BOOM("El programa todavía no está completo")
+  ...
 }
 
 function jugadorDosYaOptó() {
-  return (boom("El programa todavía no está completo"))
+  return (...)
 }
 
 procedure MoverSegúnOpción(opción) {
-  BOOM("El programa todavía no está completo")
+  ...
 }
 
 procedure SacarArquero() {

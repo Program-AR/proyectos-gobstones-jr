@@ -1,5 +1,5 @@
 procedure DibujarCuadradoRojo() {
-  BOOM("El programa todavía no está completo")
+  ...
 }
 
 

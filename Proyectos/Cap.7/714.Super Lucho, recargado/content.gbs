@@ -1,17 +1,17 @@
 procedure IrALaEsquinaSuroeste() {
-  BOOM("El programa todavía no está completo")
+  ...
 }
 
 procedure EncenderYContar() {
-  BOOM("El programa todavía no está completo")
+  ...
 }
 
 procedure PasarALaSiguienteCelda() {
-  BOOM("El programa todavía no está completo")
+  ...
 }
 
 function esLaÚltimaCelda() {
-  return (boom("El programa todavía no está completo"))
+  return (...)
 }
 
 procedure EncenderLuz() {
@@ -23,7 +23,7 @@ function esLuzApagada() {
 }
 
 procedure MoverALucho(direcciónAMover) {
-  BOOM("El programa todavía no está completo")
+  ...
 }
 
 procedure SacarALucho() {
@@ -31,7 +31,7 @@ procedure SacarALucho() {
 }
 
 procedure LlevarALuchoAlBorde(direcciónDelBorde) {
-  BOOM("El programa todavía no está completo")
+  ...
 }
 
 procedure PonerALucho() {
