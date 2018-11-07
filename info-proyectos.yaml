@@ -345,10 +345,10 @@
         name: "¿A qué distancia están los bordes?"
     - old:
         id: "713"
-        name: "Contar las baldosas rajadas"
-      new:
-        id: "713"
         name: "Contamos las baldosas"
+      new:
+        id: "713b"
+        name: "Contamos baldosas rajadas"
 - id: "Cap.8"
   name: "Interactividad y proyectos finales"
   exercises:

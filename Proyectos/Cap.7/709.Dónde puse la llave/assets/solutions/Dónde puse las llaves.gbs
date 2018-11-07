@@ -1,10 +1,10 @@
-function encontréLasLlaves() {
+function encontréLaLlave() {
   return (hayBolitas(Rojo))
 }
 
-procedure BuscarLasLlaves() {
+procedure BuscarLaLlave() {
   IrAlPrimerCajónYAbrirlo()
-  while (not (encontréLasLlaves())) {
+  while (not (encontréLaLlave())) {
     PasarAlSiguienteCajónYAbrirlo()
   }
 }
@@ -31,5 +31,5 @@ procedure AbrirElCajón() {
 
 
 program {
-  BuscarLasLlaves()
+  BuscarLaLlave()
 }

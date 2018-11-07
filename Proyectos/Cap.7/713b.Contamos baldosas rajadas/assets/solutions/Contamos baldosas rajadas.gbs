@@ -1,0 +1,46 @@
+procedure InformarLaCantidadDeBaldosasRajadas() {
+  Poner_BolitasNegras(cantidadDeBaldosasRajadas())
+}
+
+function cantidadDeBaldosasRajadas() {
+  IrALaPrimeraBaldosa()
+  if (esUnaBaldosaRajada()) {
+    cantidadDeBaldosasRajadasVistas := 1
+  } else {
+    cantidadDeBaldosasRajadasVistas := 0
+  }
+  while (not (esLaÚltimaBaldosa())) {
+    PasarALaSiguienteBaldosa()
+    if (esUnaBaldosaRajada()) {
+      cantidadDeBaldosasRajadasVistas := cantidadDeBaldosasRajadasVistas + 1
+    }
+  }
+  return (cantidadDeBaldosasRajadasVistas)
+}
+
+procedure PasarALaSiguienteBaldosa() {
+  if (puedeMover(Este)) {
+    Mover(Este)
+  } else {
+    IrAlBorde(Oeste)
+    Mover(Norte)
+  }
+}
+
+function esUnaBaldosaRajada() {
+  return (hayBolitas(Verde))
+}
+
+function esLaÚltimaBaldosa() {
+  return (not(puedeMover(Este)) && not(puedeMover(Norte)))
+}
+
+procedure IrALaPrimeraBaldosa() {
+  IrAlBorde(Oeste)
+  IrAlBorde(Sur)
+}
+
+
+program {
+  InformarLaCantidadDeBaldosasRajadas()
+}

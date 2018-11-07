@@ -1,0 +1,380 @@
+name: Baldosas
+rules:
+  - image: BaldosaComun.png
+    when:
+      black: 0
+      blue: 0
+      green: 0
+      red: 0
+  - image: BaldosaRajada00.png
+    when:
+      black: 0
+      blue: 0
+      green: 1
+      red: 0
+  - image: BaldosaRajada01.png
+    when:
+      black: 0
+      blue: 0
+      green: 2
+      red: 0
+  - image: BaldosaRajada02.png
+    when:
+      black: 0
+      blue: 0
+      green: 3
+      red: 0
+  - image: BaldosaRajada03.png
+    when:
+      black: 0
+      blue: 0
+      green: 4
+      red: 0
+  - image: BaldosaRajada04.png
+    when:
+      black: 0
+      blue: 0
+      green: 5
+      red: 0
+  - image: BaldosaRajada03.png
+    when:
+      black: 0
+      blue: 0
+      green: '*'
+      red: 0
+  - image: BaldosaComunOscura.png
+    when:
+      black: 0
+      blue: 1
+      green: 0
+      red: 0
+  - image: BaldosaRajadaOscura00.png
+    when:
+      black: 0
+      blue: 1
+      green: 1
+      red: 0
+  - image: BaldosaRajadaOscura01.png
+    when:
+      black: 0
+      blue: 1
+      green: 2
+      red: 0
+  - image: BaldosaRajadaOscura02.png
+    when:
+      black: 0
+      blue: 1
+      green: 3
+      red: 0
+  - image: BaldosaRajadaOscura03.png
+    when:
+      black: 0
+      blue: 1
+      green: 4
+      red: 0
+  - image: BaldosaRajadaOscura04.png
+    when:
+      black: 0
+      blue: 1
+      green: 5
+      red: 0
+  - image: BaldosaRajadaOscura03.png
+    when:
+      black: 0
+      blue: 1
+      green: '*'
+      red: 0
+  - image: 01.png
+    when:
+      black: 1
+      blue: 0
+      green: 0
+      red: 0
+  - image: 02.png
+    when:
+      black: 2
+      blue: 0
+      green: 0
+      red: 0
+  - image: 03.png
+    when:
+      black: 3
+      blue: 0
+      green: 0
+      red: 0
+  - image: 04.png
+    when:
+      black: 4
+      blue: 0
+      green: 0
+      red: 0
+  - image: 05.png
+    when:
+      black: 5
+      blue: 0
+      green: 0
+      red: 0
+  - image: 06.png
+    when:
+      black: 6
+      blue: 0
+      green: 0
+      red: 0
+  - image: 07.png
+    when:
+      black: 7
+      blue: 0
+      green: 0
+      red: 0
+  - image: 08.png
+    when:
+      black: 8
+      blue: 0
+      green: 0
+      red: 0
+  - image: 09.png
+    when:
+      black: 9
+      blue: 0
+      green: 0
+      red: 0
+  - image: 10.png
+    when:
+      black: 10
+      blue: 0
+      green: 0
+      red: 0
+  - image: 11.png
+    when:
+      black: 11
+      blue: 0
+      green: 0
+      red: 0
+  - image: 12.png
+    when:
+      black: 12
+      blue: 0
+      green: 0
+      red: 0
+  - image: 13.png
+    when:
+      black: 13
+      blue: 0
+      green: 0
+      red: 0
+  - image: 14.png
+    when:
+      black: 14
+      blue: 0
+      green: 0
+      red: 0
+  - image: 15.png
+    when:
+      black: 15
+      blue: 0
+      green: 0
+      red: 0
+  - image: 16.png
+    when:
+      black: 16
+      blue: 0
+      green: 0
+      red: 0
+  - image: 17.png
+    when:
+      black: 17
+      blue: 0
+      green: 0
+      red: 0
+  - image: 18.png
+    when:
+      black: 18
+      blue: 0
+      green: 0
+      red: 0
+  - image: 19.png
+    when:
+      black: 19
+      blue: 0
+      green: 0
+      red: 0
+  - image: 20.png
+    when:
+      black: 20
+      blue: 0
+      green: 0
+      red: 0
+  - image: 21.png
+    when:
+      black: 21
+      blue: 0
+      green: 0
+      red: 0
+  - image: 22.png
+    when:
+      black: 22
+      blue: 0
+      green: 0
+      red: 0
+  - image: 23.png
+    when:
+      black: 23
+      blue: 0
+      green: 0
+      red: 0
+  - image: 24.png
+    when:
+      black: 24
+      blue: 0
+      green: 0
+      red: 0
+  - image: 25.png
+    when:
+      black: 25
+      blue: 0
+      green: 0
+      red: 0
+  - image: 26.png
+    when:
+      black: 26
+      blue: 0
+      green: 0
+      red: 0
+  - image: 27.png
+    when:
+      black: 27
+      blue: 0
+      green: 0
+      red: 0
+  - image: 28.png
+    when:
+      black: 28
+      blue: 0
+      green: 0
+      red: 0
+  - image: 29.png
+    when:
+      black: 29
+      blue: 0
+      green: 0
+      red: 0
+  - image: 30.png
+    when:
+      black: 30
+      blue: 0
+      green: 0
+      red: 0
+  - image: 31.png
+    when:
+      black: 31
+      blue: 0
+      green: 0
+      red: 0
+  - image: 32.png
+    when:
+      black: 32
+      blue: 0
+      green: 0
+      red: 0
+  - image: 33.png
+    when:
+      black: 33
+      blue: 0
+      green: 0
+      red: 0
+  - image: 34.png
+    when:
+      black: 34
+      blue: 0
+      green: 0
+      red: 0
+  - image: 35.png
+    when:
+      black: 35
+      blue: 0
+      green: 0
+      red: 0
+  - image: 36.png
+    when:
+      black: 36
+      blue: 0
+      green: 0
+      red: 0
+  - image: 37.png
+    when:
+      black: 37
+      blue: 0
+      green: 0
+      red: 0
+  - image: 38.png
+    when:
+      black: 38
+      blue: 0
+      green: 0
+      red: 0
+  - image: 39.png
+    when:
+      black: 39
+      blue: 0
+      green: 0
+      red: 0
+  - image: 40.png
+    when:
+      black: 40
+      blue: 0
+      green: 0
+      red: 0
+  - image: 41.png
+    when:
+      black: 41
+      blue: 0
+      green: 0
+      red: 0
+  - image: 42.png
+    when:
+      black: 42
+      blue: 0
+      green: 0
+      red: 0
+  - image: 43.png
+    when:
+      black: 43
+      blue: 0
+      green: 0
+      red: 0
+  - image: 44.png
+    when:
+      black: 44
+      blue: 0
+      green: 0
+      red: 0
+  - image: 45.png
+    when:
+      black: 45
+      blue: 0
+      green: 0
+      red: 0
+  - image: 46.png
+    when:
+      black: 46
+      blue: 0
+      green: 0
+      red: 0
+  - image: 47.png
+    when:
+      black: 47
+      blue: 0
+      green: 0
+      red: 0
+  - image: 48.png
+    when:
+      black: 48
+      blue: 0
+      green: 0
+      red: 0
+  - image: 49.png
+    when:
+      black: 49
+      blue: 0
+      green: 0
+      red: 0

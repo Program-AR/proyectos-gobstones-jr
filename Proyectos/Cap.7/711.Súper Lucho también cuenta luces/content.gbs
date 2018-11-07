@@ -1,7 +1,6 @@
 procedure EncenderLaFilaDeLucesYContarlas() {
   cantidadDeLucesQueYaPrendí := ...
-  while (not ()) {
-    ...
+  while (not (...)) {
     cantidadDeLucesQueYaPrendí := cantidadDeLucesQueYaPrendí + 1
     ...
   }
@@ -12,17 +11,17 @@ procedure InformarLucesPrendidas(cantidadDeLucesAInformar) {
   ...
 }
 
-procedure EncenderLuz() {
+procedure EncenderLaLuz() {
   Poner(Azul)
 }
 
-procedure MoverALucho(direcciónAMover) {
+procedure MoverALuchoAl(direcciónAMover) {
   Sacar(Negro)
   Mover(direcciónAMover)
   Poner(Negro)
 }
 
-function luchoEstáEnLaMeta() {
+function luchoEstéEnLaMeta() {
   return (nroBolitas(Verde) == 2)
 }
 

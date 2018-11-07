@@ -8,12 +8,16 @@ function esLaÚltimaCelda(dirección) {
   return (not(puedeMover(dirección)))
 }
 
-procedure InformarDistanciaHastaElBorde(color, direcciónAMedir) {
+function distanciaHastaElBorde(direcciónAMedir) {
   ...
 }
 
+procedure InformarLasDistanciasALosBordes() {
+  Poner_BolitasDeColor_(distanciaHastaElBorde(Norte), ...)
+  Poner_BolitasDeColor_(..., Negro)
+  ...
+}
 
 program {
-  InformarDistanciaHastaElBorde(..., Norte)
-  InformarDistanciaHastaElBorde(Negro, ...)
+  ...
 }

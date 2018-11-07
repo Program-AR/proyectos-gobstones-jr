@@ -306,6 +306,11 @@
         "id": "713",
         "name": "Contamos las baldosas",
         "path": "Proyectos/Cap.7/713.Contamos las baldosas"
+      },
+      {
+        "id": "713b",
+        "name": "Contamos baldosas rajadas",
+        "path": "Proyectos/Cap.7/713b.Contamos baldosas rajadas"
       }
     ]
   },

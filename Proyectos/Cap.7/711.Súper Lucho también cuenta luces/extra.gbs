@@ -1,1 +1,1 @@
-procedure Poner__Veces(color, cantidad) { repeat (cantidad) { Poner(color) } }
+procedure Poner_BolitasRojas(cantidad) { repeat (cantidad) { Poner(Rojo) } }

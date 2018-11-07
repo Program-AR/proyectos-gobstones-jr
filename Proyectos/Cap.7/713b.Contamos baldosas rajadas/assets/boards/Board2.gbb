@@ -1,0 +1,18 @@
+GBB/1.0
+size 5 3
+cell 0 0 Azul 0 Negro 0 Rojo 0 Verde 0
+cell 0 1 Azul 1 Negro 0 Rojo 0 Verde 0
+cell 0 2 Azul 0 Negro 0 Rojo 0 Verde 2
+cell 1 0 Azul 1 Negro 0 Rojo 0 Verde 2
+cell 1 1 Azul 0 Negro 0 Rojo 0 Verde 3
+cell 1 2 Azul 1 Negro 0 Rojo 0 Verde 0
+cell 2 0 Azul 0 Negro 0 Rojo 0 Verde 2
+cell 2 1 Azul 1 Negro 0 Rojo 0 Verde 0
+cell 2 2 Azul 0 Negro 0 Rojo 0 Verde 0
+cell 3 0 Azul 1 Negro 0 Rojo 0 Verde 4
+cell 3 1 Azul 0 Negro 0 Rojo 0 Verde 0
+cell 3 2 Azul 1 Negro 0 Rojo 0 Verde 0
+cell 4 0 Azul 0 Negro 0 Rojo 0 Verde 4
+cell 4 1 Azul 1 Negro 0 Rojo 0 Verde 2
+cell 4 2 Azul 0 Negro 0 Rojo 0 Verde 5
+head 1 2

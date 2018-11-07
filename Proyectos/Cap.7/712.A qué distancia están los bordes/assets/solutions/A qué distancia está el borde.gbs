@@ -1,3 +1,19 @@
+procedure InformarLasDistanciasALosBordes() {
+  Poner_BolitasDeColor_(distanciaHastaElBorde(Norte), Azul)
+  Poner_BolitasDeColor_(distanciaHastaElBorde(Este), Negro)
+  Poner_BolitasDeColor_(distanciaHastaElBorde(Sur), Verde)
+  Poner_BolitasDeColor_(distanciaHastaElBorde(Oeste), Rojo)
+}
+
+function distanciaHastaElBorde(direcciónAMedir) {
+  cantidadDePasosAvanzados := 0
+  while (not (esLaÚltimaCelda(direcciónAMedir))) {
+    cantidadDePasosAvanzados := cantidadDePasosAvanzados + 1
+    PasarALaSiguienteCelda(direcciónAMedir)
+  }
+  return (cantidadDePasosAvanzados)
+}
+
 procedure PasarALaSiguienteCelda(direcciónAMover) {
   if (puedeMover(direcciónAMover)) {
     Mover(direcciónAMover)
@@ -8,22 +24,7 @@ function esLaÚltimaCelda(dirección) {
   return (not(puedeMover(dirección)))
 }
 
-procedure InformarDistanciaHastaElBorde(color, direcciónAMedir) {
-  cantidadDePasosAvanzados := 0
-  while (not (esLaÚltimaCelda(direcciónAMedir))) {
-    cantidadDePasosAvanzados := cantidadDePasosAvanzados + 1
-    PasarALaSiguienteCelda(direcciónAMedir)
-  }
-  repeat(cantidadDePasosAvanzados) {
-    Mover(opuesto(direcciónAMedir))
-  }
-  Poner__Veces(color, cantidadDePasosAvanzados)
-}
-
 
 program {
-  InformarDistanciaHastaElBorde(Azul, Norte)
-  InformarDistanciaHastaElBorde(Negro, Este)
-  InformarDistanciaHastaElBorde(Verde, Sur)
-  InformarDistanciaHastaElBorde(Rojo, Oeste)
+  InformarLasDistanciasALosBordes()
 }

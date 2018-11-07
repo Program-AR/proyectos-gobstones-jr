@@ -38,6 +38,7 @@ blocks:
     - DefinicionDeProcedimientoParametrizado
     - DefinicionDeFuncionSimple
     - DefinicionDeFuncionSimpleParametrizada
+    - DefinicionDeFuncionParametrizada
   defaultToolbox: |
     <category name="-- Biblioteca --" gbs_custom="SEPARATOR">
     </category>

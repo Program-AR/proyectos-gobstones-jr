@@ -1,10 +1,10 @@
-procedure InformarLaCantidadDeBaldosasRajadas() {
-  IrALaEsquinaSuroeste()
-  Poner__Veces(Negro, ...)
+procedure InformarLaCantidadDeBaldosas() {
+  BOOM("El programa todavía no está completo")
 }
 
-function esUnaBaldosaRajada() {
-  return (hayBolitas(Verde))
+function cantidadDeBaldosas() {
+  BOOM("El programa todavía no está completo")
+  return (boom("El programa todavía no está completo"))
 }
 
 procedure PasarALaSiguienteBaldosa() {
@@ -17,14 +17,15 @@ procedure PasarALaSiguienteBaldosa() {
 }
 
 function esLaÚltimaBaldosa() {
-  return (...)
+  return (not(puedeMover(Este)) && not(puedeMover(Norte)))
 }
 
-procedure IrALaEsquinaSuroeste() {
-  IrAlBorde(Sur)
+procedure IrALaPrimeraBaldosa() {
   IrAlBorde(Oeste)
+  IrAlBorde(Sur)
 }
 
 
 program {
+  InformarLaCantidadDeBaldosas()
 }
