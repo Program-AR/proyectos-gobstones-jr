@@ -1,0 +1,33 @@
+procedure DibujarUnaLínea(colorDeLaLínea, longitudDeLaLínea, direcciónDeLaLínea) {
+  repeat(longitudDeLaLínea) {
+    Poner(colorDeLaLínea)
+    Mover(direcciónDeLaLínea)
+  }
+}
+
+
+program {
+  DibujarUnaLínea(Negro, 7, Norte)
+  Mover(Este)
+  repeat(2) {
+    Mover(Sur)
+  }
+  DibujarUnaLínea(Rojo, 5, Sur)
+  Mover(Este)
+  repeat(2) {
+    Mover(Norte)
+  }
+  DibujarUnaLínea(Verde, 3, Norte)
+  Mover(Este)
+  repeat(2) {
+    Mover(Sur)
+  }
+  Poner(Azul)
+  Mover(Este)
+  Mover(Sur)
+  DibujarUnaLínea(Verde, 3, Norte)
+  Mover(Este)
+  DibujarUnaLínea(Rojo, 5, Sur)
+  Mover(Este)
+  DibujarUnaLínea(Negro, 7, Norte)
+}

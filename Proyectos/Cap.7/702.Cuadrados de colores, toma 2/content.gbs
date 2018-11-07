@@ -1,25 +1,25 @@
 ﻿program {
 }
 
-procedure DibujarCuadrado(colorDelCuadrado) {
+procedure DibujarUnCuadrado(colorDelCuadrado) {
   ...
 }
 
-procedure PosicionarseParaElPrimerCuadrado() {
+procedure PosicionarseParaDibujarElCuadradoRojo() {
   IrAlBorde(Oeste)  IrAlBorde(Sur)
 }
 
-procedure PosicionarseParaElSegundoCuadrado() {
+procedure PosicionarseParaDibujarElCuadradoNegro() {
   IrAlBorde(Sur)    IrAlBorde(Este)
   repeat(2) { Mover(Oeste) }
 }
 
-procedure PosicionarseParaElTercerCuadrado() {
+procedure PosicionarseParaDibujarElCuadradoAzul() {
   IrAlBorde(Norte)  IrAlBorde(Este)
   repeat(2) { Mover(Sur) Mover(Oeste) }
 }
 
-procedure PosicionarseParaElCuartoCuadrado() {
+procedure PosicionarseParaDibujarElCuadradoVerde() {
   IrAlBorde(Oeste)  IrAlBorde(Norte)
   repeat(2) { Mover(Sur) }
 }

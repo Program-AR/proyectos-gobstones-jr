@@ -1,4 +1,4 @@
-name: Tablero de Ludo
+name: Cuadrados de colores
 rules:
   - image: Fondo.png
     when:

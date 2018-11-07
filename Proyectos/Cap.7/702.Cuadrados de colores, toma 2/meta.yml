@@ -1,15 +1,12 @@
 name: 'Cuadrados de colores, toma 2'
 attire:
-  active: Tablero de Ludo
+  active: Cuadrado de colores
   user_permissions:
     can_toggle_visibility: true
   visible: true
 blocks:
   disabled: []
   visible:
-    - '-- Biblioteca --'
-    - Procedimientos
-    - Funciones
     - '-- Mis operaciones --'
     - Mis procedimientos
     - Mis funciones

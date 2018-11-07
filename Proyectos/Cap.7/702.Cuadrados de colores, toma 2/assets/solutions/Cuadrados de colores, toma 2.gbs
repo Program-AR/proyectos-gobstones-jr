@@ -1,4 +1,4 @@
-procedure DibujarCuadrado(colorDelCuadrado) {
+procedure DibujarUnCuadrado(colorDelCuadrado) {
   repeat(2) {
     Poner(colorDelCuadrado)
     Mover(Norte)
@@ -17,12 +17,12 @@ procedure DibujarCuadrado(colorDelCuadrado) {
   }
 }
 
-procedure PosicionarseParaElPrimerCuadrado() {
+procedure PosicionarseParaDibujarElCuadradoRojo() {
   IrAlBorde(Oeste)
   IrAlBorde(Sur)
 }
 
-procedure PosicionarseParaElSegundoCuadrado() {
+procedure PosicionarseParaDibujarElCuadradoNegro() {
   IrAlBorde(Sur)
   IrAlBorde(Este)
   repeat(2) {
@@ -30,7 +30,7 @@ procedure PosicionarseParaElSegundoCuadrado() {
   }
 }
 
-procedure PosicionarseParaElTercerCuadrado() {
+procedure PosicionarseParaDibujarElCuadradoAzul() {
   IrAlBorde(Norte)
   IrAlBorde(Este)
   repeat(2) {
@@ -39,7 +39,7 @@ procedure PosicionarseParaElTercerCuadrado() {
   }
 }
 
-procedure PosicionarseParaElCuartoCuadrado() {
+procedure PosicionarseParaDibujarElCuadradoVerde() {
   IrAlBorde(Oeste)
   IrAlBorde(Norte)
   repeat(2) {
@@ -49,12 +49,12 @@ procedure PosicionarseParaElCuartoCuadrado() {
 
 
 program {
-  PosicionarseParaElPrimerCuadrado()
-  DibujarCuadrado(Rojo)
-  PosicionarseParaElSegundoCuadrado()
-  DibujarCuadrado(Negro)
-  PosicionarseParaElCuartoCuadrado()
-  DibujarCuadrado(Azul)
-  PosicionarseParaElTercerCuadrado()
-  DibujarCuadrado(Verde)
+  PosicionarseParaDibujarElCuadradoRojo()
+  DibujarUnCuadrado(Rojo)
+  PosicionarseParaDibujarElCuadradoNegro()
+  DibujarUnCuadrado(Negro)
+  PosicionarseParaDibujarElCuadradoVerde()
+  DibujarUnCuadrado(Azul)
+  PosicionarseParaDibujarElCuadradoAzul()
+  DibujarUnCuadrado(Verde)
 }

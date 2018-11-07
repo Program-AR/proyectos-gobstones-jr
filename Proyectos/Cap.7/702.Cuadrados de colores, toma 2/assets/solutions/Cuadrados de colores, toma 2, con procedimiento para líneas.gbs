@@ -1,0 +1,55 @@
+procedure DibujarUnCuadrado(colorDelCuadrado) {
+  DibujarUnaLínea(Norte, colorDelCuadrado)
+  DibujarUnaLínea(Este, colorDelCuadrado)
+  DibujarUnaLínea(Sur, colorDelCuadrado)
+  DibujarUnaLínea(Oeste, colorDelCuadrado)
+}
+
+procedure PosicionarseParaDibujarElCuadradoRojo() {
+  IrAlBorde(Oeste)
+  IrAlBorde(Sur)
+}
+
+procedure DibujarUnaLínea(direcciónDeLaLínea, colorDeLaLínea) {
+  repeat(2) {
+    Poner(colorDeLaLínea)
+    Mover(direcciónDeLaLínea)
+  }
+}
+
+procedure PosicionarseParaDibujarElCuadradoNegro() {
+  IrAlBorde(Sur)
+  IrAlBorde(Este)
+  repeat(2) {
+    Mover(Oeste)
+  }
+}
+
+procedure PosicionarseParaDibujarElCuadradoAzul() {
+  IrAlBorde(Norte)
+  IrAlBorde(Este)
+  repeat(2) {
+    Mover(Sur)
+    Mover(Oeste)
+  }
+}
+
+procedure PosicionarseParaDibujarElCuadradoVerde() {
+  IrAlBorde(Oeste)
+  IrAlBorde(Norte)
+  repeat(2) {
+    Mover(Sur)
+  }
+}
+
+
+program {
+  PosicionarseParaDibujarElCuadradoRojo()
+  DibujarUnCuadrado(Rojo)
+  PosicionarseParaDibujarElCuadradoNegro()
+  DibujarUnCuadrado(Negro)
+  PosicionarseParaDibujarElCuadradoVerde()
+  DibujarUnCuadrado(Azul)
+  PosicionarseParaDibujarElCuadradoAzul()
+  DibujarUnCuadrado(Verde)
+}
