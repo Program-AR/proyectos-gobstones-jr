@@ -3,7 +3,7 @@ procedure MoverAlRatónAl_(dir) {
   	if (nroBolitas(Verde)>2) { BOOM("Estoy en la salida") }
  	Sacar(Azul)
  	Mover(dir)
- 	if (hayBolitas(Negro))    { BOOM("Choque contra la pared") }
+ 	if (hayBolitas(Negro))    { BOOM("El ratón chocó contra la pared") }
  	Poner(Azul)
 }
 

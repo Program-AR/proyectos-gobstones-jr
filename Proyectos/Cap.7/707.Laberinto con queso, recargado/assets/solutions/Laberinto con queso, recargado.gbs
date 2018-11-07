@@ -1,5 +1,5 @@
 procedure SalirDelLaberintoComiendoElQueso() {
-  while (not (estoyEnLaSalida())) {
+  while (not (elRatónEstáEnLaSalida())) {
     ComerElQuesoSiHay()
     AvanzarUnPasoSiguiendoLaFlecha()
   }
@@ -31,7 +31,7 @@ procedure ComerElQueso() {
   Sacar(Verde)
 }
 
-function estoyEnLaSalida() {
+function elRatónEstáEnLaSalida() {
   return (nroBolitas(Verde) >= 2)
 }
 

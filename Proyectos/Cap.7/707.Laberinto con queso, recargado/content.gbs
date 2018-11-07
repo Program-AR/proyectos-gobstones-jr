@@ -24,7 +24,7 @@ procedure ComerElQueso() {
   Sacar(Verde)
 }
 
-function estoyEnLaSalida() {
+function elRatónEstáEnLaSalida() {
   return (nroBolitas(Verde) >= 2)
 }
 
