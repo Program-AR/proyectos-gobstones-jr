@@ -284,89 +284,71 @@
   name: "Parámetros, repeticiones condicionales y variables"
   exercises:
     - old:
-        id: "8.1.2.1"
-        name: "Tablero de Ludo, toma 1"
+        id: "701"
+        name: "Cuadrado de colores, toma 1"
       new:
         id: "701"
-        name: "Tablero de Ludo, toma 1"
+        name: "Cuadrados de colores, toma 1"
     - old:
-        id: "8.1.2.2"
-        name: "Tablero de Ludo, toma 2"
+        id: "702"
+        name: "Cuadrado de colores, toma 2"
       new:
         id: "702"
-        name: "Tablero de Ludo, toma 2"
+        name: "Cuadrados de colores, toma 2"
     - old:
-        id: "8.1.4.2"
-        name: "Ludo loco, toma 2"
-      new:
-        id: "703"
-        name: "Ludo loco"
-    - old:
-        id: "8.1.5.2"
-        name: "Dibujar figuras con subtareas, revisado"
-      new:
-        id: "704"
-        name: "Dibujar figuras con subtareas"
-    - old:
-        id: "8.2.1.1"
-        name: "Super Lucho 1"
+        id: "705"
+        name: "Súper Lucho 1"
       new:
         id: "705"
-        name: "Super Lucho 1"
+        name: "Súper Lucho 1"
     - old:
-        id: "8.2.1.2"
-        name: "Super Lucho 2"
+        id: "706"
+        name: "Súper Lucho 2"
       new:
         id: "706"
-        name: "Super Lucho 2"
+        name: "Súper Lucho 2"
     - old:
-        id: "8.2.2"
+        id: "707"
         name: "Laberinto con queso, recargado"
       new:
         id: "707"
         name: "Laberinto con queso, recargado"
     - old:
-        id: "8.2.3"
+        id: "708"
         name: "Más entrenamiento para Beto"
       new:
         id: "708"
-        name: "Más entrenamiento para Beto"
+        name: "Más entrenamiento para el Beto"
     - old:
-        id: "8.2.6"
+        id: "709"
         name: "Dónde puse las llaves"
       new:
         id: "709"
-        name: "¿Dónde puse las llaves?"
+        name: "¿Dónde puse la llave?"
     - old:
-        id: "8.3.1"
+        id: "710"
         name: "Otra vez el cabezal juega a ser mimo"
       new:
         id: "710"
         name: "Otra vez el cabezal juega a ser mimo"
     - old:
-        id: "8.3.2"
-        name: "Super Lucho también cuenta luces"
+        id: "711"
+        name: "Súper Lucho también cuenta luces"
       new:
         id: "711"
-        name: "Super Lucho también cuenta luces"
+        name: "Súper Lucho también cuenta luces"
     - old:
-        id: "8.3.3"
+        id: "712"
         name: "A qué distancia está el borde"
       new:
         id: "712"
-        name: "A qué distancia está el borde"
+        name: "¿A qué distancia están los bordes?"
     - old:
-        id: "8.3.4.2"
+        id: "713"
         name: "Contar las baldosas rajadas"
       new:
         id: "713"
-        name: "Contar las baldosas rajadas"
-    - old:
-        id: "8.4.1"
-        name: "Super Lucho, recargado"
-      new:
-        id: "714"
-        name: "Super Lucho, recargado"
+        name: "Contamos las baldosas"
 - id: "Cap.8"
   name: "Interactividad y proyectos finales"
   exercises:

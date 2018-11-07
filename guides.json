@@ -254,33 +254,23 @@
     "exercises": [
       {
         "id": "701",
-        "name": "Tablero de Ludo, toma 1",
-        "path": "Proyectos/Cap.7/701.Tablero de Ludo, toma 1"
+        "name": "Cuadrados de colores, toma 1",
+        "path": "Proyectos/Cap.7/701.Cuadrados de colores, toma 1"
       },
       {
         "id": "702",
-        "name": "Tablero de Ludo, toma 2",
-        "path": "Proyectos/Cap.7/702.Tablero de Ludo, toma 2"
-      },
-      {
-        "id": "703",
-        "name": "Ludo loco",
-        "path": "Proyectos/Cap.7/703.Ludo loco"
-      },
-      {
-        "id": "704",
-        "name": "Dibujar figuras con subtareas",
-        "path": "Proyectos/Cap.7/704.Dibujar figuras con subtareas"
+        "name": "Cuadrados de colores, toma 2",
+        "path": "Proyectos/Cap.7/702.Cuadrados de colores, toma 2"
       },
       {
         "id": "705",
-        "name": "Super Lucho 1",
-        "path": "Proyectos/Cap.7/705.Super Lucho 1"
+        "name": "Súper Lucho 1",
+        "path": "Proyectos/Cap.7/705.Súper Lucho 1"
       },
       {
         "id": "706",
-        "name": "Super Lucho 2",
-        "path": "Proyectos/Cap.7/706.Super Lucho 2"
+        "name": "Súper Lucho 2",
+        "path": "Proyectos/Cap.7/706.Súper Lucho 2"
       },
       {
         "id": "707",
@@ -289,13 +279,13 @@
       },
       {
         "id": "708",
-        "name": "Más entrenamiento para Beto",
-        "path": "Proyectos/Cap.7/708.Más entrenamiento para Beto"
+        "name": "Más entrenamiento para el Beto",
+        "path": "Proyectos/Cap.7/708.Más entrenamiento para el Beto"
       },
       {
         "id": "709",
-        "name": "¿Dónde puse las llaves?",
-        "path": "Proyectos/Cap.7/709.Dónde puse las llaves"
+        "name": "¿Dónde puse la llave?",
+        "path": "Proyectos/Cap.7/709.Dónde puse la llave"
       },
       {
         "id": "710",
@@ -304,23 +294,18 @@
       },
       {
         "id": "711",
-        "name": "Super Lucho también cuenta luces",
-        "path": "Proyectos/Cap.7/711.Super Lucho también cuenta luces"
+        "name": "Súper Lucho también cuenta luces",
+        "path": "Proyectos/Cap.7/711.Súper Lucho también cuenta luces"
       },
       {
         "id": "712",
-        "name": "A qué distancia está el borde",
-        "path": "Proyectos/Cap.7/712.A qué distancia está el borde"
+        "name": "¿A qué distancia están los bordes?",
+        "path": "Proyectos/Cap.7/712.A qué distancia están los bordes"
       },
       {
         "id": "713",
-        "name": "Contar las baldosas rajadas",
-        "path": "Proyectos/Cap.7/713.Contar las baldosas rajadas"
-      },
-      {
-        "id": "714",
-        "name": "Super Lucho, recargado",
-        "path": "Proyectos/Cap.7/714.Super Lucho, recargado"
+        "name": "Contamos las baldosas",
+        "path": "Proyectos/Cap.7/713.Contamos las baldosas"
       }
     ]
   },

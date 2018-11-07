@@ -1,6 +1,5 @@
-name: Super Lucho 1
 attire:
-  active: Super Lucho
+  active: Super Lucho cuenta
   user_permissions:
     can_toggle_visibility: true
   visible: true
@@ -22,13 +21,14 @@ blocks:
     - RepeticionCondicional
     - AlternativaSimple
     - AlternativaCompleta
+    - Asignacion
     - '-- Expresiones --'
     - Color
     - Direccion
     - Numero
-    - nroBolitas
-    - hayBolitas
     - puedeMover
+    - hayBolitas
+    - nroBolitas
     - OperadorNumerico
     - OperadorDeComparacion
     - OperadorOpuesto
@@ -127,7 +127,6 @@ board:
   user_permissions:
     can_change_source: false
     can_edit_board: false
-    can_view_size_section: false
   visible_edition: true
 execution_speed:
   active: high
@@ -135,3 +134,4 @@ execution_speed:
     can_change_speed: true
 library:
   visible: false
+name: Súper Lucho también cuenta luces

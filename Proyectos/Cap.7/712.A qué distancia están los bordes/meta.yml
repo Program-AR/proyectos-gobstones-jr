@@ -1,10 +1,9 @@
 attire:
-  active: Super Lucho cuenta
+  active: null
   user_permissions:
     can_toggle_visibility: true
-  visible: true
+  visible: false
 blocks:
-  disabled: []
   visible:
     - '-- Biblioteca --'
     - Procedimientos
@@ -38,6 +37,7 @@ blocks:
     - DefinicionDeProcedimientoSimple
     - DefinicionDeProcedimientoParametrizado
     - DefinicionDeFuncionSimple
+    - DefinicionDeFuncionSimpleParametrizada
   defaultToolbox: |
     <category name="-- Biblioteca --" gbs_custom="SEPARATOR">
     </category>
@@ -127,6 +127,8 @@ board:
   user_permissions:
     can_change_source: false
     can_edit_board: false
+    can_view_attire_section: false
+    can_view_size_section: false
   visible_edition: true
 execution_speed:
   active: high
@@ -134,4 +136,4 @@ execution_speed:
     can_change_speed: true
 library:
   visible: false
-name: Super Lucho también cuenta luces
+name: ¿A qué distancia están los bordes?

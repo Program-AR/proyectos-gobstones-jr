@@ -1,9 +1,11 @@
+name: Súper Lucho 2
 attire:
-  active: null
+  active: Super Lucho
   user_permissions:
     can_toggle_visibility: true
-  visible: false
+  visible: true
 blocks:
+  disabled: []
   visible:
     - '-- Biblioteca --'
     - Procedimientos
@@ -20,14 +22,13 @@ blocks:
     - RepeticionCondicional
     - AlternativaSimple
     - AlternativaCompleta
-    - Asignacion
     - '-- Expresiones --'
     - Color
     - Direccion
     - Numero
-    - puedeMover
-    - hayBolitas
     - nroBolitas
+    - hayBolitas
+    - puedeMover
     - OperadorNumerico
     - OperadorDeComparacion
     - OperadorOpuesto
@@ -37,7 +38,6 @@ blocks:
     - DefinicionDeProcedimientoSimple
     - DefinicionDeProcedimientoParametrizado
     - DefinicionDeFuncionSimple
-    - DefinicionDeFuncionSimpleParametrizada
   defaultToolbox: |
     <category name="-- Biblioteca --" gbs_custom="SEPARATOR">
     </category>
@@ -127,7 +127,6 @@ board:
   user_permissions:
     can_change_source: false
     can_edit_board: false
-    can_view_attire_section: false
     can_view_size_section: false
   visible_edition: true
 execution_speed:
@@ -136,4 +135,3 @@ execution_speed:
     can_change_speed: true
 library:
   visible: false
-name: A qué distancia está el borde

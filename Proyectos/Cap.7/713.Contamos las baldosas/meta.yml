@@ -1,6 +1,5 @@
-name: 'Tablero de Ludo, toma 2'
 attire:
-  active: Tablero de Ludo
+  active: Baldosas
   user_permissions:
     can_toggle_visibility: true
   visible: true
@@ -19,15 +18,17 @@ blocks:
     - Sacar
     - IrAlBorde
     - RepeticionSimple
+    - RepeticionCondicional
     - AlternativaSimple
     - AlternativaCompleta
+    - Asignacion
     - '-- Expresiones --'
     - Color
     - Direccion
     - Numero
-    - nroBolitas
-    - hayBolitas
     - puedeMover
+    - hayBolitas
+    - nroBolitas
     - OperadorNumerico
     - OperadorDeComparacion
     - OperadorOpuesto
@@ -37,6 +38,7 @@ blocks:
     - DefinicionDeProcedimientoSimple
     - DefinicionDeProcedimientoParametrizado
     - DefinicionDeFuncionSimple
+    - DefinicionDeFuncionSimpleParametrizada
   defaultToolbox: |
     <category name="-- Biblioteca --" gbs_custom="SEPARATOR">
     </category>
@@ -122,21 +124,16 @@ blocks:
     </category>
 board:
   active: 1
-  initial_board_source: selected
-  visible_edition: true
-  collapse_toolbox: false
+  initial_board_source: random
   user_permissions:
-    can_view_attire_section: true
+    can_change_source: false
     can_edit_board: false
-    can_change_initial_board: false
-    can_change_initial_board_source: false
     can_view_size_section: false
+  visible_edition: true
 execution_speed:
   active: high
   user_permissions:
     can_change_speed: true
-source:
-  visible: true
-  percentage: 0.8
 library:
   visible: false
+name: Contamos las baldosas
