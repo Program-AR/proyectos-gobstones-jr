@@ -1,6 +1,6 @@
 name: Súper Lucho 2
 attire:
-  active: Super Lucho
+  active: Súper Lucho
   user_permissions:
     can_toggle_visibility: true
   visible: true

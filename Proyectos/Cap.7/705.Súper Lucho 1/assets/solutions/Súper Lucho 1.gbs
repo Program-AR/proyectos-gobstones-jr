@@ -1,8 +1,6 @@
 procedure EncenderLaFilaDeLuces() {
   while (not (luchoEstáEnLaMeta())) {
-    if (hayLuzApagada()) {
-      EncenderLuz()
-    }
+    EncenderLaLuz()
     MoverALuchoAlEste()
   }
 }

@@ -1,9 +1,9 @@
 /*@ATTRIBUTE@block_name@Lucho está en la meta@*/
 function luchoEstáEnLaMeta() { return (nroBolitas(Verde) == 1) }
 
-procedure EncenderLuz() {
-  if (not auxHayLuz())      { BOOM("No hay luz en esta celda") }
-  if (auxHayLuzEncendida()) { BOOM("La luz ya está encendida") }
+procedure EncenderLaLuz() {
+  if (not auxHayUnaLuz())      { BOOM("No hay una luz en esta celda") }
+  if (auxHayUnaLuzEncendida()) { BOOM("La luz ya está encendida") }
   Poner(Azul)
 }
 
@@ -16,6 +16,6 @@ procedure MoverALuchoAlEste() {
   Poner(Negro)
 }
 
-function auxHayLuzEncendida() { return (nroBolitas(Azul)  == 2) }
-function auxHayLuz()          { return (nroBolitas(Azul)  >  0) }
-function auxEstáLucho()       { return (nroBolitas(Negro) == 1) }
+function auxHayUnaLuzEncendida() { return (nroBolitas(Azul)  == 2) }
+function auxHayUnaLuz()          { return (nroBolitas(Azul)  >  0) }
+function auxEstáLucho()          { return (nroBolitas(Negro) == 1) }

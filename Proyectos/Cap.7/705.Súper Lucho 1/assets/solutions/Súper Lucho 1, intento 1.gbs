@@ -1,6 +1,6 @@
 procedure EncenderLaFilaDeLuces() {
   repeat(2) {
-    EncenderLuz()
+    EncenderLaLuz()
     MoverALuchoAlEste()
   }
 }
