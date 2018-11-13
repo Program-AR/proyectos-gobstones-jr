@@ -378,3 +378,297 @@ rules:
       blue: 0
       green: 0
       red: 0
+  - image: 01Oscura.png
+    when:
+      black: 1
+      blue: 1
+      green: 0
+      red: 0
+  - image: 02Oscura.png
+    when:
+      black: 2
+      blue: 1
+      green: 0
+      red: 0
+  - image: 03Oscura.png
+    when:
+      black: 3
+      blue: 1
+      green: 0
+      red: 0
+  - image: 04Oscura.png
+    when:
+      black: 4
+      blue: 1
+      green: 0
+      red: 0
+  - image: 05Oscura.png
+    when:
+      black: 5
+      blue: 1
+      green: 0
+      red: 0
+  - image: 06Oscura.png
+    when:
+      black: 6
+      blue: 1
+      green: 0
+      red: 0
+  - image: 07Oscura.png
+    when:
+      black: 7
+      blue: 1
+      green: 0
+      red: 0
+  - image: 08Oscura.png
+    when:
+      black: 8
+      blue: 1
+      green: 0
+      red: 0
+  - image: 09Oscura.png
+    when:
+      black: 9
+      blue: 1
+      green: 0
+      red: 0
+  - image: 10Oscura.png
+    when:
+      black: 10
+      blue: 1
+      green: 0
+      red: 0
+  - image: 11Oscura.png
+    when:
+      black: 11
+      blue: 1
+      green: 0
+      red: 0
+  - image: 12Oscura.png
+    when:
+      black: 12
+      blue: 1
+      green: 0
+      red: 0
+  - image: 13Oscura.png
+    when:
+      black: 13
+      blue: 1
+      green: 0
+      red: 0
+  - image: 14Oscura.png
+    when:
+      black: 14
+      blue: 1
+      green: 0
+      red: 0
+  - image: 15Oscura.png
+    when:
+      black: 15
+      blue: 1
+      green: 0
+      red: 0
+  - image: 16Oscura.png
+    when:
+      black: 16
+      blue: 1
+      green: 0
+      red: 0
+  - image: 17Oscura.png
+    when:
+      black: 17
+      blue: 1
+      green: 0
+      red: 0
+  - image: 18Oscura.png
+    when:
+      black: 18
+      blue: 1
+      green: 0
+      red: 0
+  - image: 19Oscura.png
+    when:
+      black: 19
+      blue: 1
+      green: 0
+      red: 0
+  - image: 20Oscura.png
+    when:
+      black: 20
+      blue: 1
+      green: 0
+      red: 0
+  - image: 21Oscura.png
+    when:
+      black: 21
+      blue: 1
+      green: 0
+      red: 0
+  - image: 22Oscura.png
+    when:
+      black: 22
+      blue: 1
+      green: 0
+      red: 0
+  - image: 23Oscura.png
+    when:
+      black: 23
+      blue: 1
+      green: 0
+      red: 0
+  - image: 24Oscura.png
+    when:
+      black: 24
+      blue: 1
+      green: 0
+      red: 0
+  - image: 25Oscura.png
+    when:
+      black: 25
+      blue: 1
+      green: 0
+      red: 0
+  - image: 26Oscura.png
+    when:
+      black: 26
+      blue: 1
+      green: 0
+      red: 0
+  - image: 27Oscura.png
+    when:
+      black: 27
+      blue: 1
+      green: 0
+      red: 0
+  - image: 28Oscura.png
+    when:
+      black: 28
+      blue: 1
+      green: 0
+      red: 0
+  - image: 29Oscura.png
+    when:
+      black: 29
+      blue: 1
+      green: 0
+      red: 0
+  - image: 30Oscura.png
+    when:
+      black: 30
+      blue: 1
+      green: 0
+      red: 0
+  - image: 31Oscura.png
+    when:
+      black: 31
+      blue: 1
+      green: 0
+      red: 0
+  - image: 32Oscura.png
+    when:
+      black: 32
+      blue: 1
+      green: 0
+      red: 0
+  - image: 33Oscura.png
+    when:
+      black: 33
+      blue: 1
+      green: 0
+      red: 0
+  - image: 34Oscura.png
+    when:
+      black: 34
+      blue: 1
+      green: 0
+      red: 0
+  - image: 35Oscura.png
+    when:
+      black: 35
+      blue: 1
+      green: 0
+      red: 0
+  - image: 36Oscura.png
+    when:
+      black: 36
+      blue: 1
+      green: 0
+      red: 0
+  - image: 37Oscura.png
+    when:
+      black: 37
+      blue: 1
+      green: 0
+      red: 0
+  - image: 38Oscura.png
+    when:
+      black: 38
+      blue: 1
+      green: 0
+      red: 0
+  - image: 39Oscura.png
+    when:
+      black: 39
+      blue: 1
+      green: 0
+      red: 0
+  - image: 40Oscura.png
+    when:
+      black: 40
+      blue: 1
+      green: 0
+      red: 0
+  - image: 41Oscura.png
+    when:
+      black: 41
+      blue: 1
+      green: 0
+      red: 0
+  - image: 42Oscura.png
+    when:
+      black: 42
+      blue: 1
+      green: 0
+      red: 0
+  - image: 43Oscura.png
+    when:
+      black: 43
+      blue: 1
+      green: 0
+      red: 0
+  - image: 44Oscura.png
+    when:
+      black: 44
+      blue: 1
+      green: 0
+      red: 0
+  - image: 45Oscura.png
+    when:
+      black: 45
+      blue: 1
+      green: 0
+      red: 0
+  - image: 46Oscura.png
+    when:
+      black: 46
+      blue: 1
+      green: 0
+      red: 0
+  - image: 47Oscura.png
+    when:
+      black: 47
+      blue: 1
+      green: 0
+      red: 0
+  - image: 48Oscura.png
+    when:
+      black: 48
+      blue: 1
+      green: 0
+      red: 0
+  - image: 49Oscura.png
+    when:
+      black: 49
+      blue: 1
+      green: 0
+      red: 0
