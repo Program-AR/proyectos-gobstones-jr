@@ -6,13 +6,13 @@ attire:
 blocks:
   disabled: []
   visible:
-    - '-- Biblioteca --'
+    - 'Biblioteca'
     - Procedimientos
     - Funciones
-    - '-- Mis operaciones --'
+    - 'Mis operaciones'
     - Mis procedimientos
     - Mis funciones
-    - '-- Comandos --'
+    - 'Comandos'
     - Poner
     - Mover
     - Sacar
@@ -22,7 +22,7 @@ blocks:
     - AlternativaSimple
     - AlternativaCompleta
     - Asignacion
-    - '-- Expresiones --'
+    - 'Expresiones'
     - Color
     - Direccion
     - Numero
@@ -34,7 +34,7 @@ blocks:
     - OperadorOpuesto
     - OperadorLogico
     - OperadorDeNegacion
-    - '-- Definiciones --'
+    - 'Definiciones'
     - DefinicionDeProcedimientoSimple
     - DefinicionDeProcedimientoParametrizado
     - DefinicionDeFuncionSimple
@@ -42,19 +42,19 @@ blocks:
     - DefinicionDeAsociacionDeTeclaEspecial
     - DefinicionDeAsociacionDeTeclaLetra
   defaultToolbox: |
-    <category name="-- Biblioteca --" gbs_custom="SEPARATOR">
+    <category name="Biblioteca" gbs_custom="SEPARATOR">
     </category>
       <category name="Procedimientos" gbs_custom="PRIMITIVE_PROCEDURES">
       </category>
       <category name="Funciones" gbs_custom="PRIMITIVE_FUNCTIONS">
       </category>
-    <category name="-- Mis operaciones --" gbs_custom="SEPARATOR">
+    <category name="Mis operaciones" gbs_custom="SEPARATOR">
     </category>
       <category name="Mis procedimientos" custom="PROCEDURE_CALLS">
       </category>
       <category name="Mis funciones" custom="FUNCTION_CALLS">
       </category>
-    <category name="-- Comandos --" gbs_custom="SEPARATOR">
+    <category name="Comandos" gbs_custom="SEPARATOR">
     </category>
       <category name="Básicos">
         <block type="Poner"></block>
@@ -75,7 +75,7 @@ blocks:
       <category name="Asignación">
         <block type="Asignacion"></block>
       </category>
-    <category name="-- Expresiones --" gbs_custom="SEPARATOR">
+    <category name="Expresiones" gbs_custom="SEPARATOR">
     </category>
       <category name="Valores">
         <block type="ColorSelector"></block>
@@ -97,7 +97,7 @@ blocks:
         <block type="previo"></block>
         <block type="opuesto"></block>
       </category>
-    <category name="-- Definiciones --" gbs_custom="SEPARATOR">
+    <category name="Definiciones" gbs_custom="SEPARATOR">
     </category>
       <category name="Def. de procedimientos">
         <block type="procedures_defnoreturnnoparams"></block>
@@ -113,7 +113,7 @@ blocks:
         <block type="InteractiveNumberBinding"></block>
         <block type="InteractiveKeyBinding"></block>
       </category>
-    <category name="-- Auxiliares del docente --" gbs_custom="SEPARATOR">
+    <category name="Auxiliares del docente" gbs_custom="SEPARATOR">
     </category>
       <category name="Programas">
         <block type="Program"></block>
