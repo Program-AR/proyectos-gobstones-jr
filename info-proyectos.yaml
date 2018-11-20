@@ -78,16 +78,16 @@
         name: "Dos cuadrados"
     - old:
         id: "303"
-        name: "El alien toca el botón"
+        name: "El alienígena toca el botón"
       new:
         id: "303"
-        name: "El alien toca el botón"
+        name: "El alienígena toca el botón"
     - old:
         id: "303b"
-        name: "Armamos 'El alien toca el botón'"
+        name: "Armamos 'El alienígena toca el botón'"
       new:
         id: "303b"
-        name: "Armamos 'El alien toca el botón'"
+        name: "Armamos 'El alienígena toca el botón'"
     - old:
         id: "304"
         name: "Preparando el fútbol de robots"

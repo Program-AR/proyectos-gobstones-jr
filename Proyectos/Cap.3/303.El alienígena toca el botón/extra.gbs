@@ -1,0 +1,12 @@
+/*@ATTRIBUTE@block_name@Mover al alienígena al Este@*/
+procedure MoverAlAlienígenaAlEste() {
+  if (not hayBolitas(Verde)) { BOOM("No estoy sobre el alienígena") }
+  Sacar(Verde) 
+  Mover(Este)
+  Poner(Verde)
+}
+
+procedure TocarElBotón() { 
+  if (not hayBolitas(Rojo)) { BOOM("No estoy en el botón") }
+  Sacar(Rojo) 
+}

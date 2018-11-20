@@ -1,8 +1,9 @@
+name: Armamos 'El alienígenaígena toca el botón'
 attire:
-  active: El alien toca el botón
+  active: El alienígena toca el botón
   user_permissions:
-    can_toggle_visibility: false
-  visible: true
+    can_toggle_visibility: true
+  visible: false
 blocks:
   defaultToolbox: |
     <category name="Biblioteca" gbs_custom="SEPARATOR">
@@ -89,8 +90,6 @@ blocks:
     </category>
   disabled: []
   visible:
-    - Biblioteca
-    - Procedimientos
     - Mis operaciones
     - Mis procedimientos
     - Comandos
@@ -106,15 +105,17 @@ blocks:
 board:
   active: 1
   initial_board_source: selected
+  visible_edition: true
+  collapse_toolbox: false
   user_permissions:
-    can_change_source: false
+    can_view_attire_section: true
     can_edit_board: false
-    can_view_attire_section: false
-  visible_edition: false
+    can_change_initial_board: false
+    can_change_initial_board_source: false
+    can_view_size_section: false
 execution_speed:
   active: high
   user_permissions:
     can_change_speed: true
 library:
   visible: false
-name: El alien toca el botón

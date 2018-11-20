@@ -1,4 +1,4 @@
-name: El alien toca botón
+name: El alienígena toca el botón
 rules:
   - image: Fondo.png
     when:
