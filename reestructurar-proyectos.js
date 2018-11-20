@@ -141,6 +141,17 @@ function checkStructure(infoExercise) {
 
 }
 
+// Allows only updating some projects. The ids of the projects to update
+// should be provided as command line arguments. By default, every project
+// is updated
+let projectFilter;
+if (process.argv.length > 2) {
+    projectFilter = exercise => process.argv.indexOf(exercise.old.id) > 1;
+}
+else {
+    projectFilter = exercise => true;
+}
+
 // Load info-proyectos.yaml
 const infoAllRaw = fs.readFileSync("info-proyectos.yaml");
 const infoAll = yaml.load(infoAllRaw);
@@ -153,7 +164,7 @@ const guides = JSON.parse(guidesRaw);
 const toolbox = fs.readFileSync("toolbox.xml").toString();
 
 infoAll.forEach(infoCap => {
-    infoCap.exercises.forEach(infoExercise => {
+    infoCap.exercises.filter(projectFilter).forEach(infoExercise => {
         infoExercise.infoCap = infoCap;
         console.log(`Exercise ${infoExercise.new.id}: ${infoExercise.new.name}`);
         generatePaths(infoExercise);
