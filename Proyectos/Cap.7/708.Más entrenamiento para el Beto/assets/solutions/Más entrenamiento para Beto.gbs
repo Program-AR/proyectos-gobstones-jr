@@ -20,10 +20,10 @@ procedure PatearLaPelota() {
 procedure PatearYVolverAlBordeOeste() {
   MoverAlBetoHastaLaPelota()
   PatearLaPelota()
-  VolverAlBetoAlBordeOeste()
+  RegresarAlBetoAlBordeOeste()
 }
 
-procedure VolverAlBetoAlBordeOeste() {
+procedure RegresarAlBetoAlBordeOeste() {
   while (not (not(puedeMover(Oeste)))) {
     MoverAlBeto(Oeste)
   }
