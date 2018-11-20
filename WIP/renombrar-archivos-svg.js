@@ -8,7 +8,7 @@ const infoAll = yaml.load(infoAllRaw);
 let filenames = fs.readdirSync(".").filter(filename => filename.endsWith(".svg"));
 
 filenames.forEach(filename => {
-    let filenameParts = filename.match(/^(\d\d\d)(-.*)/);
+    let filenameParts = filename.match(/^(\d\d\db?)(-.*)/);
     if (filenameParts) {
         let projectNumber = filenameParts[1];
         let projectName = infoAll

@@ -219,10 +219,10 @@
         name: "Agregamos pelotas, ¿o no?"
     - old:
         id: "412"
-        name: "Mi elección es clara"
+        name: "La luz está prendida vs. hay bolitas: mi elección es clara"
       new:
         id: "412"
-        name: "Bombita y tomateros"
+        name: "La luz está prendida vs. hay bolitas: mi elección es clara"
     - old:
         id: "413"
         name: "Y también…"

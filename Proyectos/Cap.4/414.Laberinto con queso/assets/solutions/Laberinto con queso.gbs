@@ -29,10 +29,6 @@ procedure AvanzarUnPasoSiguiendoLaFlecha() {
 }
 
 procedure ComerElQueso() {
-  SacarElQueso()
-}
-
-procedure SacarElQueso() {
   Sacar(Verde)
 }
 

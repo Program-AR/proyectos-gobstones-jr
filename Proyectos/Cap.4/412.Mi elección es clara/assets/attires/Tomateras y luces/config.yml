@@ -1,4 +1,4 @@
-name: Bombita y tomateros
+name: Tomateras y luces
 rules:
   - image: ParcelaVacia.png
     when:

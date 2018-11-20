@@ -6,7 +6,7 @@ procedure SalirDelLaberintoComiendoElQueso() {
 }
 
 procedure ComerElQuesoSiHay() {
-  ...
+  BOOM("El programa todavía no está completo")
 }
 
 procedure AvanzarUnPasoSiguiendoLaFlecha() {
@@ -14,25 +14,21 @@ procedure AvanzarUnPasoSiguiendoLaFlecha() {
     SacarLaFlecha()
     MoverAlRatónAl_(Norte)
   } elseif (laFlechaApuntaAlEste()) {
-    ...
-  } elseif (...) {
-    ...
-  } elseif (...) {
-    ...
+    BOOM("El programa todavía no está completo")
+  } elseif (boom("El programa todavía no está completo")) {
+    BOOM("El programa todavía no está completo")
+  } elseif (boom("El programa todavía no está completo")) {
+    BOOM("El programa todavía no está completo")
   } else {
   }
 }
 
 procedure ComerElQueso() {
-  SacarElQueso()
-}
-
-procedure SacarElQueso() {
   Sacar(Verde)
 }
 
 function hayQueso() {
-  return (...)
+  return (boom("El programa todavía no está completo"))
 }
 
 function laFlechaApuntaAlNorte() {
@@ -40,15 +36,15 @@ function laFlechaApuntaAlNorte() {
 }
 
 function laFlechaApuntaAlEste() {
-  return (...)
+  return (boom("El programa todavía no está completo"))
 }
 
 function laFlechaApuntaAlSur() {
-  return (...)
+  return (boom("El programa todavía no está completo"))
 }
 
 function laFlechaApuntaAlOeste() {
-  return (...)
+  return (boom("El programa todavía no está completo"))
 }
 
 
