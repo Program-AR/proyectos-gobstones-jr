@@ -8,7 +8,7 @@ procedure EncenderLaLuz() {
   Poner(Azul)
 }
 
-/*@ATTRIBUTE@block_name@Mover a Lucho al Este@*/
+/*@ATTRIBUTE@block_name@Mover a Lucho al este@*/
 procedure MoverALuchoAlEste() {
   if (not auxEstáLucho()) { BOOM("Lucho no está en esta celda")   }
   if (luchoEstáEnLaMeta())     { BOOM("Lucho está fuera del panel de luces") }
