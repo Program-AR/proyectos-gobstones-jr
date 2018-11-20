@@ -6,10 +6,10 @@ attire:
 blocks:
   disabled: []
   visible:
-    - 'Mis operaciones'
+    - Mis operaciones
     - Mis procedimientos
     - Mis funciones
-    - 'Comandos'
+    - Comandos
     - Poner
     - Mover
     - Sacar
@@ -17,7 +17,7 @@ blocks:
     - RepeticionSimple
     - AlternativaSimple
     - AlternativaCompleta
-    - 'Expresiones'
+    - Expresiones
     - Color
     - Direccion
     - Numero
@@ -29,7 +29,7 @@ blocks:
     - OperadorOpuesto
     - OperadorLogico
     - OperadorDeNegacion
-    - 'Definiciones'
+    - Definiciones
     - DefinicionDeProcedimientoSimple
     - DefinicionDeFuncionSimple
   defaultToolbox: |

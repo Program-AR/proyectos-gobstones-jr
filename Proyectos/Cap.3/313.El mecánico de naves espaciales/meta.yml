@@ -6,21 +6,21 @@ attire:
 blocks:
   disabled: []
   visible:
-    - 'Biblioteca'
+    - Biblioteca
     - Procedimientos
-    - 'Mis operaciones'
+    - Mis operaciones
     - Mis procedimientos
-    - 'Comandos'
+    - Comandos
     - Poner
     - Mover
     - Sacar
     - IrAlBorde
     - RepeticionSimple
-    - 'Expresiones'
+    - Expresiones
     - Color
     - Direccion
     - Numero
-    - 'Definiciones'
+    - Definiciones
     - DefinicionDeProcedimientoSimple
   defaultToolbox: |
     <category name="Biblioteca" gbs_custom="SEPARATOR">

@@ -5,13 +5,13 @@ attire:
   visible: false
 blocks:
   visible:
-    - 'Biblioteca'
+    - Biblioteca
     - Procedimientos
     - Funciones
-    - 'Mis operaciones'
+    - Mis operaciones
     - Mis procedimientos
     - Mis funciones
-    - 'Comandos'
+    - Comandos
     - Poner
     - Mover
     - Sacar
@@ -21,7 +21,7 @@ blocks:
     - AlternativaSimple
     - AlternativaCompleta
     - Asignacion
-    - 'Expresiones'
+    - Expresiones
     - Color
     - Direccion
     - Numero
@@ -33,7 +33,7 @@ blocks:
     - OperadorOpuesto
     - OperadorLogico
     - OperadorDeNegacion
-    - 'Definiciones'
+    - Definiciones
     - DefinicionDeProcedimientoSimple
     - DefinicionDeProcedimientoParametrizado
     - DefinicionDeFuncionSimple

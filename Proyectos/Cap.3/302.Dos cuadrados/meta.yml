@@ -89,17 +89,17 @@ blocks:
     </category>
   disabled: []
   visible:
-    - 'Mis operaciones'
+    - Mis operaciones
     - Mis procedimientos
-    - 'Comandos'
+    - Comandos
     - Poner
     - Mover
     - Sacar
     - IrAlBorde
-    - 'Expresiones'
+    - Expresiones
     - Color
     - Direccion
-    - 'Definiciones'
+    - Definiciones
     - DefinicionDeProcedimientoSimple
 board:
   active: 1

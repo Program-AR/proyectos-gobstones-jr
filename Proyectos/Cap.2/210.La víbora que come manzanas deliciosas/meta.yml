@@ -90,12 +90,12 @@ blocks:
     </category>
   disabled: []
   visible:
-    - 'Comandos'
+    - Comandos
     - Poner
     - Mover
     - Sacar
     - IrAlBorde
-    - 'Expresiones'
+    - Expresiones
     - Color
     - Direccion
 board:

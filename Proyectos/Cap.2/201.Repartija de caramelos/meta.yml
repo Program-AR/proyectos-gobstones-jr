@@ -90,7 +90,7 @@ blocks:
     </category>
   disabled: []
   visible:
-    - 'Biblioteca'
+    - Biblioteca
     - Procedimientos
 board:
   active: 1

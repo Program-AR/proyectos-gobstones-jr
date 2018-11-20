@@ -7,13 +7,13 @@ attire:
 blocks:
   disabled: []
   visible:
-    - 'Biblioteca'
+    - Biblioteca
     - Procedimientos
     - Funciones
-    - 'Mis operaciones'
+    - Mis operaciones
     - Mis procedimientos
     - Mis funciones
-    - 'Comandos'
+    - Comandos
     - Poner
     - Mover
     - Sacar
@@ -22,7 +22,7 @@ blocks:
     - RepeticionCondicional
     - AlternativaSimple
     - AlternativaCompleta
-    - 'Expresiones'
+    - Expresiones
     - Color
     - Direccion
     - Numero
@@ -34,7 +34,7 @@ blocks:
     - OperadorOpuesto
     - OperadorLogico
     - OperadorDeNegacion
-    - 'Definiciones'
+    - Definiciones
     - DefinicionDeProcedimientoSimple
     - DefinicionDeProcedimientoParametrizado
     - DefinicionDeFuncionSimple

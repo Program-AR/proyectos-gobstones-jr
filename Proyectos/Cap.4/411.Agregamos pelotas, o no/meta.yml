@@ -7,12 +7,12 @@ attire:
 blocks:
   disabled: []
   visible:
-    - 'Biblioteca'
+    - Biblioteca
     - Procedimientos
     - Funciones
-    - 'Mis operaciones'
+    - Mis operaciones
     - Mis procedimientos
-    - 'Comandos'
+    - Comandos
     - Poner
     - Mover
     - Sacar
@@ -20,7 +20,7 @@ blocks:
     - RepeticionSimple
     - AlternativaSimple
     - AlternativaCompleta
-    - 'Expresiones'
+    - Expresiones
     - Color
     - Direccion
     - Numero
@@ -31,7 +31,7 @@ blocks:
     - OperadorDeComparacion
     - OperadorOpuesto
     - OperadorDeNegacion
-    - 'Definiciones'
+    - Definiciones
     - DefinicionDeProcedimientoSimple
   defaultToolbox: |
     <category name="Biblioteca" gbs_custom="SEPARATOR">

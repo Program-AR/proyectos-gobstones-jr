@@ -14,49 +14,49 @@
         id: "202"
         name: "¿Caramelos, tomates o bolitas?"
     - old:
-        id: "2.2.1"
+        id: "203"
         name: "Bolitas de colores"
       new:
         id: "203"
         name: "Bolitas de colores"
     - old:
-        id: "2.2.2.1"
+        id: "204"
         name: "Víbora de bolitas, horizontal"
       new:
         id: "204"
         name: "La víbora esperando una presa"
     - old:
-        id: "2.2.2.2"
+        id: "205"
         name: "Víbora de bolitas, vertical"
       new:
         id: "205"
         name: "La víbora, a punto de atacar"
     - old:
-        id: "2.2.2.3"
+        id: "206"
         name: "Una víbora más inquieta"
       new:
         id: "206"
         name: "La víbora al ataque"
     - old:
-        id: "2.2.3.1"
+        id: "207"
         name: "Vaciar la celda"
       new:
         id: "207"
         name: "La celda vacía"
     - old:
-        id: "2.2.3.2"
+        id: "208"
         name: "Limpiar la cruz roja"
       new:
         id: "208"
         name: "La cruz roja"
     - old:
-        id: "2.3.1.1"
+        id: "209"
         name: "Marcando las puntas"
       new:
         id: "209"
         name: "¡Al rincón!"
     - old:
-        id: "2.4.1"
+        id: "210"
         name: "Snake básico"
       new:
         id: "210"
@@ -65,85 +65,85 @@
   name: "Procedimientos y repeticiones simples"
   exercises:
     - old:
-        id: "3.1.1.1"
+        id: "301"
         name: "Programo el cuadrado"
       new:
         id: "301"
         name: "Un cuadrado"
     - old:
-        id: "3.1.1.2"
+        id: "302"
         name: "Programo el cuadrado, programo el cuadrado"
       new:
         id: "302"
         name: "Dos cuadrados"
     - old:
-        id: "3.2.1.2"
-        name: "Armamos 'El alien toca botón'"
-      new:
-        id: "303b"
-        name: "Armamos 'El alien toca el botón'"
-    - old:
-        id: "3.2.1"
-        name: "El alien toca botón"
+        id: "303"
+        name: "El alien toca el botón"
       new:
         id: "303"
         name: "El alien toca el botón"
     - old:
-        id: "3.2.2.1"
+        id: "303b"
+        name: "Armamos 'El alien toca el botón'"
+      new:
+        id: "303b"
+        name: "Armamos 'El alien toca el botón'"
+    - old:
+        id: "304"
         name: "Preparando el fútbol de robots"
       new:
         id: "304"
         name: "Beto, el robot goleador"
     - old:
-        id: "3.2.2.2"
+        id: "305"
         name: "Preparando el fútbol de robots, sin procedimientos"
       new:
         id: "305"
         name: "Beto, el robot goleador, sin procedimientos"
     - old:
-        id: "3.2.3"
+        id: "306"
         name: "La gran aventura del mar encantado"
       new:
         id: "306"
         name: "La gran aventura del mar encantado"
     - old:
-        id: "3.2.4"
+        id: "307"
         name: "Lucho enciende las luces"
       new:
         id: "307"
         name: "Lucho enciende las luces"
     - old:
-        id: "3.3.1.1"
+        id: "308"
         name: "Poner muchas bolitas se vuelve incómodo"
       new:
         id: "308"
         name: "Muchas bolitas rojas"
     - old:
-        id: "3.3.2"
+        id: "309"
         name: "El final del pasillo"
       new:
         id: "309"
         name: "El final del pasillo"
     - old:
-        id: "3.3.3"
+        id: "310"
         name: "Siga la flecha"
       new:
         id: "310"
         name: "Siga la flecha"
     - old:
-        id: "3.3.4"
+        id: "311"
         name: "Candela, me quemo"
       new:
         id: "311"
         name: "Candela, me quemo"
     - old:
-        id: "3.3.5"
+        id: "312"
         name: "Entrenamiento para fútbol de robots"
       new:
         id: "312"
         name: "El entrenamiento del robot goleador"
     - old:
-        id: "3.4.1"
+        id: "313"
         name: "Reparando la nave"
       new:
         id: "313"
@@ -152,91 +152,91 @@
   name: "Datos, alternativas condicionales y funciones"
   exercises:
     - old:
-        id: "4.1.1.3"
+        id: "401"
         name: "Y por qué hace BOOM"
       new:
         id: "401"
         name: "Por qué falla"
     - old:
-        id: "4.1.2.1"
+        id: "402"
         name: "El cabezal juega a ser mimo"
       new:
         id: "402"
         name: "El cabezal juega a ser mimo"
     - old:
-        id: "4.1.2.2"
+        id: "403"
         name: "El mimo que suma"
       new:
         id: "403"
         name: "El mimo que suma"
     - old:
-        id: "4.1.2.3"
+        id: "404"
         name: "Super mimo multiplica"
       new:
         id: "404"
         name: "Super mimo multiplica"
     - old:
-        id: "4.1.3.1"
+        id: "405"
         name: "Escapar de la jaula"
       new:
         id: "405"
         name: "Escapar de la jaula"
     - old:
-        id: "4.1.3.2"
+        id: "406"
         name: "La flecha enloqueció"
       new:
         id: "406"
         name: "La flecha enloqueció"
     - old:
-        id: "4.1.4"
+        id: "407"
         name: "Laberinto"
       new:
         id: "407"
         name: "Laberinto"
     - old:
-        id: "4.2.1"
+        id: "408"
         name: "Apagar la luz, o prenderla"
       new:
         id: "408"
         name: "Apagar la luz, o prenderla"
     - old:
-        id: "4.2.2"
+        id: "409"
         name: "No me quiero caer"
       new:
         id: "409"
         name: "No me quiero caer"
     - old:
-        id: "4.2.3"
+        id: "410"
         name: "Siempre el mejor"
       new:
         id: "410"
         name: "Que gane el mejor"
     - old:
-        id: "4.2.4"
+        id: "411"
         name: "No, no y no"
       new:
         id: "411"
         name: "Agregamos pelotas, ¿o no?"
     - old:
-        id: "4.3.1.1"
+        id: "412"
         name: "Mi elección es clara"
       new:
         id: "412"
         name: "Bombita y tomateros"
     - old:
-        id: "4.3.1.2"
+        id: "413"
         name: "Y también…"
       new:
         id: "413"
         name: "Y también…"
     - old:
-        id: "4.3.2"
+        id: "414"
         name: "Laberinto con queso"
       new:
         id: "414"
         name: "Laberinto con queso"
     - old:
-        id: "4.4.1"
+        id: "415"
         name: "Lucho recargado"
       new:
         id: "415"
@@ -245,37 +245,37 @@
   name: "Representación de la información"
   exercises:
     - old:
-        id: "5.3.1"
-        name: "Pintando la camiseta de colores"
+        id: "501"
+        name: "Pintamos la camiseta de colores"
       new:
         id: "501"
         name: "Pintamos la camiseta de colores"
     - old:
-        id: "5.3.2"
-        name: "Dibujando en escalas de grises"
+        id: "502"
+        name: "Dibujamos en escalas de grises"
       new:
         id: "502"
         name: "Dibujamos en escalas de grises"
     - old:
-        id: "5.3.3"
+        id: "503"
         name: "Compresión de imágenes"
       new:
         id: "503"
         name: "Compresión de imágenes"
     - old:
-        id: "5.4.1"
+        id: "504"
         name: "Representando caracteres"
       new:
         id: "504"
         name: "Representamos caracteres"
     - old:
-        id: "5.4.2"
+        id: "505"
         name: "Mensajes secretos"
       new:
         id: "505"
         name: "Mensajes secretos"
     - old:
-        id: "5.5.1"
+        id: "506"
         name: "Texto en colores"
       new:
         id: "506"
@@ -347,43 +347,49 @@
         id: "713"
         name: "Contamos las baldosas"
       new:
+        id: "713"
+        name: "Contamos las baldosas"
+    - old:
+        id: "713b"
+        name: "Contamos baldosas rajadas"
+      new:
         id: "713b"
         name: "Contamos baldosas rajadas"
 - id: "Cap.8"
   name: "Interactividad y proyectos finales"
   exercises:
     - old:
-        id: "9.1.1.1"
+        id: "801"
         name: "Al cabezal lo muevo yo"
       new:
         id: "801"
         name: "Al cabezal lo muevo yo"
     - old:
-        id: "9.1.1.2"
+        id: "802"
         name: "Editor de tableros"
       new:
         id: "802"
         name: "Editor de tableros"
     - old:
-        id: "9.1.3"
+        id: "803"
         name: "Editor de textos simple"
       new:
         id: "803"
         name: "Editor de textos simple"
     - old:
-        id: "9.2.1"
+        id: "804"
         name: "Definición por penal"
       new:
         id: "804"
         name: "Definición por penal"
     - old:
-        id: "9.2.2"
+        id: "805"
         name: "Snake"
       new:
         id: "805"
         name: "Snake"
     - old:
-        id: "9.2.3"
+        id: "806"
         name: "Pacman"
       new:
         id: "806"
