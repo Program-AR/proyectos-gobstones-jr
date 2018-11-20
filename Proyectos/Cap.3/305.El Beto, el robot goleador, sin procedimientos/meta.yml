@@ -115,4 +115,4 @@ execution_speed:
     can_change_speed: true
 library:
   visible: false
-name: 'Beto, el robot goleador, sin procedimientos'
+name: 'El Beto, el robot goleador, sin procedimientos'

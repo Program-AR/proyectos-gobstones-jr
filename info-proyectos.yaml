@@ -90,16 +90,16 @@
         name: "Armamos 'El alienígena toca el botón'"
     - old:
         id: "304"
-        name: "Preparando el fútbol de robots"
+        name: "El Beto, el robot goleador"
       new:
         id: "304"
-        name: "Beto, el robot goleador"
+        name: "El Beto, el robot goleador"
     - old:
         id: "305"
-        name: "Preparando el fútbol de robots, sin procedimientos"
+        name: "El Beto, el robot goleador, sin procedimientos"
       new:
         id: "305"
-        name: "Beto, el robot goleador, sin procedimientos"
+        name: "El Beto, el robot goleador, sin procedimientos"
     - old:
         id: "306"
         name: "La gran aventura del mar encantado"
