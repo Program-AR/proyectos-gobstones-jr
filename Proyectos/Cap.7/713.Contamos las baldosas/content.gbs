@@ -1,9 +1,9 @@
 procedure InformarLaCantidadDeBaldosas() {
-  BOOM("El programa todavía no está completo")
+  ...
 }
 
 function cantidadDeBaldosas() {
-  BOOM("El programa todavía no está completo")
+  ...
   return (boom("El programa todavía no está completo"))
 }
 
