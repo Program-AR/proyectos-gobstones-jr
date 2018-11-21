@@ -285,13 +285,13 @@
   exercises:
     - old:
         id: "701"
-        name: "Cuadrado de colores, toma 1"
+        name: "Cuadrados de colores"
       new:
         id: "701"
-        name: "Cuadrados de colores, toma 1"
+        name: "Cuadrados de colores"
     - old:
         id: "702"
-        name: "Cuadrado de colores, toma 2"
+        name: "Cuadrados de colores, toma 2"
       new:
         id: "702"
         name: "Cuadrados de colores, toma 2"

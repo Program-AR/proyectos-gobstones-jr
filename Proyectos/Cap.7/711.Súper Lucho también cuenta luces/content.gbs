@@ -21,7 +21,7 @@ procedure MoverALuchoAl(direcciónAMover) {
   Poner(Negro)
 }
 
-function luchoEstéEnLaMeta() {
+function luchoEstáEnLaMeta() {
   return (nroBolitas(Verde) == 2)
 }
 

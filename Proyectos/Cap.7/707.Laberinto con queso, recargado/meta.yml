@@ -6,6 +6,9 @@ attire:
 blocks:
   disabled: []
   visible:
+    - Biblioteca
+    - Procedimientos
+    - Funciones
     - Mis operaciones
     - Mis procedimientos
     - Mis funciones

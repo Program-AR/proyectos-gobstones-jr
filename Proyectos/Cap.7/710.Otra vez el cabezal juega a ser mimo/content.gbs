@@ -1,5 +1,8 @@
-﻿program { ImitarAzulesConRojasPeroEnElEste() }
-
 procedure ImitarAzulesConRojasPeroEnElEste() {
-  ...
+  BOOM("El programa todavía no está completo")
+}
+
+
+program {
+  ImitarAzulesConRojasPeroEnElEste()
 }

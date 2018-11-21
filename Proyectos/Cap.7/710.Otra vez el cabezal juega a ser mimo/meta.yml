@@ -38,6 +38,7 @@ blocks:
     - DefinicionDeProcedimientoSimple
     - DefinicionDeProcedimientoParametrizado
     - DefinicionDeFuncionSimple
+    - ComandoCompletar
   defaultToolbox: |
     <category name="Biblioteca" gbs_custom="SEPARATOR">
     </category>
