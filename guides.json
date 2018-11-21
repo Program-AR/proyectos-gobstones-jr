@@ -315,7 +315,7 @@
     ]
   },
   {
-    "name": "Interactividad y proyectos finales",
+    "name": "Interactividad",
     "repo": "program-ar/proyectos-gobstones-jr",
     "exercises": [
       {
@@ -327,11 +327,6 @@
         "id": "802",
         "name": "Editor de tableros",
         "path": "Proyectos/Cap.8/802.Editor de tableros"
-      },
-      {
-        "id": "890",
-        "name": "Pidiendo empanadas",
-        "path": "Proyectos/Cap.8/890.Pidiendo empanadas"
       },
       {
         "id": "803",
@@ -347,11 +342,6 @@
         "id": "805",
         "name": "Snake",
         "path": "Proyectos/Cap.8/805.Snake"
-      },
-      {
-        "id": "806",
-        "name": "Pacman",
-        "path": "Proyectos/Cap.8/806.Pacman"
       }
     ]
   }

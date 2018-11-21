@@ -356,7 +356,7 @@
         id: "713b"
         name: "Contamos baldosas rajadas"
 - id: "Cap.8"
-  name: "Interactividad y proyectos finales"
+  name: "Interactividad"
   exercises:
     - old:
         id: "801"
@@ -388,9 +388,3 @@
       new:
         id: "805"
         name: "Snake"
-    - old:
-        id: "806"
-        name: "Pacman"
-      new:
-        id: "806"
-        name: "Pacman"
