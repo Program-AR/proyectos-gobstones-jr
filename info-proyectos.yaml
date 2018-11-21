@@ -359,12 +359,6 @@
   name: "Interactividad"
   exercises:
     - old:
-        id: "801"
-        name: "Al cabezal lo muevo yo"
-      new:
-        id: "801"
-        name: "Al cabezal lo muevo yo"
-    - old:
         id: "802"
         name: "Editor de tableros"
       new:

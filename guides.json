@@ -319,11 +319,6 @@
     "repo": "program-ar/proyectos-gobstones-jr",
     "exercises": [
       {
-        "id": "801",
-        "name": "Al cabezal lo muevo yo",
-        "path": "Proyectos/Cap.8/801.Al cabezal lo muevo yo"
-      },
-      {
         "id": "802",
         "name": "Editor de tableros",
         "path": "Proyectos/Cap.8/802.Editor de tableros"
