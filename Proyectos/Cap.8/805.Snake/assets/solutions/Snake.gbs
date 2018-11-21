@@ -1,78 +1,16 @@
-procedure AlargarLaCabezaAl(dirección) {
-  ExtenderElTroncoAl(dirección)
-  if (puedeMover(dirección)) {
-    Mover(dirección)
-  } else {
-    ...
-  }
-  if (not(hayVíbora())) {
-    PonerLaCabezaMirandoAl(dirección)
-  } else {
-    BOOM("La víbora chocó consigo misma")
-  }
-}
-
-procedure ExtenderElTroncoAl(dirección) {
-  CodificarSegmento(dirección, códigoDeAnterior())
-}
-
-procedure PonerLaCabezaMirandoAl(dirección) {
-  CodificarSegmento(opuesto(dirección), códigoDePosterior())
-}
-
-procedure CodificarSegmento(direcciónACodificar, color) {
-  if (hayBolitas(color)) {
-    BOOM("No puedo codificar un segmento aquí porque ya hay uno")
-  }
-  if (direcciónACodificar == Norte) {
-    Poner__Veces(color, 1)
-  }
-  if (direcciónACodificar == Este) {
-    Poner__Veces(color, 2)
-  }
-  if (direcciónACodificar == Sur) {
-    Poner__Veces(color, 3)
-  }
-  if (direcciónACodificar == Oeste) {
-    Poner__Veces(color, 4)
-  }
-}
-
-function direcciónCodificada(color) {
-  if (nroBolitas(color) == 0) {
-    BOOM("No hay un segmento en esta posición")
-  }
-  if (nroBolitas(color) > 4) {
-    BOOM("No estoy en un tablero válido")
-  }
-  if (nroBolitas(color) == 1) {
-    valorARetornar := Norte
-  }
-  if (nroBolitas(color) == 2) {
-    valorARetornar := Este
-  }
-  if (nroBolitas(color) == 3) {
-    valorARetornar := Sur
-  }
-  if (nroBolitas(color) == 4) {
-    valorARetornar := Oeste
-  }
-  return (valorARetornar)
-}
-
-procedure AcortarLaVíbora() {
-  IrDeLaCabezaALaCola()
-  AcortarLaCola()
-  IrDeLaColaALaCabeza()
-}
-
 procedure MoverLaVíboraAl(dirección) {
-  AlargarLaCabezaAl(dirección)
-  if (hayManzana()) {
-    SacarManzana()
+  AvanzarLaCabezaAl_(dirección)
+  if (hayUnaManzana()) {
+    SacarLaManzana()
   } else {
-    AcortarLaVíbora()
+    AvanzarLaColaDeLaVíbora()
   }
+}
+
+procedure AvanzarLaColaDeLaVíbora() {
+  IrDeLaCabezaALaCola()
+  AvanzarLaCola()
+  IrDeLaColaALaCabeza()
 }
 
 procedure IrDeLaCabezaALaCola() {
@@ -81,94 +19,71 @@ procedure IrDeLaCabezaALaCola() {
   }
 }
 
+procedure SacarLaManzana() {
+  Sacar(Rojo)
+}
+
+procedure AvanzarLaCola() {
+  direcciónParaVolver := direcciónDelSegmentoAnterior()
+  SacarTodasLasBolitasDeColor_(Negro)
+  Mover(direcciónParaVolver)
+  SacarTodasLasBolitasDeColor_(Verde)
+}
+
 procedure IrDeLaColaALaCabeza() {
   while (not (hayCabeza())) {
     Mover(direcciónDelSegmentoAnterior())
   }
 }
 
-procedure MoverLaVíbora() {
-  MoverLaVíboraAl(direcciónDelÚltimoMovimiento())
+function hayUnaManzana() {
+  return (nroBolitas(Rojo) == 1)
 }
 
-procedure AcortarLaCola() {
-  direcciónSiguiente := direcciónDelSegmentoAnterior()
-  SacarTodas_(códigoDeAnterior())
-  Mover(direcciónSiguiente)
-  SacarTodas_(códigoDePosterior())
-}
-
-procedure SacarManzana() {
-  Sacar(códigoDeManzana())
-}
-
-function hayManzana() {
-  return (nroBolitas(códigoDeManzana()) == 1)
-}
-
-function códigoDeManzana() {
-  return (Rojo)
-}
-
-function direcciónDelÚltimoMovimiento() {
-  return (opuesto(direcciónDelSegmentoPosterior()))
-}
-
-function códigoDeAnterior() {
-  return (Negro)
-}
-
-function hayVíbora() {
-  return (hayBolitas(códigoDeAnterior()) || hayBolitas(códigoDePosterior()))
-}
-
-function códigoDePosterior() {
-  return (Verde)
-}
-
-function direcciónDelSegmentoPosterior() {
-  if (nroBolitas(códigoDePosterior()) == 0) {
-    BOOM("La cola no tiene posterior")
+function direcciónCodificada(color) {
+  if (nroBolitas(color) == 1) {
+    dirección := Norte
+  } elseif (nroBolitas(color) == 2) {
+    dirección := Este
+  } elseif (nroBolitas(color) == 3) {
+    dirección := Sur
+  } else {
+    dirección := Oeste
   }
-  if (nroBolitas(códigoDePosterior()) > 4) {
-    BOOM("No estoy en un tablero válido")
-  }
-  return (direcciónCodificada(códigoDePosterior()))
-}
-
-function hayCola() {
-  return (hayBolitas(códigoDeAnterior()) && not(hayBolitas(códigoDePosterior())))
+  return (dirección)
 }
 
 function hayCabeza() {
-  return (not(hayBolitas(códigoDeAnterior())) && hayBolitas(códigoDePosterior()))
+  return (not(hayBolitas(Negro)) && hayBolitas(Verde))
+}
+
+function hayCola() {
+  return (hayBolitas(Negro) && not(hayBolitas(Verde)))
 }
 
 function direcciónDelSegmentoAnterior() {
-  if (nroBolitas(códigoDeAnterior()) == 0) {
-    BOOM("La cabeza no tiene anterior")
-  }
-  if (nroBolitas(códigoDeAnterior()) > 4) {
-    BOOM("No estoy en un tablero válido")
-  }
-  return (direcciónCodificada(códigoDeAnterior()))
+  return (direcciónCodificada(Negro))
+}
+
+function direcciónDelSegmentoPosterior() {
+  return (direcciónCodificada(Verde))
 }
 
 
 interactive program {
-  K_ARROW_LEFT -> {
+  K_LEFT -> {
     MoverLaVíboraAl(Oeste)
   }
-  K_ARROW_RIGHT -> {
+  K_RIGHT -> {
     MoverLaVíboraAl(Este)
   }
-  K_ARROW_UP -> {
+  K_UP -> {
     MoverLaVíboraAl(Norte)
   }
-  K_ARROW_DOWN -> {
+  K_DOWN -> {
     MoverLaVíboraAl(Sur)
   }
   TIMEOUT(500) -> {
-  MoverLaVíbora()
+  MoverLaVíboraAl(direcciónDelÚltimoMovimiento())
   }
 }

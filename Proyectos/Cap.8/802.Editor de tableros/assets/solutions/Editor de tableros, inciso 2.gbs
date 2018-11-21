@@ -1,36 +1,36 @@
 interactive program {
-  K_ARROW_LEFT -> {
+  K_LEFT -> {
     Mover(Oeste)
   }
-  K_ARROW_RIGHT -> {
+  K_RIGHT -> {
     Mover(Este)
   }
-  K_ARROW_UP -> {
+  K_UP -> {
     Mover(Norte)
   }
-  K_ARROW_DOWN -> {
+  K_DOWN -> {
     Mover(Sur)
   }
   K_A -> {
     Poner(Azul)
   }
-  K_N -> {
-    Poner(Negro)
-  }
-  K_R -> {
-    Poner(Rojo)
-  }
-  K_V -> {
-    Poner(Verde)
-  }
   K_SHIFT_A -> {
     Sacar(Azul)
+  }
+  K_N -> {
+    Poner(Negro)
   }
   K_SHIFT_N -> {
     Sacar(Negro)
   }
+  K_R -> {
+    Poner(Rojo)
+  }
   K_SHIFT_R -> {
     Sacar(Rojo)
+  }
+  K_V -> {
+    Poner(Verde)
   }
   K_SHIFT_V -> {
     Sacar(Verde)

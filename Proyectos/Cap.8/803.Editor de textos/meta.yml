@@ -41,7 +41,6 @@ blocks:
     - DefinicionDeFuncionSimpleParametrizada
     - DefinicionDeAsociacionDeTeclaEspecial
     - DefinicionDeAsociacionDeTeclaLetra
-    - DefinicionDeAsociacionDeTeclaNumero
   defaultToolbox: |
     <category name="Biblioteca" gbs_custom="SEPARATOR">
     </category>
@@ -139,4 +138,4 @@ execution_speed:
     can_change_speed: false
 library:
   visible: false
-name: Editor de textos simple
+name: Editor de textos

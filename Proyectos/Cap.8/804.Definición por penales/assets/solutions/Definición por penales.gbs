@@ -1,0 +1,91 @@
+procedure EstablecerDirecciónParaAtajar(dirección) {
+  Poner_BolitasDeColor_(dirección, Verde)
+}
+
+function izquierda() {
+  return (1)
+}
+
+function centro() {
+  return (2)
+}
+
+procedure EstablecerDirecciónParaPatear(dirección) {
+  Poner_BolitasDeColor_(dirección, Azul)
+}
+
+function derecha() {
+  return (3)
+}
+
+function laAcciónDelArqueroYaEstáDefinida() {
+  return (nroBolitas(Verde) > 0)
+}
+
+procedure EjecutarElPenal() {
+  if (laAcciónDelArqueroYaEstáDefinida() && laAcciónDelJugadorYaEstáDefinida()) {
+    MoverAlArquero()
+    MoverLaPelota()
+  }
+}
+
+function laAcciónDelJugadorYaEstáDefinida() {
+  return (nroBolitas(Azul) > 0)
+}
+
+procedure MoverAlArquero() {
+  SacarAlArquero()
+  MoverElCabezalSegúnLaOpciónElegida(nroBolitas(Verde))
+  PonerAlArquero()
+  VolverAlInicio()
+}
+
+procedure MoverLaPelota() {
+  SacarLaPelota()
+  MoverElCabezalSegúnLaOpciónElegida(nroBolitas(Azul))
+  PonerLaPelota()
+  VolverAlInicio()
+}
+
+procedure VolverAlInicio() {
+  IrAlBorde(Oeste)
+  IrAlBorde(Sur)
+  Mover(Este)
+}
+
+procedure MoverElCabezalSegúnLaOpciónElegida(opción) {
+  if (opción == izquierda()) {
+    Mover(Oeste)
+  }
+  if (opción == derecha()) {
+    Mover(Este)
+  }
+}
+
+
+interactive program {
+  K_Q -> {
+    EstablecerDirecciónParaAtajar(izquierda())
+  }
+  K_W -> {
+    EstablecerDirecciónParaAtajar(centro())
+  }
+  K_E -> {
+    EstablecerDirecciónParaAtajar(derecha())
+  }
+  K_I -> {
+    EstablecerDirecciónParaPatear(izquierda())
+  }
+  K_O -> {
+    EstablecerDirecciónParaPatear(centro())
+  }
+  K_P -> {
+    EstablecerDirecciónParaPatear(derecha())
+  }
+  K_RETURN -> {
+    ResetearElJuego()
+  }
+  K_SPACE -> {
+    EjecutarElPenal()
+  }
+}

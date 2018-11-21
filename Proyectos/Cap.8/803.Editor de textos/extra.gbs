@@ -1,0 +1,11 @@
+procedure SacarTodasLasBolitasNegras() {
+  AuxSacar_BolitasNegras(nroBolitas(Negro))
+}
+
+procedure Poner_BolitasNegras(n) {
+  repeat(n) { Poner(Negro) }
+}
+
+procedure AuxSacar_BolitasNegras(n) {
+  repeat(n) { Sacar(Negro) }
+}

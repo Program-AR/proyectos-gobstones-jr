@@ -1,11 +1,80 @@
-procedure SacarTodas_(color) {
-  Sacar__Veces(color, nroBolitas(color))
+procedure SacarTodasLasBolitasDeColor_(color) {
+  AuxSacar_BolitasDeColor_(nroBolitas(color),color)
 }
 
-procedure Poner__Veces(color, n) {
+procedure AuxSacar_BolitasDeColor_(n,color) {
+  repeat(n) { Sacar(color) }
+}
+
+procedure AuxPoner_BolitasDeColor_(n,color) {
   repeat(n) { Poner(color) }
 }
 
-procedure Sacar__Veces(color, n) {
-  repeat(n) { Sacar(color) }
+procedure AvanzarLaCabezaAl_(dirección) {
+  AuxExtenderElTroncoAl(dirección)
+  if (puedeMover(dirección)) {
+    Mover(dirección)
+  }
+  else {
+    BOOM("La víbora se cayó del tablero")
+  }
+  if (not(auxHayVíbora())) {
+    AuxPonerLaCabezaMirandoAl(dirección)
+  }
+  else {
+    BOOM("La víbora chocó consigo misma")
+  }
+}
+
+function auxHayVíbora() {
+  return (hayBolitas(Negro) || hayBolitas(Verde))
+}
+
+procedure AuxExtenderElTroncoAl(dirección) {
+  AuxCodificarSegmento(dirección,Negro)
+}
+
+procedure AuxPonerLaCabezaMirandoAl(dirección) {
+  AuxCodificarSegmento(opuesto(dirección),Verde)
+}
+
+procedure AuxCodificarSegmento(direcciónACodificar, color) {
+  if (hayBolitas(color)) {
+    BOOM("No puedo codificar un segmento aquí porque ya hay uno")
+  }
+  else {
+    if (direcciónACodificar == Norte) {
+      AuxPoner_BolitasDeColor_(1, color)
+    }
+    if (direcciónACodificar == Este) {
+      AuxPoner_BolitasDeColor_(2, color)
+    }
+    if (direcciónACodificar == Sur) {
+      AuxPoner_BolitasDeColor_(3, color)
+    }
+    if (direcciónACodificar == Oeste) {
+      AuxPoner_BolitasDeColor_(4, color)
+    }
+  }
+}
+
+function direcciónDelÚltimoMovimiento() {
+  return (opuesto(auxDirecciónDelSegmentoPosterior()))
+}
+
+function auxDirecciónDelSegmentoPosterior() {
+  return (auxDirecciónCodificadaCon(Verde))
+}
+
+function auxDirecciónCodificadaCon(color) {
+  if (nroBolitas(color) == 1) {
+    dirección := Norte
+  } elseif (nroBolitas(color) == 2) {
+    dirección := Este
+  } elseif (nroBolitas(color) == 3) {
+    dirección := Sur
+  } else {
+    dirección := Oeste
+  }
+  return (dirección)
 }

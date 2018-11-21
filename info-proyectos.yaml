@@ -366,16 +366,16 @@
         name: "Editor de tableros"
     - old:
         id: "803"
-        name: "Editor de textos simple"
+        name: "Editor de textos"
       new:
         id: "803"
-        name: "Editor de textos simple"
+        name: "Editor de textos"
     - old:
         id: "804"
-        name: "Definición por penal"
+        name: "Definición por penales"
       new:
         id: "804"
-        name: "Definición por penal"
+        name: "Definición por penales"
     - old:
         id: "805"
         name: "Snake"

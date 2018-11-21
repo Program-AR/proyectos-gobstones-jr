@@ -1,8 +1,8 @@
-procedure PonerCarácter(códigoDeCarácterAPoner) {
+procedure PonerElCarácter(códigoDelCarácter) {
   ...
 }
 
-procedure AvanzarCursor() {
+procedure AvanzarElCursor() {
   ...
 }
 
@@ -10,7 +10,7 @@ procedure NuevaLínea() {
   ...
 }
 
-procedure LimpiarCelda() {
+procedure LimpiarLaCelda() {
   ...
 }
 
@@ -111,109 +111,109 @@ function códigoDeLetraU() {
 }
 
 function códigoDeLetraV() {
-  return (...)
+  return (boom("El programa todavía no está completo"))
 }
 
 function códigoDeLetraW() {
-  return (...)
+  return (boom("El programa todavía no está completo"))
 }
 
 function códigoDeLetraX() {
-  return (...)
+  return (boom("El programa todavía no está completo"))
 }
 
 function códigoDeLetraY() {
-  return (...)
+  return (boom("El programa todavía no está completo"))
 }
 
 function códigoDeLetraZ() {
-  return (...)
+  return (boom("El programa todavía no está completo"))
 }
 
 
 interactive program {
-  K_ARROW_LEFT -> {
+  K_LEFT -> {
     MoverSiSePuede(Oeste)
   }
-  K_ARROW_RIGHT -> {
+  K_RIGHT -> {
     MoverSiSePuede(Este)
   }
-  K_ARROW_UP -> {
+  K_UP -> {
     MoverSiSePuede(Norte)
   }
-  K_ARROW_DOWN -> {
+  K_DOWN -> {
     MoverSiSePuede(Sur)
   }
-  K_ENTER -> {
+  K_RETURN -> {
     NuevaLínea()
   }
   K_SPACE -> {
-    PonerCarácter(códigoDeEspacio())
+    PonerElCarácter(códigoDeEspacio())
   }
   K_A -> {
-    PonerCarácter(códigoDeLetraA())
+    PonerElCarácter(códigoDeLetraA())
   }
   K_B -> {
-    PonerCarácter(códigoDeLetraB())
+    PonerElCarácter(códigoDeLetraB())
   }
   K_C -> {
-    PonerCarácter(códigoDeLetraC())
+    PonerElCarácter(códigoDeLetraC())
   }
   K_D -> {
-    PonerCarácter(códigoDeLetraD())
+    PonerElCarácter(códigoDeLetraD())
   }
   K_E -> {
-    PonerCarácter(códigoDeLetraE())
+    PonerElCarácter(códigoDeLetraE())
   }
   K_F -> {
-    PonerCarácter(códigoDeLetraF())
+    PonerElCarácter(códigoDeLetraF())
   }
   K_G -> {
-    PonerCarácter(códigoDeLetraG())
+    PonerElCarácter(códigoDeLetraG())
   }
   K_H -> {
-    PonerCarácter(códigoDeLetraH())
+    PonerElCarácter(códigoDeLetraH())
   }
   K_I -> {
-    PonerCarácter(códigoDeLetraI())
+    PonerElCarácter(códigoDeLetraI())
   }
   K_J -> {
-    PonerCarácter(códigoDeLetraJ())
+    PonerElCarácter(códigoDeLetraJ())
   }
   K_K -> {
-    PonerCarácter(códigoDeLetraK())
+    PonerElCarácter(códigoDeLetraK())
   }
   K_L -> {
-    PonerCarácter(códigoDeLetraL())
+    PonerElCarácter(códigoDeLetraL())
   }
   K_M -> {
-    PonerCarácter(códigoDeLetraM())
+    PonerElCarácter(códigoDeLetraM())
   }
   K_N -> {
-    PonerCarácter(códigoDeLetraN())
+    PonerElCarácter(códigoDeLetraN())
   }
   K_Ñ -> {
-    PonerCarácter(códigoDeLetraÑ())
+    PonerElCarácter(códigoDeLetraÑ())
   }
   K_O -> {
-    PonerCarácter(códigoDeLetraO())
+    PonerElCarácter(códigoDeLetraO())
   }
   K_P -> {
-    PonerCarácter(códigoDeLetraP())
+    PonerElCarácter(códigoDeLetraP())
   }
   K_Q -> {
-    PonerCarácter(códigoDeLetraQ())
+    PonerElCarácter(códigoDeLetraQ())
   }
   K_R -> {
-    PonerCarácter(códigoDeLetraR())
+    PonerElCarácter(códigoDeLetraR())
   }
   K_S -> {
-    PonerCarácter(códigoDeLetraS())
+    PonerElCarácter(códigoDeLetraS())
   }
   K_T -> {
-    PonerCarácter(códigoDeLetraT())
+    PonerElCarácter(códigoDeLetraT())
   }
   K_U -> {
-    PonerCarácter(códigoDeLetraU())
+    PonerElCarácter(códigoDeLetraU())
   }
 }

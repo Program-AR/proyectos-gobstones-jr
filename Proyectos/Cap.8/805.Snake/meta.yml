@@ -42,7 +42,6 @@ blocks:
     - DefinicionDeFuncionSimpleParametrizada
     - DefinicionDeAsociacionDeTeclaEspecial
     - DefinicionDeAsociacionDeTeclaLetra
-    - DefinicionDeAsociacionDeTeclaNumero
   defaultToolbox: |
     <category name="Biblioteca" gbs_custom="SEPARATOR">
     </category>

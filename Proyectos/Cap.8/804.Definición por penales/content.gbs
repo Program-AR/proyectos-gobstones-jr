@@ -1,0 +1,37 @@
+procedure EstablecerDirecciónParaAtajar(dirección) {
+  ...
+}
+
+function izquierda() {
+  return (1)
+}
+
+function centro() {
+  return (boom("El programa todavía no está completo"))
+}
+
+procedure EstablecerDirecciónParaPatear(dirección) {
+  ...
+}
+
+function laAcciónDelArqueroYaEstáDefinida() {
+  return (nroBolitas(Verde) > 0)
+}
+
+function laAcciónDelJugadorYaEstáDefinida() {
+  return (boom("El programa todavía no está completo"))
+}
+
+procedure VolverAlInicio() {
+  IrAlBorde(Oeste)
+  IrAlBorde(Sur)
+  Mover(Este)
+}
+
+procedure MoverElCabezalSegúnLaOpciónElegida(opción) {
+  ...
+}
+
+
+interactive program {
+}

@@ -1,0 +1,45 @@
+procedure Poner_BolitasDeColor_(n,color) {
+  repeat(n) { Poner(color) }
+}
+
+procedure ResetearElJuego() {
+  VaciarTablero()
+  IrAlBorde(Oeste)
+  IrAlBorde(Norte)
+  Poner_BolitasDeColor_(1,Rojo)
+  Mover(Este)
+  Poner_BolitasDeColor_(2,Rojo)
+  Poner_BolitasDeColor_(2,Negro)
+  Mover(Este)
+  Poner_BolitasDeColor_(3,Rojo)
+  Mover(Sur)
+  Mover(Oeste)
+  Poner_BolitasDeColor_(4,Rojo)
+  Poner_BolitasDeColor_(1,Negro)
+}
+
+procedure SacarAlArquero() {
+  Mover(Norte)
+  AuxSacarTodas_(Negro)
+  Mover(Sur)
+}
+
+procedure PonerAlArquero() {
+  Mover(Norte)
+  Poner_BolitasDeColor_(2,Negro)
+  Mover(Sur)
+}
+
+procedure SacarLaPelota() {
+  AuxSacarTodas_(Negro)
+}
+
+procedure PonerLaPelota() {
+  Mover(Norte)
+  Poner_BolitasDeColor_(1,Negro)
+  Mover(Sur)
+}
+
+procedure AuxSacarTodas_(c) { 
+   repeat (nroBolitas(c)) { Sacar(c) } 
+}
