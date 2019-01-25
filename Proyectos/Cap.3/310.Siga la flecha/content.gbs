@@ -19,5 +19,5 @@ procedure DibujarLaFlecha() {
 
 
 program {
-  DibujarLaFlecha()
+
 }
