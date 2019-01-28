@@ -27,34 +27,6 @@ procedure AvanzarUnPasoSiguiendoLaFlecha() {
   }
 }
 
-procedure ComerElQueso() {
-  Sacar(Verde)
-}
-
-function elRatónEstáEnLaSalida() {
-  return (nroBolitas(Verde) >= 2)
-}
-
-function hayQueso() {
-  return (nroBolitas(Verde) == 1)
-}
-
-function laFlechaApuntaAlNorte() {
-  return (nroBolitas(Rojo) == 1)
-}
-
-function laFlechaApuntaAlEste() {
-  return (nroBolitas(Rojo) == 2)
-}
-
-function laFlechaApuntaAlSur() {
-  return (nroBolitas(Rojo) == 3)
-}
-
-function laFlechaApuntaAlOeste() {
-  return (nroBolitas(Rojo) == 4)
-}
-
 
 program {
   SalirDelLaberintoComiendoElQueso()
