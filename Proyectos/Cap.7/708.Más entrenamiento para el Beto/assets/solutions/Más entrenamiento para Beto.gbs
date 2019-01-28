@@ -1,20 +1,9 @@
 procedure EntrenarAlBeto() {
   repeat(4) {
     PatearYVolverAlBordeOeste()
-    MoverAlBeto(Norte)
+    MoverAlBetoAl_(Norte)
   }
   PatearYVolverAlBordeOeste()
-}
-
-procedure MoverAlBetoHastaLaPelota() {
-  while (not (llegueALaPelota())) {
-    MoverAlBeto(Este)
-  }
-}
-
-procedure PatearLaPelota() {
-  MoverElPieDelBeto()
-  MoverLaPelotaYVolverABeto()
 }
 
 procedure PatearYVolverAlBordeOeste() {
@@ -23,64 +12,35 @@ procedure PatearYVolverAlBordeOeste() {
   RegresarAlBetoAlBordeOeste()
 }
 
+procedure MoverAlBetoHastaLaPelota() {
+  while (not (lleguéALaPelota())) {
+    MoverAlBetoAl_(Este)
+  }
+}
+
 procedure RegresarAlBetoAlBordeOeste() {
   while (not (not(puedeMover(Oeste)))) {
-    MoverAlBeto(Oeste)
+    MoverAlBetoAl_(Oeste)
   }
 }
 
 procedure MoverLaPelotaYVolverABeto() {
-  while (not (llegueAlArco())) {
-    MoverLaPelota(Este)
+  while (not (lleguéAlArco())) {
+    MoverLaPelotaAl_(Este)
   }
-  while (not (llegueAlBeto())) {
+  while (not (lleguéAlBeto())) {
     Mover(Oeste)
   }
 }
 
-function llegueAlBeto() {
-  return (nroBolitas(Azul) == 1)
-}
-
-procedure MoverAlBeto(direcciónDelBeto) {
-  SacarAlBeto()
-  Mover(direcciónDelBeto)
-  PonerAlBeto()
-}
-
-function llegueAlArco() {
-  return (nroBolitas(Rojo) == 1)
-}
-
-function llegueALaPelota() {
-  return (nroBolitas(Negro) == 1)
-}
-
-procedure PonerAlBeto() {
-  Poner(Azul)
-}
-
-procedure MoverLaPelota(direcciónDeLaPelota) {
-  SacarLaPelota()
-  Mover(direcciónDeLaPelota)
-  PonerLaPelota()
-}
-
-procedure SacarAlBeto() {
-  Sacar(Azul)
+procedure PatearLaPelota() {
+  MoverElPieDelBeto()
+  MoverLaPelotaYVolverABeto()
 }
 
 procedure MoverElPieDelBeto() {
   Poner(Azul)
   Sacar(Azul)
-}
-
-procedure PonerLaPelota() {
-  Poner(Negro)
-}
-
-procedure SacarLaPelota() {
-  Sacar(Negro)
 }
 
 

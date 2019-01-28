@@ -1,0 +1,43 @@
+procedure Aux_SacarLaPelota() {
+  if (not hayBolitas(Negro)) {BOOM("Acá no está la pelota")}
+  Sacar(Negro)
+}
+
+procedure Aux_SacarAlBeto() {
+  if (not hayBolitas(Azul)) {BOOM("Acá no está el Beto")}
+  Sacar(Azul)
+}
+
+procedure Aux_PonerLaPelota() {
+  Poner(Negro)
+}
+
+procedure Aux_PonerAlBeto() {
+  Poner(Azul)
+}
+
+function lleguéAlArco() {
+  return (nroBolitas(Rojo) == 1)
+}
+
+function lleguéALaPelota() {
+  return (nroBolitas(Negro) == 1)
+}
+
+/*@ATTRIBUTE@block_name@llegué al Beto@*/
+function lleguéAlBeto() {
+  return (nroBolitas(Azul) == 1)
+}
+
+/*@ATTRIBUTE@block_name@Mover al Beto al_@*/
+procedure MoverAlBetoAl_(direcciónDelBeto) {
+  Aux_SacarAlBeto()
+  Mover(direcciónDelBeto)
+  Aux_PonerAlBeto()
+}
+
+procedure MoverLaPelotaAl_(direcciónDeLaPelota) {
+  Aux_SacarLaPelota()
+  Mover(direcciónDeLaPelota)
+  Aux_PonerLaPelota()
+}
