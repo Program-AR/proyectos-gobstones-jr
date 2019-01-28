@@ -2,28 +2,14 @@ procedure EncenderLaFilaDeLucesYContarlas() {
   cantidadDeLucesQueYaPrendí := 0
   while (not (luchoEstáEnLaMeta())) {
     cantidadDeLucesQueYaPrendí := cantidadDeLucesQueYaPrendí + 1
-    EncenderLuz()
-    MoverALucho(Este)
+    EncenderLaLuz()
+    MoverALuchoAl(Este)
   }
-  InformarLucesPrendidas(cantidadDeLucesQueYaPrendí)
+  InformarLaCantidadDeLucesPrendidas(cantidadDeLucesQueYaPrendí)
 }
 
-procedure InformarLucesPrendidas(cantidadDeLucesAInformar) {
+procedure InformarLaCantidadDeLucesPrendidas(cantidadDeLucesAInformar) {
   Poner_BolitasRojas(cantidadDeLucesAInformar)
-}
-
-procedure EncenderLaLuz() {
-  Poner(Azul)
-}
-
-procedure MoverALuchoAl(direcciónAMover) {
-  Sacar(Negro)
-  Mover(direcciónAMover)
-  Poner(Negro)
-}
-
-function luchoEstáEnLaMeta() {
-  return (nroBolitas(Verde) == 2)
 }
 
 

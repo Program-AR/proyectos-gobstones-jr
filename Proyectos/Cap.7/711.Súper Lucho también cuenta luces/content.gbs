@@ -1,28 +1,14 @@
 procedure EncenderLaFilaDeLucesYContarlas() {
-  cantidadDeLucesQueYaPrendí := ...
-  while (not (...)) {
+  cantidadDeLucesQueYaPrendí := boom("El programa todavía no está completo")
+  while (not (luchoEstáEnLaMeta())) {
     cantidadDeLucesQueYaPrendí := cantidadDeLucesQueYaPrendí + 1
-    ...
+    BOOM("El programa todavía no está completo")
   }
-  InformarLucesPrendidas(...)
+  InformarLaCantidadDeLucesPrendidas(boom("El programa todavía no está completo"))
 }
 
-procedure InformarLucesPrendidas(cantidadDeLucesAInformar) {
-  ...
-}
-
-procedure EncenderLaLuz() {
-  Poner(Azul)
-}
-
-procedure MoverALuchoAl(direcciónAMover) {
-  Sacar(Negro)
-  Mover(direcciónAMover)
-  Poner(Negro)
-}
-
-function luchoEstáEnLaMeta() {
-  return (nroBolitas(Verde) == 2)
+procedure InformarLaCantidadDeLucesPrendidas(cantidadDeLucesAInformar) {
+  BOOM("El programa todavía no está completo")
 }
 
 

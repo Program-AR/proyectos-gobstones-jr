@@ -1,1 +1,18 @@
 procedure Poner_BolitasRojas(cantidad) { repeat (cantidad) { Poner(Rojo) } }
+
+procedure EncenderLaLuz() {
+  Poner(Azul)
+}
+
+/*@ATTRIBUTE@block_name@Mover a Lucho al_@*/
+procedure MoverALuchoAl(direcciónAMover) {
+  if (nroBolitas(Negro) /= 1) {BOOM("Lucho no está en esta celda.")}
+  Sacar(Negro)
+  Mover(direcciónAMover)
+  Poner(Negro)
+}
+
+/*@ATTRIBUTE@block_name@Lucho está en la meta@*/
+function luchoEstáEnLaMeta() {
+  return (nroBolitas(Verde) == 2)
+}
