@@ -58,6 +58,7 @@ procedure AuxCodificarSegmento(direcciónACodificar, color) {
   }
 }
 
+/*@ATTRIBUTE@block_name@dirección del último movimiento@*/
 function direcciónDelÚltimoMovimiento() {
   return (opuesto(auxDirecciónDelSegmentoPosterior()))
 }
