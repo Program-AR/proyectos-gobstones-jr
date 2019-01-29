@@ -34,6 +34,11 @@ procedure Volver() {
   }
 }
 
+procedure MoverElPieDelBeto() {
+  Poner(Azul)
+  Sacar(Azul)
+}
+
 
 program {
   EntrenarAlBeto()

@@ -1,4 +1,4 @@
-﻿/*@ATTRIBUTE@block_name@Mover al Beto al _@*/
+/*@ATTRIBUTE@block_name@Mover al Beto al _@*/
 procedure MoverAlBetoAl_(dir) {
   if (not hayBolitas(Azul)) { BOOM("No está Beto en esta celda") }
   if (dir==Norte && puedeMover(Oeste)) { BOOM("Solo puedo pasar a la próxima fila si puedo tomar carrera") }
@@ -7,9 +7,6 @@ procedure MoverAlBetoAl_(dir) {
   Mover(dir)
   Poner(Azul)
 }
-
-/*@ATTRIBUTE@block_name@Mover el pie del Beto@*/
-procedure MoverElPieDelBeto() { Sacar(Azul) Poner(Azul) }
 
 procedure MoverLaPelotaAl_(dir) {
   Sacar(Negro)
