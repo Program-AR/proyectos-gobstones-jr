@@ -4,7 +4,7 @@ procedure MoverAlAlienígenaAlEste() {
   Poner(Verde)
 }
 
-procedure TocarBotón() {
+procedure TocarElBotón() {
   Sacar(Rojo)
 }
 
@@ -13,5 +13,5 @@ program {
   MoverAlAlienígenaAlEste()
   MoverAlAlienígenaAlEste()
   MoverAlAlienígenaAlEste()
-  TocarBotón()
+  TocarElBotón()
 }
