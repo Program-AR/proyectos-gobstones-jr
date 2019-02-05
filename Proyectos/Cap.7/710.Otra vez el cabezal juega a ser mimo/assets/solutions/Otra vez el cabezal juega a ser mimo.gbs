@@ -1,7 +1,7 @@
 procedure ImitarAzulesConRojasPeroEnElEste() {
   cantidadDeBolitasAzules := nroBolitas(Azul)
   Mover(Este)
-  Poner__Veces(Rojo, cantidadDeBolitasAzules)
+  Poner_BolitasRojas(cantidadDeBolitasAzules)
 }
 
 
