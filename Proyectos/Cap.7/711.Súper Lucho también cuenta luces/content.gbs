@@ -1,7 +1,7 @@
 procedure EncenderLaFilaDeLucesYContarlas() {
-  EncenderLaLuz()
   cantidadDeLucesQueYaPrendí := boom("El programa todavía no está completo")
   while (not (boom("El programa todavía no está completo"))) {
+    EncenderLaLuz()
     cantidadDeLucesQueYaPrendí := cantidadDeLucesQueYaPrendí + 1
     BOOM("El programa todavía no está completo")
   }
