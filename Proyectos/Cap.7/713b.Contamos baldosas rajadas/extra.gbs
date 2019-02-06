@@ -1,1 +1,5 @@
 procedure Poner_BolitasNegras(cantidad) { repeat(cantidad) { Poner(Negro) } }
+
+function esUnaBaldosaRajada() {
+  return (hayBolitas(Verde))
+}

@@ -16,10 +16,6 @@ procedure PasarALaSiguienteBaldosa() {
   }
 }
 
-function esUnaBaldosaRajada() {
-  return (hayBolitas(Verde))
-}
-
 function esLaÚltimaBaldosa() {
   return (not(puedeMover(Este)) && not(puedeMover(Norte)))
 }
