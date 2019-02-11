@@ -1,6 +1,6 @@
 procedure DibujarLaVíbora() {
   repeat(10) {
-    DibujarSegmentoDeLaVíboraYAvanzar()
+    DibujarUnSegmentoDeLaVíboraYAvanzar()
   }
 }
 
@@ -16,7 +16,7 @@ procedure Avanzar() {
   }
 }
 
-procedure DibujarSegmentoDeLaVíboraYAvanzar() {
+procedure DibujarUnSegmentoDeLaVíboraYAvanzar() {
   DibujarUnSegmentoDeLaVíbora()
   Avanzar()
 }
