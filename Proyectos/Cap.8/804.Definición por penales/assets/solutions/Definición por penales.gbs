@@ -33,11 +33,29 @@ function laAcciónDelJugadorYaEstáDefinida() {
   return (nroBolitas(Azul) > 0)
 }
 
+procedure VolverAlInicio() {
+  IrAlBorde(Oeste)
+  IrAlBorde(Sur)
+  Mover(Este)
+}
+
 procedure MoverAlArquero() {
   SacarAlArquero()
   MoverElCabezalSegúnLaOpciónElegida(nroBolitas(Verde))
   PonerAlArquero()
   VolverAlInicio()
+}
+
+procedure PonerAlArquero() {
+  Mover(Norte)
+  Poner_BolitasDeColor_(2, Negro)
+  Mover(Sur)
+}
+
+procedure SacarAlArquero() {
+  Mover(Norte)
+  SacarTodas_(Negro)
+  Mover(Sur)
 }
 
 procedure MoverLaPelota() {
@@ -47,10 +65,14 @@ procedure MoverLaPelota() {
   VolverAlInicio()
 }
 
-procedure VolverAlInicio() {
-  IrAlBorde(Oeste)
-  IrAlBorde(Sur)
-  Mover(Este)
+procedure PonerLaPelota() {
+  Mover(Norte)
+  Poner_BolitasDeColor_(1, Negro)
+  Mover(Sur)
+}
+
+procedure SacarLaPelota() {
+  SacarTodas_(Negro)
 }
 
 procedure MoverElCabezalSegúnLaOpciónElegida(opción) {
