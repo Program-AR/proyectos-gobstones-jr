@@ -39,6 +39,7 @@ blocks:
     - DefinicionDeProcedimientoParametrizado
     - DefinicionDeFuncionSimple
     - DefinicionDeFuncionSimpleParametrizada
+    - DefinicionDeFuncionParametrizada
     - DefinicionDeAsociacionDeTeclaEspecial
     - DefinicionDeAsociacionDeTeclaLetra
   defaultToolbox: |
