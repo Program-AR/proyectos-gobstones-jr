@@ -1,4 +1,4 @@
-procedure CompletarLaFilaDePelotas() {
+procedure CompletarLaColumnaDePelotas() {
   repeat(4) {
     AgregarUnaPelotaSiHaceFalta()
     Mover(Sur)
@@ -14,5 +14,5 @@ procedure AgregarUnaPelotaSiHaceFalta() {
 
 
 program {
-  CompletarLaFilaDePelotas()
+  CompletarLaColumnaDePelotas()
 }
