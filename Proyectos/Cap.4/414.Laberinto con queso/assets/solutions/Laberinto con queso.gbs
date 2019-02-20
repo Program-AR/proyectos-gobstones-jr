@@ -1,13 +1,13 @@
-procedure SalirDelLaberintoComiendoElQueso() {
+procedure SalirDelLaberintoComiendoQueso() {
   repeat(20) {
-    ComerElQuesoSiHay()
+    ComerQuesoSiHay()
     AvanzarUnPasoSiguiendoLaFlecha()
   }
 }
 
-procedure ComerElQuesoSiHay() {
+procedure ComerQuesoSiHay() {
   if (hayQueso()) {
-    ComerElQueso()
+    ComerQueso()
   }
 }
 
@@ -28,7 +28,7 @@ procedure AvanzarUnPasoSiguiendoLaFlecha() {
   }
 }
 
-procedure ComerElQueso() {
+procedure ComerQueso() {
   Sacar(Verde)
 }
 
@@ -54,5 +54,5 @@ function laFlechaApuntaAlOeste() {
 
 
 program {
-  SalirDelLaberintoComiendoElQueso()
+  SalirDelLaberintoComiendoQueso()
 }
