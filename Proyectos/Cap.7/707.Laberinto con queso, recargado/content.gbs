@@ -1,8 +1,8 @@
-procedure SalirDelLaberintoComiendoElQueso() {
+procedure SalirDelLaberintoComiendoQueso() {
   BOOM("El programa todavía no está completo")
 }
 
-procedure ComerElQuesoSiHay() {
+procedure ComerQuesoSiHay() {
   BOOM("El programa todavía no está completo")
 }
 

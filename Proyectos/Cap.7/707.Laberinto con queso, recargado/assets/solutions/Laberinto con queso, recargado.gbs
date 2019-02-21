@@ -1,13 +1,13 @@
-procedure SalirDelLaberintoComiendoElQueso() {
+procedure SalirDelLaberintoComiendoQueso() {
   while (not (elRatónEstáEnLaSalida())) {
-    ComerElQuesoSiHay()
+    ComerQuesoSiHay()
     AvanzarUnPasoSiguiendoLaFlecha()
   }
 }
 
-procedure ComerElQuesoSiHay() {
+procedure ComerQuesoSiHay() {
   if (hayQueso()) {
-    ComerElQueso()
+    ComerQueso()
   }
 }
 
@@ -29,5 +29,5 @@ procedure AvanzarUnPasoSiguiendoLaFlecha() {
 
 
 program {
-  SalirDelLaberintoComiendoElQueso()
+  SalirDelLaberintoComiendoQueso()
 }

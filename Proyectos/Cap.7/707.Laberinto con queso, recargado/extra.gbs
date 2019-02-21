@@ -20,7 +20,7 @@ function hayQueso() {
   return (nroBolitas(Verde) == 1)
 }
 
-procedure ComerElQueso() {
+procedure ComerQueso() {
   if (not(hayQueso())) {BOOM("No hay queso en esta celda")}
   Sacar(Verde)
 }
