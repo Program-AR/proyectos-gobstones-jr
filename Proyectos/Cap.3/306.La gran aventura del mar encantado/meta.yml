@@ -1,3 +1,5 @@
+name: La gran aventura del mar encantado
+link: http://program.ar/descargas/cc_para_el_aula-1er_ciclo_secundaria-fichas.pdf#page=33
 attire:
   active: La gran aventura
   user_permissions:
@@ -117,4 +119,3 @@ execution_speed:
     can_change_speed: true
 library:
   visible: true
-name: La gran aventura del mar encantado

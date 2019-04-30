@@ -1,3 +1,5 @@
+name: 'Beto, el robot goleador'
+link: http://program.ar/descargas/cc_para_el_aula-1er_ciclo_secundaria-fichas.pdf#page=32
 attire:
   active: Fútbol de robots
   user_permissions:
@@ -115,4 +117,3 @@ execution_speed:
     can_change_speed: true
 library:
   visible: false
-name: 'El Beto, el robot goleador'
