@@ -1,3 +1,5 @@
+name: Contar las baldosas
+link: http://program.ar/descargas/cc_para_el_aula-1er_ciclo_secundaria-fichas.pdf#page=81
 attire:
   active: Baldosas
   user_permissions:
@@ -137,4 +139,3 @@ execution_speed:
     can_change_speed: true
 library:
   visible: false
-name: Contamos las baldosas
