@@ -1,3 +1,5 @@
+name: El final del pasillo
+link: http://program.ar/descargas/cc_para_el_aula-1er_ciclo_secundaria-fichas.pdf#page=37
 attire:
   active: El final del pasillo
   user_permissions:
@@ -119,4 +121,3 @@ execution_speed:
     can_change_speed: true
 library:
   visible: false
-name: El final del pasillo
