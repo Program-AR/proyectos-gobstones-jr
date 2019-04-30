@@ -1,3 +1,5 @@
+name: Editor de textos
+link: http://program.ar/descargas/cc_para_el_aula-1er_ciclo_secundaria-fichas.pdf#page=84
 attire:
   active: Letras
   user_permissions:
@@ -139,4 +141,3 @@ execution_speed:
     can_change_speed: false
 library:
   visible: false
-name: Editor de textos
