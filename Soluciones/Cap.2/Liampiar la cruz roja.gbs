@@ -1,9 +1,0 @@
-program {
-    Sacar(Negro)
-    Mover(Este)     Mover(Este)
-    Sacar(Negro)
-    Mover(Oeste)    Mover(Norte)
-    Sacar(Negro)
-    Mover(Norte)
-    Sacar(Negro)
-}

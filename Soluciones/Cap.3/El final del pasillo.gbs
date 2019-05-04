@@ -1,6 +1,0 @@
-program { LlegarAlFinalDelPasillo() }
-
-procedure LlegarAlFinalDelPasillo() {
-  MoverABetoAl_(Sur)
-  repeat (9) { MoverABetoAl_(Oeste) }
-}

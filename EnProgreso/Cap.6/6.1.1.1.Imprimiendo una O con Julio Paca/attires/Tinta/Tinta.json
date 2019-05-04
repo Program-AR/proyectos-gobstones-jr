@@ -1,7 +1,0 @@
-{
-  "name": "Tinta",
-  "rules": [
-    { "when": { "blue": 0, "black": 0, "red": 0, "green": 0 }, "image": "Hoja.png" }
-  , { "when": { "blue": 0, "black": "*", "red": 0, "green": 0 }, "image": "Tinta.png" }
-  ]
-}

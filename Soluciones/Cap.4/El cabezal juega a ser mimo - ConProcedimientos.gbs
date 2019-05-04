@@ -1,9 +1,0 @@
-﻿program {
-  ImitarAzulesEnRojo()
-}
-
-procedure ImitarAzulesEnRojo() {
-  repeat(nroBolitas(Azul)) {
-    Poner(Rojo)
-  }
-}

@@ -1,6 +1,0 @@
-﻿program {
-  Poner(Rojo)
-  Poner(Verde)
-  Poner(Negro)
-  Poner(Azul)
-}

@@ -1,7 +1,0 @@
-﻿program { ImitarAzulesConRojasPeroEnElEste() }
-
-procedure ImitarAzulesConRojasPeroEnElEste() {
-  cantidadDeAzulesAImitar := nroBolitas(Azul)
-  Mover(Este)
-  Poner__Veces(Rojo, cantidadDeAzulesAImitar)
-}

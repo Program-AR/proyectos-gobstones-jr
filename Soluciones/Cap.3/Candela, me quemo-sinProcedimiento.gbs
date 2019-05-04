@@ -1,7 +1,0 @@
-﻿program {
-  repeat(6) {
-    UsarMatafuego()
-    Mover(Este)
-  }
-  UsarMatafuego()
-}
