@@ -96,13 +96,7 @@ blocks:
     - Mis operaciones
     - Mis procedimientos
     - Comandos
-    - Poner
-    - Mover
-    - Sacar
-    - IrAlBorde
     - Expresiones
-    - Color
-    - Direccion
     - Definiciones
     - DefinicionDeProcedimientoSimple
 board:
